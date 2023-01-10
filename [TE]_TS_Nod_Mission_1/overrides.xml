@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+	  <Include source="LogicSet.xml" type="all"/>
+	  <Include source="cm14_cloud.xml" type="all"/>
+	  <Include source="NODLaserCannonSpawn.xml" type="all"/>
+	  <Include source="NODLaserCannonWeapon2.xml" type="all"/>
+	  <Include source="NODMilitantSquad.xml" type="all"/>
+	  <Include source="NODMilitant.xml" type="all"/>
+	  <Include source="NODHarvester.xml" type="all"/>
+   </Includes>
+</AssetDeclaration>

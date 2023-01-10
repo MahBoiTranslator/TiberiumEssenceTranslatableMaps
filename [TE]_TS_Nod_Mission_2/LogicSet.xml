@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<Includes>			
+	</Includes>
+<LogicCommandSet
+		id="NODConstructionYardCommandSet">
+		<Cmd>Command_NOD_BuildPowerPlant</Cmd>
+		<Cmd>Command_NOD_BuildRefinery</Cmd>
+		<Cmd>Command_NOD_BuildBarracks</Cmd>
+		<Cmd>Command_NOD_BuildDropZone</Cmd>
+		<Cmd>Command_NOD_BuildLaserCannon</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumSilo</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet
+		 id="NODPowerPlantCommandSet">		 		 
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>	
+<LogicCommandSet
+		id="NODHandOfNODCommandSet">
+		<Cmd>Command_ConstructNODMilitantSquad</Cmd>
+		<Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+		<Cmd>Command_ConstructNODSaboteur</Cmd>	
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+		<Cmd>Command_SetDefaultBuilding</Cmd>
+		<Cmd>Command_SetRallyPoint_Infantry</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet
+		id="NODDropZoneCommandSet">
+		<Cmd>Command_ConstructNODHarvester</Cmd>
+		<Cmd>Command_ConstructNODScorpionBuggy</Cmd>
+		<Cmd>Command_RepairVehicle</Cmd>
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+		<Cmd>Command_SetDefaultBuilding</Cmd>
+		<Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+	</LogicCommandSet>
+</AssetDeclaration>

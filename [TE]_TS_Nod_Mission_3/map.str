@@ -1,0 +1,27 @@
+MSNSTR:RDS:NODTS:N3:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:NODTS:N3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:NODTS:N3:Objective_1
+	"Objective One: Locate and rescue the captured commander."
+End
+
+MSNSTR:RDS:NODTS:N3:Objective_2
+	"Captured Commander: All right! Now get me to your drop-off point and into the evac unit."
+End
+
+MSNSTR:RDS:NODTS:N3:Prisoners
+	"Hey... over here! Help... Destroy these trucks to free us."
+End
+
+MSNSTR:RDS:NODTS:N3:Lose
+	"MISSION FAILED"
+End
+
+MSNSTR:RDS:NODTS:N3:Win
+	"MISSION ACCOMPLISHED"
+End

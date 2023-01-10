@@ -1,0 +1,31 @@
+MSNSTR:RDS:NODTS:N4:Intro_1
+	"CABAL: Establish a foothold on the far side of the bridge \nand an MCV will be sent to you."
+End
+
+MSNSTR:RDS:NODTS:N4:Intro_2
+	"Stand and identify yourself in the name of Kane."
+End
+
+MSNSTR:RDS:NODTS:N4:Intro_3
+	"Sound the Alarm! Slavik's Forces are here!"
+End
+
+MSNSTR:RDS:NODTS:N4:PanicBuggy
+	"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
+End
+
+MSNSTR:RDS:NODTS:N4:HassanAlerted
+	"CABAL: Hassan's Base has been alerted. Attack is imminent."
+End
+
+MSNSTR:RDS:NODTS:N4:HassanCaptured
+	"We have Hassan pinned and ready to be brought in Commander Slavik. Orders are complete."
+End
+
+MSNSTR:RDS:NODTS:N4:Lose
+	"MISSION FAILED"
+End
+
+MSNSTR:RDS:NODTS:N4:Win
+	"MISSION ACCOMPLISHED"
+End

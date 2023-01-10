@@ -1,0 +1,55 @@
+MSNSTR:RDS:NODTS:N1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:NODTS:N1:Intro2
+	"Light Infantry: Move it! Move it! Get back to the base!"
+End
+
+MSNSTR:RDS:NODTS:N1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:NODTS:N1:Objective_1
+	"Objective One: Destroy all of Hassan's elite guard."
+End
+
+MSNSTR:RDS:NODTS:N1:Objective_1_Complete
+	"Primary objective achieved."
+End
+
+MSNSTR:RDS:NODTS:N1:Objective_2
+	"Objective Two: To get production online, build a Tiberium Refinery."
+End
+
+MSNSTR:RDS:NODTS:N1:Objective_2_Complete
+	"Secondary objective achieved."
+End
+
+MSNSTR:RDS:NODTS:N1:Shredder
+	"Hassan Elite Guard: Laser turrets! Run for it!"
+End
+
+MSNSTR:RDS:NODTS:N1:Harvest
+	"CABAL: Harvest the Tiberium to the north."
+End
+
+MSNSTR:RDS:NODTS:N1:BasePerimeter
+	"CABAL: Base perimeter has been breached!"
+End
+
+MSNSTR:RDS:NODTS:N1:PowerLevels
+	"CABAL: Power levels are low. Construct more Power Plants."
+End
+
+MSNSTR:RDS:NODTS:N1:RepairStructure
+	"CABAL: To repair a structure, left-click on the wrench in the UI and left click on the structure."
+End
+
+MSNSTR:RDS:NODTS:N1:Lose
+	"MISSION FAILED"
+End
+
+MSNSTR:RDS:NODTS:N1:Win
+	"MISSION ACCOMPLISHED"
+End

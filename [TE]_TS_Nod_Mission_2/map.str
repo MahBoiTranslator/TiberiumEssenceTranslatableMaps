@@ -1,0 +1,50 @@
+MSNSTR:RDS:NODTS:N2:Intro
+	"CABAL: To deploy a vehicle select it, place the cursor over the Unpack button and click on it."
+End
+
+MSNSTR:RDS:NODTS:N2:Objective_1
+	"Objective One: Capture Hassan's T.V. Station to the east."
+End
+
+MSNSTR:RDS:NODTS:N2:Objective_1_Complete
+	"****BROADCASTING****"
+End
+
+MSNSTR:RDS:NODTS:N2:SpiritHandOfKane
+	"We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace.\nPEACE THROUGH POWER!"
+End
+
+MSNSTR:RDS:NODTS:N2:Objective_2
+	"Objective Two: Destroy all of Hassan's elite guard."
+End
+
+MSNSTR:RDS:NODTS:N2:Objective_2_Complete
+	"Secondary objective achieved."
+End
+
+MSNSTR:RDS:NODTS:N2:Traitors
+	"Hassan Elite Guard: The traitors are coming. Destroy the bridge!"
+End
+
+MSNSTR:RDS:NODTS:N2:RepairBridge
+	"CABAL: To repair a bridge, send an engineer into the repair hut near the bridge base."
+End
+
+MSNSTR:RDS:NODTS:N2:Lose
+	"MISSION FAILED"
+End
+
+MSNSTR:RDS:NODTS:N2:Win
+	"MISSION ACCOMPLISHED"
+End
+
+// String file for Command & Conquer 3
+
+// comment: DO NOT TRANSLATE
+Personality:Mac
+	"Sample Modded AI"
+END
+
+Name:TV Station
+	"TV Station"
+END
