@@ -1,0 +1,159 @@
+MSNSTR:RDS:NODTS:N1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:NODTS:N1:Intro2
+	"Light Infantry: Move it! Move it! Get back to the base!"
+END
+
+MSNSTR:RDS:NODTS:N1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:NODTS:N1:Objective_1
+	"Objective One: Destroy all of Hassan's elite guard."
+END
+
+MSNSTR:RDS:NODTS:N1:Objective_1_Complete
+	"Primary objective achieved."
+END
+
+MSNSTR:RDS:NODTS:N1:Objective_2
+	"Objective Two: To get production online, build a Tiberium Refinery."
+END
+
+MSNSTR:RDS:NODTS:N1:Objective_2_Complete
+	"Secondary objective achieved."
+END
+
+MSNSTR:RDS:NODTS:N1:Shredder
+	"Hassan Elite Guard: Laser turrets! Run for it!"
+END
+
+MSNSTR:RDS:NODTS:N1:Harvest
+	"CABAL: Harvest the Tiberium to the north."
+END
+
+MSNSTR:RDS:NODTS:N1:BasePerimeter
+	"CABAL: Base perimeter has been breached!"
+END
+
+MSNSTR:RDS:NODTS:N1:PowerLevels
+	"CABAL: Power levels are low. Construct more Power Plants."
+END
+
+MSNSTR:RDS:NODTS:N1:RepairStructure
+	"CABAL: To repair a structure, left-click on the wrench in the UI and left click on the structure."
+END
+
+MSNSTR:RDS:NODTS:N1:Lose
+	"MISSION FAILED"
+END
+
+MSNSTR:RDS:NODTS:N1:Win
+	"MISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:NODTS:N2:Intro
+	"CABAL: To deploy a vehicle select it, place the cursor over the Unpack button and click on it."
+END
+
+MSNSTR:RDS:NODTS:N2:Objective_1
+	"Objective One: Capture Hassan's T.V. Station to the east."
+END
+
+MSNSTR:RDS:NODTS:N2:Objective_1_Complete
+	"****BROADCASTING****"
+END
+
+MSNSTR:RDS:NODTS:N2:SpiritHandOfKane
+	"We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. \nPEACE THROUGH POWER!"
+END
+
+MSNSTR:RDS:NODTS:N2:Objective_2
+	"Objective Two: Destroy all of Hassan's elite guard."
+END
+
+MSNSTR:RDS:NODTS:N2:Objective_2_Complete
+	"Secondary objective achieved."
+END
+
+MSNSTR:RDS:NODTS:N2:Traitors
+	"Hassan Elite Guard: The traitors are coming. Destroy the bridge!"
+END
+
+MSNSTR:RDS:NODTS:N2:RepairBridge
+	"CABAL: To repair a bridge, send an engineer into the repair hut near the bridge base."
+END
+
+MSNSTR:RDS:NODTS:N2:Lose
+	"MISSION FAILED"
+END
+
+MSNSTR:RDS:NODTS:N2:Win
+	"MISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:NODTS:N3:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:NODTS:N3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:NODTS:N3:Objective_1
+	"Objective One: Locate and rescue the captured commander."
+END
+
+MSNSTR:RDS:NODTS:N3:Objective_2
+	"Captured Commander: All right! Now get me to your drop-off point and into the evac unit."
+END
+
+MSNSTR:RDS:NODTS:N3:Prisoners
+	"Hey... over here! Help... Destroy these trucks to free us."
+END
+
+MSNSTR:RDS:NODTS:N3:Lose
+	"MISSION FAILED"
+END
+
+MSNSTR:RDS:NODTS:N3:Win
+	"MISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:NODTS:N4:Intro_1
+	"CABAL: Establish a foothold on the far side of the bridge \nand an MCV will be sent to you."
+END
+
+MSNSTR:RDS:NODTS:N4:Intro_2
+	"Stand and identify yourself in the name of Kane."
+END
+
+MSNSTR:RDS:NODTS:N4:Intro_3
+	"Sound the Alarm! Slavik's Forces are here!"
+END
+
+MSNSTR:RDS:NODTS:N4:PanicBuggy
+	"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
+END
+
+MSNSTR:RDS:NODTS:N4:HassanAlerted
+	"CABAL: Hassan's Base has been alerted. Attack is imminent."
+END
+
+MSNSTR:RDS:NODTS:N4:HassanCaptured
+	"We have Hassan pinned and ready to be brought in Commander Slavik. Orders are complete."
+END
+
+MSNSTR:RDS:NODTS:N4:Lose
+	"MISSION FAILED"
+END
+
+MSNSTR:RDS:NODTS:N4:Win
+	"MISSION ACCOMPLISHED"
+END
+
+Name:TV Station
+	"TV Station"
+END
