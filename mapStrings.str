@@ -157,3 +157,443 @@ END
 Name:TV Station
 	"TV Station"
 END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Intro_2
+	"EVA: Commander Renteria, the MCV must reach the western mutant camp. \n Protect it at all costs."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GDI_Objective_1
+	"Objective: Guide the MCV to the Forgotten camp."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GDI_Objective_1_Complete
+	"Objective complete"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GhostStalker
+	"Ghost Stalker: Commander, my clan will support you. Lead the way."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GhostStalker_Injured
+	"Ghost Stalker is servely injured. He will recover once we reach the destination."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:CitySniper
+	"Sniper: Snider here, proceed with caution. This place is crawling with Nod."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:RiverSniper
+	"Sniper: Corporal Pathe, reporting for duty."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:CityOnfire
+	"GDI Soldier: The city is on fire! All of it! So many people..."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ObeliskDetected
+	"EVA: Warning: Obelisk Of Light detected. \nDestroy it or find a safer route for the MCV."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ObelisksFire
+	"GDI Soldier: These Obelisks are shredding our forces apart!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:OutpostAmbush
+	"GDI Soldier: Commander, our backs are to the wall here! We're being overwhelmed by Nod forces!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:OutpostRegained
+	"GDI Soldier: Nod is going to play dearly for this!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithSnipers
+	"EVA: Potential ambush loctation detected. \nUse Snipers to scout and locate Nod stealth units."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithoutSnipersDiscovered
+	"EVA: Potential ambush loctation detected. \nFind the sniper team on the mountain to scout and locate Nod stealth units."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithNoSnipers
+	"EVA: Potential ambush loctation detected. \nProceed with caution."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:JuggernautHint
+	"Juggernaut: Sir, we can take out those Obelisks."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Win
+	"Mission acommplished"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:WinEndGame
+	"We're here. Time to explore deeper into hell."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Lose
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:LoseEndGame
+	"The MCV has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_2
+	"EVA: Welcome back Commander. \nThe GDI Council wish to know more about the region."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_3
+	"EVA: Through studying the Tacitus we have developed a prototype Zone suit. \nIt is completely immune to Tiberium."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_4
+	"EVA: The Commando will explore the area first. \nProtect him as he finds places of interest."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_1
+	"Objective 1: Find 3 points of interest. \nThe Zone Commando MUST survive the mission."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_1_Complete
+	"Objective 1 complete"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_2and3
+	"Objective 2: Rescue the Zone Commando. \nObjective 3: Destroy the Nod Base."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_2_Complete
+	"Objective 2 complete"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_3_Complete
+	"Objective 3 complete"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_1
+	"GDI Scientist: On the horizon are massive formations of pure Tiberium that have welled up through the surrounding Earth."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_2
+	"GDI Scientist: Tilt your head and you'll contemplate a cloudy, tortured sky alive with twisting patterns of shimmering light and flickers of lightning."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_3
+	"GDI Scientist: The ground is a blasted and barren plateau of rock laced with veins of Tiberium that shine through with a malevolent green or blue radiance."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:AmbushDetected
+	"Commando: I'm detecting viberations coming from undergrou..."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Phase2Briefing
+	"EVA: Nod has captured the Zone Commando. \nThey intend to study the suit's material."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Win
+	"Mission acommplished"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:WinEndGame
+	"Good job Commander. We must find out why Nod is so organised here."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Lose
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:LoseEndGame
+	"The Zone Commando has been killed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_2
+	"EVA: Our spies have located a strange new Nod structure. \nThe GDI Council wants you to find out what it is used for."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_3
+	"EVA: Use this decrepit GDI base to capture Nod's \n'Tiberium Chemical Plant'."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:GDI_Objective_1
+	"Objective: Capture the Tiberium Chemical Plant."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:GDI_Objective_1_Complete
+	"EVA: Objective complete. Accessing Nod intelligence."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:TheFakeFind
+	"EVA: It seems Nod knows of our Reclaimation agenda. \nThey are using this plant to try and create a new strain to slow our progress."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:TheMutantsArrive
+	"EVA: Unidentifed force approaching our base."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Reclaimation
+	"EVA: The GDI Council has fully supported the Reclamation Agenda. \nAreas with extreme Tiberium infestation are now designated as Red Zones."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:CompositeArmour
+	"EVA: Most of our infantry cannot withstand this environment with standard equipment. \nBuild the Composite Armour upgrade at the Armoury to access all infantry options."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:CompositeArmourUpgraded
+	"EVA: Composite Armour Upgraded. \nAdditional infantry options available"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:LakeHint
+	"Hint: Tempests and Falcons can travel over the lake using Amphibious Mode."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Abort
+	"EVA: Commander, abort mission. Our forces are being overrun by the mutants!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Lose
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:LoseEndGame
+	"The Tiberium Chemical Plant has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_2
+	"EVA: The two major Forgotten clans have settled in this area. \nThey must be removed so the reclamation can begin."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_3
+	"EVA: The GDI Council will not negotiate with Ghost Stalker after his mutants attacked us in during our last operation."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_1
+	"Objective 1: Destroy both Mutant outposts."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_1_Complete
+	"EVA: Objective 1 complete. The first MCV is entering the area. \nThe second will be here shortly."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_2_Path_A
+	"Objective 2: Destroy all Mutant structures."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_2_Path_B
+	"Objective 2: Destroy Death Dealer's base."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:ZoneCommandoHurt
+	"EVA: The Zone Commando has been injured. He will return to battle once healed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice1GhostStalker
+	"Ghost Stalker: Commander, stop! My clan has not turned on GDI! \nDeath Dealer is to blame for the attack!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice1ZoneCommando
+	"Zone Commando: Death...who? Commander, it doesn't matter who attacked us. \nAll mutants must be removed from this land."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice2GhostStalker
+	"Ghost Stalker: So the Reclamation Agenda is real. This place is the last refuge for us. \nI ask as an ally. Please, not here."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice2ZoneCommando
+	"Zone Commando: Remember why you are here, Commander. Tiberium must be destroyed... \nAt all costs."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:MakeTheChoice
+	"Select Ghost Stalker to side with the Forgotten. \nSelect the Zone Commando to stay loyal to GDI."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI1
+	"Zone Commando: Wise choice, Commander. The reclamation of Earth starts today."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI2
+	"EVA: Ghost Stalker has allied with the other mutant clan. \nThe Forgotten is united against us"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI3
+	"EVA: The 2nd MCV has arrived. It will be under your command when deployed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI32
+	"EVA: The 2nd MCV has deployed, Commander."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI4
+	"GDI Scientist: The Tacitus has shown us TIberium's resonance frequency. \nWith it, we have crafted the Sonic Emitter."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI42
+	"GDI Scientist: The sonic weapon shatters the crystal into nothing. \nUse it to break down Tiberium and Shiner alike."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GhostStalkerKilled
+	"Zone Commando: Ghost Stalker is dead. I'm sorry, but it was necessary, Commander."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost1
+	"Ghost Stalker: Thank you. You have saved my people. \nNow let us save yours."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost12
+	"EVA:The GDI Council has recalled the 2nd MCV because of your mutiny."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost2
+	"Ghost Stalker: Death Dealer is overruning my clan. \nI'm moving my MCV to a safer position."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost3
+	"Ghost Stalker: Commander, I'm granting you use of my construction yard."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost4
+	"Ghost Stalker: Death Dealer isn't the only one who can control the weather. \nConstruct our superweapon to counter hers."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:ClearSkyHint
+	"Hint: The Disruptor's 'Clear Sky' ability can neutralise small Ion Storms."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:DeathReclamator
+	"WARNING: Large unidentified vehicle approaching."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GhostStalkerClanDestroyed
+	"EVA: Ghost Stalker's Clan has been defeated. \nThe survivors are fleeing the area."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:DeathClanDestroyed
+	"EVA: The second mutant clan has fallen. \nGood work, Commander."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Lose
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:WinEndGame
+	"EVA: Commander, evidence of Nod Divination serum has been found. \nSending data to the GDI Council now."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Win
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:Chem_SelfDestruct_Timer
+	"Chemical Plants self-destruct in:"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:MissionBriefing
+	"EVA: Commander, the GDI Council needs you to capture the Divination production structures. \nWe can then safely destroy the mutagen Nod has created and all research files."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:SelfDestruct60minsStarted
+	"RED ALERT: Nod has set the Chemical Plants to self-destruct in 60 minutes. \nThis area will become a complete Tiberium wasteland if they succeed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:SelfDestruct40minsStarted
+	"RED ALERT: Nod has set the Chemical Plants to self-destruct in 40 minutes. \nThis area will become a complete Tiberium wasteland if they succeed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:GDI_Objective_1
+	"Objective: Locate and capture all 3 Tiberium Chemical Plants \nand the Temple of Nod."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:GDI_Objective_1_Complete
+	"EVA: Objective complete. Erasing all data regarding Nod Divination from Temple archives."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:TempleCaptured
+	"EVA: Temple of Nod captured. Erasing all Nod Divination data from Temple archives."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:1ChemicalPlantCaptured
+	"EVA: The first Chemical Plant has been captured. Self-destruct aborted."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:2ChemicalPlantsCaptured
+	"EVA: The second Chemical Plant has been captured. Self-destruct aborted."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:3ChemicalPlantsCaptured
+	"EVA: The final Chemical Plant has been captured. Self-destruct aborted."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:NodVertigoBombers
+	"EVA: Nod has expanded their cloaking technology. \nUse Snipers, Falcons and Orcas to detect stealth units before they can attack."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:ChemicalPlantUnderAttack
+	"EVA: Do not allow the Chemical Plants to be destroyed. \nThe environmental damage will be catastrophic."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:TempleOfNodUnderAttack
+	"EVA: Do not allow the Temple of Nod to be destroyed. \nWe must capture it to erase all data on Divination research."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseChemicalPlant
+	"Mission failed \nA Tiberium Chemical Plant has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseTempleOfNod
+	"Mission failed \nThe Temple of Nod has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseSelfDestruct
+	"Mission failed \nThe Chemical Plans have self-destructed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:WinEndGame
+	"Good work, Commander. Nod's plans of Divination has come to an end."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:WinEndGame2
+	"We cannot allow the public to know about our war against the Forgotten. \nAll files regarding this expidition will be destroyed."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:Win
+	"Mission accomplished"
+END
