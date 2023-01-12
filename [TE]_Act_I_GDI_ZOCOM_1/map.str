@@ -1,0 +1,87 @@
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Intro_2
+	"EVA: Commander Renteria, the MCV must reach the western mutant camp.\n Protect it at all costs."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GDI_Objective_1
+	"Objective: Guide the MCV to the Forgotten camp."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GDI_Objective_1_Complete
+	"Objective complete"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GhostStalker
+	"Ghost Stalker: Commander, my clan will support you. Lead the way."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:GhostStalker_Injured
+	"Ghost Stalker is servely injured. He will recover once we reach the destination."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:CitySniper
+	"Sniper: Snider here, proceed with caution. This place is crawling with Nod."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:RiverSniper
+	"Sniper: Corporal Pathe, reporting for duty."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:CityOnfire
+	"GDI Soldier: The city is on fire! All of it! So many people..."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ObeliskDetected
+	"EVA: Warning: Obelisk Of Light detected.\nDestroy it or find a safer route for the MCV."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ObelisksFire
+	"GDI Soldier: These Obelisks are shredding our forces apart!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:OutpostAmbush
+	"GDI Soldier: Commander, our backs are to the wall here! We're being overwhelmed by Nod forces!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:OutpostRegained
+	"GDI Soldier: Nod is going to play dearly for this!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithSnipers
+	"EVA: Potential ambush loctation detected.\nUse Snipers to scout and locate Nod stealth units."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithoutSnipersDiscovered
+	"EVA: Potential ambush loctation detected.\nFind the sniper team on the mountain to scout and locate Nod stealth units."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithNoSnipers
+	"EVA: Potential ambush loctation detected.\nProceed with caution."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:JuggernautHint
+	"Juggernaut: Sir, we can take out those Obelisks."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Win
+	"Mission acommplished"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:WinEndGame
+	"We're here. Time to explore deeper into hell."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:Lose
+	"Mission failed"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M1:LoseEndGame
+	"The MCV has been destroyed."
+End

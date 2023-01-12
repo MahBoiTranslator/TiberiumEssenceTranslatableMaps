@@ -1,0 +1,83 @@
+MSNSTR:RDS:ACT_I_ZOCOM:M5:Chem_SelfDestruct_Timer
+	"Chemical Plants self-destruct in:"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:MissionBriefing
+	"EVA: Commander, the GDI Council needs you to capture the Divination production structures.\nWe can then safely destroy the mutagen Nod has created and all research files."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:SelfDestruct60minsStarted
+	"RED ALERT: Nod has set the Chemical Plants to self-destruct in 60 minutes.\nThis area will become a complete Tiberium wasteland if they succeed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:SelfDestruct40minsStarted
+	"RED ALERT: Nod has set the Chemical Plants to self-destruct in 40 minutes.\nThis area will become a complete Tiberium wasteland if they succeed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:GDI_Objective_1
+	"Objective: Locate and capture all 3 Tiberium Chemical Plants\nand the Temple of Nod."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:GDI_Objective_1_Complete
+	"EVA: Objective complete. Erasing all data regarding Nod Divination from Temple archives."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:TempleCaptured
+	"EVA: Temple of Nod captured. Erasing all Nod Divination data from Temple archives."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:1ChemicalPlantCaptured
+	"EVA: The first Chemical Plant has been captured. Self-destruct aborted."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:2ChemicalPlantsCaptured
+	"EVA: The second Chemical Plant has been captured. Self-destruct aborted."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:3ChemicalPlantsCaptured
+	"EVA: The final Chemical Plant has been captured. Self-destruct aborted."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:NodVertigoBombers
+	"EVA: Nod has expanded their cloaking technology.\nUse Snipers, Falcons and Orcas to detect stealth units before they can attack."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:ChemicalPlantUnderAttack
+	"EVA: Do not allow the Chemical Plants to be destroyed.\nThe environmental damage will be catastrophic."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:TempleOfNodUnderAttack
+	"EVA: Do not allow the Temple of Nod to be destroyed.\nWe must capture it to erase all data on Divination research."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseChemicalPlant
+	"Mission failed\nA Tiberium Chemical Plant has been destroyed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseTempleOfNod
+	"Mission failed\nThe Temple of Nod has been destroyed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseSelfDestruct
+	"Mission failed\nThe Chemical Plans have self-destructed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:WinEndGame
+	"Good work, Commander. Nod's plans of Divination has come to an end."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:WinEndGame2
+	"We cannot allow the public to know about our war against the Forgotten.\nAll files regarding this expidition will be destroyed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M5:Win
+	"Mission accomplished"
+End

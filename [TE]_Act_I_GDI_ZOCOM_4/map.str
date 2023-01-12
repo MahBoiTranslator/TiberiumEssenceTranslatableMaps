@@ -1,0 +1,131 @@
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_2
+	"EVA: The two major Forgotten clans have settled in this area.\nThey must be removed so the reclamation can begin."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_3
+	"EVA: The GDI Council will not negotiate with Ghost Stalker after his mutants attacked us in during our last operation."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_1
+	"Objective 1: Destroy both Mutant outposts."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_1_Complete
+	"EVA: Objective 1 complete. The first MCV is entering the area.\nThe second will be here shortly."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_2_Path_A
+	"Objective 2: Destroy all Mutant structures."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_2_Path_B
+	"Objective 2: Destroy Death Dealer's base."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:ZoneCommandoHurt
+	"EVA: The Zone Commando has been injured. He will return to battle once healed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice1GhostStalker
+	"Ghost Stalker: Commander, stop! My clan has not turned on GDI!\nDeath Dealer is to blame for the attack!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice1ZoneCommando
+	"Zone Commando: Death...who? Commander, it doesn't matter who attacked us.\nAll mutants must be removed from this land."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice2GhostStalker
+	"Ghost Stalker: So the Reclamation Agenda is real. This place is the last refuge for us.\nI ask as an ally. Please, not here."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice2ZoneCommando
+	"Zone Commando: Remember why you are here, Commander. Tiberium must be destroyed...\nAt all costs."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:MakeTheChoice
+	"Select Ghost Stalker to side with the Forgotten.\nSelect the Zone Commando to stay loyal to GDI."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI1
+	"Zone Commando: Wise choice, Commander. The reclamation of Earth starts today."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI2
+	"EVA: Ghost Stalker has allied with the other mutant clan.\nThe Forgotten is united against us"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI3
+	"EVA: The 2nd MCV has arrived. It will be under your command when deployed."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI32
+	"EVA: The 2nd MCV has deployed, Commander."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI4
+	"GDI Scientist: The Tacitus has shown us TIberium's resonance frequency.\nWith it, we have crafted the Sonic Emitter."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI42
+	"GDI Scientist: The sonic weapon shatters the crystal into nothing.\nUse it to break down Tiberium and Shiner alike."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GhostStalkerKilled
+	"Zone Commando: Ghost Stalker is dead. I'm sorry, but it was necessary, Commander."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost1
+	"Ghost Stalker: Thank you. You have saved my people.\nNow let us save yours."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost12
+	"EVA:The GDI Council has recalled the 2nd MCV because of your mutiny."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost2
+	"Ghost Stalker: Death Dealer is overruning my clan.\nI'm moving my MCV to a safer position."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost3
+	"Ghost Stalker: Commander, I'm granting you use of my construction yard."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost4
+	"Ghost Stalker: Death Dealer isn't the only one who can control the weather.\nConstruct our superweapon to counter hers."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:ClearSkyHint
+	"Hint: The Disruptor's 'Clear Sky' ability can neutralise small Ion Storms."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:DeathReclamator
+	"WARNING: Large unidentified vehicle approaching."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:GhostStalkerClanDestroyed
+	"EVA: Ghost Stalker's Clan has been defeated.\nThe survivors are fleeing the area."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:DeathClanDestroyed
+	"EVA: The second mutant clan has fallen.\nGood work, Commander."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Lose
+	"Mission failed"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:WinEndGame
+	"EVA: Commander, evidence of Nod Divination serum has been found.\nSending data to the GDI Council now."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M4:Win
+	"Mission accomplished"
+End

@@ -1,0 +1,75 @@
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_2
+	"EVA: Welcome back Commander.\nThe GDI Council wish to know more about the region."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_3
+	"EVA: Through studying the Tacitus we have developed a prototype Zone suit.\nIt is completely immune to Tiberium."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_4
+	"EVA: The Commando will explore the area first.\nProtect him as he finds places of interest."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_1
+	"Objective 1: Find 3 points of interest.\nThe Zone Commando MUST survive the mission."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_1_Complete
+	"Objective 1 complete"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_2and3
+	"Objective 2: Rescue the Zone Commando.\nObjective 3: Destroy the Nod Base."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_2_Complete
+	"Objective 2 complete"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_3_Complete
+	"Objective 3 complete"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_1
+	"GDI Scientist: On the horizon are massive formations of pure Tiberium that have welled up through the surrounding Earth."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_2
+	"GDI Scientist: Tilt your head and you'll contemplate a cloudy, tortured sky alive with twisting patterns of shimmering light and flickers of lightning."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_3
+	"GDI Scientist: The ground is a blasted and barren plateau of rock laced with veins of Tiberium that shine through with a malevolent green or blue radiance."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:AmbushDetected
+	"Commando: I'm detecting viberations coming from undergrou..."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Phase2Briefing
+	"EVA: Nod has captured the Zone Commando.\nThey intend to study the suit's material."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Win
+	"Mission acommplished"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:WinEndGame
+	"Good job Commander. We must find out why Nod is so organised here."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:Lose
+	"Mission failed"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M2:LoseEndGame
+	"The Zone Commando has been killed."
+End

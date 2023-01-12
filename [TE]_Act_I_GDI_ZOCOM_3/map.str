@@ -1,0 +1,59 @@
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_2
+	"EVA: Our spies have located a strange new Nod structure.\nThe GDI Council wants you to find out what it is used for."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_3
+	"EVA: Use this decrepit GDI base to capture Nod's\n'Tiberium Chemical Plant'."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:GDI_Objective_1
+	"Objective: Capture the Tiberium Chemical Plant."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:GDI_Objective_1_Complete
+	"EVA: Objective complete. Accessing Nod intelligence."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:TheFakeFind
+	"EVA: It seems Nod knows of our Reclaimation agenda.\nThey are using this plant to try and create a new strain to slow our progress."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:TheMutantsArrive
+	"EVA: Unidentifed force approaching our base."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Reclaimation
+	"EVA: The GDI Council has fully supported the Reclamation Agenda.\nAreas with extreme Tiberium infestation are now designated as Red Zones."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:CompositeArmour
+	"EVA: Most of our infantry cannot withstand this environment with standard equipment.\nBuild the Composite Armour upgrade at the Armoury to access all infantry options."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:CompositeArmourUpgraded
+	"EVA: Composite Armour Upgraded.\nAdditional infantry options available"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:LakeHint
+	"Hint: Tempests and Falcons can travel over the lake using Amphibious Mode."
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Abort
+	"EVA: Commander, abort mission. Our forces are being overrun by the mutants!"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:Lose
+	"Mission failed"
+End
+
+MSNSTR:RDS:ACT_I_ZOCOM:M3:LoseEndGame
+	"The Tiberium Chemical Plant has been destroyed."
+End
