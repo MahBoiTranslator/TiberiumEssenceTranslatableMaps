@@ -183,7 +183,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="Act_I_GDI_ZOCOM_2">
+		id="TE_Act_I_GDI_ZOCOM_2">
 		<Waypoint
 			id="Waypoint 68">
 			<Position
@@ -17598,7 +17598,7 @@
 		<MapMetaData
 			BorderSize="30"
 			CRC="0"
-			Description="Map:Act_I_GDI_ZOCOM_2/Desc"
+			Description="Map:[TE]_Act_I_GDI_ZOCOM_2/Desc"
 			DisplayName="[TE] Act I: The War That Never Was 2: Dusk Hour"
 			FileName="Data"
 			Height="460"
@@ -17664,7 +17664,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="Act_I_GDI_ZOCOM_2">
+		id="TE_Act_I_GDI_ZOCOM_2">
 		<Tile
 			BaseTexture="ART:Terrain/TDirt_RedZone09.tga"
 			NormalTexture="ART:Terrain/TDirt_RedZone09_nrm.tga"
