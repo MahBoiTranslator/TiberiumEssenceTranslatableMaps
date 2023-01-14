@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:DEMO1:M1"
+			Description="MSNSTR:NEXCTUS:TSM:DEMO1:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				CameraFieldOfViewVariance="3">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>5d</CameraStartAngle>
+				<CameraEndAngle>-5d</CameraEndAngle>
+				<CameraFieldOfView>5d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	
+	<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:DEMO1:M2"
+			Description="MSNSTR:NEXCTUS:TSM:DEMO1:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				Dialog="MG21_GDIEVA06"
+				CameraFieldOfViewVariance="3">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>20d</CameraStartAngle>
+				<CameraEndAngle>-10d</CameraEndAngle>
+				<CameraFieldOfView>40d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+</AssetDeclaration>

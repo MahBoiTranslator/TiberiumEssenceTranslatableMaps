@@ -1,0 +1,39 @@
+MSNSTR:NEXCTUS:TSM:GDI2:MN1
+	"Deploy the M.C.V. by selecting it and by using its deploy ability."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:MN2
+	"To build or train left-click on the icons located in the sidebar."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:M1
+	"Deploy the M.C.V. and begin building a base."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:M1_detail
+	"Deploy the M.C.V. and begin building a base."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:M2
+	"Destroy all Nod SAM sites."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:M2_detail
+	"Destroy all Nod SAM sites to allow Orca Transports to rescue the civilians."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:M3
+	"Destroy the Nod base."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:M3_detail
+	"Destroy the Nod base to secure the region."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:Titan
+	"You cannot build Titans now."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI2:CivK
+	"A civilian died."
+End

@@ -1,0 +1,37 @@
+MSNSTR:NEXCTUS:TSM:NOD4:M1
+	"Establish a foothold"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:M1_detail
+	"Establish a foothold and an MCV will be sent in to you."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:M2
+	"Destroy Hassan's temple"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:M2_detail
+	"Destroy Hassan's temple to capture him."
+End
+
+
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN1
+	"Hassan Soldier: Stand and Indentify yourself in the name of Kane... Sound the Alarm! Slavik's Forces are here!"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN2
+	"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN3
+	"Cabaal: Hassan's base has been alerted. Attack is imminent."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN4
+	"Cabaal: MCV has arrived to the southeast."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN5
+	"Slavik's Troop: We have Hassan pinned and ready to be brought in Commander Slavick. Orders are complete."
+End

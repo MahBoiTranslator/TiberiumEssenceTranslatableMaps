@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <Tags/>
+   <Includes>
+
+   </Includes>
+
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:NOD1:MN2"
+			Description="MSNSTR:NEXCTUS:TSM:NOD1:MN2_detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="MN2"
+				Dialog="Neva_LowPower"
+				CameraFieldOfViewVariance="3">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:NOD1:M2"
+			Description="MSNSTR:NEXCTUS:TSM:NOD1:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				CameraFieldOfViewVariance="3">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:NOD1:M1"
+			Description="MSNSTR:NEXCTUS:TSM:NOD1:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				Dialog="Neva_LowPower"
+				CameraFieldOfViewVariance="0">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+
+
+
+
+
+</AssetDeclaration>

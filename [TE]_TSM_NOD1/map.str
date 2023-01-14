@@ -1,0 +1,34 @@
+MSNSTR:NEXCTUS:TSM:NOD1:MN2
+	"Construct more Power Plants."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN2_detail
+	"Power levels are low. Construct more Power Plants."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD1:M1
+	"Destroy all of Hassan's elite guard."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD1:M1_detail
+	"Secure the area by destroying all of Hassan's elite guard."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD1:M2
+	"Build a Tiberium Refinery."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD1:M2_detail
+	"To get production online build a Tiberium Refinery."
+End
+
+
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN1
+	"Base perimeter has been breached !"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN3
+	"Harvest the Tiberium to the north."
+End
+

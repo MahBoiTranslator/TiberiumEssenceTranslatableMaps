@@ -1,0 +1,29 @@
+MSNSTR:NEXCTUS:TSM:NOD2:M1
+"Capture Hassan's T.V. station to the east."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD2:M1_detail
+"Capture Hassan's T.V. station to the east to bring those once loyal to Kane's technology of peace."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD2:M2
+"Destroy the remaining forces of Hassan."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD2:M2_detail
+"Destroy or isolate the remaining forces of Hassan in this area."
+End
+
+
+
+MSNSTR:NEXCTUS:TSM:NOD2:MN1
+"Ennemy: The traitors are coming, destroy the bridge !"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD2:MN2
+"****BROADCASTING****"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD2:MN3
+"Reinforcements: We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. PEACE THROUGH POWER!"
+End

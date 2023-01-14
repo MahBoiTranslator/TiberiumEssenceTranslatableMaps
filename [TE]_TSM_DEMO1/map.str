@@ -1,0 +1,67 @@
+MSNSTR:NEXCTUS:TSM:DEMO1:MN1
+	"Click on your units to select them."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN2
+	"Once selected, right-click where you want the unit(s) to move."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN3
+	"You can unselect the selected unit(s) by left-clicking."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN4
+	"As you move, you reveal terrain, structures, and enemy units."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN5
+	"To attack, select your unit(s), then right-click on the enemy unit or structure."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN6
+	"If you left-click and hold, you can make a band box to select many units at once."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN7
+	"Crates contain power-ups and other bonuses."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN9
+	"Bridges can be destroyed and repaired."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN10
+	"To repair a bridge select an engineer, and send it into the bridge hut."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MNP
+	"Commander, intel has just intercepted Nod transmissions from this sector. We believe Nod is setting up a staging base to launch attacks on GDI forces. GDI command wants you to take them out."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN11
+	"Excellent work, Commander!"
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN12
+	"Tiberium is a strange mineral that is collected and refined for money"
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN13
+	"Every unit has different abilities. These MLRS can cross water in amphibious mode."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M1
+	"Explore the city and destroy all Nod forces."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M1_detail
+	"Destroy all Nod units in the city using the units provided."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M2
+	"Destroy the Nod outpost."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M2_detail
+	"Destroy the Nod outpost."
+End

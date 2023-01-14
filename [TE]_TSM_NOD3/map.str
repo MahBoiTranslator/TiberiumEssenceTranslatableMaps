@@ -1,0 +1,33 @@
+MSNSTR:NEXCTUS:TSM:NOD3:M1
+	"Free the rebel commander"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD3:M1_detail
+	"Locate and free the Rebel Nod Commander"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD3:M2
+	"Escort the Commander to the drop-off site"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD3:M2_detail
+	"Escort the Commander to the drop-off site"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD3:BM
+	"Free the Nod forces"
+End
+
+MSNSTR:NEXCTUS:TSM:NOD3:BM_detail
+	"Free the Nod forces"
+End
+
+
+
+MSNSTR:NEXCTUS:TSM:NOD3:MN1
+	"Hey... over here ! Help... Destroy these trucks to free us."
+End
+
+MSNSTR:NEXCTUS:TSM:NOD3:MN2
+	"Captured Commander: All right ! Now get me to your drop-off site and into the evac unit."
+End

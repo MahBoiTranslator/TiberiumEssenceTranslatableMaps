@@ -1,0 +1,23 @@
+MSNSTR:NEXCTUS:TSM:GDI1:M1
+	"Build a Tiberium Refinery."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI1:M1_detail
+	"Build a Tiberium Refinery and begin harvesting the Tiberium to the southeast."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI1:M2
+	"Build a Barracks."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI1:M2_detail
+	"Build a Barracks to create more infantry."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI1:M3
+	"Destroy all Nod forces in the area."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI1:M3_detail
+	"Destroy all Nod forces in the area to protect Phoenix's base."
+End

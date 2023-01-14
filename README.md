@@ -4,6 +4,7 @@ Collection of a patched maps for Tiberium Essence that could be translated on an
 List of patched maps and campaigns:
 * [TS Slavik vs Hassan Campaign](https://www.moddb.com/mods/tiberium-essence/addons/te-ts-slavik-vs-hassan-campaign-16-complete)
 * [Act I ZOCOM: The War That Never Was](https://www.moddb.com/mods/tiberium-essence/addons/te-zocom-origin)
+* [Tiberian Sun Missions](https://www.moddb.com/mods/tiberian-sun-missions-te)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

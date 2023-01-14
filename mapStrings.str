@@ -597,3 +597,411 @@ END
 MSNSTR:RDS:ACT_I_ZOCOM:M5:Win
 	"Mission accomplished"
 END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN1
+	"Click on your units to select them."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN2
+	"Once selected, right-click where you want the unit(s) to move."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN3
+	"You can unselect the selected unit(s) by left-clicking."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN4
+	"As you move, you reveal terrain, structures, and enemy units."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN5
+	"To attack, select your unit(s), then right-click on the enemy unit or structure."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN6
+	"If you left-click and hold, you can make a band box to select many units at once."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN7
+	"Crates contain power-ups and other bonuses."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN9
+	"Bridges can be destroyed and repaired."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN10
+	"To repair a bridge select an engineer, and send it into the bridge hut."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MNP
+	"Commander, intel has just intercepted Nod transmissions from this sector. We believe Nod is setting up a staging base to launch attacks on GDI forces. GDI command wants you to take them out."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN11
+	"Excellent work, Commander!"
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN12
+	"Tiberium is a strange mineral that is collected and refined for money"
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:MN13
+	"Every unit has different abilities. These MLRS can cross water in amphibious mode."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M1
+	"Explore the city and destroy all Nod forces."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M1_detail
+	"Destroy all Nod units in the city using the units provided."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M2
+	"Destroy the Nod outpost."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO1:M2_detail
+	"Destroy the Nod outpost."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA1
+	"GDI has already established the basics of your base for you."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA2
+	"To build structures or units, left-click on their pictures on the sidebar. \nWhen a structure is ready, click on it, then place it on the map."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA3
+	"A barracks will allow you to train infantry-type units."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA4
+	"Power plants will increase the amount of power in your base, try building one."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA5
+	"A Tiberium Refinery allows you to collect Tiberium and make more money."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA6
+	"The War Factory lets you produce vehicle-type units."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA7
+	"The Command Post allows you to see a map of the battlefield, including enemy objects. \nIt also allows you to gain access to upgrades."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA9
+	"To make money, build a Tiberium refinery."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA10
+	"The harvester will automatically harvest the nearest patch of Tiberium."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA11
+	"To keep power up, build more power plants."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA12
+	"Silos hold extra money so you don't lose any when the refinery is full."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA13
+	"Vulcan cannons towers are used to defend your base."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA14
+	"Veinhole monsters can attack any non-infantry unit that touches their veins."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA16
+	"To repair, left-click on the repair wrench then the damaged structure."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M1
+	"Establish a base."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M1_detail
+	"Establish a base to prepare your attack on Nod."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M2
+	"Destroy the Nod base."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M2_detail
+	"Find the Nod base, and destroy all structures to secure the area."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:Brief
+	"Nod forces are faster than we thought. The staging base you destroyed was a secondary base they were bringing on-line. We've located their main base, and need it removed in order to secure the area."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:Final
+	"End of the Demo! \nThank you for playing!"
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M3
+	"Destroy the Veinhole."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M3_detail
+	"Destroy the Veinhole monster to allow GDI vehicles to pass and get access to the Nod base."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA15
+	"Tiberium damages infantry-type units as they cross it. Keep them away if possible."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA17
+	"These sentry towers are garrisonable buildings from which your infantry can shoot if sent into."
+END
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA18
+	"The Armory allows you to create more advanced infantry and gain access to upgrades."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI1:M1
+	"Build a Tiberium Refinery."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI1:M1_detail
+	"Build a Tiberium Refinery and begin harvesting the Tiberium to the southeast."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI1:M2
+	"Build a Barracks."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI1:M2_detail
+	"Build a Barracks to create more infantry."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI1:M3
+	"Destroy all Nod forces in the area."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI1:M3_detail
+	"Destroy all Nod forces in the area to protect Phoenix's base."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:MN1
+	"Deploy the M.C.V. by selecting it and by using its deploy ability."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:MN2
+	"To build or train left-click on the icons located in the sidebar."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:M1
+	"Deploy the M.C.V. and begin building a base."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:M1_detail
+	"Deploy the M.C.V. and begin building a base."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:M2
+	"Destroy all Nod SAM sites."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:M2_detail
+	"Destroy all Nod SAM sites to allow Orca Transports to rescue the civilians."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:M3
+	"Destroy the Nod base."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:M3_detail
+	"Destroy the Nod base to secure the region."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:Titan
+	"You cannot build Titans now."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI2:CivK
+	"A civilian died."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M1
+	"Destroy all Nod structures."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M1_detail
+	"Destroy all Nod structures to secure the area."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M2
+	"Capture the train station."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M2_detail
+	"Capture the train station."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:BM
+	"Capture the Relay Stations."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:BM_detail
+	"Capture the Relay Stations to allow reinforcements to come."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:TRein
+	"Current weapon range insufficient. Weapon drop in progress..."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:Warning
+	"Nod base is heavily guarded by lasers. Suggestion: destroying power plants to west may cause overload."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:Bug3
+	"Nod Buggy: GDI Forces Spotted! Falling back to alert base."
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:NEng
+	"Nod Buggy: GDI forces spotted. Blow the bridge!"
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:TownManager
+	"Town Manager: Thanks for the help!"
+END
+
+MSNSTR:NEXCTUS:TSM:GDI3B:PowOver
+	"Power Overload in progress..."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN2
+	"Construct more Power Plants."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN2_detail
+	"Power levels are low. Construct more Power Plants."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:M1
+	"Destroy all of Hassan's elite guard."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:M1_detail
+	"Secure the area by destroying all of Hassan's elite guard."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:M2
+	"Build a Tiberium Refinery."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:M2_detail
+	"To get production online build a Tiberium Refinery."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN1
+	"Base perimeter has been breached !"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD1:MN3
+	"Harvest the Tiberium to the north."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:M1
+	"Capture Hassan's T.V. station to the east."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:M1_detail
+	"Capture Hassan's T.V. station to the east to bring those once loyal to Kane's technology of peace."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:M2
+	"Destroy the remaining forces of Hassan."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:M2_detail
+	"Destroy or isolate the remaining forces of Hassan in this area."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:MN1
+	"Ennemy: The traitors are coming, destroy the bridge !"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:MN2
+	"****BROADCASTING****"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD2:MN3
+	"Reinforcements: We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. PEACE THROUGH POWER!"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:M1
+	"Free the rebel commander"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:M1_detail
+	"Locate and free the Rebel Nod Commander"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:M2
+	"Escort the Commander to the drop-off site"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:M2_detail
+	"Escort the Commander to the drop-off site"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:BM
+	"Free the Nod forces"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:BM_detail
+	"Free the Nod forces"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:MN1
+	"Hey... over here ! Help... Destroy these trucks to free us."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD3:MN2
+	"Captured Commander: All right ! Now get me to your drop-off site and into the evac unit."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:M1
+	"Establish a foothold"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:M1_detail
+	"Establish a foothold and an MCV will be sent in to you."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:M2
+	"Destroy Hassan's temple"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:M2_detail
+	"Destroy Hassan's temple to capture him."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN1
+	"Hassan Soldier: Stand and Indentify yourself in the name of Kane... Sound the Alarm! Slavik's Forces are here!"
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN2
+	"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN3
+	"Cabaal: Hassan's base has been alerted. Attack is imminent."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN4
+	"Cabaal: MCV has arrived to the southeast."
+END
+
+MSNSTR:NEXCTUS:TSM:NOD4:MN5
+	"Slavik's Troop: We have Hassan pinned and ready to be brought in Commander Slavick. Orders are complete."
+END

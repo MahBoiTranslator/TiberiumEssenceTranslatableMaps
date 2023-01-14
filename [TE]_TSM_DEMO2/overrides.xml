@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes>
+		<Include source="Weather.xml" type="all"/>
+	</Includes>
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:DEMO2:M1"
+			Description="MSNSTR:NEXCTUS:TSM:DEMO2:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				CameraFieldOfViewVariance="3">
+				<Duration>4.0s</Duration>
+				<CameraStartAngle>50d</CameraStartAngle>
+				<CameraEndAngle>-30d</CameraEndAngle>
+				<CameraFieldOfView>10d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	
+	<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:DEMO2:M2"
+			Description="MSNSTR:NEXCTUS:TSM:DEMO2:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				Dialog="MG21_GDIEVA11"
+				CameraFieldOfViewVariance="2">
+				<Duration>5.0s</Duration>
+				<CameraStartAngle>60d</CameraStartAngle>
+				<CameraEndAngle>-45d</CameraEndAngle>
+				<CameraFieldOfView>40d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		
+	<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:DEMO2:M3"
+			Description="MSNSTR:NEXCTUS:TSM:DEMO2:M3_detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="M3"
+				CameraFieldOfViewVariance="1">
+				<Duration>4.5s</Duration>
+				<CameraStartAngle>60d</CameraStartAngle>
+				<CameraEndAngle>-45d</CameraEndAngle>
+				<CameraFieldOfView>40d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+</AssetDeclaration>

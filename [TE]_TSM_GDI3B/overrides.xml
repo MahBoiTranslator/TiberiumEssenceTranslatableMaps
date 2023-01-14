@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <Tags/>
+   <Includes>
+		<Include source="Weather.xml" type="all"/>
+   </Includes>
+
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI3B:M1"
+			Description="MSNSTR:NEXCTUS:TSM:GDI3B:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				Dialog="Geva_LowPower"
+				CameraFieldOfViewVariance="1">
+				<Duration>1.0s</Duration>
+				<CameraStartAngle>1d</CameraStartAngle>
+				<CameraEndAngle>-1d</CameraEndAngle>
+				<CameraFieldOfView>1d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI3B:M2"
+			Description="MSNSTR:NEXCTUS:TSM:GDI3B:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				Dialog="Geva_LowPower"
+				CameraFieldOfViewVariance="1">
+				<Duration>1.0s</Duration>
+				<CameraStartAngle>1d</CameraStartAngle>
+				<CameraEndAngle>-1d</CameraEndAngle>
+				<CameraFieldOfView>1d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI3B:BM"
+			Description="MSNSTR:NEXCTUS:TSM:GDI3B:BM_detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="BM"
+				CameraFieldOfViewVariance="1">
+				<Duration>2.0s</Duration>
+				<CameraStartAngle>60d</CameraStartAngle>
+				<CameraEndAngle>-45d</CameraEndAngle>
+				<CameraFieldOfView>40d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		
+	</MissionObjectiveList>
+
+
+
+
+
+</AssetDeclaration>

@@ -1,0 +1,101 @@
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA1
+	"GDI has already established the basics of your base for you."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA2
+	"To build structures or units, left-click on their pictures on the sidebar.\nWhen a structure is ready, click on it, then place it on the map."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA3
+	"A barracks will allow you to train infantry-type units."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA4
+	"Power plants will increase the amount of power in your base, try building one."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA5
+	"A Tiberium Refinery allows you to collect Tiberium and make more money."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA6
+	"The War Factory lets you produce vehicle-type units."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA7
+	"The Command Post allows you to see a map of the battlefield, including enemy objects.\nIt also allows you to gain access to upgrades."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA9
+	"To make money, build a Tiberium refinery."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA10
+	"The harvester will automatically harvest the nearest patch of Tiberium."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA11
+	"To keep power up, build more power plants."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA12
+	"Silos hold extra money so you don't lose any when the refinery is full."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA13
+	"Vulcan cannons towers are used to defend your base."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA14
+	"Veinhole monsters can attack any non-infantry unit that touches their veins."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA16
+	"To repair, left-click on the repair wrench then the damaged structure."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M1
+	"Establish a base."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M1_detail
+	"Establish a base to prepare your attack on Nod."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M2
+	"Destroy the Nod base."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M2_detail
+	"Find the Nod base, and destroy all structures to secure the area."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:Brief
+	"Nod forces are faster than we thought. The staging base you destroyed was a secondary base they were bringing on-line. We've located their main base, and need it removed in order to secure the area."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:Final
+	"End of the Demo!\nThank you for playing!"
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M3
+	"Destroy the Veinhole."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:M3_detail
+	"Destroy the Veinhole monster to allow GDI vehicles to pass and get access to the Nod base."
+End
+
+
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA15
+	"Tiberium damages infantry-type units as they cross it. Keep them away if possible."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA17
+	"These sentry towers are garrisonable buildings from which your infantry can shoot if sent into."
+End
+
+MSNSTR:NEXCTUS:TSM:DEMO2:EVA18
+	"The Armory allows you to create more advanced infantry and gain access to upgrades."
+End

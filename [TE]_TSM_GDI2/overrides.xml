@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI2:M1"
+			Description="MSNSTR:NEXCTUS:TSM:GDI2:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				Dialog="GDI_MCV_VoiceSelectMS"
+				CameraFieldOfViewVariance="2">
+				<Duration>3.5s</Duration>
+				<CameraStartAngle>35d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>20d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI2:M2"
+			Description="MSNSTR:NEXCTUS:TSM:GDI2:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				Dialog="MG33_GDIEVA04"
+				CameraFieldOfViewVariance="2">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI2:M3"
+			Description="MSNSTR:NEXCTUS:TSM:GDI2:M3_detail">
+			<PresentationSettings
+				ID="M3"
+				Dialog="MG33_GDIEVA02"
+				CameraFieldOfViewVariance="2">
+				<Duration>5.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>+45d</CameraEndAngle>
+				<CameraFieldOfView>40d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+</AssetDeclaration>

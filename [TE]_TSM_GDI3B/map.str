@@ -1,0 +1,48 @@
+MSNSTR:NEXCTUS:TSM:GDI3B:M1
+	"Destroy all Nod structures."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M1_detail
+	"Destroy all Nod structures to secure the area."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M2
+	"Capture the train station."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:M2_detail
+	"Capture the train station."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:BM
+	"Capture the Relay Stations."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:BM_detail
+	"Capture the Relay Stations to allow reinforcements to come."
+End
+
+
+MSNSTR:NEXCTUS:TSM:GDI3B:TRein
+	"Current weapon range insufficient. Weapon drop in progress..."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:Warning
+	"Nod base is heavily guarded by lasers. Suggestion: destroying power plants to west may cause overload."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:Bug3
+	"Nod Buggy: GDI Forces Spotted! Falling back to alert base."
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:NEng
+	"Nod Buggy: GDI forces spotted. Blow the bridge!"
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:TownManager
+	"Town Manager: Thanks for the help!"
+End
+
+MSNSTR:NEXCTUS:TSM:GDI3B:PowOver
+	"Power Overload in progress..."
+End

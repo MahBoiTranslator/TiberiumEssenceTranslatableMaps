@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	
+	<Includes/>
+	
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI1:M1"
+			Description="MSNSTR:NEXCTUS:TSM:GDI1:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				Dialog="Geva_InsufficFunds"
+				CameraFieldOfViewVariance="2">
+				<Duration>3.5s</Duration>
+				<CameraStartAngle>30d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>30d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI1:M2"
+			Description="MSNSTR:NEXCTUS:TSM:GDI1:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				Dialog="MGPr_GDIEVA02"
+				CameraFieldOfViewVariance="3">
+				<Duration>10.0s</Duration>
+				<CameraStartAngle>35d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>30d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:GDI1:M3"
+			Description="MSNSTR:NEXCTUS:TSM:GDI1:M3_detail">
+			<PresentationSettings
+				ID="M3"
+				CameraFieldOfViewVariance="0">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+	
+</AssetDeclaration>

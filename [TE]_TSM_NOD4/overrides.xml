@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <Tags/>
+   <Includes>
+
+   </Includes>
+
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:NOD4:M1"
+			Description="MSNSTR:NEXCTUS:TSM:NOD4:M1_detail">
+			<PresentationSettings
+				ID="M1"
+				CameraFieldOfViewVariance="4">
+				<Duration>0.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+
+		<MissionObjectiveTag
+			Script="MSNSTR:NEXCTUS:TSM:NOD4:M2"
+			Description="MSNSTR:NEXCTUS:TSM:NOD4:M2_detail">
+			<PresentationSettings
+				ID="M2"
+				Dialog="MN45_NodCommando02"
+				CameraFieldOfViewVariance="3">
+				<Duration>5.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+
+
+
+
+
+</AssetDeclaration>
