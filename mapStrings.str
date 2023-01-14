@@ -1005,3 +1005,39 @@ END
 MSNSTR:NEXCTUS:TSM:NOD4:MN5
 	"Slavik's Troop: We have Hassan pinned and ready to be brought in Commander Slavick. Orders are complete."
 END
+
+MSNSTR:aymcam:BlueFase:Objective_1
+	"Destroy the GDI outpost"
+END
+
+MSNSTR:aymcam:BlueFase:Objective_1_Detail
+	"Destroy the GDI outpost, this will show our ferver to the GDI eyes. for Kane !"
+END
+
+MSNSTR:aymcam:BlueFase:Objective_2
+	"Destroy the Main GDI base in the north"
+END
+
+MSNSTR:aymcam:BlueFase:Objective_2_Detail
+	"Destroy the Main GDI base in the north, and espeacially the research lab"
+END
+
+MSNSTR:aymcam:BlueFase:Objective_3
+	"Capture some resources for our goal"
+END
+
+MSNSTR:aymcam:BlueFase:Objective_3_Detail
+	"Capture some resources for our goal, the GDI have build new silo type to contain the tiberium riparus in the area"
+END
+
+MSNSTR:aymcam:BlueFase:CABAL1
+	"EVA: this is time to strike again"
+END
+
+MSNSTR:aymcam:BlueFase:CABAL2
+	"EVA: our brother begins the attack in the Red Zone"
+END
+
+MSNSTR:aymcam:BlueFase:CABAL3
+	"EVA: destroy the GDI roots in the region along side Cabal"
+END

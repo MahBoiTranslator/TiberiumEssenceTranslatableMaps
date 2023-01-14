@@ -1,0 +1,37 @@
+MSNSTR:aymcam:BlueFase:Objective_1
+	"Destroy the GDI outpost"
+End
+
+MSNSTR:aymcam:BlueFase:Objective_1_Detail
+	"Destroy the GDI outpost, this will show our ferver to the GDI eyes. for Kane !"
+End
+
+MSNSTR:aymcam:BlueFase:Objective_2
+	"Destroy the Main GDI base in the north"
+End
+
+MSNSTR:aymcam:BlueFase:Objective_2_Detail
+	"Destroy the Main GDI base in the north, and espeacially the research lab"
+End
+
+MSNSTR:aymcam:BlueFase:Objective_3
+	"Capture some resources for our goal"
+End
+
+MSNSTR:aymcam:BlueFase:Objective_3_Detail
+	"Capture some resources for our goal, the GDI have build new silo type to contain the tiberium riparus in the area"
+End
+
+
+
+MSNSTR:aymcam:BlueFase:CABAL1
+	"EVA: this is time to strike again"
+End
+
+MSNSTR:aymcam:BlueFase:CABAL2
+	"EVA: our brother begins the attack in the Red Zone"
+End
+
+MSNSTR:aymcam:BlueFase:CABAL3
+	"EVA: destroy the GDI roots in the region along side Cabal"
+End
