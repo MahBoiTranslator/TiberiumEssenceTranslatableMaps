@@ -1,0 +1,28 @@
+MSNSTR:RDS:VillainessInDistress:TSNod_Objective_1
+	"Objective One: Locate and free Oxanna (Commando)."
+End
+
+MSNSTR:RDS:VillainessInDistress:TSNod_Objective_2
+	"Objective Two: Get Slavik (Black Hand Elite) and Oxanna (Commando) near to the GDI Transport."
+End
+
+
+MSNSTR:RDS:VillainessInDistress:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+End
+
+MSNSTR:RDS:VillainessInDistress:PullOver
+	"Pull over for inspection!"
+End
+
+MSNSTR:RDS:VillainessInDistress:Clear
+	"O.K! You're clear to enter!"
+End
+
+MSNSTR:RDS:VillainessInDistress:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****\n We should rendezvous with the rescue team to the south"
+End
+
+MSNSTR:RDS:VillainessInDistress:CritcalUnitUnderAttack
+	"*Critical Unit Under Attack!*"
+End

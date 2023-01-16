@@ -1041,3 +1041,31 @@ END
 MSNSTR:aymcam:BlueFase:CABAL3
 	"EVA: destroy the GDI roots in the region along side Cabal"
 END
+
+MSNSTR:RDS:VillainessInDistress:TSNod_Objective_1
+	"Objective One: Locate and free Oxanna (Commando)."
+END
+
+MSNSTR:RDS:VillainessInDistress:TSNod_Objective_2
+	"Objective Two: Get Slavik (Black Hand Elite) and Oxanna (Commando) near to the GDI Transport."
+END
+
+MSNSTR:RDS:VillainessInDistress:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:VillainessInDistress:PullOver
+	"Pull over for inspection!"
+END
+
+MSNSTR:RDS:VillainessInDistress:Clear
+	"O.K! You're clear to enter!"
+END
+
+MSNSTR:RDS:VillainessInDistress:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****\n We should rendezvous with the rescue team to the south"
+END
+
+MSNSTR:RDS:VillainessInDistress:CritcalUnitUnderAttack
+	"*Critical Unit Under Attack!*"
+END
