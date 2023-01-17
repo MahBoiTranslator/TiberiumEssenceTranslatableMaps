@@ -10262,7 +10262,7 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[TE]_Villainess_In_Distress/Desc"
-			DisplayName="[TE] Tiberian Sun: Nod 9: Villainess in Distress"
+			DisplayName="[TE] TS Nod 9: Villainess in Distress"
 			FileName="Data"
 			Height="530"
 			IsMultiplayer="false"
@@ -10303,7 +10303,7 @@
 				Value="MusicPalette_UnknownZone"/>
 			<StringProperty
 				Key="mapName"
-				Value="[TE] Tiberian Sun: Nod 9: Villainess in Distress"/>
+				Value="[TE] TS Nod 9: Villainess in Distress"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
