@@ -405,7 +405,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="DEMO2">
+		id="TE_TSM_DEMO2">
 		<Waypoint
 			id="NVoice">
 			<Position
@@ -15181,8 +15181,8 @@
 		<MapMetaData
 			BorderSize="30"
 			CRC="0"
-			Description="Map:DEMO2/Desc"
-			DisplayName="TSM GDI] Demo 2: Clean Sweep"
+			Description="Map:[TE]_TSM_DEMO2/Desc"
+			DisplayName="[TE] TSM Demo 2: Clean Sweep"
 			FileName="Data"
 			Height="258"
 			IsMultiplayer="false"
@@ -15229,7 +15229,7 @@
 				Value="1"/>
 			<StringProperty
 				Key="mapName"
-				Value="TSM GDI] Demo 2: Clean Sweep"/>
+				Value="[TE] TSM Demo 2: Clean Sweep"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
@@ -15247,7 +15247,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="DEMO2">
+		id="TE_TSM_DEMO2">
 		<Tile
 			BaseTexture="ART:Terrain/TDirt_RedZone19.tga"
 			NormalTexture="ART:Terrain/TDirt_RedZone19_nrm.tga"
