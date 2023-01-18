@@ -25120,7 +25120,7 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[TE]_TSM_GDI3B/Desc"
-			DisplayName="[TE] TSM GDI 3B Capture Train Station"
+			DisplayName="[TE] TSM GDI 3: Capture Train Station"
 			FileName="Data"
 			Height="440"
 			IsMultiplayer="false"
@@ -25164,7 +25164,7 @@
 				Value="1"/>
 			<StringProperty
 				Key="mapName"
-				Value="[TE] TSM GDI 3B Capture Train Station"/>
+				Value="[TE] TSM GDI 3: Capture Train Station"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>

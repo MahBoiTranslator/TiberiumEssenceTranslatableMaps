@@ -16293,7 +16293,7 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[TE]_TSM_GDI2/Desc"
-			DisplayName="[TE] TSM GDI 2: Secure the region"
+			DisplayName="[TE] TSM GDI 2: Secure The Region"
 			FileName="Data"
 			Height="345"
 			IsMultiplayer="false"
@@ -16337,7 +16337,7 @@
 				Value="0"/>
 			<StringProperty
 				Key="mapName"
-				Value="[TE] TSM GDI 2: Secure the region"/>
+				Value="[TE] TSM GDI 2: Secure The Region"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
