@@ -1063,9 +1063,434 @@ MSNSTR:RDS:VillainessInDistress:Clear
 END
 
 MSNSTR:RDS:VillainessInDistress:ControlOnline
-	"****BATTLEFIELD CONTROL ESTABLISHED****\n We should rendezvous with the rescue team to the south"
+	"****BATTLEFIELD CONTROL ESTABLISHED**** \n We should rendezvous with the rescue team to the south"
 END
 
 MSNSTR:RDS:VillainessInDistress:CritcalUnitUnderAttack
 	"*Critical Unit Under Attack!*"
 END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:MissionBriefing
+	"Buggy Driver: Slavik is dead! \nWe need to get outta here!."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_1
+	"Objective 1: Destroy the transport to rescue the Saboteurs."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete. \nSaboteurs rescued."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_2
+	"Objective 2: Capture Marcion's Construction Yard."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_2_Complete
+	"EVA: Objective 2 complete. \nMCV stolen."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_3
+	"Objective 3: Get the MCV to Death Dealer's outpost."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:CaptureHint
+	"Hint: Capture Marcion's structures to build additional troops."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:ShrineHint
+	"Hint: Capture Secret Shrines to gain an elite Black Hand Squad."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:FlameTeamLocated
+	"Flame Tank: You are the true successor to Slavik, Commander!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:ScorpionTeamLocated
+	"Scorpion Tank: Marcion's new tanks are ****!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:LoseStandard
+	"Mission failed \nThe True Black Hand is dead."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:LoseSabotuersHandOfNodNoCash
+	"Mission failed \nWe cannot produce more Sabotuers."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:LoseMCV
+	"Mission failed \nMCV Destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:WinEndGame
+	"Death Dealer: Good work, Commander. \nWe are safe... for now."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:Win
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_1
+	"OBJECTIVE 1: GATHER 40,000 CREDITS BY DESTROYING MUTANT HARVESTERS, REFINERIES and Silos."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete. \n40,000 credits aquired."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_2
+	"Objective 2: Capture the GDI Command Post."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_2_Complete
+	"EVA: OBJECTIVE 2 COMPLETE.\NSABOTEUR: I'VE FOUND SOMETHING...'RECLAMATION Aganda' Downloading file now."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:CaptureHint
+	"Hint: Capture Refineries when a Harvester is unloading to gain control of both."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:Gain20000credits
+	"DEATH DEALER: GOOD START, COMMANDER. BUT WE NEED MORE!\NI'M GIFTING YOU MY savage Marauders. Use them well."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:GainAscensionSquad
+	"DEATH DEALER: MY ASCENDED SQAUD WILL MAKE OUR ENEMIES REGRET THEIR existance. \nBuild them from your Secret Shrine."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:GDIDetected
+	"EVA: WARNING: GDI FORCES DETECTED.\NIT IS ESSENTIAL THAT WE FIND OUT WHAT THEY are doing here."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:CommandPostUnderAttack
+	"DO NOT destroy the Command Post. \nYou must capture it."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:LoseStandard
+	"Mission failed \nYou have marred the memory of Kane."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:LoseCommandPost
+	"Mission failed \nCommand Post destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:Win
+	"Mission accomplished"
+END
+
+NAME:NODConfessorSquad
+	"Confessor Squad"
+END
+
+TYPE:NODConfessorSquad
+	"Highly trained basic infantry."
+END
+
+DESC:NODConfessorSquad
+	"Abilities: \n     »None"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_2
+	"Death Dealer: It is time to show the Forgotten who the real enemy is."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_3
+	"Death Dealer: Capturing a Mutant Sanctuary will allow us to leak the Reclamation Agenda, \nwithout the risk of exposing Black Hand influence."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_4
+	"Black Hand Marauder: The GDI patrol has left. It is safe to deploy."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_1
+	"Objective 1: Locate and capture the Mutant Sanctuary."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete. \nBroadcasting Reclamation Agenda...Stand By."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_2
+	"Objective 2: Allow GDI to destroy the Mutant village."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_2_Complete
+	"EVA: Objective 2 complete. \nThe Mutants are starting to retaliate against GDI."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_3
+	"Objective 3: Eliminate the GDI base."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_3_Complete
+	"EVA: Objective 3 complete."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:NextStage
+	"Death Dealer: It is certain that GDI will blame Ghost Stalker for this attack. We 	will use the confusion to move to the next stage of Kane's will."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews
+	"Mutant: What's this?! Those Blunt backstabbers! \nI must tell the others!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews2
+	"Mutant: Everyone! Look at this! \nGDI are planning to destroy us all!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews3
+	"Mutant Leader: I knew we shouldn't have trusted Ghost! \nDestroy the ********!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews4
+	"Mutant Soldier: DIE SCUM!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:GDIRevengeTeamAttacked
+	"GDI Soldier: Mass mutant aggression confirmed! Shoot to kill!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:MutantRebellionBegins
+	"Death Dealer: It has begun. \nJoin the battle and start the fire that will turn GDI 	to mere ash!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:LoseSanctuary
+	"Mission failed \nSanctuary destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:LoseAttackedGDI
+	"Mission failed. You attacked GDI. \nI never thought I'd have to say that was a failure but here we are..."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Win
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:DeathShrine_Counter
+	"Divine Shrines remaining:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Invasion_Timer
+	"ZOCOM invasion:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:DivineOne_Timer
+	"Divination stage one complete in:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:DivineTwo_Timer
+	"Divination stage two complete in:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Lee
+	"In memory of Lee. \nWish You Were Here."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_2
+	"Death Dealer: This lab will be the birth place of the Divine."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_3
+	"Death Dealer: These Secret Shrines hold my future kind. \nProtect them."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_4
+	"Death Dealer: This mission is critical. \nA second Nod commander will assist your defence here."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_1
+	"Objective 1: Build up your forces before ZOCOM invades."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete. \nHold your ground. Your ally will assist you."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_EASY
+	"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. At least ONE Shrine must survive."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_NORMAL
+	"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. At least FOUR Shrines must survive."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_HARD
+	"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. ALL Shrines must survive."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_Complete
+	"EVA: Objectives 2 and 3 complete. \nWe can now begin the final phase of Divination."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_3
+	"Objective 4: Protect Death Dealer's Lab structures for 30 minutes \nOR Destroy both ZOCOM Bases."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_3_Complete
+	"EVA: Objective 4 complete. \nWe cannot hold out for long. We must evactuate with the Divine."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:StealthTech
+	"Death Dealer: Our next-gen stealth technology is ready for use. \nUse Vertigos and Cobras to strike fear into ZOCOM's black heart."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ShrineUnderAttack
+	"A Divine Shrine is under attack. \nYou must defend it!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:LoseOneShrine
+	"Divine Shrine destroyed. \nProtect the others!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:LoseShrines
+	"Mission failed \nToo many Divine Shrines were destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:LoseLabStructure
+	"Mission failed \nA lab structure was destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BuiltWeatherController
+	"Death Dealer: I will not allow ZOCOM to use one more Ion Cannon!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ZOCOM1Destroyed
+	"The main ZOCOM base has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ZOCOM2Destroyed
+	"The forward ZOCOM base has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Win
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:DivineTwo_Timer
+	"Divination stage two complete in:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Intro_2
+	"Death Dealer: We have lost contact with the Commando's team. Find them."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_1
+	"Objective 1: Locate the missing Commando's team."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete. The Shadows will return to the main force."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_2
+	"Objective 2: Capture the Ion Cannon Control Centre."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_2_Complete
+	"EVA: Objective 2 complete. \nWe now control the Ion Cannon."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_3
+	"Objective 3: Burn down the ZOCOM base."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_3_Complete
+	"EVA: Objective 3 complete. \nMCV en route."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_4
+	"Objective 4: Destroy ZOCOM's fortress and all outposts."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_5
+	"Objective 5: Bring the Montauk to the edge of the Red Zone."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_4_Complete
+	"EVA: Objective 4 complete. \nThe blue tiberium can no grow free from oppression!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_5_Complete
+	"EVA: Objective 5 complete. \nThe Divine are safe."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Outpost_Revealed
+	"Shadow: Outposts spotted. They will detect us if we get too close."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Fortress_Revealed
+	"Shadow: This must be their main base. \nWe should avoid it."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Montauk_Returns
+	"Death Dealer: It is time to rise from the grave."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:DefendDeath
+	"Death Dealer: The Divine and I are inside the Montauk. \nIf you let us die, you will feel Kane's Wrath."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Ion_Cannon_Returned_To_GDI
+	"Saboteur: Commander! I've lost control of the Ion Cannon! \nGDI have improved the security network!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:LoseShadows
+	"Mission failed \nAll Shadows have died."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:LoseSaboteurs
+	"Mission failed \nAll Saboteurs have died."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:LoseIonCannon
+	"Mission failed \nThe Ion Cannon Control Centre was destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:LoseMontauk
+	"Mission failed \nThe Montauk has been destroyed. The Divine are dead."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M5:Win
+	"The Montauk is making it's way towards Kane. \nDivine safety ensured. \nMission Accomplished"
+END
+
