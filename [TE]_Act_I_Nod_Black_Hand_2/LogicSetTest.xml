@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">	
+<LogicCommandSet
+         id="NODSecretShrineCommandSet">
+         <Cmd>Command_ConstructNODCommando</Cmd>
+         <Cmd>Command_ConstructNODShadowSquad</Cmd>
+         <Cmd>Command_ConstructNODSaboteur</Cmd>
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+</AssetDeclaration>

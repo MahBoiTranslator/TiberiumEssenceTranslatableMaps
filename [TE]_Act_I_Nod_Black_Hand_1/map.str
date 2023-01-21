@@ -1,0 +1,67 @@
+MSNSTR:RDS:ACT_I_NODBH:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:MissionBriefing
+	"Buggy Driver: Slavik is dead!\nWe need to get outta here!."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_1
+	"Objective 1: Destroy the transport to rescue the Saboteurs."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete.\nSaboteurs rescued."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_2
+	"Objective 2: Capture Marcion's Construction Yard."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_2_Complete
+	"EVA: Objective 2 complete.\nMCV stolen."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_3
+	"Objective 3: Get the MCV to Death Dealer's outpost."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:CaptureHint
+	"Hint: Capture Marcion's structures to build additional troops."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:ShrineHint
+	"Hint: Capture Secret Shrines to gain an elite Black Hand Squad."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:FlameTeamLocated
+	"Flame Tank: You are the true successor to Slavik, Commander!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:ScorpionTeamLocated
+	"Scorpion Tank: Marcion's new tanks are ****!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:LoseStandard
+	"Mission failed\nThe True Black Hand is dead."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:LoseSabotuersHandOfNodNoCash
+	"Mission failed\nWe cannot produce more Sabotuers."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:LoseMCV
+	"Mission failed\nMCV Destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:WinEndGame
+	"Death Dealer: Good work, Commander.\nWe are safe... for now."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M1:Win
+	"Mission accomplished"
+END

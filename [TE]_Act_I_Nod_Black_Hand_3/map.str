@@ -1,0 +1,101 @@
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_2
+	"Death Dealer: It is time to show the Forgotten who the real enemy is."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_3
+	"Death Dealer: Capturing a Mutant Sanctuary will allow us to leak the Reclamation Agenda,\nwithout the risk of exposing Black Hand influence."
+End
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Intro_4
+	"Black Hand Marauder: The GDI patrol has left. It is safe to deploy."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_1
+	"Objective 1: Locate and capture the Mutant Sanctuary."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete. \nBroadcasting Reclamation Agenda...Stand By."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_2
+	"Objective 2: Allow GDI to destroy the Mutant village."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_2_Complete
+	"EVA: Objective 2 complete.\nThe Mutants are starting to retaliate against GDI."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_3
+	"Objective 3: Eliminate the GDI base."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_3_Complete
+	"EVA: Objective 3 complete."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:NextStage
+"Death Dealer: It is certain that GDI will blame Ghost Stalker for this attack. We 	will use the confusion to move to the next stage of Kane's will."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews
+	"Mutant: What's this?! Those Blunt backstabbers! \nI must tell the others!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews2
+	"Mutant: Everyone! Look at this! \nGDI are planning to destroy us all!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews3
+	"Mutant Leader: I knew we shouldn't have trusted Ghost! \nDestroy the ********!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:BadNews4
+	"Mutant Soldier: DIE SCUM!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:GDIRevengeTeamAttacked
+	"GDI Soldier: Mass mutant aggression confirmed! Shoot to kill!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:MutantRebellionBegins
+"Death Dealer: It has begun.\nJoin the battle and start the fire that will turn GDI 	to mere ash!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:LoseSanctuary
+	"Mission failed\nSanctuary destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M3:LoseAttackedGDI
+	"Mission failed. You attacked GDI.\nI never thought I'd have to say that was a failure but here we are..."
+End
+
+MSNSTR:RDS:ACT_I_NODBH:M3:Win
+	"Mission accomplished"
+END
+
+// String file for Command & Conquer 3
+
+// comment: DO NOT TRANSLATE
+Personality:Mac
+	"Sample Modded AI"
+END
+
+NAME:NODConfessorSquad
+	"Confessor Squad"
+END
+
+TYPE:NODConfessorSquad
+	"Highly trained basic infantry."
+END
+DESC:NODConfessorSquad
+	"Abilities: \n     »None"
+END

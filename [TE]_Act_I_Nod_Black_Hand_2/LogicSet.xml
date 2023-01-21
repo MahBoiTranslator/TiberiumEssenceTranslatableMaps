@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">	
+	<Includes>
+			<Include type="all" source="DATA:Extra content\Confessor Cabal\ConfessorCabal.xml" />
+			<Include type="all" source="DATA:Extra content\Confessor Cabal\NODDisciple.xml" />
+			<Include type="all" source="DATA:Extra content\Black Hand Elite Squad\NODBlackHandEliteSquad.xml" />	
+	</Includes>
+
+<LogicCommand
+     	Type="UNIT_BUILD"
+     	id="Command_ConstructNODConfessor">
+     	<Object>NODConfessorSquad</Object>
+</LogicCommand>	
+<LogicCommandSet
+         id="NODHandOfNODCommandSet">
+         <Cmd>Command_ConstructNODConfessor</Cmd>
+         <Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+         <Cmd>Command_ConstructNODSaboteur</Cmd>
+	     <Cmd>Command_ConstructNODShadowSquad</Cmd>
+	     <Cmd>Command_ConstructNODBlackHandSquad</Cmd>
+	     <Cmd>Command_ConstructNODCommando</Cmd>
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+        id="NODSecretShrineCommandSet">
+       	<Cmd>Command_ConstructMutantMarauderSquad</Cmd>
+        <Cmd>Command_ConstructForgottenFeralSquad</Cmd>
+	<Cmd>Command_ConstructForgottenSniper</Cmd>
+	<Cmd>Command_ConstructForgottenSniperHero</Cmd>
+	<Cmd>Command_PurchaseUpgradeTiberiumInfusion</Cmd>
+	<Cmd>Command_NODConfessorUpgrade</Cmd>
+        <Cmd>Command_TogglePower</Cmd>
+        <Cmd>Command_SelfRepair</Cmd>
+        <Cmd>Command_Sell</Cmd>
+        <Cmd>Command_SetDefaultBuilding</Cmd>
+        <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODOperationsCenterCommandSet">
+         <Cmd>Command_UpgradeNODLaserCapacitor</Cmd>
+         <Cmd>Command_NodRadarSpy</Cmd>
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+
+
+</AssetDeclaration>

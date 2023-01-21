@@ -1,0 +1,125 @@
+MSNSTR:RDS:ACT_I_NODBH:M4:DeathShrine_Counter
+	"Divine Shrines remaining:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Invasion_Timer
+	"ZOCOM invasion:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:DivineOne_Timer
+	"Divination stage one complete in:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:DivineTwo_Timer
+	"Divination stage two complete in:"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Lee
+	"In memory of Lee.\nWish You Were Here."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_2
+	"Death Dealer: This lab will be the birth place of the Divine."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_3
+	"Death Dealer: These Secret Shrines hold my future kind.\nProtect them."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Intro_4
+	"Death Dealer: This mission is critical.\nA second Nod commander will assist your defence here."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_1
+	"Objective 1: Build up your forces before ZOCOM invades."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete.\nHold your ground. Your ally will assist you."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_EASY
+	"Objective 2: Protect the Lab Structures\nObjective 3: Defend Death Dealer's Divine Shrines. At least ONE Shrine must survive."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_NORMAL
+	"Objective 2: Protect the Lab Structures\nObjective 3: Defend Death Dealer's Divine Shrines. At least FOUR Shrines must survive."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_HARD
+	"Objective 2: Protect the Lab Structures\nObjective 3: Defend Death Dealer's Divine Shrines. ALL Shrines must survive."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_Complete
+	"EVA: Objectives 2 and 3 complete.\nWe can now begin the final phase of Divination."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_3
+	"Objective 4: Protect Death Dealer's Lab structures for 30 minutes\nOR Destroy both ZOCOM Bases."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_3_Complete
+	"EVA: Objective 4 complete.\nWe cannot hold out for long. We must evactuate with the Divine."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:StealthTech
+	"Death Dealer: Our next-gen stealth technology is ready for use.\nUse Vertigos and Cobras to strike fear into ZOCOM's black heart."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ShrineUnderAttack
+	"A Divine Shrine is under attack.\nYou must defend it!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:LoseOneShrine
+	"Divine Shrine destroyed.\nProtect the others!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:LoseShrines
+	"Mission failed\nToo many Divine Shrines were destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:LoseLabStructure
+	"Mission failed\nA lab structure was destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:BuiltWeatherController
+	"Death Dealer: I will not allow ZOCOM to use one more Ion Cannon!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ZOCOM1Destroyed
+	"The main ZOCOM base has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:ZOCOM2Destroyed
+	"The forward ZOCOM base has been destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M4:Win
+	"Mission accomplished"
+END
+
+// String file for Command & Conquer 3
+
+// comment: DO NOT TRANSLATE
+Personality:Mac
+	"Sample Modded AI"
+END
+
+NAME:NODConfessorSquad
+	"Confessor Squad"
+END
+
+TYPE:NODConfessorSquad
+	"Highly trained basic infantry."
+END
+DESC:NODConfessorSquad
+	"Abilities: \n     »None"
+END

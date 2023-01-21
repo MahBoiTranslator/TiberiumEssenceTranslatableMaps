@@ -1,0 +1,75 @@
+MSNSTR:RDS:ACT_I_NODBH:M2:Intro_1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_1
+	"OBJECTIVE 1: GATHER 40,000 CREDITS BY DESTROYING MUTANT HARVESTERS, REFINERIES and Silos."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_1_Complete
+	"EVA: Objective 1 complete.\n40,000 credits aquired."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_2
+	"Objective 2: Capture the GDI Command Post."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_2_Complete
+	"EVA: OBJECTIVE 2 COMPLETE.\NSABOTEUR: I'VE FOUND SOMETHING...'RECLAMATION Aganda' Downloading file now."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:CaptureHint
+	"Hint: Capture Refineries when a Harvester is unloading to gain control of both."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:Gain20000credits
+	"DEATH DEALER: GOOD START, COMMANDER. BUT WE NEED MORE!\NI'M GIFTING YOU MY savage Marauders. Use them well."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:GainAscensionSquad
+	"DEATH DEALER: MY ASCENDED SQAUD WILL MAKE OUR ENEMIES REGRET THEIR existance.\nBuild them from your Secret Shrine."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:GDIDetected
+	"EVA: WARNING: GDI FORCES DETECTED.\NIT IS ESSENTIAL THAT WE FIND OUT WHAT THEY are doing here."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:CommandPostUnderAttack
+	"DO NOT destroy the Command Post.\nYou must capture it."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:LoseStandard
+	"Mission failed\nYou have marred the memory of Kane."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:LoseCommandPost
+	"Mission failed\nCommand Post destroyed."
+END
+
+MSNSTR:RDS:ACT_I_NODBH:M2:Win
+	"Mission accomplished"
+END
+
+
+// String file for Command & Conquer 3
+
+// comment: DO NOT TRANSLATE
+Personality:Mac
+	"Sample Modded AI"
+END
+
+NAME:NODConfessorSquad
+	"Confessor Squad"
+END
+
+TYPE:NODConfessorSquad
+	"Highly trained basic infantry."
+END
+
+DESC:NODConfessorSquad
+	"Abilities: \n     »None"
+END
