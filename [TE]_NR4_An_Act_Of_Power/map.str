@@ -1,0 +1,27 @@
+MSNSTR:playmsbk:NodsRevolution:M5:WAVE1
+	"GDI will attack with their parade units. Take them all down!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:LASTORDER
+	"GDI has set up a base to the North West. Destroy it!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:WALLATTACK
+	"GDI keeps the prototype TW1 Mammoth in that War Factory.Destroy it."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:HAVOCATTACK
+	"Nice work Commander. Now capture Havoc's statue at the east park."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:HAVOC
+	"Very good Commander! Estabilish a small base in the area."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:INTRO
+	"GDI has a nuke transport to the east. Capture it. Expect resistance."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:NUKECONTROL
+	"The Nuke Transport will move to the nearest wall and self destruct."
+END

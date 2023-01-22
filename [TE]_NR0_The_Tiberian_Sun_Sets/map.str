@@ -1,0 +1,23 @@
+MSNSTR:playmsbk:NodsRevolution:M1:TERDES
+	"The Core isn't there! Acording to Nod records it's north of your base!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:FAKECOREDEST
+	"Good work. Now, attack the CABAL Core located north of the Nod base"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:INTRO_1
+	"We had reports of a CABAL Core in the area. You must investigate."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:INTRO_2
+	"Destroy these Nod forces in your starting position."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:DESTNODBASE
+	"Nicely done Commander. Train a force and take down the Nod base."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:AMBUSH
+	"A Mutant ambush! Watch out, there might be more in the area."
+END

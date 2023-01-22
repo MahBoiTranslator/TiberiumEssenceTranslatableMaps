@@ -1494,3 +1494,146 @@ MSNSTR:RDS:ACT_I_NODBH:M5:Win
 	"The Montauk is making it's way towards Kane. \nDivine safety ensured. \nMission Accomplished"
 END
 
+MSNSTR:playmsbk:NodsRevolution:M1:TERDES
+	"The Core isn't there! Acording to Nod records it's north of your base!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:FAKECOREDEST
+	"Good work. Now, attack the CABAL Core located north of the Nod base"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:INTRO_1
+	"We had reports of a CABAL Core in the area. You must investigate."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:INTRO_2
+	"Destroy these Nod forces in your starting position."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:DESTNODBASE
+	"Nicely done Commander. Train a force and take down the Nod base."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M1:AMBUSH
+	"A Mutant ambush! Watch out, there might be more in the area."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:HELP
+	"Here is believed to be CABAL's Power Plants. Destroy them."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:POWEROFF
+	"Looks like CABAL has extra Power Plants. Do this the hard way."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:WIN1STPART
+	"Good work, now you must clear the way for Kane.Use these troops."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:INTRO1
+	"Kane is in a CABAL core at the Northeast. Capture it to take him."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:INTRO2
+	"Do this quickly and stealthily. Do not loose your Saboteur."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:PART2PHASE1
+	"Destroy the Command Post to disable GDI's abillity to detect us."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:KANE
+	"Now get Kane to your base and to safety. Do not loose him!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:GDIATTACK
+	"GDI attacks your base! Protect it, or Nod is dead!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:GDIencounter
+	"GDI is here. Do not face their army. No. 1 priority is Kane!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:OBJECTIVE
+	"Get to this Temple and unleash Kane's Wrath to GDI!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:TEMPLE
+	"Very good, now protect it until the Nuclear missile is ready."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:ATTACK4
+	"Once the Nuke is ready it will be automatically launched to the Radar."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:INTRO
+	"Use these forces to get all Nod factions of the area to your cause."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:FIRSTBASE
+	"Three more bases are located to the east, spread Kane's word!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:GDIDEATH
+	"Excellent. Now, focus on the walker. Destroy it and capture its husk."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:LASTORDER
+	"Now retreat the walker to safety and don't let it die."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:ATTACK
+	"The unit won't be enough. You must capture the lab. It's in the base"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:BASECONTROL
+	"Now, you must destroy the GDI presence in the area before moving on."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:INTRO1
+	"Commander, quickly go South of your position and recover the base."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:2NDEXECUTION
+	"Get the Gun Truck to the north village now to get reinforcements."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:2NDFINISH
+	"Nod now has the support of the people of the area."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:2NDORDER
+	"Capture that Gun Truck and get it to the north village."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:INTRO2
+	"Use these new Shadows to recover it."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:WAVE1
+	"GDI will attack with their parade units. Take them all down!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:LASTORDER
+	"GDI has set up a base to the North West. Destroy it!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:WALLATTACK
+	"GDI keeps the prototype TW1 Mammoth in that War Factory.Destroy it."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:HAVOCATTACK
+	"Nice work Commander. Now capture Havoc's statue at the east park."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:HAVOC
+	"Very good Commander! Estabilish a small base in the area."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:INTRO
+	"GDI has a nuke transport to the east. Capture it. Expect resistance."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M5:NUKECONTROL
+	"The Nuke Transport will move to the nearest wall and self destruct."
+END

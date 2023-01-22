@@ -1,0 +1,35 @@
+MSNSTR:playmsbk:NodsRevolution:M2:HELP
+	"Here is believed to be CABAL's Power Plants. Destroy them."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:POWEROFF
+	"Looks like CABAL has extra Power Plants. Do this the hard way."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:WIN1STPART
+	"Good work, now you must clear the way for Kane.Use these troops."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:INTRO1
+	"Kane is in a CABAL core at the Northeast. Capture it to take him."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:INTRO2
+	"Do this quickly and stealthily. Do not loose your Saboteur."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:PART2PHASE1
+	"Destroy the Command Post to disable GDI's abillity to detect us."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:KANE
+	"Now get Kane to your base and to safety. Do not loose him!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:GDIATTACK
+	"GDI attacks your base! Protect it, or Nod is dead!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M2:GDIencounter
+	"GDI is here. Do not face their army. No. 1 priority is Kane!"
+END

@@ -1,0 +1,35 @@
+MSNSTR:playmsbk:NodsRevolution:M4:GDIDEATH
+	"Excellent. Now, focus on the walker. Destroy it and capture its husk."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:LASTORDER
+	"Now retreat the walker to safety and don't let it die."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:ATTACK
+	"The unit won't be enough. You must capture the lab. It's in the base"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:BASECONTROL
+	"Now, you must destroy the GDI presence in the area before moving on."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:INTRO1
+	"Commander, quickly go South of your position and recover the base."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:2NDEXECUTION
+	"Get the Gun Truck to the north village now to get reinforcements."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:2NDFINISH
+	"Nod now has the support of the people of the area."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:2NDORDER
+	"Capture that Gun Truck and get it to the north village."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M4:INTRO2
+	"Use these new Shadows to recover it."
+END

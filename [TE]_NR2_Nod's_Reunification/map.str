@@ -1,0 +1,19 @@
+MSNSTR:playmsbk:NodsRevolution:M3:OBJECTIVE
+	"Get to this Temple and unleash Kane's Wrath to GDI!"
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:TEMPLE
+	"Very good, now protect it until the Nuclear missile is ready."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:ATTACK4
+	"Once the Nuke is ready it will be automatically launched to the Radar."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:INTRO
+	"Use these forces to get all Nod factions of the area to your cause."
+END
+
+MSNSTR:playmsbk:NodsRevolution:M3:FIRSTBASE
+	"Three more bases are located to the east, spread Kane's word!"
+END
