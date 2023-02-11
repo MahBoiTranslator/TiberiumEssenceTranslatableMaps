@@ -1,0 +1,23 @@
+MSNSTR:TheFinnishGuy:ROTF:M4:WIN
+	"Survivors escorted to safety. Mission accomplished."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:LOSE
+	"The transport has been destroyed. Mission failed."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:TRANSPORT1
+	"Escort the transport to the base for immediate extraction."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:BASE
+	"Theres still survivors out there who needs medical attention. Find them!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:OBJ
+	"Search the area for survivors. No one is left behind!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:BONUSOBJ
+	"Friendly distress signal detected from an overrun base to the NW."
+END

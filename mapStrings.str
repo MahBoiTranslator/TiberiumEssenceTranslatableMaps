@@ -1,1639 +1,1752 @@
 MSNSTR:RDS:NODTS:N1:Intro1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:NODTS:N1:Intro2
-	"Light Infantry: Move it! Move it! Get back to the base!"
+"Light Infantry: Move it! Move it! Get back to the base!"
 END
 
 MSNSTR:RDS:NODTS:N1:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:NODTS:N1:Objective_1
-	"Objective One: Destroy all of Hassan's elite guard."
+"Objective One: Destroy all of Hassan's elite guard."
 END
 
 MSNSTR:RDS:NODTS:N1:Objective_1_Complete
-	"Primary objective achieved."
+"Primary objective achieved."
 END
 
 MSNSTR:RDS:NODTS:N1:Objective_2
-	"Objective Two: To get production online, build a Tiberium Refinery."
+"Objective Two: To get production online, build a Tiberium Refinery."
 END
 
 MSNSTR:RDS:NODTS:N1:Objective_2_Complete
-	"Secondary objective achieved."
+"Secondary objective achieved."
 END
 
 MSNSTR:RDS:NODTS:N1:Shredder
-	"Hassan Elite Guard: Laser turrets! Run for it!"
+"Hassan Elite Guard: Laser turrets! Run for it!"
 END
 
 MSNSTR:RDS:NODTS:N1:Harvest
-	"CABAL: Harvest the Tiberium to the north."
+"CABAL: Harvest the Tiberium to the north."
 END
 
 MSNSTR:RDS:NODTS:N1:BasePerimeter
-	"CABAL: Base perimeter has been breached!"
+"CABAL: Base perimeter has been breached!"
 END
 
 MSNSTR:RDS:NODTS:N1:PowerLevels
-	"CABAL: Power levels are low. Construct more Power Plants."
+"CABAL: Power levels are low. Construct more Power Plants."
 END
 
 MSNSTR:RDS:NODTS:N1:RepairStructure
-	"CABAL: To repair a structure, left-click on the wrench in the UI and left click on the structure."
+"CABAL: To repair a structure, left-click on the wrench in the UI and left click on the structure."
 END
 
 MSNSTR:RDS:NODTS:N1:Lose
-	"MISSION FAILED"
+"MISSION FAILED"
 END
 
 MSNSTR:RDS:NODTS:N1:Win
-	"MISSION ACCOMPLISHED"
+"MISSION ACCOMPLISHED"
 END
 
 MSNSTR:RDS:NODTS:N2:Intro
-	"CABAL: To deploy a vehicle select it, place the cursor over the Unpack button and click on it."
+"CABAL: To deploy a vehicle select it, place the cursor over the Unpack button and click on it."
 END
 
 MSNSTR:RDS:NODTS:N2:Objective_1
-	"Objective One: Capture Hassan's T.V. Station to the east."
+"Objective One: Capture Hassan's T.V. Station to the east."
 END
 
 MSNSTR:RDS:NODTS:N2:Objective_1_Complete
-	"****BROADCASTING****"
+"****BROADCASTING****"
 END
 
 MSNSTR:RDS:NODTS:N2:SpiritHandOfKane
-	"We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. \nPEACE THROUGH POWER!"
+"We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. \nPEACE THROUGH POWER!"
 END
 
 MSNSTR:RDS:NODTS:N2:Objective_2
-	"Objective Two: Destroy all of Hassan's elite guard."
+"Objective Two: Destroy all of Hassan's elite guard."
 END
 
 MSNSTR:RDS:NODTS:N2:Objective_2_Complete
-	"Secondary objective achieved."
+"Secondary objective achieved."
 END
 
 MSNSTR:RDS:NODTS:N2:Traitors
-	"Hassan Elite Guard: The traitors are coming. Destroy the bridge!"
+"Hassan Elite Guard: The traitors are coming. Destroy the bridge!"
 END
 
 MSNSTR:RDS:NODTS:N2:RepairBridge
-	"CABAL: To repair a bridge, send an engineer into the repair hut near the bridge base."
+"CABAL: To repair a bridge, send an engineer into the repair hut near the bridge base."
 END
 
 MSNSTR:RDS:NODTS:N2:Lose
-	"MISSION FAILED"
+"MISSION FAILED"
 END
 
 MSNSTR:RDS:NODTS:N2:Win
-	"MISSION ACCOMPLISHED"
+"MISSION ACCOMPLISHED"
 END
 
 MSNSTR:RDS:NODTS:N3:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:NODTS:N3:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:NODTS:N3:Objective_1
-	"Objective One: Locate and rescue the captured commander."
+"Objective One: Locate and rescue the captured commander."
 END
 
 MSNSTR:RDS:NODTS:N3:Objective_2
-	"Captured Commander: All right! Now get me to your drop-off point and into the evac unit."
+"Captured Commander: All right! Now get me to your drop-off point and into the evac unit."
 END
 
 MSNSTR:RDS:NODTS:N3:Prisoners
-	"Hey... over here! Help... Destroy these trucks to free us."
+"Hey... over here! Help... Destroy these trucks to free us."
 END
 
 MSNSTR:RDS:NODTS:N3:Lose
-	"MISSION FAILED"
+"MISSION FAILED"
 END
 
 MSNSTR:RDS:NODTS:N3:Win
-	"MISSION ACCOMPLISHED"
+"MISSION ACCOMPLISHED"
 END
 
 MSNSTR:RDS:NODTS:N4:Intro_1
-	"CABAL: Establish a foothold on the far side of the bridge \nand an MCV will be sent to you."
+"CABAL: Establish a foothold on the far side of the bridge \nand an MCV will be sent to you."
 END
 
 MSNSTR:RDS:NODTS:N4:Intro_2
-	"Stand and identify yourself in the name of Kane."
+"Stand and identify yourself in the name of Kane."
 END
 
 MSNSTR:RDS:NODTS:N4:Intro_3
-	"Sound the Alarm! Slavik's Forces are here!"
+"Sound the Alarm! Slavik's Forces are here!"
 END
 
 MSNSTR:RDS:NODTS:N4:PanicBuggy
-	"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
+"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
 END
 
 MSNSTR:RDS:NODTS:N4:HassanAlerted
-	"CABAL: Hassan's Base has been alerted. Attack is imminent."
+"CABAL: Hassan's Base has been alerted. Attack is imminent."
 END
 
 MSNSTR:RDS:NODTS:N4:HassanCaptured
-	"We have Hassan pinned and ready to be brought in Commander Slavik. Orders are complete."
+"We have Hassan pinned and ready to be brought in Commander Slavik. Orders are complete."
 END
 
 MSNSTR:RDS:NODTS:N4:Lose
-	"MISSION FAILED"
+"MISSION FAILED"
 END
 
 MSNSTR:RDS:NODTS:N4:Win
-	"MISSION ACCOMPLISHED"
+"MISSION ACCOMPLISHED"
 END
 
 Name:TV Station
-	"TV Station"
+"TV Station"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:Intro_2
-	"EVA: Commander Renteria, the MCV must reach the western mutant camp. \n Protect it at all costs."
+"EVA: Commander Renteria, the MCV must reach the western mutant camp. \n Protect it at all costs."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:GDI_Objective_1
-	"Objective: Guide the MCV to the Forgotten camp."
+"Objective: Guide the MCV to the Forgotten camp."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:GDI_Objective_1_Complete
-	"Objective complete"
+"Objective complete"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:GhostStalker
-	"Ghost Stalker: Commander, my clan will support you. Lead the way."
+"Ghost Stalker: Commander, my clan will support you. Lead the way."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:GhostStalker_Injured
-	"Ghost Stalker is servely injured. He will recover once we reach the destination."
+"Ghost Stalker is servely injured. He will recover once we reach the destination."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:CitySniper
-	"Sniper: Snider here, proceed with caution. This place is crawling with Nod."
+"Sniper: Snider here, proceed with caution. This place is crawling with Nod."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:RiverSniper
-	"Sniper: Corporal Pathe, reporting for duty."
+"Sniper: Corporal Pathe, reporting for duty."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:CityOnfire
-	"GDI Soldier: The city is on fire! All of it! So many people..."
+"GDI Soldier: The city is on fire! All of it! So many people..."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:ObeliskDetected
-	"EVA: Warning: Obelisk Of Light detected. \nDestroy it or find a safer route for the MCV."
+"EVA: Warning: Obelisk Of Light detected. \nDestroy it or find a safer route for the MCV."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:ObelisksFire
-	"GDI Soldier: These Obelisks are shredding our forces apart!"
+"GDI Soldier: These Obelisks are shredding our forces apart!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:OutpostAmbush
-	"GDI Soldier: Commander, our backs are to the wall here! We're being overwhelmed by Nod forces!"
+"GDI Soldier: Commander, our backs are to the wall here! We're being overwhelmed by Nod forces!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:OutpostRegained
-	"GDI Soldier: Nod is going to play dearly for this!"
+"GDI Soldier: Nod is going to play dearly for this!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithSnipers
-	"EVA: Potential ambush loctation detected. \nUse Snipers to scout and locate Nod stealth units."
+"EVA: Potential ambush loctation detected. \nUse Snipers to scout and locate Nod stealth units."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithoutSnipersDiscovered
-	"EVA: Potential ambush loctation detected. \nFind the sniper team on the mountain to scout and locate Nod stealth units."
+"EVA: Potential ambush loctation detected. \nFind the sniper team on the mountain to scout and locate Nod stealth units."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:ValleyWithNoSnipers
-	"EVA: Potential ambush loctation detected. \nProceed with caution."
+"EVA: Potential ambush loctation detected. \nProceed with caution."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:JuggernautHint
-	"Juggernaut: Sir, we can take out those Obelisks."
+"Juggernaut: Sir, we can take out those Obelisks."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:Win
-	"Mission acommplished"
+"Mission acommplished"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:WinEndGame
-	"We're here. Time to explore deeper into hell."
+"We're here. Time to explore deeper into hell."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:Lose
-	"Mission failed"
+"Mission failed"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M1:LoseEndGame
-	"The MCV has been destroyed."
+"The MCV has been destroyed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_2
-	"EVA: Welcome back Commander. \nThe GDI Council wish to know more about the region."
+"EVA: Welcome back Commander. \nThe GDI Council wish to know more about the region."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_3
-	"EVA: Through studying the Tacitus we have developed a prototype Zone suit. \nIt is completely immune to Tiberium."
+"EVA: Through studying the Tacitus we have developed a prototype Zone suit. \nIt is completely immune to Tiberium."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Intro_4
-	"EVA: The Commando will explore the area first. \nProtect him as he finds places of interest."
+"EVA: The Commando will explore the area first. \nProtect him as he finds places of interest."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_1
-	"Objective 1: Find 3 points of interest. \nThe Zone Commando MUST survive the mission."
+"Objective 1: Find 3 points of interest. \nThe Zone Commando MUST survive the mission."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_1_Complete
-	"Objective 1 complete"
+"Objective 1 complete"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_2and3
-	"Objective 2: Rescue the Zone Commando. \nObjective 3: Destroy the Nod Base."
+"Objective 2: Rescue the Zone Commando. \nObjective 3: Destroy the Nod Base."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_2_Complete
-	"Objective 2 complete"
+"Objective 2 complete"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:GDI_Objective_3_Complete
-	"Objective 3 complete"
+"Objective 3 complete"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_1
-	"GDI Scientist: On the horizon are massive formations of pure Tiberium that have welled up through the surrounding Earth."
+"GDI Scientist: On the horizon are massive formations of pure Tiberium that have welled up through the surrounding Earth."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_2
-	"GDI Scientist: Tilt your head and you'll contemplate a cloudy, tortured sky alive with twisting patterns of shimmering light and flickers of lightning."
+"GDI Scientist: Tilt your head and you'll contemplate a cloudy, tortured sky alive with twisting patterns of shimmering light and flickers of lightning."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:PointOfInterest_3
-	"GDI Scientist: The ground is a blasted and barren plateau of rock laced with veins of Tiberium that shine through with a malevolent green or blue radiance."
+"GDI Scientist: The ground is a blasted and barren plateau of rock laced with veins of Tiberium that shine through with a malevolent green or blue radiance."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:AmbushDetected
-	"Commando: I'm detecting viberations coming from undergrou..."
+"Commando: I'm detecting viberations coming from undergrou..."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Phase2Briefing
-	"EVA: Nod has captured the Zone Commando. \nThey intend to study the suit's material."
+"EVA: Nod has captured the Zone Commando. \nThey intend to study the suit's material."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Win
-	"Mission acommplished"
+"Mission acommplished"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:WinEndGame
-	"Good job Commander. We must find out why Nod is so organised here."
+"Good job Commander. We must find out why Nod is so organised here."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:Lose
-	"Mission failed"
+"Mission failed"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M2:LoseEndGame
-	"The Zone Commando has been killed."
+"The Zone Commando has been killed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_2
-	"EVA: Our spies have located a strange new Nod structure. \nThe GDI Council wants you to find out what it is used for."
+"EVA: Our spies have located a strange new Nod structure. \nThe GDI Council wants you to find out what it is used for."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:Intro_3
-	"EVA: Use this decrepit GDI base to capture Nod's \n'Tiberium Chemical Plant'."
+"EVA: Use this decrepit GDI base to capture Nod's \n'Tiberium Chemical Plant'."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:GDI_Objective_1
-	"Objective: Capture the Tiberium Chemical Plant."
+"Objective: Capture the Tiberium Chemical Plant."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:GDI_Objective_1_Complete
-	"EVA: Objective complete. Accessing Nod intelligence."
+"EVA: Objective complete. Accessing Nod intelligence."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:TheFakeFind
-	"EVA: It seems Nod knows of our Reclaimation agenda. \nThey are using this plant to try and create a new strain to slow our progress."
+"EVA: It seems Nod knows of our Reclaimation agenda. \nThey are using this plant to try and create a new strain to slow our progress."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:TheMutantsArrive
-	"EVA: Unidentifed force approaching our base."
+"EVA: Unidentifed force approaching our base."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:Reclaimation
-	"EVA: The GDI Council has fully supported the Reclamation Agenda. \nAreas with extreme Tiberium infestation are now designated as Red Zones."
+"EVA: The GDI Council has fully supported the Reclamation Agenda. \nAreas with extreme Tiberium infestation are now designated as Red Zones."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:CompositeArmour
-	"EVA: Most of our infantry cannot withstand this environment with standard equipment. \nBuild the Composite Armour upgrade at the Armoury to access all infantry options."
+"EVA: Most of our infantry cannot withstand this environment with standard equipment. \nBuild the Composite Armour upgrade at the Armoury to access all infantry options."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:CompositeArmourUpgraded
-	"EVA: Composite Armour Upgraded. \nAdditional infantry options available"
+"EVA: Composite Armour Upgraded. \nAdditional infantry options available"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:LakeHint
-	"Hint: Tempests and Falcons can travel over the lake using Amphibious Mode."
+"Hint: Tempests and Falcons can travel over the lake using Amphibious Mode."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:Abort
-	"EVA: Commander, abort mission. Our forces are being overrun by the mutants!"
+"EVA: Commander, abort mission. Our forces are being overrun by the mutants!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:Lose
-	"Mission failed"
+"Mission failed"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M3:LoseEndGame
-	"The Tiberium Chemical Plant has been destroyed."
+"The Tiberium Chemical Plant has been destroyed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_2
-	"EVA: The two major Forgotten clans have settled in this area. \nThey must be removed so the reclamation can begin."
+"EVA: The two major Forgotten clans have settled in this area. \nThey must be removed so the reclamation can begin."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Intro_3
-	"EVA: The GDI Council will not negotiate with Ghost Stalker after his mutants attacked us in during our last operation."
+"EVA: The GDI Council will not negotiate with Ghost Stalker after his mutants attacked us in during our last operation."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_1
-	"Objective 1: Destroy both Mutant outposts."
+"Objective 1: Destroy both Mutant outposts."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_1_Complete
-	"EVA: Objective 1 complete. The first MCV is entering the area. \nThe second will be here shortly."
+"EVA: Objective 1 complete. The first MCV is entering the area. \nThe second will be here shortly."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_2_Path_A
-	"Objective 2: Destroy all Mutant structures."
+"Objective 2: Destroy all Mutant structures."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:GDI_Objective_2_Path_B
-	"Objective 2: Destroy Death Dealer's base."
+"Objective 2: Destroy Death Dealer's base."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:ZoneCommandoHurt
-	"EVA: The Zone Commando has been injured. He will return to battle once healed."
+"EVA: The Zone Commando has been injured. He will return to battle once healed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice1GhostStalker
-	"Ghost Stalker: Commander, stop! My clan has not turned on GDI! \nDeath Dealer is to blame for the attack!"
+"Ghost Stalker: Commander, stop! My clan has not turned on GDI! \nDeath Dealer is to blame for the attack!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice1ZoneCommando
-	"Zone Commando: Death...who? Commander, it doesn't matter who attacked us. \nAll mutants must be removed from this land."
+"Zone Commando: Death...who? Commander, it doesn't matter who attacked us. \nAll mutants must be removed from this land."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice2GhostStalker
-	"Ghost Stalker: So the Reclamation Agenda is real. This place is the last refuge for us. \nI ask as an ally. Please, not here."
+"Ghost Stalker: So the Reclamation Agenda is real. This place is the last refuge for us. \nI ask as an ally. Please, not here."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Choice2ZoneCommando
-	"Zone Commando: Remember why you are here, Commander. Tiberium must be destroyed... \nAt all costs."
+"Zone Commando: Remember why you are here, Commander. Tiberium must be destroyed... \nAt all costs."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:MakeTheChoice
-	"Select Ghost Stalker to side with the Forgotten. \nSelect the Zone Commando to stay loyal to GDI."
+"Select Ghost Stalker to side with the Forgotten. \nSelect the Zone Commando to stay loyal to GDI."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI1
-	"Zone Commando: Wise choice, Commander. The reclamation of Earth starts today."
+"Zone Commando: Wise choice, Commander. The reclamation of Earth starts today."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI2
-	"EVA: Ghost Stalker has allied with the other mutant clan. \nThe Forgotten is united against us"
+"EVA: Ghost Stalker has allied with the other mutant clan. \nThe Forgotten is united against us"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI3
-	"EVA: The 2nd MCV has arrived. It will be under your command when deployed."
+"EVA: The 2nd MCV has arrived. It will be under your command when deployed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI32
-	"EVA: The 2nd MCV has deployed, Commander."
+"EVA: The 2nd MCV has deployed, Commander."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI4
-	"GDI Scientist: The Tacitus has shown us TIberium's resonance frequency. \nWith it, we have crafted the Sonic Emitter."
+"GDI Scientist: The Tacitus has shown us TIberium's resonance frequency. \nWith it, we have crafted the Sonic Emitter."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGDI42
-	"GDI Scientist: The sonic weapon shatters the crystal into nothing. \nUse it to break down Tiberium and Shiner alike."
+"GDI Scientist: The sonic weapon shatters the crystal into nothing. \nUse it to break down Tiberium and Shiner alike."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:GhostStalkerKilled
-	"Zone Commando: Ghost Stalker is dead. I'm sorry, but it was necessary, Commander."
+"Zone Commando: Ghost Stalker is dead. I'm sorry, but it was necessary, Commander."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost1
-	"Ghost Stalker: Thank you. You have saved my people. \nNow let us save yours."
+"Ghost Stalker: Thank you. You have saved my people. \nNow let us save yours."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost12
-	"EVA:The GDI Council has recalled the 2nd MCV because of your mutiny."
+"EVA:The GDI Council has recalled the 2nd MCV because of your mutiny."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost2
-	"Ghost Stalker: Death Dealer is overruning my clan. \nI'm moving my MCV to a safer position."
+"Ghost Stalker: Death Dealer is overruning my clan. \nI'm moving my MCV to a safer position."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost3
-	"Ghost Stalker: Commander, I'm granting you use of my construction yard."
+"Ghost Stalker: Commander, I'm granting you use of my construction yard."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:SideWithGhost4
-	"Ghost Stalker: Death Dealer isn't the only one who can control the weather. \nConstruct our superweapon to counter hers."
+"Ghost Stalker: Death Dealer isn't the only one who can control the weather. \nConstruct our superweapon to counter hers."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:ClearSkyHint
-	"Hint: The Disruptor's 'Clear Sky' ability can neutralise small Ion Storms."
+"Hint: The Disruptor's 'Clear Sky' ability can neutralise small Ion Storms."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:DeathReclamator
-	"WARNING: Large unidentified vehicle approaching."
+"WARNING: Large unidentified vehicle approaching."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:GhostStalkerClanDestroyed
-	"EVA: Ghost Stalker's Clan has been defeated. \nThe survivors are fleeing the area."
+"EVA: Ghost Stalker's Clan has been defeated. \nThe survivors are fleeing the area."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:DeathClanDestroyed
-	"EVA: The second mutant clan has fallen. \nGood work, Commander."
+"EVA: The second mutant clan has fallen. \nGood work, Commander."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Lose
-	"Mission failed"
+"Mission failed"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:WinEndGame
-	"EVA: Commander, evidence of Nod Divination serum has been found. \nSending data to the GDI Council now."
+"EVA: Commander, evidence of Nod Divination serum has been found. \nSending data to the GDI Council now."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M4:Win
-	"Mission accomplished"
+"Mission accomplished"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:Chem_SelfDestruct_Timer
-	"Chemical Plants self-destruct in:"
+"Chemical Plants self-destruct in:"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:MissionBriefing
-	"EVA: Commander, the GDI Council needs you to capture the Divination production structures. \nWe can then safely destroy the mutagen Nod has created and all research files."
+"EVA: Commander, the GDI Council needs you to capture the Divination production structures. \nWe can then safely destroy the mutagen Nod has created and all research files."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:SelfDestruct60minsStarted
-	"RED ALERT: Nod has set the Chemical Plants to self-destruct in 60 minutes. \nThis area will become a complete Tiberium wasteland if they succeed."
+"RED ALERT: Nod has set the Chemical Plants to self-destruct in 60 minutes. \nThis area will become a complete Tiberium wasteland if they succeed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:SelfDestruct40minsStarted
-	"RED ALERT: Nod has set the Chemical Plants to self-destruct in 40 minutes. \nThis area will become a complete Tiberium wasteland if they succeed."
+"RED ALERT: Nod has set the Chemical Plants to self-destruct in 40 minutes. \nThis area will become a complete Tiberium wasteland if they succeed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:GDI_Objective_1
-	"Objective: Locate and capture all 3 Tiberium Chemical Plants \nand the Temple of Nod."
+"Objective: Locate and capture all 3 Tiberium Chemical Plants \nand the Temple of Nod."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:GDI_Objective_1_Complete
-	"EVA: Objective complete. Erasing all data regarding Nod Divination from Temple archives."
+"EVA: Objective complete. Erasing all data regarding Nod Divination from Temple archives."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:TempleCaptured
-	"EVA: Temple of Nod captured. Erasing all Nod Divination data from Temple archives."
+"EVA: Temple of Nod captured. Erasing all Nod Divination data from Temple archives."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:1ChemicalPlantCaptured
-	"EVA: The first Chemical Plant has been captured. Self-destruct aborted."
+"EVA: The first Chemical Plant has been captured. Self-destruct aborted."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:2ChemicalPlantsCaptured
-	"EVA: The second Chemical Plant has been captured. Self-destruct aborted."
+"EVA: The second Chemical Plant has been captured. Self-destruct aborted."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:3ChemicalPlantsCaptured
-	"EVA: The final Chemical Plant has been captured. Self-destruct aborted."
+"EVA: The final Chemical Plant has been captured. Self-destruct aborted."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:NodVertigoBombers
-	"EVA: Nod has expanded their cloaking technology. \nUse Snipers, Falcons and Orcas to detect stealth units before they can attack."
+"EVA: Nod has expanded their cloaking technology. \nUse Snipers, Falcons and Orcas to detect stealth units before they can attack."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:ChemicalPlantUnderAttack
-	"EVA: Do not allow the Chemical Plants to be destroyed. \nThe environmental damage will be catastrophic."
+"EVA: Do not allow the Chemical Plants to be destroyed. \nThe environmental damage will be catastrophic."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:TempleOfNodUnderAttack
-	"EVA: Do not allow the Temple of Nod to be destroyed. \nWe must capture it to erase all data on Divination research."
+"EVA: Do not allow the Temple of Nod to be destroyed. \nWe must capture it to erase all data on Divination research."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseChemicalPlant
-	"Mission failed \nA Tiberium Chemical Plant has been destroyed."
+"Mission failed \nA Tiberium Chemical Plant has been destroyed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseTempleOfNod
-	"Mission failed \nThe Temple of Nod has been destroyed."
+"Mission failed \nThe Temple of Nod has been destroyed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:LoseSelfDestruct
-	"Mission failed \nThe Chemical Plans have self-destructed."
+"Mission failed \nThe Chemical Plans have self-destructed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:WinEndGame
-	"Good work, Commander. Nod's plans of Divination has come to an end."
+"Good work, Commander. Nod's plans of Divination has come to an end."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:WinEndGame2
-	"We cannot allow the public to know about our war against the Forgotten. \nAll files regarding this expidition will be destroyed."
+"We cannot allow the public to know about our war against the Forgotten. \nAll files regarding this expidition will be destroyed."
 END
 
 MSNSTR:RDS:ACT_I_ZOCOM:M5:Win
-	"Mission accomplished"
+"Mission accomplished"
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN1
-	"Click on your units to select them."
+"Click on your units to select them."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN2
-	"Once selected, right-click where you want the unit(s) to move."
+"Once selected, right-click where you want the unit(s) to move."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN3
-	"You can unselect the selected unit(s) by left-clicking."
+"You can unselect the selected unit(s) by left-clicking."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN4
-	"As you move, you reveal terrain, structures, and enemy units."
+"As you move, you reveal terrain, structures, and enemy units."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN5
-	"To attack, select your unit(s), then right-click on the enemy unit or structure."
+"To attack, select your unit(s), then right-click on the enemy unit or structure."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN6
-	"If you left-click and hold, you can make a band box to select many units at once."
+"If you left-click and hold, you can make a band box to select many units at once."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN7
-	"Crates contain power-ups and other bonuses."
+"Crates contain power-ups and other bonuses."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN9
-	"Bridges can be destroyed and repaired."
+"Bridges can be destroyed and repaired."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN10
-	"To repair a bridge select an engineer, and send it into the bridge hut."
+"To repair a bridge select an engineer, and send it into the bridge hut."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MNP
-	"Commander, intel has just intercepted Nod transmissions from this sector. We believe Nod is setting up a staging base to launch attacks on GDI forces. GDI command wants you to take them out."
+"Commander, intel has just intercepted Nod transmissions from this sector. We believe Nod is setting up a staging base to launch attacks on GDI forces. GDI command wants you to take them out."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN11
-	"Excellent work, Commander!"
+"Excellent work, Commander!"
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN12
-	"Tiberium is a strange mineral that is collected and refined for money"
+"Tiberium is a strange mineral that is collected and refined for money"
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:MN13
-	"Every unit has different abilities. These MLRS can cross water in amphibious mode."
+"Every unit has different abilities. These MLRS can cross water in amphibious mode."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:M1
-	"Explore the city and destroy all Nod forces."
+"Explore the city and destroy all Nod forces."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:M1_detail
-	"Destroy all Nod units in the city using the units provided."
+"Destroy all Nod units in the city using the units provided."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:M2
-	"Destroy the Nod outpost."
+"Destroy the Nod outpost."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO1:M2_detail
-	"Destroy the Nod outpost."
+"Destroy the Nod outpost."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA1
-	"GDI has already established the basics of your base for you."
+"GDI has already established the basics of your base for you."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA2
-	"To build structures or units, left-click on their pictures on the sidebar. \nWhen a structure is ready, click on it, then place it on the map."
+"To build structures or units, left-click on their pictures on the sidebar. \nWhen a structure is ready, click on it, then place it on the map."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA3
-	"A barracks will allow you to train infantry-type units."
+"A barracks will allow you to train infantry-type units."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA4
-	"Power plants will increase the amount of power in your base, try building one."
+"Power plants will increase the amount of power in your base, try building one."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA5
-	"A Tiberium Refinery allows you to collect Tiberium and make more money."
+"A Tiberium Refinery allows you to collect Tiberium and make more money."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA6
-	"The War Factory lets you produce vehicle-type units."
+"The War Factory lets you produce vehicle-type units."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA7
-	"The Command Post allows you to see a map of the battlefield, including enemy objects. \nIt also allows you to gain access to upgrades."
+"The Command Post allows you to see a map of the battlefield, including enemy objects. \nIt also allows you to gain access to upgrades."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA9
-	"To make money, build a Tiberium refinery."
+"To make money, build a Tiberium refinery."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA10
-	"The harvester will automatically harvest the nearest patch of Tiberium."
+"The harvester will automatically harvest the nearest patch of Tiberium."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA11
-	"To keep power up, build more power plants."
+"To keep power up, build more power plants."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA12
-	"Silos hold extra money so you don't lose any when the refinery is full."
+"Silos hold extra money so you don't lose any when the refinery is full."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA13
-	"Vulcan cannons towers are used to defend your base."
+"Vulcan cannons towers are used to defend your base."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA14
-	"Veinhole monsters can attack any non-infantry unit that touches their veins."
+"Veinhole monsters can attack any non-infantry unit that touches their veins."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA16
-	"To repair, left-click on the repair wrench then the damaged structure."
+"To repair, left-click on the repair wrench then the damaged structure."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:M1
-	"Establish a base."
+"Establish a base."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:M1_detail
-	"Establish a base to prepare your attack on Nod."
+"Establish a base to prepare your attack on Nod."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:M2
-	"Destroy the Nod base."
+"Destroy the Nod base."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:M2_detail
-	"Find the Nod base, and destroy all structures to secure the area."
+"Find the Nod base, and destroy all structures to secure the area."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:Brief
-	"Nod forces are faster than we thought. The staging base you destroyed was a secondary base they were bringing on-line. We've located their main base, and need it removed in order to secure the area."
+"Nod forces are faster than we thought. The staging base you destroyed was a secondary base they were bringing on-line. We've located their main base, and need it removed in order to secure the area."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:Final
-	"End of the Demo! \nThank you for playing!"
+"End of the Demo! \nThank you for playing!"
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:M3
-	"Destroy the Veinhole."
+"Destroy the Veinhole."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:M3_detail
-	"Destroy the Veinhole monster to allow GDI vehicles to pass and get access to the Nod base."
+"Destroy the Veinhole monster to allow GDI vehicles to pass and get access to the Nod base."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA15
-	"Tiberium damages infantry-type units as they cross it. Keep them away if possible."
+"Tiberium damages infantry-type units as they cross it. Keep them away if possible."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA17
-	"These sentry towers are garrisonable buildings from which your infantry can shoot if sent into."
+"These sentry towers are garrisonable buildings from which your infantry can shoot if sent into."
 END
 
 MSNSTR:NEXCTUS:TSM:DEMO2:EVA18
-	"The Armory allows you to create more advanced infantry and gain access to upgrades."
+"The Armory allows you to create more advanced infantry and gain access to upgrades."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI1:M1
-	"Build a Tiberium Refinery."
+"Build a Tiberium Refinery."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI1:M1_detail
-	"Build a Tiberium Refinery and begin harvesting the Tiberium to the southeast."
+"Build a Tiberium Refinery and begin harvesting the Tiberium to the southeast."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI1:M2
-	"Build a Barracks."
+"Build a Barracks."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI1:M2_detail
-	"Build a Barracks to create more infantry."
+"Build a Barracks to create more infantry."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI1:M3
-	"Destroy all Nod forces in the area."
+"Destroy all Nod forces in the area."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI1:M3_detail
-	"Destroy all Nod forces in the area to protect Phoenix's base."
+"Destroy all Nod forces in the area to protect Phoenix's base."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:MN1
-	"Deploy the M.C.V. by selecting it and by using its deploy ability."
+"Deploy the M.C.V. by selecting it and by using its deploy ability."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:MN2
-	"To build or train left-click on the icons located in the sidebar."
+"To build or train left-click on the icons located in the sidebar."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:M1
-	"Deploy the M.C.V. and begin building a base."
+"Deploy the M.C.V. and begin building a base."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:M1_detail
-	"Deploy the M.C.V. and begin building a base."
+"Deploy the M.C.V. and begin building a base."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:M2
-	"Destroy all Nod SAM sites."
+"Destroy all Nod SAM sites."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:M2_detail
-	"Destroy all Nod SAM sites to allow Orca Transports to rescue the civilians."
+"Destroy all Nod SAM sites to allow Orca Transports to rescue the civilians."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:M3
-	"Destroy the Nod base."
+"Destroy the Nod base."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:M3_detail
-	"Destroy the Nod base to secure the region."
+"Destroy the Nod base to secure the region."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:Titan
-	"You cannot build Titans now."
+"You cannot build Titans now."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI2:CivK
-	"A civilian died."
+"A civilian died."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:M1
-	"Destroy all Nod structures."
+"Destroy all Nod structures."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:M1_detail
-	"Destroy all Nod structures to secure the area."
+"Destroy all Nod structures to secure the area."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:M2
-	"Capture the train station."
+"Capture the train station."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:M2_detail
-	"Capture the train station."
+"Capture the train station."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:BM
-	"Capture the Relay Stations."
+"Capture the Relay Stations."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:BM_detail
-	"Capture the Relay Stations to allow reinforcements to come."
+"Capture the Relay Stations to allow reinforcements to come."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:TRein
-	"Current weapon range insufficient. Weapon drop in progress..."
+"Current weapon range insufficient. Weapon drop in progress..."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:Warning
-	"Nod base is heavily guarded by lasers. Suggestion: destroying power plants to west may cause overload."
+"Nod base is heavily guarded by lasers. Suggestion: destroying power plants to west may cause overload."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:Bug3
-	"Nod Buggy: GDI Forces Spotted! Falling back to alert base."
+"Nod Buggy: GDI Forces Spotted! Falling back to alert base."
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:NEng
-	"Nod Buggy: GDI forces spotted. Blow the bridge!"
+"Nod Buggy: GDI forces spotted. Blow the bridge!"
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:TownManager
-	"Town Manager: Thanks for the help!"
+"Town Manager: Thanks for the help!"
 END
 
 MSNSTR:NEXCTUS:TSM:GDI3B:PowOver
-	"Power Overload in progress..."
+"Power Overload in progress..."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:MN2
-	"Construct more Power Plants."
+"Construct more Power Plants."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:MN2_detail
-	"Power levels are low. Construct more Power Plants."
+"Power levels are low. Construct more Power Plants."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:M1
-	"Destroy all of Hassan's elite guard."
+"Destroy all of Hassan's elite guard."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:M1_detail
-	"Secure the area by destroying all of Hassan's elite guard."
+"Secure the area by destroying all of Hassan's elite guard."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:M2
-	"Build a Tiberium Refinery."
+"Build a Tiberium Refinery."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:M2_detail
-	"To get production online build a Tiberium Refinery."
+"To get production online build a Tiberium Refinery."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:MN1
-	"Base perimeter has been breached !"
+"Base perimeter has been breached !"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD1:MN3
-	"Harvest the Tiberium to the north."
+"Harvest the Tiberium to the north."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:M1
-	"Capture Hassan's T.V. station to the east."
+"Capture Hassan's T.V. station to the east."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:M1_detail
-	"Capture Hassan's T.V. station to the east to bring those once loyal to Kane's technology of peace."
+"Capture Hassan's T.V. station to the east to bring those once loyal to Kane's technology of peace."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:M2
-	"Destroy the remaining forces of Hassan."
+"Destroy the remaining forces of Hassan."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:M2_detail
-	"Destroy or isolate the remaining forces of Hassan in this area."
+"Destroy or isolate the remaining forces of Hassan in this area."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:MN1
-	"Ennemy: The traitors are coming, destroy the bridge !"
+"Ennemy: The traitors are coming, destroy the bridge !"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:MN2
-	"****BROADCASTING****"
+"****BROADCASTING****"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD2:MN3
-	"Reinforcements: We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. PEACE THROUGH POWER!"
+"Reinforcements: We've been touched by the spirit hand of Kane, and are ready to serve the technology of peace. PEACE THROUGH POWER!"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:M1
-	"Free the rebel commander"
+"Free the rebel commander"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:M1_detail
-	"Locate and free the Rebel Nod Commander"
+"Locate and free the Rebel Nod Commander"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:M2
-	"Escort the Commander to the drop-off site"
+"Escort the Commander to the drop-off site"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:M2_detail
-	"Escort the Commander to the drop-off site"
+"Escort the Commander to the drop-off site"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:BM
-	"Free the Nod forces"
+"Free the Nod forces"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:BM_detail
-	"Free the Nod forces"
+"Free the Nod forces"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:MN1
-	"Hey... over here ! Help... Destroy these trucks to free us."
+"Hey... over here ! Help... Destroy these trucks to free us."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD3:MN2
-	"Captured Commander: All right ! Now get me to your drop-off site and into the evac unit."
+"Captured Commander: All right ! Now get me to your drop-off site and into the evac unit."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:M1
-	"Establish a foothold"
+"Establish a foothold"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:M1_detail
-	"Establish a foothold and an MCV will be sent in to you."
+"Establish a foothold and an MCV will be sent in to you."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:M2
-	"Destroy Hassan's temple"
+"Destroy Hassan's temple"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:M2_detail
-	"Destroy Hassan's temple to capture him."
+"Destroy Hassan's temple to capture him."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:MN1
-	"Hassan Soldier: Stand and Indentify yourself in the name of Kane... Sound the Alarm! Slavik's Forces are here!"
+"Hassan Soldier: Stand and Indentify yourself in the name of Kane... Sound the Alarm! Slavik's Forces are here!"
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:MN2
-	"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
+"Hassan Soldier: Hold them here! I will alert Hassan to their presence."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:MN3
-	"Cabaal: Hassan's base has been alerted. Attack is imminent."
+"Cabaal: Hassan's base has been alerted. Attack is imminent."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:MN4
-	"Cabaal: MCV has arrived to the southeast."
+"Cabaal: MCV has arrived to the southeast."
 END
 
 MSNSTR:NEXCTUS:TSM:NOD4:MN5
-	"Slavik's Troop: We have Hassan pinned and ready to be brought in Commander Slavick. Orders are complete."
+"Slavik's Troop: We have Hassan pinned and ready to be brought in Commander Slavick. Orders are complete."
 END
 
 MSNSTR:aymcam:BlueFase:Objective_1
-	"Destroy the GDI outpost"
+"Destroy the GDI outpost"
 END
 
 MSNSTR:aymcam:BlueFase:Objective_1_Detail
-	"Destroy the GDI outpost, this will show our ferver to the GDI eyes. for Kane !"
+"Destroy the GDI outpost, this will show our ferver to the GDI eyes. for Kane !"
 END
 
 MSNSTR:aymcam:BlueFase:Objective_2
-	"Destroy the Main GDI base in the north"
+"Destroy the Main GDI base in the north"
 END
 
 MSNSTR:aymcam:BlueFase:Objective_2_Detail
-	"Destroy the Main GDI base in the north, and espeacially the research lab"
+"Destroy the Main GDI base in the north, and espeacially the research lab"
 END
 
 MSNSTR:aymcam:BlueFase:Objective_3
-	"Capture some resources for our goal"
+"Capture some resources for our goal"
 END
 
 MSNSTR:aymcam:BlueFase:Objective_3_Detail
-	"Capture some resources for our goal, the GDI have build new silo type to contain the tiberium riparus in the area"
+"Capture some resources for our goal, the GDI have build new silo type to contain the tiberium riparus in the area"
 END
 
 MSNSTR:aymcam:BlueFase:CABAL1
-	"EVA: this is time to strike again"
+"EVA: this is time to strike again"
 END
 
 MSNSTR:aymcam:BlueFase:CABAL2
-	"EVA: our brother begins the attack in the Red Zone"
+"EVA: our brother begins the attack in the Red Zone"
 END
 
 MSNSTR:aymcam:BlueFase:CABAL3
-	"EVA: destroy the GDI roots in the region along side Cabal"
+"EVA: destroy the GDI roots in the region along side Cabal"
 END
 
 MSNSTR:RDS:VillainessInDistress:TSNod_Objective_1
-	"Objective One: Locate and free Oxanna (Commando)."
+"Objective One: Locate and free Oxanna (Commando)."
 END
 
 MSNSTR:RDS:VillainessInDistress:TSNod_Objective_2
-	"Objective Two: Get Slavik (Black Hand Elite) and Oxanna (Commando) near to the GDI Transport."
+"Objective Two: Get Slavik (Black Hand Elite) and Oxanna (Commando) near to the GDI Transport."
 END
 
 MSNSTR:RDS:VillainessInDistress:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:VillainessInDistress:PullOver
-	"Pull over for inspection!"
+"Pull over for inspection!"
 END
 
 MSNSTR:RDS:VillainessInDistress:Clear
-	"O.K! You're clear to enter!"
+"O.K! You're clear to enter!"
 END
 
 MSNSTR:RDS:VillainessInDistress:ControlOnline
-	"****BATTLEFIELD CONTROL ESTABLISHED**** \n We should rendezvous with the rescue team to the south"
+"****BATTLEFIELD CONTROL ESTABLISHED**** \n We should rendezvous with the rescue team to the south"
 END
 
 MSNSTR:RDS:VillainessInDistress:CritcalUnitUnderAttack
-	"*Critical Unit Under Attack!*"
+"*Critical Unit Under Attack!*"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:Intro1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:MissionBriefing
-	"Buggy Driver: Slavik is dead! \nWe need to get outta here!."
+"Buggy Driver: Slavik is dead! \nWe need to get outta here!."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_1
-	"Objective 1: Destroy the transport to rescue the Saboteurs."
+"Objective 1: Destroy the transport to rescue the Saboteurs."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_1_Complete
-	"EVA: Objective 1 complete. \nSaboteurs rescued."
+"EVA: Objective 1 complete. \nSaboteurs rescued."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_2
-	"Objective 2: Capture Marcion's Construction Yard."
+"Objective 2: Capture Marcion's Construction Yard."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_2_Complete
-	"EVA: Objective 2 complete. \nMCV stolen."
+"EVA: Objective 2 complete. \nMCV stolen."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:BlackHand_Objective_3
-	"Objective 3: Get the MCV to Death Dealer's outpost."
+"Objective 3: Get the MCV to Death Dealer's outpost."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:CaptureHint
-	"Hint: Capture Marcion's structures to build additional troops."
+"Hint: Capture Marcion's structures to build additional troops."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:ShrineHint
-	"Hint: Capture Secret Shrines to gain an elite Black Hand Squad."
+"Hint: Capture Secret Shrines to gain an elite Black Hand Squad."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:FlameTeamLocated
-	"Flame Tank: You are the true successor to Slavik, Commander!"
+"Flame Tank: You are the true successor to Slavik, Commander!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:ScorpionTeamLocated
-	"Scorpion Tank: Marcion's new tanks are ****!"
+"Scorpion Tank: Marcion's new tanks are ****!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:LoseStandard
-	"Mission failed \nThe True Black Hand is dead."
+"Mission failed \nThe True Black Hand is dead."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:LoseSabotuersHandOfNodNoCash
-	"Mission failed \nWe cannot produce more Sabotuers."
+"Mission failed \nWe cannot produce more Sabotuers."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:LoseMCV
-	"Mission failed \nMCV Destroyed."
+"Mission failed \nMCV Destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:WinEndGame
-	"Death Dealer: Good work, Commander. \nWe are safe... for now."
+"Death Dealer: Good work, Commander. \nWe are safe... for now."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M1:Win
-	"Mission accomplished"
+"Mission accomplished"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_1
-	"OBJECTIVE 1: GATHER 40,000 CREDITS BY DESTROYING MUTANT HARVESTERS, REFINERIES and Silos."
+"OBJECTIVE 1: GATHER 40,000 CREDITS BY DESTROYING MUTANT HARVESTERS, REFINERIES and Silos."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_1_Complete
-	"EVA: Objective 1 complete. \n40,000 credits aquired."
+"EVA: Objective 1 complete. \n40,000 credits aquired."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_2
-	"Objective 2: Capture the GDI Command Post."
+"Objective 2: Capture the GDI Command Post."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:BlackHand_Objective_2_Complete
-	"EVA: OBJECTIVE 2 COMPLETE.\NSABOTEUR: I'VE FOUND SOMETHING...'RECLAMATION Aganda' Downloading file now."
+"EVA: OBJECTIVE 2 COMPLETE.\NSABOTEUR: I'VE FOUND SOMETHING...'RECLAMATION Aganda' Downloading file now."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:CaptureHint
-	"Hint: Capture Refineries when a Harvester is unloading to gain control of both."
+"Hint: Capture Refineries when a Harvester is unloading to gain control of both."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:Gain20000credits
-	"DEATH DEALER: GOOD START, COMMANDER. BUT WE NEED MORE!\NI'M GIFTING YOU MY savage Marauders. Use them well."
+"DEATH DEALER: GOOD START, COMMANDER. BUT WE NEED MORE!\NI'M GIFTING YOU MY savage Marauders. Use them well."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:GainAscensionSquad
-	"DEATH DEALER: MY ASCENDED SQAUD WILL MAKE OUR ENEMIES REGRET THEIR existance. \nBuild them from your Secret Shrine."
+"DEATH DEALER: MY ASCENDED SQAUD WILL MAKE OUR ENEMIES REGRET THEIR existance. \nBuild them from your Secret Shrine."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:GDIDetected
-	"EVA: WARNING: GDI FORCES DETECTED.\NIT IS ESSENTIAL THAT WE FIND OUT WHAT THEY are doing here."
+"EVA: WARNING: GDI FORCES DETECTED.\NIT IS ESSENTIAL THAT WE FIND OUT WHAT THEY are doing here."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:CommandPostUnderAttack
-	"DO NOT destroy the Command Post. \nYou must capture it."
+"DO NOT destroy the Command Post. \nYou must capture it."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:LoseStandard
-	"Mission failed \nYou have marred the memory of Kane."
+"Mission failed \nYou have marred the memory of Kane."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:LoseCommandPost
-	"Mission failed \nCommand Post destroyed."
+"Mission failed \nCommand Post destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M2:Win
-	"Mission accomplished"
+"Mission accomplished"
 END
 
 NAME:NODConfessorSquad
-	"Confessor Squad"
+"Confessor Squad"
 END
 
 TYPE:NODConfessorSquad
-	"Highly trained basic infantry."
+"Highly trained basic infantry."
 END
 
 DESC:NODConfessorSquad
-	"Abilities: \n     »None"
+"Abilities: \n     »None"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:Intro_2
-	"Death Dealer: It is time to show the Forgotten who the real enemy is."
+"Death Dealer: It is time to show the Forgotten who the real enemy is."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:Intro_3
-	"Death Dealer: Capturing a Mutant Sanctuary will allow us to leak the Reclamation Agenda, \nwithout the risk of exposing Black Hand influence."
+"Death Dealer: Capturing a Mutant Sanctuary will allow us to leak the Reclamation Agenda, \nwithout the risk of exposing Black Hand influence."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:Intro_4
-	"Black Hand Marauder: The GDI patrol has left. It is safe to deploy."
+"Black Hand Marauder: The GDI patrol has left. It is safe to deploy."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_1
-	"Objective 1: Locate and capture the Mutant Sanctuary."
+"Objective 1: Locate and capture the Mutant Sanctuary."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_1_Complete
-	"EVA: Objective 1 complete. \nBroadcasting Reclamation Agenda...Stand By."
+"EVA: Objective 1 complete. \nBroadcasting Reclamation Agenda...Stand By."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_2
-	"Objective 2: Allow GDI to destroy the Mutant village."
+"Objective 2: Allow GDI to destroy the Mutant village."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_2_Complete
-	"EVA: Objective 2 complete. \nThe Mutants are starting to retaliate against GDI."
+"EVA: Objective 2 complete. \nThe Mutants are starting to retaliate against GDI."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_3
-	"Objective 3: Eliminate the GDI base."
+"Objective 3: Eliminate the GDI base."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BlackHand_Objective_3_Complete
-	"EVA: Objective 3 complete."
+"EVA: Objective 3 complete."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:NextStage
-	"Death Dealer: It is certain that GDI will blame Ghost Stalker for this attack. We 	will use the confusion to move to the next stage of Kane's will."
+"Death Dealer: It is certain that GDI will blame Ghost Stalker for this attack. We 	will use the confusion to move to the next stage of Kane's will."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BadNews
-	"Mutant: What's this?! Those Blunt backstabbers! \nI must tell the others!"
+"Mutant: What's this?! Those Blunt backstabbers! \nI must tell the others!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BadNews2
-	"Mutant: Everyone! Look at this! \nGDI are planning to destroy us all!"
+"Mutant: Everyone! Look at this! \nGDI are planning to destroy us all!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BadNews3
-	"Mutant Leader: I knew we shouldn't have trusted Ghost! \nDestroy the ********!"
+"Mutant Leader: I knew we shouldn't have trusted Ghost! \nDestroy the ********!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:BadNews4
-	"Mutant Soldier: DIE SCUM!"
+"Mutant Soldier: DIE SCUM!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:GDIRevengeTeamAttacked
-	"GDI Soldier: Mass mutant aggression confirmed! Shoot to kill!"
+"GDI Soldier: Mass mutant aggression confirmed! Shoot to kill!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:MutantRebellionBegins
-	"Death Dealer: It has begun. \nJoin the battle and start the fire that will turn GDI 	to mere ash!"
+"Death Dealer: It has begun. \nJoin the battle and start the fire that will turn GDI 	to mere ash!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:LoseSanctuary
-	"Mission failed \nSanctuary destroyed."
+"Mission failed \nSanctuary destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:LoseAttackedGDI
-	"Mission failed. You attacked GDI. \nI never thought I'd have to say that was a failure but here we are..."
+"Mission failed. You attacked GDI. \nI never thought I'd have to say that was a failure but here we are..."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M3:Win
-	"Mission accomplished"
+"Mission accomplished"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:DeathShrine_Counter
-	"Divine Shrines remaining:"
+"Divine Shrines remaining:"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Invasion_Timer
-	"ZOCOM invasion:"
+"ZOCOM invasion:"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:DivineOne_Timer
-	"Divination stage one complete in:"
+"Divination stage one complete in:"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:DivineTwo_Timer
-	"Divination stage two complete in:"
+"Divination stage two complete in:"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Lee
-	"In memory of Lee. \nWish You Were Here."
+"In memory of Lee. \nWish You Were Here."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Intro_2
-	"Death Dealer: This lab will be the birth place of the Divine."
+"Death Dealer: This lab will be the birth place of the Divine."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Intro_3
-	"Death Dealer: These Secret Shrines hold my future kind. \nProtect them."
+"Death Dealer: These Secret Shrines hold my future kind. \nProtect them."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Intro_4
-	"Death Dealer: This mission is critical. \nA second Nod commander will assist your defence here."
+"Death Dealer: This mission is critical. \nA second Nod commander will assist your defence here."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_1
-	"Objective 1: Build up your forces before ZOCOM invades."
+"Objective 1: Build up your forces before ZOCOM invades."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_1_Complete
-	"EVA: Objective 1 complete. \nHold your ground. Your ally will assist you."
+"EVA: Objective 1 complete. \nHold your ground. Your ally will assist you."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_EASY
-	"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. At least ONE Shrine must survive."
+"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. At least ONE Shrine must survive."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_NORMAL
-	"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. At least FOUR Shrines must survive."
+"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. At least FOUR Shrines must survive."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_HARD
-	"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. ALL Shrines must survive."
+"Objective 2: Protect the Lab Structures \nObjective 3: Defend Death Dealer's Divine Shrines. ALL Shrines must survive."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_2_Complete
-	"EVA: Objectives 2 and 3 complete. \nWe can now begin the final phase of Divination."
+"EVA: Objectives 2 and 3 complete. \nWe can now begin the final phase of Divination."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_3
-	"Objective 4: Protect Death Dealer's Lab structures for 30 minutes \nOR Destroy both ZOCOM Bases."
+"Objective 4: Protect Death Dealer's Lab structures for 30 minutes \nOR Destroy both ZOCOM Bases."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BlackHand_Objective_3_Complete
-	"EVA: Objective 4 complete. \nWe cannot hold out for long. We must evactuate with the Divine."
+"EVA: Objective 4 complete. \nWe cannot hold out for long. We must evactuate with the Divine."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:StealthTech
-	"Death Dealer: Our next-gen stealth technology is ready for use. \nUse Vertigos and Cobras to strike fear into ZOCOM's black heart."
+"Death Dealer: Our next-gen stealth technology is ready for use. \nUse Vertigos and Cobras to strike fear into ZOCOM's black heart."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:ShrineUnderAttack
-	"A Divine Shrine is under attack. \nYou must defend it!"
+"A Divine Shrine is under attack. \nYou must defend it!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:LoseOneShrine
-	"Divine Shrine destroyed. \nProtect the others!"
+"Divine Shrine destroyed. \nProtect the others!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:LoseShrines
-	"Mission failed \nToo many Divine Shrines were destroyed."
+"Mission failed \nToo many Divine Shrines were destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:LoseLabStructure
-	"Mission failed \nA lab structure was destroyed."
+"Mission failed \nA lab structure was destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:BuiltWeatherController
-	"Death Dealer: I will not allow ZOCOM to use one more Ion Cannon!"
+"Death Dealer: I will not allow ZOCOM to use one more Ion Cannon!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:ZOCOM1Destroyed
-	"The main ZOCOM base has been destroyed."
+"The main ZOCOM base has been destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:ZOCOM2Destroyed
-	"The forward ZOCOM base has been destroyed."
+"The forward ZOCOM base has been destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M4:Win
-	"Mission accomplished"
+"Mission accomplished"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:DivineTwo_Timer
-	"Divination stage two complete in:"
+"Divination stage two complete in:"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Intro_1
-	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Intro_2
-	"Death Dealer: We have lost contact with the Commando's team. Find them."
+"Death Dealer: We have lost contact with the Commando's team. Find them."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:ControlOnline
-	"****BATTLE CONTROL EXPANDED****"
+"****BATTLE CONTROL EXPANDED****"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_1
-	"Objective 1: Locate the missing Commando's team."
+"Objective 1: Locate the missing Commando's team."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_1_Complete
-	"EVA: Objective 1 complete. The Shadows will return to the main force."
+"EVA: Objective 1 complete. The Shadows will return to the main force."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_2
-	"Objective 2: Capture the Ion Cannon Control Centre."
+"Objective 2: Capture the Ion Cannon Control Centre."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_2_Complete
-	"EVA: Objective 2 complete. \nWe now control the Ion Cannon."
+"EVA: Objective 2 complete. \nWe now control the Ion Cannon."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_3
-	"Objective 3: Burn down the ZOCOM base."
+"Objective 3: Burn down the ZOCOM base."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_3_Complete
-	"EVA: Objective 3 complete. \nMCV en route."
+"EVA: Objective 3 complete. \nMCV en route."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_4
-	"Objective 4: Destroy ZOCOM's fortress and all outposts."
+"Objective 4: Destroy ZOCOM's fortress and all outposts."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_5
-	"Objective 5: Bring the Montauk to the edge of the Red Zone."
+"Objective 5: Bring the Montauk to the edge of the Red Zone."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_4_Complete
-	"EVA: Objective 4 complete. \nThe blue tiberium can no grow free from oppression!"
+"EVA: Objective 4 complete. \nThe blue tiberium can no grow free from oppression!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:BlackHand_Objective_5_Complete
-	"EVA: Objective 5 complete. \nThe Divine are safe."
+"EVA: Objective 5 complete. \nThe Divine are safe."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Outpost_Revealed
-	"Shadow: Outposts spotted. They will detect us if we get too close."
+"Shadow: Outposts spotted. They will detect us if we get too close."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Fortress_Revealed
-	"Shadow: This must be their main base. \nWe should avoid it."
+"Shadow: This must be their main base. \nWe should avoid it."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Montauk_Returns
-	"Death Dealer: It is time to rise from the grave."
+"Death Dealer: It is time to rise from the grave."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:DefendDeath
-	"Death Dealer: The Divine and I are inside the Montauk. \nIf you let us die, you will feel Kane's Wrath."
+"Death Dealer: The Divine and I are inside the Montauk. \nIf you let us die, you will feel Kane's Wrath."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Ion_Cannon_Returned_To_GDI
-	"Saboteur: Commander! I've lost control of the Ion Cannon! \nGDI have improved the security network!"
+"Saboteur: Commander! I've lost control of the Ion Cannon! \nGDI have improved the security network!"
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:LoseShadows
-	"Mission failed \nAll Shadows have died."
+"Mission failed \nAll Shadows have died."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:LoseSaboteurs
-	"Mission failed \nAll Saboteurs have died."
+"Mission failed \nAll Saboteurs have died."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:LoseIonCannon
-	"Mission failed \nThe Ion Cannon Control Centre was destroyed."
+"Mission failed \nThe Ion Cannon Control Centre was destroyed."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:LoseMontauk
-	"Mission failed \nThe Montauk has been destroyed. The Divine are dead."
+"Mission failed \nThe Montauk has been destroyed. The Divine are dead."
 END
 
 MSNSTR:RDS:ACT_I_NODBH:M5:Win
-	"The Montauk is making it's way towards Kane. \nDivine safety ensured. \nMission Accomplished"
+"The Montauk is making it's way towards Kane. \nDivine safety ensured. \nMission Accomplished"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M1:TERDES
-	"The Core isn't there! Acording to Nod records it's north of your base!"
+"The Core isn't there! Acording to Nod records it's north of your base!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M1:FAKECOREDEST
-	"Good work. Now, attack the CABAL Core located north of the Nod base"
+"Good work. Now, attack the CABAL Core located north of the Nod base"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M1:INTRO_1
-	"We had reports of a CABAL Core in the area. You must investigate."
+"We had reports of a CABAL Core in the area. You must investigate."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M1:INTRO_2
-	"Destroy these Nod forces in your starting position."
+"Destroy these Nod forces in your starting position."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M1:DESTNODBASE
-	"Nicely done Commander. Train a force and take down the Nod base."
+"Nicely done Commander. Train a force and take down the Nod base."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M1:AMBUSH
-	"A Mutant ambush! Watch out, there might be more in the area."
+"A Mutant ambush! Watch out, there might be more in the area."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:HELP
-	"Here is believed to be CABAL's Power Plants. Destroy them."
+"Here is believed to be CABAL's Power Plants. Destroy them."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:POWEROFF
-	"Looks like CABAL has extra Power Plants. Do this the hard way."
+"Looks like CABAL has extra Power Plants. Do this the hard way."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:WIN1STPART
-	"Good work, now you must clear the way for Kane.Use these troops."
+"Good work, now you must clear the way for Kane.Use these troops."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:INTRO1
-	"Kane is in a CABAL core at the Northeast. Capture it to take him."
+"Kane is in a CABAL core at the Northeast. Capture it to take him."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:INTRO2
-	"Do this quickly and stealthily. Do not loose your Saboteur."
+"Do this quickly and stealthily. Do not loose your Saboteur."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:PART2PHASE1
-	"Destroy the Command Post to disable GDI's abillity to detect us."
+"Destroy the Command Post to disable GDI's abillity to detect us."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:KANE
-	"Now get Kane to your base and to safety. Do not loose him!"
+"Now get Kane to your base and to safety. Do not loose him!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:GDIATTACK
-	"GDI attacks your base! Protect it, or Nod is dead!"
+"GDI attacks your base! Protect it, or Nod is dead!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M2:GDIencounter
-	"GDI is here. Do not face their army. No. 1 priority is Kane!"
+"GDI is here. Do not face their army. No. 1 priority is Kane!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M3:OBJECTIVE
-	"Get to this Temple and unleash Kane's Wrath to GDI!"
+"Get to this Temple and unleash Kane's Wrath to GDI!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M3:TEMPLE
-	"Very good, now protect it until the Nuclear missile is ready."
+"Very good, now protect it until the Nuclear missile is ready."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M3:ATTACK4
-	"Once the Nuke is ready it will be automatically launched to the Radar."
+"Once the Nuke is ready it will be automatically launched to the Radar."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M3:INTRO
-	"Use these forces to get all Nod factions of the area to your cause."
+"Use these forces to get all Nod factions of the area to your cause."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M3:FIRSTBASE
-	"Three more bases are located to the east, spread Kane's word!"
+"Three more bases are located to the east, spread Kane's word!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:GDIDEATH
-	"Excellent. Now, focus on the walker. Destroy it and capture its husk."
+"Excellent. Now, focus on the walker. Destroy it and capture its husk."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:LASTORDER
-	"Now retreat the walker to safety and don't let it die."
+"Now retreat the walker to safety and don't let it die."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:ATTACK
-	"The unit won't be enough. You must capture the lab. It's in the base"
+"The unit won't be enough. You must capture the lab. It's in the base"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:BASECONTROL
-	"Now, you must destroy the GDI presence in the area before moving on."
+"Now, you must destroy the GDI presence in the area before moving on."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:INTRO1
-	"Commander, quickly go South of your position and recover the base."
+"Commander, quickly go South of your position and recover the base."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:2NDEXECUTION
-	"Get the Gun Truck to the north village now to get reinforcements."
+"Get the Gun Truck to the north village now to get reinforcements."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:2NDFINISH
-	"Nod now has the support of the people of the area."
+"Nod now has the support of the people of the area."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:2NDORDER
-	"Capture that Gun Truck and get it to the north village."
+"Capture that Gun Truck and get it to the north village."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M4:INTRO2
-	"Use these new Shadows to recover it."
+"Use these new Shadows to recover it."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:WAVE1
-	"GDI will attack with their parade units. Take them all down!"
+"GDI will attack with their parade units. Take them all down!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:LASTORDER
-	"GDI has set up a base to the North West. Destroy it!"
+"GDI has set up a base to the North West. Destroy it!"
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:WALLATTACK
-	"GDI keeps the prototype TW1 Mammoth in that War Factory.Destroy it."
+"GDI keeps the prototype TW1 Mammoth in that War Factory.Destroy it."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:HAVOCATTACK
-	"Nice work Commander. Now capture Havoc's statue at the east park."
+"Nice work Commander. Now capture Havoc's statue at the east park."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:HAVOC
-	"Very good Commander! Estabilish a small base in the area."
+"Very good Commander! Estabilish a small base in the area."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:INTRO
-	"GDI has a nuke transport to the east. Capture it. Expect resistance."
+"GDI has a nuke transport to the east. Capture it. Expect resistance."
 END
 
 MSNSTR:playmsbk:NodsRevolution:M5:NUKECONTROL
-	"The Nuke Transport will move to the nearest wall and self destruct."
+"The Nuke Transport will move to the nearest wall and self destruct."
 END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:MUTANTS
+"Thanks for helping us, here take these units with you."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:ATTACK1
+"GDI is attacking, dont let them destroy the church!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT11
+"Go from town to town, and recruit mutants for your special mission."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT5
+"Look, they are retreating! We did it! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT31
+"To the south! Nod infantry! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT4
+"Thats all of em... Wait wha... TO THE NORTH! MAMMOTH MKII! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT3
+"Look, reinforcements! Help us to defend the church!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT2
+"GDI IS ATTACKING! HELP US DEFEND THE TOWN!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT1
+"Our town is under attack, help us!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:LOSE
+"Mission Failed"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:WIN
+"Look, they are retreating! We did it! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:MINES
+"Use these viceroids to blow up the mines without risking your troops."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:BONUS
+"Bonus Objective: Rescue the fellow mutants in the village to the east."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:NUKES
+"Get the nukes back where you came from to complete this mission."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:INTRO
+"Steal the nukes from the GDI base to the North West."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:BOOM
+"Take your troops to the south end of the road so we can detonate."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:BOOM2
+"Mission Accomplished, good job."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:OBJ
+"Drive the nuke to the GDI base up north and park it in the hangar."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:BONUSOBJ
+"Bonus Objective: Destroy powerplants to NW to disable base defenses"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:WIN
+"Survivors escorted to safety. Mission accomplished."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:LOSE
+"The transport has been destroyed. Mission failed."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:TRANSPORT1
+"Escort the transport to the base for immediate extraction."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:BASE
+"Theres still survivors out there who needs medical attention. Find them!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:OBJ
+"Search the area for survivors. No one is left behind!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M4:BONUSOBJ
+"Friendly distress signal detected from an overrun base to the NW."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M5:BONUSOBJ
+"Bonus Objective: Destroy the two mutant hovels."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M5:SHROUD
+"We lost contact with our base in this region. Find out what happened."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M5:BASE
+"Structures are intact, but theres no sight of friendles, sir."
+END
+

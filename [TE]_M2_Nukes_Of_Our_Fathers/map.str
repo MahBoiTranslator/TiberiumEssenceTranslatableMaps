@@ -1,0 +1,15 @@
+MSNSTR:TheFinnishGuy:ROTF:M2:MINES
+	"Use these viceroids to blow up the mines without risking your troops."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:BONUS
+	"Bonus Objective: Rescue the fellow mutants in the village to the east."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:NUKES
+	"Get the nukes back where you came from to complete this mission."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M2:INTRO
+	"Steal the nukes from the GDI base to the North West."
+END

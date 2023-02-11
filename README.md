@@ -9,6 +9,7 @@ List of patched maps and campaigns:
 * [NOD Blue Fase](https://www.moddb.com/mods/tiberium-essence/addons/te-nod-blue-fase)
 * [Villainess In Distress](https://www.moddb.com/mods/tiberium-essence/addons/te-villainess-in-distress)
 * [Nod's Revolution](https://www.moddb.com/addons/nods-revolution)
+* [Revenge of the Forgotten](https://www.moddb.com/games/cc-tiberium-wars/addons/revenge-of-the-forgotten)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

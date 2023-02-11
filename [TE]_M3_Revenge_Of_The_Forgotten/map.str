@@ -1,0 +1,15 @@
+MSNSTR:TheFinnishGuy:ROTF:M3:BOOM
+	"Take your troops to the south end of the road so we can detonate."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:BOOM2
+	"Mission Accomplished, good job."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:OBJ
+	"Drive the nuke to the GDI base up north and park it in the hangar."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M3:BONUSOBJ
+	"Bonus Objective: Destroy powerplants to NW to disable base defenses"
+END

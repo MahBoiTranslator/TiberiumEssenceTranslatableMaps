@@ -1,0 +1,11 @@
+MSNSTR:TheFinnishGuy:ROTF:M5:BONUSOBJ
+	"Bonus Objective: Destroy the two mutant hovels."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M5:SHROUD
+	"We lost contact with our base in this region. Find out what happened."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M5:BASE
+	"Structures are intact, but theres no sight of friendles, sir."
+END

@@ -1,0 +1,43 @@
+MSNSTR:TheFinnishGuy:ROTF:M1:MUTANTS
+	"Thanks for helping us, here take these units with you."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:ATTACK1
+	"GDI is attacking, dont let them destroy the church!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT11
+	"Go from town to town, and recruit mutants for your special mission."
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT5
+	"Look, they are retreating! We did it! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT31
+	"To the south! Nod infantry! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT4
+	"Thats all of em... Wait wha... TO THE NORTH! MAMMOTH MKII! "
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT3
+	"Look, reinforcements! Help us to defend the church!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT2
+	"GDI IS ATTACKING! HELP US DEFEND THE TOWN!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:TEXT1
+	"Our town is under attack, help us!"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:LOSE
+	"Mission Failed"
+END
+
+MSNSTR:TheFinnishGuy:ROTF:M1:WIN
+	"Look, they are retreating! We did it! "
+END
