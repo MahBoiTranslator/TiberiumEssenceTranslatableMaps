@@ -10,6 +10,7 @@ List of patched maps and campaigns:
 * [Villainess In Distress](https://www.moddb.com/mods/tiberium-essence/addons/te-villainess-in-distress)
 * [Nod's Revolution](https://www.moddb.com/addons/nods-revolution)
 * [Revenge of the Forgotten](https://www.moddb.com/games/cc-tiberium-wars/addons/revenge-of-the-forgotten)
+* [TS Secure Crash Site](https://www.moddb.com/mods/co-op-tiberian-sun-map-pack/addons/te-1-6-tiberian-sun-secure-the-crash-site-v14)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

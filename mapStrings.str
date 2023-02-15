@@ -1750,3 +1750,15 @@ MSNSTR:TheFinnishGuy:ROTF:M5:BASE
 "Structures are intact, but theres no sight of friendles, sir."
 END
 
+MSNSTR:Freddie_S:SCS:Find
+"Find & Secure the crash site!"
+END
+
+MSNSTR:Freddie_S:SCS:Secret_Found
+"Secret Found"
+END
+
+MSNSTR:Freddie_S:SCS:Mutant
+"Mutants are here to help"
+END
+
