@@ -11,6 +11,7 @@ List of patched maps and campaigns:
 * [Nod's Revolution](https://www.moddb.com/addons/nods-revolution)
 * [Revenge of the Forgotten](https://www.moddb.com/games/cc-tiberium-wars/addons/revenge-of-the-forgotten)
 * [TS Secure Crash Site](https://www.moddb.com/mods/co-op-tiberian-sun-map-pack/addons/te-1-6-tiberian-sun-secure-the-crash-site-v14)
+* [COOP Evacuation](https://www.moddb.com/games/cc-tiberium-wars/addons/coop-evacuation-co-operative-mission)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

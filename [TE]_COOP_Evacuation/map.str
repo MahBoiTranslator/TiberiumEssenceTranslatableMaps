@@ -1,0 +1,27 @@
+MSNSTR:TheFinnishGuy:COOPEVAC:String1
+	"The northern outpost is lost. All troops are ordered to evacuate to the airforce base to the south"
+END
+
+MSNSTR:TheFinnishGuy:COOPEVAC:String2
+	"The bridge must be repaired from the southern side with an engineer. "
+END
+
+MSNSTR:TheFinnishGuy:COOPEVAC:String3
+	"The mutants are retaliating. Protect the base at all cost!"
+END
+
+MSNSTR:TheFinnishGuy:COOPEVAC:String4
+	"4 mutant hovels in the region are coordinating the attacks. They must be destroyed."
+END
+
+MSNSTR:TheFinnishGuy:COOPEVAC:String5
+	"BONUS OBJECTIVE Our comms are failing, bring the mountain radar station online with an engineer"
+END
+
+MSNSTR:TheFinnishGuy:COOPEVAC:String6
+	"Intell shows heavy Anti-Air at the outskirts of town, and heavy Anti-Tank in the center"
+END
+
+MSNSTR:TheFinnishGuy:COOPEVAC:String10
+	"Central command have given us acces to orbital bombardment and drop pods."
+END
