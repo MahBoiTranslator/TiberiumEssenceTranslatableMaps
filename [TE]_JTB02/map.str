@@ -1,0 +1,11 @@
+MSNSTR:SPR:JTB:M2:DestroyTheNodOutpost
+	"Destroy The Nod Outpost"
+END
+
+MSNSTR:SPR:JTB:M2:DestroyTheNodBase
+	"Destroy The Nod Base"
+END
+
+MSNSTR:SPR:JTB:M2:RecaptureTheIonCannonCenter
+	"Recapture The Ion Cannon Center"
+END

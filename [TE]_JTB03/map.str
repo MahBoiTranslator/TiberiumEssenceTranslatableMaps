@@ -1,0 +1,11 @@
+MSNSTR:SPR:JTB:M3:DestroyHumansRelayNodeStructure
+	"Destroy Humans' Relay Node Structure"
+END
+
+MSNSTR:SPR:JTB:M3:LocateAndDestroyGDIsMainBase
+	"Locate and Destroy GDI's Main Base"
+END
+
+MSNSTR:SPR:JTB:M3:DestroyGDIsMassvieWalkerDevice
+	"Destroy GDI's Massvie Walker Device"
+END

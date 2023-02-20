@@ -1,0 +1,15 @@
+MSNSTR:SPR:JTB:M1:DestroyTheMutantHovel
+	"Destroy The Mutant Hovel"
+END
+
+MSNSTR:SPR:JTB:M1:DestroyTheGDIAirfield
+	"Destroy The GDI Airfield"
+END
+
+MSNSTR:SPR:JTB:M1:DestroyTheGDIBase
+	"Destroy The GDI Base"
+END
+
+MSNSTR:SPR:JTB:M1:BonusObjKeepAll3AvatarsAlive
+	"Bonus Objective: Keep All 3 Avatars Alive"
+END
