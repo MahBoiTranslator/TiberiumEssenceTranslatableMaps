@@ -1,0 +1,7 @@
+*Fixes made July 8th 2015*
+
+Nod Mission 03 - Phoenix Base
+- Fixed error, which caused mission defeat when Command Post was captured with the Saboteur. You should no longer lose when capturing this building.
+- Fixed error, which didn't display Objective 3. It is now shown properly.
+
+- Minor map.str file fixes with all three Nod Missions.

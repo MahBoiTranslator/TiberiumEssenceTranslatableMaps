@@ -13,6 +13,7 @@ List of patched maps and campaigns:
 * [TS Secure Crash Site](https://www.moddb.com/mods/co-op-tiberian-sun-map-pack/addons/te-1-6-tiberian-sun-secure-the-crash-site-v14)
 * [COOP Evacuation](https://www.moddb.com/games/cc-tiberium-wars/addons/coop-evacuation-co-operative-mission)
 * [Just The Beginning](https://www.moddb.com/groups/tiberium-essence-campaign-makers/addons/just-the-beginning)
+* [Enhanced Mission Pack 1](https://www.moddb.com/groups/tiberium-essence-fans/addons/tiberium-essence-mission-pack-1-enhanced)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

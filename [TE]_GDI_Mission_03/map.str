@@ -1,0 +1,15 @@
+MSNSTR:CNCFIN:ENHMP:M3:Objective1
+	"OBJECTIVE 1: \n Destroy all Nod forces in the area."
+END
+
+MSNSTR:CNCFIN:ENHMP:M3:Objective1Done
+	"OBJECTIVE 1: \n Completed. Mission is successful."
+END
+
+MSNSTR:CNCFIN:ENHMP:M3:BonusObjective
+	"BONUS OBJECTIVE 1: \n Capture Mutant Hovel and Garage."
+END
+
+MSNSTR:CNCFIN:ENHMP:M3:BonusObjectiveDone
+	"BONUS OBJECTIVE 1: \n Completed."
+END

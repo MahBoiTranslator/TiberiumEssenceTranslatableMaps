@@ -1,0 +1,15 @@
+MSNSTR:CNCFIN:ENHMP:M4:Objective1
+	"OBJECTIVE 1: \n Capture the components truck by the CABAL Core, kill anyone who stands in your way."
+END
+
+MSNSTR:CNCFIN:ENHMP:M4:Objective1Done
+	"OBJECTIVE 1: \n Completed."
+END
+
+MSNSTR:CNCFIN:ENHMP:M4:Objective2
+	"OBJECTIVE 2: \n Reach our forces in North West to secure the CABAL components"
+END
+
+MSNSTR:CNCFIN:ENHMP:M4:Objective2Done
+	"OBJECTIVE 2: \n Completed. Mission is successful."
+END

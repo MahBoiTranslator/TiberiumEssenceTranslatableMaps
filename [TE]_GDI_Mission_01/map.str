@@ -1,0 +1,15 @@
+MSNSTR:CNCFIN:ENHMP:M1:OBJECTIVE1
+	"OBJECTIVE 1: \n Reinforce Fort Cortez."
+END
+
+MSNSTR:CNCFIN:ENHMP:M1:OBJECTIVE1DONE
+	"OBJECTIVE 1: \n Completed."
+END
+
+MSNSTR:CNCFIN:ENHMP:M1:OBJECTIVE2
+	"OBJECTIVE 2: \n Search and destroy all Nod forces in the area"
+END
+
+MSNSTR:CNCFIN:ENHMP:M1:OBJECTIVE2DONE
+	"OBJECTIVE 2: \n Completed. Mission is successful."
+END

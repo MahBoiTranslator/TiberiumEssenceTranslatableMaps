@@ -1,0 +1,23 @@
+MSNSTR:CNCFIN:ENHMP:M2:Objective1
+	"OBJECTIVE 1: \n Destroy Nod Battleships sent to intercept our landing force. n\Destroy Nod forces on beach sector Alpha."
+END
+
+MSNSTR:CNCFIN:ENHMP:M2:Objective1Done
+	"OBJECTIVE 1: \n Completed."
+END
+
+MSNSTR:CNCFIN:ENHMP:M2:Objective2
+	"OBJECTIVE 2: \n Destroy Nod Outpost on beach sector Bravo."
+END
+
+MSNSTR:CNCFIN:ENHMP:M2:Objective2Done
+	"OBJECTIVE 2: \n Completed. Surveyor enroute. Deploy it to build the base."
+END
+
+MSNSTR:CNCFIN:ENHMP:M2:Objective3
+	"OBJECTIVE 3: \n Search and destroy all Nod forces in the area."
+END
+
+MSNSTR:CNCFIN:ENHMP:M2:Objective3Done
+	"OBJECTIVE 3: \n Completed. Mission is successful."
+END

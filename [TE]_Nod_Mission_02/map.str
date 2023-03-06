@@ -1,0 +1,53 @@
+MSNSTR:CNCFIN:ENHMP:M5:Objective1
+	"OBJECTIVE 1: \n Capture three Research Centers and acquire cyborg activation codes."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:Objective1Done
+	"OBJECTIVE 1: \n Completed."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:Objective2
+	"OBJECTIVE 2: \n Destroy GDI's production structures."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:Objective2Done
+	"OBJECTIVE 2: \n Completed."
+END
+
+
+
+MSNSTR:CNCFIN:ENHMP:M5:BothObjectivesDone
+	"LEGION: Both mission objectives met. Mission is successful."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:TechBuildings
+	"LEGION: Capture Tiberium Spikes and Silos to fund this operation."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:SpinningThingy
+	"Congratulations Commander, you have found a weird spinning thingy. We don't know what it is. Perhaps we don't want to know. It's cool though."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:ReaperCodes
+	"Cyborg Reaper activation codes downloaded in:"
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:CyborgCodes
+	"Cyborg Squad activation codes downloaded in:"
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:CyborgCodes2
+	"Additional activation codes downloaded in:"
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:CyborgCodesReady
+	"EVA: Cyborg Squad activation codes downloaded. Reactivating Cyborg Squads."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:ReaperCodesReady
+	"LEGION: Cyborg Reaper activation codes downloaded. Reactivating Cyborg Reapers."
+END
+
+MSNSTR:CNCFIN:ENHMP:M5:AdditionalCodesReady
+	"LEGION: Additional cybernetic codes downloaded."
+END

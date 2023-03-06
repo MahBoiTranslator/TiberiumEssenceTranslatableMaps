@@ -1,0 +1,23 @@
+MSNSTR:CNCFIN:ENHMP:M6:Objective1
+	"OBJECTIVE 1: \n Send a Saboteur into GDI Command post to upload a virus into GDI's communication channels."
+END
+
+MSNSTR:CNCFIN:ENHMP:M6:Objective1Done
+	"OBJECTIVE 1: \n Completed. Communications jammed."
+END
+
+MSNSTR:CNCFIN:ENHMP:M6:Objective2
+	"OBJECTIVE 2: \n Rendezvous with our forces in South."
+END
+
+MSNSTR:CNCFIN:ENHMP:M6:Objective2Done
+	"OBJECTIVE 2: \n Completed."
+END
+
+MSNSTR:CNCFIN:ENHMP:M6:Objective3
+	"OBJECTIVE 3: \n Destroy GDI base and capture their Research Lab."
+END
+
+MSNSTR:CNCFIN:ENHMP:M6:Objective3Done
+	"OBJECTIVE 3: \n Completed. Mission is successful"
+END
