@@ -1978,3 +1978,119 @@ MSNSTR:CNCFIN:ENHMP:M6:Objective3Done
 "OBJECTIVE 3: \n Completed. Mission is successful"
 END
 
+MSNSTR:playmsbk:TWTEAW:M1:INTRO
+"GDI has a small force north of your starting location. Destroy it."
+END
+
+MSNSTR:playmsbk:TWTEAW:M1:OBJ2
+"Destroy any GDI unit in that location to receive reinforcements."
+END
+
+MSNSTR:playmsbk:TWTEAW:M1:OBJ3
+"GDI has a Tiberium erradication outpost to the north. Destroy it!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M1:OBJ4
+"The Power Plants are located there. Destroy them and the GDI base."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:INTRO
+"Recover the dock base and wait there until the fleet arrives."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:BASECONTROL
+"Very nice job Commander. Now wait until the fleet arrives."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:FLEETTRANS
+"The fleet can't reach the shore because of the Artillery Emplacements."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:MCVMOVE
+"An MCV team is pinned down there. Save them and bring them."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:MCVSAVE
+"You arrived too late, the Predators took down the MCV."
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:INTRO
+"Destroy all GDI units you encounter to help the base's defenders."
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:LINE1SAVED
+"Take down the Titans harassing our defenses!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:LINE2SAVED
+"Gather your forces and capture the base to the north."
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:BASECONTROL
+"Hold the base and wait for reinforcements. GDI mustn't reach Sarajevo!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:HARPYMOVE
+"Take down the GDI base and the Aircraft Carrier. Build extra aircraft."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:LASTORDER1
+"Take down the GDI base to the east."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:LASTORDER2
+"Take down the GDI base to the east. More AA guns are located near."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:OBJ2
+"Nice work. Continue to the airport entrance. Its location is on the radar."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:CLOSEDAREA
+"The entrance is closed. You must go from the north entrance."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:OBJ1SHOW
+"Move east until you find the town, then destroy the AA Batteries."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:INTRO1
+"Destroy the AA Batteries."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:BANSHEE
+"Protect that building at all costs and don't lose the Banshees."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:DESTROYGDI
+"We mustn't evidence of our presence here. Locate and destroy GDI."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:SECOBJ
+"We could use the support of the mutants in the area. Capture their HQs"
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:MHDESTROY
+"Commander, you must capture the Air Tower in the center."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:GDIASSAULT
+"GDI will attack the Air Tower soon. Protect it at all costs."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:MUTAWARNING
+"The Mutants must have a heavy presence. Proceed with caution!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:AVAREIN
+"Commnader, their force is too strong. Retreat and use the Avatars!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:INTRO
+"Commander, move west to find the Mutant base and destroy it."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:GDIPATDESTR
+"GDI has units in the area. Be carefull. Take these Saboteurs."
+END
+

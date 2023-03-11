@@ -1,0 +1,36 @@
+MSNSTR:playmsbk:TWTEAW:M5:BANSHEE
+	"Protect that building at all costs and don't lose the Banshees."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:DESTROYGDI
+	"We mustn't evidence of our presence here. Locate and destroy GDI."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:SECOBJ
+	"We could use the support of the mutants in the area. Capture their HQs"
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:MHDESTROY
+	"Commander, you must capture the Air Tower in the center."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:GDIASSAULT
+	"GDI will attack the Air Tower soon. Protect it at all costs."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:MUTAWARNING
+	"The Mutants must have a heavy presence. Proceed with caution!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:AVAREIN
+	"Commnader, their force is too strong. Retreat and use the Avatars!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:INTRO
+	"Commander, move west to find the Mutant base and destroy it."
+END
+
+MSNSTR:playmsbk:TWTEAW:M5:GDIPATDESTR
+	"GDI has units in the area. Be carefull. Take these Saboteurs."
+END
+

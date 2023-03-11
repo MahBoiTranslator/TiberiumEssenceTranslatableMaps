@@ -1,0 +1,11 @@
+README
+Thank you for downloading The War to End All Wars campaign for Tiberium Essence mod.
+To install the campaign you must extract the maps to:
+If using XP: C:\Users\YourUserName\ApplicationData\Command & Conquer 3\Maps
+If using Vista\Win7: C:\Users\YourUsername\AppData\Roaming\Command & Conquer 3 Tiberium Wars\Maps
+
+Note1: You might have a different location if you changed it during installation.
+Note2: They only work properly with Tiberium Essence mod.
+Note3: You can find them in Custom Maps section.
+
+Enjoy :D

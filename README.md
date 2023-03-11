@@ -14,6 +14,7 @@ List of patched maps and campaigns:
 * [COOP Evacuation](https://www.moddb.com/games/cc-tiberium-wars/addons/coop-evacuation-co-operative-mission)
 * [Just The Beginning](https://www.moddb.com/groups/tiberium-essence-campaign-makers/addons/just-the-beginning)
 * [Enhanced Mission Pack 1](https://www.moddb.com/groups/tiberium-essence-fans/addons/tiberium-essence-mission-pack-1-enhanced)
+* [The War To End All Wars](https://www.moddb.com/games/cc-tiberium-wars/addons/the-war-to-end-all-wars1)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

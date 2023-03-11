@@ -1,0 +1,23 @@
+MSNSTR:playmsbk:TWTEAW:M4:LASTORDER1
+	"Take down the GDI base to the east."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:LASTORDER2
+	"Take down the GDI base to the east. More AA guns are located near."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:OBJ2
+	"Nice work. Continue to the airport entrance. Its location is on the radar."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:CLOSEDAREA
+	"The entrance is closed. You must go from the north entrance."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:OBJ1SHOW
+	"Move east until you find the town, then destroy the AA Batteries."
+END
+
+MSNSTR:playmsbk:TWTEAW:M4:INTRO1
+	"Destroy the AA Batteries."
+END

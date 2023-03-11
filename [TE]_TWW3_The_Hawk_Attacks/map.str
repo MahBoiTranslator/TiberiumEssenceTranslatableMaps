@@ -1,0 +1,19 @@
+MSNSTR:playmsbk:TWTEAW:M3:INTRO
+	"Destroy all GDI units you encounter to help the base's defenders."
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:LINE1SAVED
+	"Take down the Titans harassing our defenses!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:LINE2SAVED
+	"Gather your forces and capture the base to the north."
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:BASECONTROL
+	"Hold the base and wait for reinforcements. GDI mustn't reach Sarajevo!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M3:HARPYMOVE
+	"Take down the GDI base and the Aircraft Carrier. Build extra aircraft."
+END

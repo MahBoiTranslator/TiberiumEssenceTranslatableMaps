@@ -1,0 +1,15 @@
+MSNSTR:playmsbk:TWTEAW:M1:INTRO
+	"GDI has a small force north of your starting location. Destroy it."
+END
+
+MSNSTR:playmsbk:TWTEAW:M1:OBJ2
+	"Destroy any GDI unit in that location to receive reinforcements."
+END
+
+MSNSTR:playmsbk:TWTEAW:M1:OBJ3
+	"GDI has a Tiberium erradication outpost to the north. Destroy it!"
+END
+
+MSNSTR:playmsbk:TWTEAW:M1:OBJ4
+	"The Power Plants are located there. Destroy them and the GDI base."
+END

@@ -1,0 +1,19 @@
+MSNSTR:playmsbk:TWTEAW:M2:INTRO
+	"Recover the dock base and wait there until the fleet arrives."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:BASECONTROL
+	"Very nice job Commander. Now wait until the fleet arrives."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:FLEETTRANS
+	"The fleet can't reach the shore because of the Artillery Emplacements."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:MCVMOVE
+	"An MCV team is pinned down there. Save them and bring them."
+END
+
+MSNSTR:playmsbk:TWTEAW:M2:MCVSAVE
+	"You arrived too late, the Predators took down the MCV."
+END
