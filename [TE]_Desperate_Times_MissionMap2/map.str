@@ -1,0 +1,7 @@
+MSNSTR:TheFinnishGuy:DT:M2:OBJ2
+	"The attack halted, but there are still 6 artillery platforms in the area."
+END
+
+MSNSTR:TheFinnishGuy:DT:M2:START
+	"This bridge is vital for our survivability. Help the guards to defend it!"
+END

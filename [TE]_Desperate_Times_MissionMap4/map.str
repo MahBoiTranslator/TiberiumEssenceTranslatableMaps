@@ -1,0 +1,31 @@
+MSNSTR:TheFinnishGuy:DT:M4:BONUSOBJ2
+	"Destroy these already built MCVs to furher weaken Nods army."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:BONUSOBJ
+	"Bonus Objective: Help the civilians held hostage by Nod."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:OBJ1
+	"Taking out these powerplants should disable the SAM sites."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:OBJ2
+	"With this distraction, you can now try to sneak inside the base."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:OBJ3
+	"Destroying this MCV facility will deal a serious blow to their arsenal."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:BuggyArrival
+	"You made it this far, dont screw this now. Proceed to this location."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:Buggy
+	"Informant: Heres the buggy, drive carefully or you will be detected."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:START
+	"Move to the location marked on radar and meet our guy on the inside."
+END

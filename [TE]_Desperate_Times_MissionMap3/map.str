@@ -1,0 +1,15 @@
+MSNSTR:TheFinnishGuy:DT:M3:OBJ3
+	"87th infantry division now controls the beach, time to secure this bridge"
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OBJ4
+	"We need to kick Nod out of this region, destroy their base of this region"
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OBJ2
+	"Nod is about to counterattack, dig in and defend the beach."
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OX
+	"This beachead is critical for the success of the invasion. Secure it!"
+END

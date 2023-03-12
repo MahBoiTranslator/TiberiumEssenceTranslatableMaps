@@ -2094,3 +2094,103 @@ MSNSTR:playmsbk:TWTEAW:M5:GDIPATDESTR
 "GDI has units in the area. Be carefull. Take these Saboteurs."
 END
 
+MSNSTR:TheFinnishGuy:DT:M1:TEXT2
+"Reinforce Blue Zone 1B's command & control center before its overun!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M1:ATTACK1
+"Its happening on every BZ, get back to base and expect the worse!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M1:AMBUSH
+"Commander, take a look at this:"
+END
+
+MSNSTR:TheFinnishGuy:DT:M1:TEXT1
+"We lost contact with an patrol to the north. Find out what happened."
+END
+
+MSNSTR:TheFinnishGuy:DT:M2:OBJ2
+"The attack halted, but there are still 6 artillery platforms in the area."
+END
+
+MSNSTR:TheFinnishGuy:DT:M2:START
+"This bridge is vital for our survivability. Help the guards to defend it!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OBJ3
+"87th infantry division now controls the beach, time to secure this bridge"
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OBJ4
+"We need to kick Nod out of this region, destroy their base of this region"
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OBJ2
+"Nod is about to counterattack, dig in and defend the beach."
+END
+
+MSNSTR:TheFinnishGuy:DT:M3:OX
+"This beachead is critical for the success of the invasion. Secure it!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:BONUSOBJ2
+"Destroy these already built MCVs to furher weaken Nods army."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:BONUSOBJ
+"Bonus Objective: Help the civilians held hostage by Nod."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:OBJ1
+"Taking out these powerplants should disable the SAM sites."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:OBJ2
+"With this distraction, you can now try to sneak inside the base."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:OBJ3
+"Destroying this MCV facility will deal a serious blow to their arsenal."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:BuggyArrival
+"You made it this far, dont screw this now. Proceed to this location."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:Buggy
+"Informant: Heres the buggy, drive carefully or you will be detected."
+END
+
+MSNSTR:TheFinnishGuy:DT:M4:START
+"Move to the location marked on radar and meet our guy on the inside."
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:OBJ3
+"Nod forces detected! Establish a perimeter and protect the convoy!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BOBJ2
+"Bonus Objective: Destroy all fuel trucks to further cause destruction."
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BASENTER
+"Taking out these air towers & vertigos will allow the convoy to move on"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BOBJ1
+"Bonus Objective: This station pumps petrol to the airfield. Capture it!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BOBJ1C
+"With the station secured, Nod cant refuel their aircraft."
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:OBJ2
+"This Nod airfield poses a threat to the convoy. Neutralise it!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:START
+"As order about to reach Temple Prime, you have to secure and hold the highway."
+END
+

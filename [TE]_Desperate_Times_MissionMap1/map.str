@@ -1,0 +1,15 @@
+MSNSTR:TheFinnishGuy:DT:M1:TEXT2
+	"Reinforce Blue Zone 1B's command & control center before its overun!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M1:ATTACK1
+	"Its happening on every BZ, get back to base and expect the worse!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M1:AMBUSH
+	"Commander, take a look at this:"
+END
+
+MSNSTR:TheFinnishGuy:DT:M1:TEXT1
+	"We lost contact with an patrol to the north. Find out what happened."
+END

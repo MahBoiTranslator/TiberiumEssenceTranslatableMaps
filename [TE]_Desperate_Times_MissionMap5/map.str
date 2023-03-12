@@ -1,0 +1,28 @@
+MSNSTR:TheFinnishGuy:DT:M5:OBJ3
+"Nod forces detected! Establish a perimeter and protect the convoy!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BOBJ2
+"Bonus Objective: Destroy all fuel trucks to further cause destruction."
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BASENTER
+"Taking out these air towers & vertigos will allow the convoy to move on"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BOBJ1
+"Bonus Objective: This station pumps petrol to the airfield. Capture it!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:BOBJ1C
+"With the station secured, Nod cant refuel their aircraft."
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:OBJ2
+"This Nod airfield poses a threat to the convoy. Neutralise it!"
+END
+
+MSNSTR:TheFinnishGuy:DT:M5:START
+"As order about to reach Temple Prime, you have to secure and hold the highway."
+END
+
