@@ -1,0 +1,135 @@
+MSNSTR:TheNodCommander:TB:Engineers_Gen
+	"All Players have been given the ability to Kill units at centre of the map"
+END
+
+MSNSTR:TheNodCommander:TB:P1_Boom
+	"Player 1 Has Devastated the centre"
+END
+
+MSNSTR:TheNodCommander:TB:P2_Boom
+	"Player 2 Has Devastated the centre"
+END
+
+MSNSTR:TheNodCommander:TB:P3_Boom
+	"Player 3 Has Devastated the centre"
+END
+
+MSNSTR:TheNodCommander:TB:P4_Boom
+	"Player 4 Has Devastated the centre"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Start_Cronoterd
+	"Putting a unit on your square here causes them to spawn in the Arena"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part1_Cronoterd
+	"Putting a unit on your square here causes them to spawn in the Arena"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part3_Cronoterd
+	"This is the Battle Arena, Your aim is to get kills in this Arena"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part4_Cronoterd
+	"Every 20 kills will give you an Engineer in the Shop arena"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part5_Cronoterd
+	"This is the Shop Arena, Where the engineers will appear."
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part6_Cronoterd
+	"New units cost engineers, no. of engineers is shown by no. of rockets."
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part7_Cronoterd
+	"Air units are in the Bonus Shopping Zone, here engeniers cost 100 kills"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part8_Cronoterd
+	"Your purchased unit will appear here where they can be spawned."
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part9_Cronoterd
+	"Remember not to lose your main base or your finished"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part10_Cronoterd
+	"Now put your starting unit on the square and get some kills"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part11_Cronoterd
+	"Map made by Cronoterd, modded by Maxsim Goratiev & Nameme99"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part12_Cronoterd
+	"CnC-Source.com - CnC-Source For All Your C&C Needs!"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part13_Cronoterd
+	"you can spawn 60 of these units:"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part14_Cronoterd
+	"GDI: RifleSquad,MissileSquad"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part15_Cronoterd
+	"Nod: MilitantSquad,MilitantRocketSquad"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part16_Cronoterd
+	"Scrin: Buzzers                                 Mutants: MutantMurauders"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part17_Cronoterd
+	"you can only spawn 30 of the rest (not inlcuding aircraft)"
+END
+
+MSNSTR:TheNodCommander:TB:Intro_Part18_Cronoterd
+	"Yellow missiles = the maximum amount of Saboteurs for more aircraft"
+END
+
+MSNSTR:TheNodCommander:TB:Player1Kills
+	"Player 1 Kills:"
+END
+
+MSNSTR:TheNodCommander:TB:Player2Kills
+	"Player 2 Kills:"
+END
+
+MSNSTR:TheNodCommander:TB:Player3Kills
+	"Player 3 Kills:"
+END
+
+MSNSTR:TheNodCommander:TB:Player4Kills
+	"Player 4 Kills:"
+END
+
+MSNSTR:TheNodCommander:TB:CentralDevastators
+	"Time until Central Devastators:"
+END
+
+MSNSTR:TheNodCommander:TB:P1_X_Kills_Cronoterd
+	"P1 Has Earned an Engineer in Shop Arena"
+END
+
+MSNSTR:TheNodCommander:TB:DONTCHEAT
+	"Don't cheat! Your airfoses are not allowed to leave battle arena!"
+END
+
+MSNSTR:TheNodCommander:TB:EngPurch__killZone6
+	"Someone Activated forsage death... Everithing in the center is dead..."
+END
+
+MSNSTR:TheNodCommander:TB:P2_X_Kills_Cronoterd
+	"P2 Has Earned an Engineer in Shop Arena"
+END
+
+MSNSTR:TheNodCommander:TB:P3_X_Kills_Cronoterd
+	"P3 Has Earned an Engineer in Shop Arena"
+END
+
+MSNSTR:TheNodCommander:TB:P4_X_Kills_Cronoterd
+	"P4 Has Earned an Engineer in Shop Arena"
+END

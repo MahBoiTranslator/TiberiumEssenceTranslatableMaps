@@ -16,6 +16,7 @@ List of patched maps and campaigns:
 * [Enhanced Mission Pack 1](https://www.moddb.com/groups/tiberium-essence-fans/addons/tiberium-essence-mission-pack-1-enhanced)
 * [The War To End All Wars](https://www.moddb.com/games/cc-tiberium-wars/addons/the-war-to-end-all-wars1)
 * [Desperate Times](https://www.moddb.com/games/cc-tiberium-wars/addons/desperate-times)
+* [Tiberium Blood](https://www.moddb.com/groups/tiberium-essence-fans/addons/tiberium-blood)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`
