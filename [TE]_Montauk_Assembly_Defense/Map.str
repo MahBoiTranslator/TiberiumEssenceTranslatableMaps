@@ -1,0 +1,27 @@
+MSNSTR:Oaks:MAD:Intro1
+	"Escort the Montauk components safely to the NOD Base"
+END
+
+MSNSTR:Oaks:MAD:Montauk1
+	"Components Recieved: BEGINNING MONTAUK CONSTRUCTION"
+END
+
+MSNSTR:Oaks:MAD:Montauk2
+	"MONTAUK CONSTRUCTION 21% COMPLETE"
+END
+
+MSNSTR:Oaks:MAD:Montauk3
+	"MONTAUK CONSTRUCTION 46% COMPLETE"
+END
+
+MSNSTR:Oaks:MAD:Montauk4
+	"MONTAUK CONSTRUCTION 67% COMPLETE"
+END
+
+MSNSTR:Oaks:MAD:Montauk5
+	"MONTAUK CONSTRUCTION 84% COMPLETE"
+END
+
+MSNSTR:Oaks:MAD:Mission1
+	"Destroy all Visitor Drone Platforms to test the Montauk's Capabilities"
+END
