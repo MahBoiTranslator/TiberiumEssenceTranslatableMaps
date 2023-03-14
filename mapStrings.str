@@ -2330,3 +2330,15 @@ MSNSTR:TheNodCommander:TB:P4_X_Kills_Cronoterd
 "P4 Has Earned an Engineer in Shop Arena"
 END
 
+MSNSTR:Abrams111:AyersRock:Obj1
+"Defend the GDI Base"
+END
+
+MSNSTR:Abrams111:AyersRock:Obj1_Detail
+"Defend the GDI Base"
+END
+
+MSNSTR:Sammo87:OprahRich:Welcome
+"Commander, there's an abandoned NOD base to the West. Capture the Construction Yard to bolster your forces! \n There is a GDI Command Post just North of the abandoned NOD base. Capture it to gain access to the GDI surveillance network."
+END
+
