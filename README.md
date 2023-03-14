@@ -18,6 +18,7 @@ List of patched maps and campaigns:
 * [Desperate Times](https://www.moddb.com/games/cc-tiberium-wars/addons/desperate-times)
 * [Tiberium Blood](https://www.moddb.com/groups/tiberium-essence-fans/addons/tiberium-blood)
 * [Montauk Assembly Defense](https://www.moddb.com/mods/tiberium-essence/addons/montauk-assembly-defense)
+* [GDI Ayers Rock](https://www.moddb.com/mods/tiberium-essence/addons/gdi-ayers-rock)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <Tags/>
+   <Includes>
+
+   </Includes>
+
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:Abrams111:AyersRock:Obj1"
+			Description="MSNSTR:Abrams111:AyersRock:Obj1_Detail">
+			<PresentationSettings
+				ID="Taara_Obj_1"
+				Dialog="MN11_NodEVA19"
+				CameraFieldOfViewVariance="0">
+				<Duration>3.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+
+
+
+
+
+</AssetDeclaration>
