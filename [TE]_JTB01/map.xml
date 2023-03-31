@@ -5806,6 +5806,58 @@
 				z="0"/>
 		</Structure>
 		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="NODPhantom"
+			id="NODPhantom">
+			<Position
+				x="683.227"
+				y="2259.87"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="NODAvatar"
+			id="NODAvatar">
+			<Position
+				x="613.824"
+				y="2179.7"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="NODAvatar"
+			id="NODAvatar">
+			<Position
+				x="540.071"
+				y="2268.72"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="NODAvatar"
+			id="NODAvatar">
+			<Position
+				x="614.086"
+				y="2347.71"
+				z="0"/>
+		</Unit>
+		<Unit
 			Angle="2.3525"
 			EventList=""
 			Faction="Player_2/teamPlayer_2"
@@ -5933,45 +5985,6 @@
 			<Position
 				x="2357.61"
 				y="1276.89"
-				z="0"/>
-		</Unit>
-		<Unit
-			Angle="-1.59027"
-			EventList=""
-			Faction="PlyrNOD/teamPlyrNOD"
-			Health="100"
-			Team="PlyrNOD"
-			ThingTemplate="NODAvatarHusk"
-			id="NODAvatarHusk">
-			<Position
-				x="598.243"
-				y="2187.55"
-				z="0"/>
-		</Unit>
-		<Unit
-			Angle="3.01934"
-			EventList=""
-			Faction="PlyrNOD/teamPlyrNOD"
-			Health="100"
-			Team="PlyrNOD"
-			ThingTemplate="NODAvatarHusk"
-			id="NODAvatarHusk">
-			<Position
-				x="537.154"
-				y="2263.92"
-				z="0"/>
-		</Unit>
-		<Unit
-			Angle="1.53539"
-			EventList=""
-			Faction="PlyrNOD/teamPlyrNOD"
-			Health="100"
-			Team="PlyrNOD"
-			ThingTemplate="NODAvatarHusk"
-			id="NODAvatarHusk">
-			<Position
-				x="597.379"
-				y="2350.7"
 				z="0"/>
 		</Unit>
 		<Unit
@@ -19225,7 +19238,7 @@
 			<StartPosition
 				Name="InitialCameraPosition">
 				<Position
-					x="5.89497e+026"
+					x="4.66185e+026"
 					y="2.37845e-039"
 					z="6.99865e-039"/>
 			</StartPosition>
@@ -19452,39 +19465,11 @@
 				<Script
 					id="OBJ 3 Begin">
 					<Action
-						Type="MAP_SWITCH_BORDER">
-						<ParameterList/>
-					</Action>
-					<Action
 						Type="SET_MILLISECOND_TIMER">
 						<ParameterList/>
 					</Action>
 					<Action
-						Type="MOVE_CAMERA_TO">
-						<ParameterList/>
-					</Action>
-					<Action
-						Type="ROLL_CAMERA">
-						<ParameterList/>
-					</Action>
-					<Action
-						Type="ROLL_CAMERA">
-						<ParameterList/>
-					</Action>
-					<Action
-						Type="PITCH_CAMERA">
-						<ParameterList/>
-					</Action>
-					<Action
-						Type="HIDE_UI">
-						<ParameterList/>
-					</Action>
-					<Action
-						Type="DISABLE_INPUT">
-						<ParameterList/>
-					</Action>
-					<Action
-						Type="SET_MILLISECOND_TIMER">
+						Type="SHOW_MILITARY_CAPTION">
 						<ParameterList/>
 					</Action>
 					<Action
@@ -19615,6 +19600,18 @@
 					</Action>
 					<Action
 						Type="PLAY_SOUND_AS_IF_IT_WAS_AN_EVA_EVENT">
+						<ParameterList/>
+					</Action>
+					<Action
+						Type="ENABLE_INPUT">
+						<ParameterList/>
+					</Action>
+					<Action
+						Type="SHOW_MILITARY_CAPTION">
+						<ParameterList/>
+					</Action>
+					<Action
+						Type="ENABLE_SCRIPT">
 						<ParameterList/>
 					</Action>
 				</Script>
