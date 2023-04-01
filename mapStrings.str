@@ -2342,3 +2342,51 @@ MSNSTR:Sammo87:OprahRich:Welcome
 "Commander, there's an abandoned NOD base to the West. Capture the Construction Yard to bolster your forces! \n There is a GDI Command Post just North of the abandoned NOD base. Capture it to gain access to the GDI surveillance network."
 END
 
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:Intro2
+"General Mitchell: Commander, Ghost, Welcome to the Steel Talons."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:Intro3
+"General Mitchell: The Black Hand leader, Marcion, is hiding in his fortress. \nDestroy the stronghold... and the biggest Nod sub-faction will be erased for good."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:GDI_Objective_1
+"Objective: Destroy Marcion's Stronghold."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:GDI_Objective_1_Complete
+"Objective complete"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:GhostStalkerRevenge
+"Ghost Stalker: Marcion, you stole my claim to Slavik's life. No one can steal my claim to yours."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:NoNukes
+"GDI Solider: Phew, I'm glad there were no Nukes in this Temple!"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:Win
+"Mission acommplished"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:WinEndGame
+"General Mitchell: Good work, Commander. I can see you were wasted in ZOCOM. \n Stick with me and let's wipe every last Nod solider off the face of the Earth."
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:Lose
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_I_ZOCOM_ALT:LoseEndGame
+"RedDeadSmeg: Wow, how did you lose this mission? \nGit gud."
+END
+
