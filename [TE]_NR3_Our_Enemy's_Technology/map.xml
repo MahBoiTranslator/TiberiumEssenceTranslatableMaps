@@ -220,6 +220,812 @@
 				z="0"/>
 		</Waypoint>
 		<Structure
+			Angle="1.61996"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODObelisk"
+			id="NODObelisk">
+			<Position
+				x="269.9"
+				y="3434.49"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="1.61996"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODObelisk"
+			id="NODObelisk">
+			<Position
+				x="94.2441"
+				y="3375.25"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="2.35619"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODTechAssemblyPlant"
+			id="NODTechAssemblyPlant">
+			<Position
+				x="423.856"
+				y="3197.96"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.785398"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODSecretShrine"
+			id="NODSecretShrine">
+			<Position
+				x="111.37"
+				y="3152.18"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.7581"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1506.29"
+				y="2227.83"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.85203"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1490.3"
+				y="2231.18"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.416368"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1482.78"
+				y="2215.18"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.416368"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1474.38"
+				y="2197.99"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.416368"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1466.15"
+				y="2180.24"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.90242"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1461.74"
+				y="2163.34"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-2.05179"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1427.91"
+				y="2048.65"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-2.0945"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1412.81"
+				y="2015.71"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="1.03562"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1430.14"
+				y="2007.34"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.416368"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1421.2"
+				y="2032.29"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.92798"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1445.05"
+				y="1998.95"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.85203"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1522.63"
+				y="2223.64"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="549.062"
+				y="2217.09"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="531.052"
+				y="2210.25"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="511.465"
+				y="2205.11"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="493.228"
+				y="2198.65"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="726.22"
+				y="2272.78"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="708.21"
+				y="2265.94"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="688.623"
+				y="2260.8"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.22134"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="670.385"
+				y="2254.34"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51622"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODPowerPlant"
+			id="NODPowerPlant">
+			<Position
+				x="60.0205"
+				y="3679.61"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1612.19"
+				y="2705.36"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1592.89"
+				y="2704.27"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1574.03"
+				y="2703.25"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1554.59"
+				y="2702.23"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1534.64"
+				y="2700.82"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1515.78"
+				y="2699.8"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1496.34"
+				y="2698.78"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1476.95"
+				y="2697.77"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1320.84"
+				y="2681.9"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1301.98"
+				y="2680.87"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1282.2"
+				y="2679.03"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1263.34"
+				y="2678.01"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1243.9"
+				y="2676.99"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1224.56"
+				y="2675.91"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1205.7"
+				y="2674.89"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1186.26"
+				y="2673.88"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1166.87"
+				y="2672.86"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="1147.13"
+				y="2672.14"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="990.757"
+				y="2673.01"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="970.913"
+				y="2672.5"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="952.053"
+				y="2671.48"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="932.612"
+				y="2670.46"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="913.22"
+				y="2669.45"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="893.482"
+				y="2668.72"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.42"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1628.5"
+				y="2706.67"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.30079"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1456.61"
+				y="2693.13"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.5812"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1336.87"
+				y="2682.5"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.46922"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1128.98"
+				y="2671.96"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.50042"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="1009.46"
+				y="2672.17"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallSegment"
+			id="NODWallSegment">
+			<Position
+				x="873.589"
+				y="2667.36"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.51212"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODWallHub"
+			id="NODWallHub">
+			<Position
+				x="857.102"
+				y="2666.58"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.227"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NodWallGateClosed"
+			id="NodWallGateClosed">
+			<Position
+				x="609.415"
+				y="2236.64"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.311103"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NodWallGateClosed"
+			id="NodWallGateClosed">
+			<Position
+				x="1441.1"
+				y="2106.55"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.48674"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NodWallGateClosed"
+			id="NodWallGateClosed">
+			<Position
+				x="1397.03"
+				y="2694.47"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-1.56031"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NodWallGateClosed"
+			id="NodWallGateClosed">
+			<Position
+				x="1069.44"
+				y="2673.47"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="0.0363585"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODDropZone"
+			id="NODDropZone">
+			<Position
+				x="930.263"
+				y="2080.45"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="0.0363585"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODDropZone"
+			id="NODDropZone">
+			<Position
+				x="910.52"
+				y="1905.3"
+				z="0"/>
+		</Structure>
+		<Structure
 			Angle="2.0863"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
@@ -553,8 +1359,8 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="554.053"
-				y="3129.91"
+				x="520.73"
+				y="3078.53"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -566,8 +1372,8 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="315.245"
-				y="3110.94"
+				x="276.87"
+				y="3070.85"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -579,8 +1385,8 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="60.8428"
-				y="3098.11"
+				x="66.6782"
+				y="2851"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -592,12 +1398,12 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="220.249"
-				y="3915.91"
+				x="206.463"
+				y="3874.09"
 				z="0"/>
 		</Structure>
 		<Structure
-			Angle="1.91376"
+			Angle="2.36322"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
 			Health="100"
@@ -605,12 +1411,12 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="352.211"
-				y="3616.3"
+				x="345.939"
+				y="3604.94"
 				z="0"/>
 		</Structure>
 		<Structure
-			Angle="1.55143"
+			Angle="0.670553"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
 			Health="100"
@@ -618,8 +1424,8 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="156.429"
-				y="3600.43"
+				x="126.914"
+				y="3608.29"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -631,8 +1437,8 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="467.414"
-				y="2220.99"
+				x="469.56"
+				y="2219.11"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -644,8 +1450,8 @@
 			ThingTemplate="NODObelisk"
 			id="NODObelisk">
 			<Position
-				x="739.483"
-				y="2282.68"
+				x="723.474"
+				y="2302.53"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -675,7 +1481,7 @@
 				z="0"/>
 		</Structure>
 		<Structure
-			Angle="-0.785398"
+			Angle="-0.0729926"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
 			Health="100"
@@ -683,8 +1489,8 @@
 			ThingTemplate="NODOperationsCenter"
 			id="NODOperationsCenter">
 			<Position
-				x="274.983"
-				y="3336.06"
+				x="240.362"
+				y="3285.4"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -727,7 +1533,7 @@
 				z="0"/>
 		</Structure>
 		<Structure
-			Angle="0.785398"
+			Angle="-1.51622"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
 			Health="100"
@@ -735,12 +1541,12 @@
 			ThingTemplate="NODPowerPlant"
 			id="NODPowerPlant">
 			<Position
-				x="104.922"
-				y="3831.02"
+				x="122.8"
+				y="3910.81"
 				z="0"/>
 		</Structure>
 		<Structure
-			Angle="0.785398"
+			Angle="-1.51622"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
 			Health="100"
@@ -748,12 +1554,12 @@
 			ThingTemplate="NODPowerPlant"
 			id="NODPowerPlant">
 			<Position
-				x="93.7106"
-				y="3734.02"
+				x="52.6516"
+				y="3836.77"
 				z="0"/>
 		</Structure>
 		<Structure
-			Angle="0.785398"
+			Angle="-1.51622"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
 			Health="100"
@@ -761,8 +1567,8 @@
 			ThingTemplate="NODPowerPlant"
 			id="NODPowerPlant">
 			<Position
-				x="105.471"
-				y="3645.06"
+				x="113.473"
+				y="3762.42"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -813,8 +1619,8 @@
 			ThingTemplate="NODDropZone"
 			id="NODDropZone">
 			<Position
-				x="472.852"
-				y="3191.05"
+				x="495.406"
+				y="2953.03"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -826,8 +1632,8 @@
 			ThingTemplate="NODDropZone"
 			id="NODDropZone">
 			<Position
-				x="382.412"
-				y="3185.95"
+				x="404.966"
+				y="2947.93"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -839,8 +1645,8 @@
 			ThingTemplate="NODHandOfNOD"
 			id="NODHandOfNOD">
 			<Position
-				x="178.536"
-				y="3158.37"
+				x="171.445"
+				y="2914.44"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -852,8 +1658,8 @@
 			ThingTemplate="NODHandOfNOD"
 			id="NODHandOfNOD">
 			<Position
-				x="113.2"
-				y="3165.4"
+				x="106.109"
+				y="2921.48"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -865,8 +1671,8 @@
 			ThingTemplate="NODHandOfNOD"
 			id="NODHandOfNOD">
 			<Position
-				x="244.329"
-				y="3163.66"
+				x="237.238"
+				y="2919.73"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -1442,6 +2248,266 @@
 				z="0"/>
 		</Structure>
 		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="1439.45"
+				y="3238.37"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="1496.22"
+				y="2898.32"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="683.008"
+				y="3033.27"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="821.856"
+				y="2773.41"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="878.628"
+				y="2310.82"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="1091.65"
+				y="2422.51"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="1572.47"
+				y="2443.95"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODAdvancedArtillery"
+			id="NODAdvancedArtillery">
+			<Position
+				x="1269.77"
+				y="1945.19"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="456.974"
+				y="2732.99"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="148.502"
+				y="2703.07"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="491.31"
+				y="2024.23"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="787.772"
+				y="2042.4"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="715.914"
+				y="1736.06"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="1260.67"
+				y="1784.75"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="1072.28"
+				y="1707.7"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="1182.23"
+				y="2525.95"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="1436"
+				y="2402.33"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="0"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODMilitantRocketSquad"
+			id="NODMilitantRocketSquad">
+			<Position
+				x="1133.57"
+				y="1985.74"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.25025"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODRaiderTank"
+			id="NODRaiderTank">
+			<Position
+				x="496.77"
+				y="2144.53"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.25025"
+			EventList=""
+			Faction="Black_Hand/teamBlack_Hand"
+			Health="100"
+			Team="Black_Hand"
+			ThingTemplate="NODRaiderTank"
+			id="NODRaiderTank">
+			<Position
+				x="757.687"
+				y="2231.95"
+				z="0"/>
+		</Unit>
+		<Unit
 			Angle="-1.06457"
 			EventList=""
 			Faction="Black_Hand/teamBlack_Hand"
@@ -1450,8 +2516,8 @@
 			ThingTemplate="NODScorpionBuggy"
 			id="NODScorpionBuggy">
 			<Position
-				x="649.583"
-				y="1991.15"
+				x="610.134"
+				y="1984.2"
 				z="0"/>
 		</Unit>
 		<Unit
@@ -1463,8 +2529,8 @@
 			ThingTemplate="NODScorpionBuggy"
 			id="NODScorpionBuggy">
 			<Position
-				x="704.488"
-				y="1975.26"
+				x="707.197"
+				y="2038.21"
 				z="0"/>
 		</Unit>
 		<Unit
@@ -1476,8 +2542,8 @@
 			ThingTemplate="NODScorpionBuggy"
 			id="NODScorpionBuggy">
 			<Position
-				x="681.354"
-				y="1932.38"
+				x="701.658"
+				y="1917.43"
 				z="0"/>
 		</Unit>
 		<Unit
@@ -1792,6 +2858,175 @@
 				y="1180.38"
 				z="0"/>
 		</Unit>
+		<Prop
+			Angle="-1.46809"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="765.705"
+				y="2918.16"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="-1.46809"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="947.787"
+				y="2816.23"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="-1.37558"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="GOTtree01"
+			id="GOTtree01">
+			<Position
+				x="1336.59"
+				y="2876.42"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="-1.46809"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="1373.61"
+				y="2797.87"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="1461.33"
+				y="2837.05"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="-1.46809"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="1028.91"
+				y="2943.16"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="1514.1"
+				y="3027.2"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="-1.46809"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="1295.92"
+				y="3000.6"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="BRTBush03"
+			id="BRTBUSH03">
+			<Position
+				x="1431.85"
+				y="3151.28"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="GOTtree01"
+			id="GOTtree01">
+			<Position
+				x="1432.63"
+				y="3337.2"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="GOTtree01"
+			id="GOTtree01">
+			<Position
+				x="1529.1"
+				y="2784.04"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="GOTtree01"
+			id="GOTtree01">
+			<Position
+				x="1470.58"
+				y="3149.93"
+				z="0"/>
+		</Prop>
+		<Prop
+			Angle="0"
+			EventList=""
+			Faction="PlyrCivilian/teamPlyrCivilian"
+			Health="100"
+			Team="PlyrCivilian"
+			ThingTemplate="GOTtree01"
+			id="GOTtree01">
+			<Position
+				x="1440.67"
+				y="2945.35"
+				z="0"/>
+		</Prop>
 		<Prop
 			Angle="0"
 			EventList=""
@@ -3023,8 +4258,8 @@
 			ThingTemplate="BRTBush03"
 			id="BRTBUSH03">
 			<Position
-				x="975.748"
-				y="2668.26"
+				x="918.155"
+				y="2699.51"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -3088,8 +4323,8 @@
 			ThingTemplate="BRTBush03"
 			id="BRTBUSH03">
 			<Position
-				x="1297.05"
-				y="2870.9"
+				x="1402.4"
+				y="2852.6"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -4050,8 +5285,8 @@
 			ThingTemplate="BRRRocks01"
 			id="BRRROCKS01">
 			<Position
-				x="486.683"
-				y="3031.75"
+				x="445.422"
+				y="3139.39"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -5194,8 +6429,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="272.588"
-				y="1728.97"
+				x="405.903"
+				y="1633.74"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -5220,8 +6455,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="161.433"
-				y="1737.77"
+				x="522.412"
+				y="1642.28"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -5290,7 +6525,7 @@
 				z="0"/>
 		</Prop>
 		<Prop
-			Angle="0"
+			Angle="-0.327115"
 			EventList=""
 			Faction="PlyrCivilian/teamPlyrCivilian"
 			Health="100"
@@ -5298,8 +6533,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="165.646"
-				y="1985.33"
+				x="749.873"
+				y="1715.28"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -5324,8 +6559,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="174.354"
-				y="1796.15"
+				x="307.668"
+				y="1700.92"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -5337,8 +6572,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="103.796"
-				y="1827.19"
+				x="207.314"
+				y="1764.81"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -6247,8 +7482,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="1355.45"
-				y="2661.73"
+				x="1331.36"
+				y="2658.06"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -6377,8 +7612,8 @@
 			ThingTemplate="GOTtree01"
 			id="GOTtree01">
 			<Position
-				x="923.682"
-				y="2276.74"
+				x="849.143"
+				y="2238.91"
 				z="0"/>
 		</Prop>
 		<Prop
@@ -7983,8 +9218,8 @@
 			ThingTemplate="Amb_WindCold1"
 			id="Amb_WindCold1">
 			<Position
-				x="659.011"
-				y="2293.77"
+				x="594.274"
+				y="2300.14"
 				z="0"/>
 		</Audio>
 		<Audio
@@ -8007,8 +9242,8 @@
 			ThingTemplate="Amb_Wind1"
 			id="Amb_Wind1">
 			<Position
-				x="416.845"
-				y="3001.25"
+				x="398.979"
+				y="2848.06"
 				z="0"/>
 		</Audio>
 		<Audio
@@ -8454,6 +9689,180 @@
 				</Action>
 			</Script>
 			<Script
+				id="Nod allow">
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODTechAssemblyPlant"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODTiberiumLiquidationFacility"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODHangar"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODCyborgCommando"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODCyborgSquad"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODReaper"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODBeamCannon"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODStealthTank"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODAdvancedArtillery"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODAvatar"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODPhantom"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODFanaticSquad"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODCommando"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODBlackHandSquad"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODTempleOfNOD"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODObelisk"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="NODDisruptionTower"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="GDIAirTower"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="GDIOrca"/>
+					</ParameterList>
+				</Action>
+			</Script>
+			<Script
+				id="GDI allow">
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="GDIArmory"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="GDIMedicalBay"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="GDIRig"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="HoverMLRS"/>
+					</ParameterList>
+				</Action>
+				<Action
+					Type="ALLOW_DISALLOW_ONE_BUILDING">
+					<ParameterList>
+						<ObjectType
+							Object="GDIJumpJetTrooper"/>
+					</ParameterList>
+				</Action>
+			</Script>
+			<Script
 				id="lock tech">
 				<Action
 					Type="PLAYER_SCIENCE_AVAILABILITY">
@@ -8595,180 +10004,6 @@
 				</Action>
 			</Script>
 			<Script
-				id="GDI allow">
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="GDIArmory"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="GDIMedicalBay"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="GDIRig"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="HoverMLRS"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="GDIJumpJetTrooper"/>
-					</ParameterList>
-				</Action>
-			</Script>
-			<Script
-				id="Nod allow">
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODTechAssemblyPlant"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODTiberiumLiquidationFacility"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODHangar"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODCyborgCommando"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODCyborgSquad"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODReaper"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODBeamCannon"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODStealthTank"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODAdvancedArtillery"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODAvatar"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODPhantom"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODFanaticSquad"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODCommando"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODBlackHandSquad"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODTempleOfNOD"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODObelisk"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="NODDisruptionTower"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="GDIAirTower"/>
-					</ParameterList>
-				</Action>
-				<Action
-					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList>
-						<ObjectType
-							Object="GDIOrca"/>
-					</ParameterList>
-				</Action>
-			</Script>
-			<Script
 				id="money">
 				<Action
 					Type="PLAYER_SET_MONEY">
@@ -8841,6 +10076,17 @@
 				</Action>
 			</Script>
 			<Script
+				id="secondary order">
+				<Action
+					Type="SHOW_MILITARY_CAPTION">
+					<ParameterList/>
+				</Action>
+				<Action
+					Type="OBJECT_CREATE_RADAR_EVENT">
+					<ParameterList/>
+				</Action>
+			</Script>
+			<Script
 				id="secondary finish">
 				<Action
 					Type="SHOW_MILITARY_CAPTION">
@@ -8889,15 +10135,15 @@
 							Object="NODFanaticSquad"/>
 					</ParameterList>
 				</Action>
-			</Script>
-			<Script
-				id="secondary order">
 				<Action
-					Type="SHOW_MILITARY_CAPTION">
+					Type="SET_MILLISECOND_TIMER">
 					<ParameterList/>
 				</Action>
+			</Script>
+			<Script
+				id="LastObj">
 				<Action
-					Type="OBJECT_CREATE_RADAR_EVENT">
+					Type="SHOW_MILITARY_CAPTION">
 					<ParameterList/>
 				</Action>
 			</Script>
