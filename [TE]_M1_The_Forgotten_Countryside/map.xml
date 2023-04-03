@@ -291,7 +291,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="The_Forgotten_Countryside">
+		id="TE_M1_The_Forgotten_Countryside">
 		<Waypoint
 			id="Waypoint 33">
 			<Position
@@ -1330,6 +1330,32 @@
 				z="0"/>
 		</Structure>
 		<Unit
+			Angle="1.97359"
+			EventList=""
+			Faction="MutantPLAYER/teamMutantPLAYER"
+			Health="100"
+			Team="MutantPLAYER"
+			ThingTemplate="GhostStalker"
+			id="GhostStalker">
+			<Position
+				x="2814.16"
+				y="-205.217"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="1.95975"
+			EventList=""
+			Faction="MutantPLAYER/teamMutantPLAYER"
+			Health="100"
+			Team="MutantPLAYER"
+			ThingTemplate="MutantSniper"
+			id="MutantSniper">
+			<Position
+				x="2752.28"
+				y="-254.679"
+				z="0"/>
+		</Unit>
+		<Unit
 			Angle="-1.93763"
 			EventList=""
 			Faction="MutantALLY/teamMutantALLY"
@@ -1704,32 +1730,6 @@
 			<Position
 				x="2385.49"
 				y="658.319"
-				z="0"/>
-		</Unit>
-		<Unit
-			Angle="2.28018"
-			EventList=""
-			Faction="MutantPLAYER/teamMutantPLAYER"
-			Health="100"
-			Team="MutantPLAYER"
-			ThingTemplate="MutantMarauderSquad"
-			id="MutantMarauderSquad">
-			<Position
-				x="2768.02"
-				y="-168.058"
-				z="0"/>
-		</Unit>
-		<Unit
-			Angle="2.28018"
-			EventList=""
-			Faction="MutantPLAYER/teamMutantPLAYER"
-			Health="100"
-			Team="MutantPLAYER"
-			ThingTemplate="MutantMarauderSquad"
-			id="MutantMarauderSquad">
-			<Position
-				x="2698.56"
-				y="-230.324"
 				z="0"/>
 		</Unit>
 		<Prop
@@ -7194,7 +7194,7 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:The_Forgotten_Countryside/Desc"
+			Description="Map:[TE]_M1_The_Forgotten_Countryside/Desc"
 			DisplayName="[TE] Revenge Of The Forgotten 1: Forgotten Countryside"
 			FileName="Data"
 			Height="280"
@@ -7205,7 +7205,7 @@
 			<StartPosition
 				Name="InitialCameraPosition">
 				<Position
-					x="1.87648e+020"
+					x="2.54739e+020"
 					y="2.37845e-039"
 					z="6.99865e-039"/>
 			</StartPosition>
@@ -7260,7 +7260,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="The_Forgotten_Countryside">
+		id="TE_M1_The_Forgotten_Countryside">
 		<Tile
 			BaseTexture="ART:Terrain/TDirt_NCarolina03.tga"
 			NormalTexture="ART:Terrain/TDirt_NCarolina03_nrm.tga"
