@@ -243,7 +243,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="TE_Nukes_Of_Our_Fathers">
+		id="TE_M2_Nukes_Of_Our_Fathers">
 		<Waypoint
 			id="initialcamera">
 			<Position
@@ -3952,6 +3952,19 @@
 				y="652.272"
 				z="0"/>
 		</Structure>
+		<Unit
+			Angle="2.11064"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="MutantSniper"
+			id="MutantSniper">
+			<Position
+				x="2788.81"
+				y="219.161"
+				z="0"/>
+		</Unit>
 		<Unit
 			Angle="-2.64662"
 			EventList=""
@@ -10952,7 +10965,7 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[TE]_Nukes_Of_Our_Fathers/Desc"
+			Description="Map:[TE]_M2_Nukes_Of_Our_Fathers/Desc"
 			DisplayName="[TE] Revenge Of The Forgotten 2: Nukes Of Our Father"
 			FileName="Data"
 			Height="380"
@@ -10963,7 +10976,7 @@
 			<StartPosition
 				Name="InitialCameraPosition">
 				<Position
-					x="1.21285e+020"
+					x="3.18044e+020"
 					y="2.37845e-039"
 					z="6.99865e-039"/>
 			</StartPosition>
@@ -11015,7 +11028,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="TE_Nukes_Of_Our_Fathers">
+		id="TE_M2_Nukes_Of_Our_Fathers">
 		<Tile
 			BaseTexture="ART:Terrain/TDirt_Sar10.tga"
 			NormalTexture="ART:Terrain/TDirt_Sar10_nrm.tga"

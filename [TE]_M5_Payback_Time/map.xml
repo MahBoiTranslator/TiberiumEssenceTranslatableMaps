@@ -411,7 +411,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="TE_Payback_Time">
+		id="TE_M5_Payback_Time">
 		<Waypoint
 			id="Waypoint 41">
 			<Position
@@ -19038,7 +19038,7 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[TE]_Payback_Time/Desc"
+			Description="Map:[TE]_M5_Payback_Time/Desc"
 			DisplayName="[TE] Revenge Of The Forgotten 5: Payback Time"
 			FileName="Data"
 			Height="380"
@@ -19049,7 +19049,7 @@
 			<StartPosition
 				Name="InitialCameraPosition">
 				<Position
-					x="4.87573e+020"
+					x="2.73492e+020"
 					y="2.37845e-039"
 					z="6.99865e-039"/>
 			</StartPosition>
@@ -19104,7 +19104,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="TE_Payback_Time">
+		id="TE_M5_Payback_Time">
 		<Tile
 			BaseTexture="ART:Terrain/TPave_Aus08.tga"
 			NormalTexture="ART:Terrain/TPave_Aus08_nrm.tga"
