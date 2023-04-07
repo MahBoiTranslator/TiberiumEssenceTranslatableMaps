@@ -1,0 +1,45 @@
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_1
+	"Recapture the Drone Platform"
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_1_Detail
+	"Recpaturing the Drone Platform will bring our base online.You we need to mind control GDI engineers to complete this objective."
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_2
+	"Destroy the GDI Base"
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_2_Detail
+	"To secure the remains of Threshold 18, we must destroy this GDI base."
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_3
+	"The Mothership must survive"
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_3_Detail
+	"Your Mothership will be able to eradicate the GDI base. But do not be reckless, for if it is destroyed you will die."
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_4
+	"Investigate the remains of Threshold  18"
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Scrin1_Objective_4_Detail
+	"Now that we have removed GDI, we can safely investigate Threshold 18 and salvage what we can."
+END
+
+
+
+MSNSTR:RDS:SCRINCAMP:M1:Mothership_Deployed
+	"GDI heavy defences detected. We are sending your Mothership."
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Forgotten_Discovered1
+	"A third human faction has been discovered. They have been infused with Ichor and survived."
+END
+
+MSNSTR:RDS:SCRINCAMP:M1:Forgotten_Discovered2
+	"We should observe them. Perhaps we can turn them to serve us."
+END

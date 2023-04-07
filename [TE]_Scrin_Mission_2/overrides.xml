@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <Tags/>
+   <Includes>
+
+   </Includes>
+
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_1"
+			Description="MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_1_Detail">
+			<PresentationSettings
+				ID="Scrin2_Obj_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>4.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_2"
+			Description="MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_2_Detail">
+			<PresentationSettings
+				ID="Scrin2_Obj_2"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	</MissionObjectiveList>
+
+
+
+
+
+</AssetDeclaration>

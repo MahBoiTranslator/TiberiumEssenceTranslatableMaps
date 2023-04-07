@@ -1,0 +1,49 @@
+MSNSTR:RDS:SCRINCAMP:M2:Intro1
+	"These humans seem to depend on Ichor much like us."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Intro2
+	"Unlike us however, the Ichor will eventually kill them."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Intro3
+	"The Overlord wants to know more. We may be able to use them."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Win
+	"Mission successful, we have learned much about the 'Forgotten'. They will be a tool in our conquest of this planet."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Lose
+	"Mission failed, we have lost the oppertunity to observe the Ichor-gifted humans."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Fiend_Team_Deployed
+	"Interesting, these humans are able to control Ichor infested wildlife."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:AdvDef_Deployed
+	"It seems they can use infected organisms as advanced base defences."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:TankHunter_Deployed
+	"They are using Ichor crystals in ways we have not seen before. We can learn much from them."
+END
+
+
+
+MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_1
+	"Protect the Ichor-gifted Humans"
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_1_Detail
+	"We need to observe these humans, they may benefit us against GDI and Nod. Do not allow them to be destroyed."
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_2
+	"Eliminate the Nod Base"
+END
+
+MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_2_Detail
+	"The faction known as the Brotherhood of Nod are threatening us and the Ichor-gifted humans. Destroy them all."
+END
