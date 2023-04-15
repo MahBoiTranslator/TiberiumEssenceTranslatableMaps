@@ -1,0 +1,59 @@
+MSNSTR:RDS:CABAL:M6N:Core_Defender_Timer
+	"Core Defender online in:"
+END
+
+MSNSTR:RDS:CABAL:M6N:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M6N:Intro2
+	"CABAL: I am impressed, General Slavik. But your desperate tactics has doomed the Brotherhood."
+END
+
+MSNSTR:RDS:CABAL:M6N:Intro3
+	"CABAL: The Code structures must not be captured by Nod. My Firestorm defences will fall without them."
+END
+
+MSNSTR:RDS:CABAL:M6N:GDIArrives
+	"***WARNING: NOD AND GDI HAVE CAPTURED A CODE STRUCTURE AND 4 MISSILE SILOS***"
+END
+
+MSNSTR:RDS:CABAL:M6N:NodControlsCode1
+	"***WARNING: NOD HAS CAPTURED A CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6N:NodControlsCode2
+	"***WARNING: NOD HAS CAPTURED THE FINAL CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6N:Objective_1
+	"Objective 1: Defend the remaining Code Structure at all costs\nObjective 2: Wait until the Core Defender is ready\nOR defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6N:Objective_2
+	"Objective 1: Defend the remaining Code Structure at all costs\nUpdated Objective 2: Defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6N:CoreDefenderOnline
+	"CABAL: 'Activating Defence Portocol: Defender, now.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:SlavikArrives
+	"CABAL: 'General Slavik, you must be desperate if you think your Montauk will save Nod!'"
+END
+
+MSNSTR:RDS:CABAL:M6N:SlavikDies
+	"CABAL: 'The Brotherhood dies with you, Slavik. Kane thanks you for your service.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:NodDefeated
+	"CABAL: 'You made this easy, flesh bags.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:GDIDefeated
+	"CABAL: 'Your defeat is at hand, GDI.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:Win
+	"CABAL:The Brotherhood is dead, and GDI will soon join them. All cyborgs, prepare to invade Southern Cross.\nHuman extinction is at hand!"
+END

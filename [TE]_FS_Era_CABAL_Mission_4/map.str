@@ -1,0 +1,75 @@
+MSNSTR:RDS:CABAL:M4:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M4:Intro2
+	"CABAL: Listen to the sounds of your own extinction."
+END
+
+MSNSTR:RDS:CABAL:M4:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1
+	"Objective 1: Capture the towns and city by killing the guards"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_5_Shrines
+	"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 100%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_4_Shrines
+	"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 80%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_3_Shrines
+	"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 60%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_2_Shrines
+	"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 40%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_1_Shrine
+	"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 20%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_2
+	"Objective 2: Destroy the GDI Base"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_2_Complete
+	"Secondary Objective complete. \nGDI has been defeated."
+END
+
+MSNSTR:RDS:CABAL:M4:Town1Captured
+	"Civilian town captured. \n---Cyborg production available--- \n---Harvesting subroutine initiated---"
+END
+
+MSNSTR:RDS:CABAL:M4:MutantTownCaptured
+	"Mutant town captured. \n---Cyborg Obliterator available--- \n---Harvesting subroutine initiated--- \n---Cyborgs upgraded with Tiberium Beam---"
+END
+
+MSNSTR:RDS:CABAL:M4:EastCityCaptured
+	"Eastside captured. \n---Aircraft available--- \n---Tiberium Silo captured--- \n---Reapers upgraded with Tiberium Missiles---"
+END
+
+MSNSTR:RDS:CABAL:M4:CityCentreCaptured
+	"City Centre captured. \n---Cyborg production expanded--- \n---Tiberium Silos captured--- \n---Obliterators upgraded with Tiberium Power Packs---"
+END
+
+MSNSTR:RDS:CABAL:M4:GDIRetaliates
+	"WARNING: GDI are mobilising their forces."
+END
+
+MSNSTR:RDS:CABAL:M4:Wololo
+	"Your cyborgs have ran into an error and will need to restart. \n If you would like to know more, you can search online later for this error: \nBLUE SCREEN OF DEATH WOLOLO RED SCREEN OF DEATH"
+END
+
+MSNSTR:RDS:CABAL:M4:Win
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:CABAL:M4:Lose
+	"Mission failed"
+END

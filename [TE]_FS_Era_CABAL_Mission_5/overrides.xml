@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+   	  <Include source="NODBlackHandSquad.xml" type="all"/>
+	  <Include source="NODConfessor.xml" type="all"/>
+	  <Include source="NSAirfieldControlTower.xml" type="all"/>
+	  <Include source="NSCommandCenter.xml" type="all"/>
+	  <Include source="NSIonDisruptionFieldGenerator.xml" type="all"/>
+	  <Include source="NSLabRadarBuilding.xml" type="all"/>	  
+	  <Include source="NSManufacturingFacility1.xml" type="all"/>
+	  <Include source="NSManufacturingFacility2.xml" type="all"/>	  
+	  <Include source="NSManufacturingFacility3.xml" type="all"/>	  
+	  <Include source="NSPortAuthority.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding1.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding2.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding3.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding4.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding5.xml" type="all"/>	  
+	  <Include source="NSStrongholdBuilding6.xml" type="all"/>
+	  <Include source="NSWeaponsLabFacility.xml" type="all"/>	  
+      <Include source="AlienDronePlatform.xml" type="all"/>
+      <Include source="AlienMCV.xml" type="all"/>	  
+      <Include source="AlienFoundry.xml" type="all"/>	  
+      <Include source="AlienPortal.xml" type="all"/>
+	  <Include source="AlienStatisChamber.xml" type="all"/>
+      <Include source="AlienGateway.xml" type="all"/>
+      <Include source="AlienControlCenter.xml" type="all"/>
+      <Include source="AlienWarpBeacon.xml" type="all"/>		
+      <Include source="NODPowerPlant.xml" type="all"/>	  
+      <Include source="AlienReactor.xml" type="all"/> 
+      <Include source="LogicSet.xml" type="all"/>	
+   </Includes>
+</AssetDeclaration>

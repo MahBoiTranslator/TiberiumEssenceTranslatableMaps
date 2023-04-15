@@ -1,0 +1,51 @@
+MSNSTR:RDS:CABAL:M2:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M2:Intro2
+	"CABAL: GDI is beginning to mass produce Mammoth MKII Walkers."
+END
+
+MSNSTR:RDS:CABAL:M2:Intro3
+	"CABAL: This facility must be deleted so they cannot pose a credible threat to me."
+END
+
+MSNSTR:RDS:CABAL:M2:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal2_Objective_1
+	"Objective 1: Capture the GDI Construction Yard and Command Post"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal2_Objective_2
+	"Objective 2: Locate and destroy the first Mammoth MKII"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal2_Objective_3
+	"Objective 3: Destroy the remaining Mammoth MKII Walkers \nand all Deployment Zones"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal_Objective_1_Complete
+	"Primary Objective achieved"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal_Objective_2_Complete
+	"Secondary Objective achieved"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal_Objective_3_Complete
+	"Tertiary Objective achieved \nCABAL: Probability of GDI survival down to 10%."
+END
+
+MSNSTR:RDS:CABAL:M2:Win
+	"Mission acommplished"
+END
+
+MSNSTR:RDS:CABAL:M2:Lose
+	"Mission failed \n We have lost too many saboteurs."
+END
+
+MSNSTR:RDS:CABAL:M2:Lose2
+	"Mission failed \n Critical Structure lost."
+END

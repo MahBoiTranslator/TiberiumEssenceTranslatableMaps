@@ -1,0 +1,63 @@
+MSNSTR:RDS:CABAL:M5:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M5:Intro2
+	"CABAL: Nod and GDI have united against me. All cyborgs are directed to defend key assests."
+END
+
+MSNSTR:RDS:CABAL:M5:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M5:Objective_1
+	"Objective 1: The train must reach the Core outpost.\n Select the front of the train to move it, if you think the next area is safe."
+END
+
+MSNSTR:RDS:CABAL:M5:FirestormWarning
+	"CABAL: GDI Firestorm Generators no longer have a cooldown period. Eliminate the powerplants to force them offline."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainStation
+	"CABAL: The train will stop at each station to repair. Protect it at all costs."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainMoving
+	"CABAL: The train is moving to the next area."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainStopped
+	"CABAL: The train has stopped."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainUnderAttack
+	"WARNING: The train is under attack."
+END
+
+MSNSTR:RDS:CABAL:M5:NodDestroysCABALHarvesting
+	"Nod has destroyed a mass harvesting base. Rerouting remaining resources to the Core."
+END
+
+MSNSTR:RDS:CABAL:M5:GDIHacksCyborgs
+	"WARNING: Virus detected! All systems infected! Attempting system purge..."
+END
+
+MSNSTR:RDS:CABAL:M5:CyborgsPurged
+	"CABAL: System purge complete. Significant cyborg loses detected. Controls restablished."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainDestroyed
+	"CABAL: Train destroyed. Probabilty of my survival is 0%."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainSurvives
+	"CABAL: Train evacuated. Constructing Core Defender. All units to return to the Core immediately."
+END
+
+MSNSTR:RDS:CABAL:M5:Win
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:CABAL:M5:Lose
+	"Mission failed"
+END

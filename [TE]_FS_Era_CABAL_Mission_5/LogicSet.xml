@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">	
+	<Includes>
+			<Include type="all" source="DATA:Extra content\Confessor Cabal\ConfessorCabal.xml" />
+			<Include type="all" source="DATA:Extra content\Confessor Cabal\NODDisciple.xml" />
+			<!--<Include type="all" source="DATA:Extra content\Black Hand Elite Squad\NODBlackHandElite.xml" />
+			<Include type="all" source="DATA:Extra content\Black Hand Elite Squad\NODBlackHandEliteSquad.xml" />-->
+			<Include type="all" source="DATA:Extra content\Harpy2\NODHarpy2.xml" />
+			<Include type="all" source="DATA:Extra content\ChemTrooperFixed\NODChemTrooper2.xml" />
+			<Include type="all" source="DATA:Extra content\ChemTrooperFixed\ChemTrooperFix.xml" />
+
+	</Includes>
+<LogicCommand
+     	Type="UNIT_BUILD"
+     	id="Command_ConstructNODConfessor">
+     	<Object>ConfessorCabal</Object>
+</LogicCommand>		
+<LogicCommandSet
+		id="GDIConstructionYardCommandSet">
+		<Cmd>Command_ConstructGDIPowerPlant</Cmd>
+		<Cmd>Command_ConstructGDIRefinery</Cmd>
+		<Cmd>Command_ConstructGDIBarracks</Cmd>
+		<Cmd>Command_ConstructGDIWarfactory</Cmd>
+		<Cmd>Command_ConstructGDICommandPost</Cmd>
+		<Cmd>Command_ConstructGDIAirTower</Cmd>
+		<Cmd>Command_ConstructGDIMedicalCenter</Cmd>
+		<Cmd>Command_ConstructGDIArmory</Cmd>
+		<Cmd>Command_ConstructGDIWatchTower</Cmd>
+		<Cmd>Command_ConstructGDIGolumCannon</Cmd>
+		<Cmd>Command_ConstructGDIAABattery</Cmd>
+		<Cmd>Command_ConstructGDITiberiumSilo</Cmd>
+		<Cmd>Command_ConstructGDIWallHubNew</Cmd>
+		<Cmd>Command_ConstructGDIWallGate</Cmd>	
+		<Cmd>Command_ConstructGDICrane</Cmd>
+		<Cmd>Command_ConstructGDISurveyor</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet
+		id="GDICraneCommandSet">
+		<Cmd>Command_ConstructGDIPowerPlant</Cmd>
+		<Cmd>Command_ConstructGDIRefinery</Cmd>
+		<Cmd>Command_ConstructGDIBarracks</Cmd>
+		<Cmd>Command_ConstructGDIWarfactory</Cmd>
+		<Cmd>Command_ConstructGDICommandPost</Cmd>
+		<Cmd>Command_ConstructGDIAirTower</Cmd>
+		<Cmd>Command_ConstructGDIMedicalCenter</Cmd>
+		<Cmd>Command_ConstructGDIArmory</Cmd>
+		<Cmd>Command_ConstructGDIWatchTower</Cmd>
+		<Cmd>Command_ConstructGDIGolumCannon</Cmd>
+		<Cmd>Command_ConstructGDIAABattery</Cmd>
+		<Cmd>Command_ConstructGDITiberiumSilo</Cmd>
+		<Cmd>Command_ConstructGDIWallHubNew</Cmd>
+		<Cmd>Command_ConstructGDIWallGate</Cmd>	
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>	
+<LogicCommandSet
+		 id="GDIBarracksCommandSet">
+		 <Cmd>Command_ConstructGDIRifleSoldierSquad</Cmd>
+		 <Cmd>Command_ConstructGDIGrenadeSoldierSquad</Cmd>
+		 <Cmd>Command_ConstructGDIEngineer</Cmd>		 
+		 <Cmd>Command_ConstructGDIMedic</Cmd>		
+		 <Cmd>Command_ConstructGDIJumpJetTrooperSquad</Cmd>	 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>	  
+	  <LogicCommandSet
+		 id="GDIWarFactoryCommandSet">
+		 <Cmd>Command_ConstructGDIPitbull</Cmd>
+		 <Cmd>Command_ConstructGDIPredator</Cmd>
+		 <Cmd>Command_ConstructGDIHarvester</Cmd>
+		 <Cmd>Command_ConstructGDIAPC</Cmd>
+		 <Cmd>Command_ConstructGDIHoverMLRS</Cmd>		
+		 <Cmd>Command_ConstructGDIDisruptor</Cmd>
+		 <Cmd>Command_ConstructSummonerColossusTeam</Cmd>
+		 <Cmd>Command_ConstructGDIJuggernaught</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>	  
+<LogicCommandSet
+		 id="GDIAirTowerCommandSet">
+		 <Cmd>Command_ConstructGDIOrca</Cmd>
+		 <Cmd>Command_ConstructGDIOrcaBomber</Cmd>
+		 <Cmd>Command_ConstructGDIOrcaCarryall</Cmd>		 
+		 <Cmd>Command_GDIRecallAllAircraft</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetRallyPoint_Aircraft</Cmd>
+      </LogicCommandSet>	  
+<LogicCommandSet
+		id="NODConstructionYardCommandSet">
+		<Cmd>Command_NOD_BuildPowerPlant</Cmd>
+		<Cmd>Command_NOD_BuildRefinery</Cmd>
+		<Cmd>Command_NOD_BuildBarracks</Cmd>
+		<Cmd>Command_NOD_BuildDropZone</Cmd>
+		<Cmd>Command_NOD_BuildOperationsCenter</Cmd>
+		<Cmd>Command_NOD_BuildHangar</Cmd>
+		<Cmd>Command_NOD_BuildSecretShrine</Cmd>
+		<Cmd>Command_NOD_BuildTechAssemblyPlant</Cmd>
+		<Cmd>Command_NOD_BuildShredderTurretHub</Cmd>
+		<Cmd>Command_NOD_BuildLaserCannon</Cmd>
+		<Cmd>Command_NOD_BuildRocketBunker</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumSilo</Cmd>
+		<Cmd>Command_NOD_BuildObeliskOfLight</Cmd>	
+		<Cmd>Command_NOD_BuildCrane</Cmd>
+		<Cmd>Command_ConstructNODEmissary</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet
+		id="NODConstructionYardCommandSet2">
+		<Cmd>Command_NOD_BuildPowerPlant</Cmd>
+		<Cmd>Command_NOD_BuildRefinery</Cmd>
+		<Cmd>Command_ConstructAlienPortal</Cmd>
+		<Cmd>Command_ConstructAlienGateway</Cmd>
+		<Cmd>Command_ConstructAlienControlCenter</Cmd>
+		<Cmd>Command_ConstructAlienWarpBeacon</Cmd>
+		<Cmd>Command_ConstructAlienStatisChamber</Cmd>
+		<Cmd>Command_ConstructAlienReactor</Cmd>
+		<Cmd>Command_NOD_BuildShredderTurretHub</Cmd>
+		<Cmd>Command_NOD_BuildLaserCannon</Cmd>
+		<Cmd>Command_NOD_BuildRocketBunker</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumSilo</Cmd>
+		<Cmd>Command_ConstructAlienFoundry</Cmd>
+		<Cmd>Command_ConstructNODEmissary</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet
+		id="NODCraneCommandSet2">
+		<Cmd>Command_NOD_BuildPowerPlant</Cmd>
+		<Cmd>Command_NOD_BuildRefinery</Cmd>
+		<Cmd>Command_ConstructAlienPortal</Cmd>
+		<Cmd>Command_ConstructAlienGateway</Cmd>
+		<Cmd>Command_ConstructAlienControlCenter</Cmd>
+		<Cmd>Command_ConstructAlienWarpBeacon</Cmd>
+		<Cmd>Command_ConstructAlienStatisChamber</Cmd>
+		<Cmd>Command_ConstructAlienReactor</Cmd>
+		<Cmd>Command_ConstructForgottenSuperReactor</Cmd>
+		<Cmd>Command_NOD_BuildShredderTurretHub</Cmd>
+		<Cmd>Command_NOD_BuildLaserCannon</Cmd>
+		<Cmd>Command_NOD_BuildRocketBunker</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumSilo</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>	
+<LogicCommandSet
+         id="NODHandOfNODCommandSet">
+         <Cmd>Command_ConstructNODCyborgSquad</Cmd> 
+         <Cmd>Command_ConstructNODReaper</Cmd>
+         <Cmd>Command_ConstructNODSaboteur</Cmd>
+         <Cmd>Command_ConstructNODHijacker</Cmd>		 
+	     <Cmd>Command_ConstructNODCyborgCommando</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODHandOfNODCommandSet2">
+		 <Cmd>Command_ConstructNODMilitantSquad</Cmd>
+		 <Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+         <Cmd>Command_ConstructNODSaboteur</Cmd>
+         <Cmd>Command_ConstructNODBlackHandSquad</Cmd>
+		 <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+        id="NODSecretShrineCommandSet">
+        <Cmd>Command_ConstructNODCyborgSquad</Cmd> 
+        <Cmd>Command_ConstructNODReaper</Cmd>
+		<Cmd>Command_ConstructNODHijacker</Cmd>		 
+	    <Cmd>Command_ConstructNODCyborgCommando</Cmd>
+	    <Cmd>Command_PurchaseUpgradeFlamers</Cmd>
+        <Cmd>Command_TogglePower</Cmd>
+        <Cmd>Command_SelfRepair</Cmd>
+        <Cmd>Command_Sell</Cmd>
+        <Cmd>Command_SetDefaultBuilding</Cmd>
+        <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+        id="NODSecretShrineCommandSet2">
+	    <Cmd>Command_PurchaseUpgradeTiberiumInfusion</Cmd>		
+        <Cmd>Command_TogglePower</Cmd>
+        <Cmd>Command_SelfRepair</Cmd>
+        <Cmd>Command_Sell</Cmd>
+        <Cmd>Command_SetDefaultBuilding</Cmd>
+        <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="NODDropZoneCommandSet">
+		 <Cmd>Command_ConstructNODAttackBike</Cmd>
+		 <Cmd>Command_ConstructNODScorpionBuggy</Cmd>
+		 <Cmd>Command_ConstructNODRaiderTank</Cmd>
+		 <Cmd>Command_ConstructNODHarvester</Cmd>
+		 <Cmd>Command_ConstructNODMCV</Cmd>		 
+		 <Cmd>Command_ConstructNODApc</Cmd>
+		 <Cmd>Command_ConstructNODFlameTank</Cmd>
+		 <Cmd>Command_ConstructNODStealthTank</Cmd>	
+		 <Cmd>Command_ConstructNodPhantom</Cmd>		
+		 <Cmd>Command_ConstructNODAdvancedArtillery</Cmd>
+		 <Cmd>Command_ConstructSummonerHeavyReapers</Cmd>
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>	  
+<LogicCommandSet
+		 id="NODDropZoneCommandSet2">
+		 <Cmd>Command_ConstructNODAttackBike</Cmd>
+		 <Cmd>Command_ConstructNODScorpionBuggy</Cmd>
+		 <Cmd>Command_ConstructNODRaiderTank</Cmd>
+		 <Cmd>Command_ConstructNODHarvester</Cmd>		 
+		 <Cmd>Command_ConstructNODApc</Cmd>
+		 <Cmd>Command_ConstructNODMCV</Cmd>
+		 <Cmd>Command_ConstructNODFlameTank</Cmd>		 
+		 <Cmd>Command_ConstructNODStealthTank</Cmd>
+		 <Cmd>Command_ConstructNodPhantom</Cmd>		 
+		 <Cmd>Command_ConstructNODAdvancedArtillery</Cmd>
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="NODHangarCommandSet">
+		 <Cmd>Command_ConstructNODVenom</Cmd>
+		 <Cmd>Command_ConstructNODBanshee</Cmd>
+		 <Cmd>Command_NODBurrowMines</Cmd>
+		 <Cmd>Command_NODRecallAllAircraft</Cmd>
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Aircraft</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="NODHangarCommandSet2">		 
+		 <Cmd>Command_ConstructNODVenom</Cmd>
+		 <Cmd>Command_ConstructNODBanshee</Cmd>
+		 <Cmd>Command_NODBurrowMines</Cmd>
+		 <Cmd>Command_NODRecallAllAircraft</Cmd>
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Aircraft</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODOperationsCenterCommandSet2">
+         <Cmd>Command_PurchaseUpgradeFlamers</Cmd>
+         <Cmd>Command_NodRadarSpy</Cmd>
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODTechAssemblyPlantCommandSet2">
+         <Cmd>Command_UpgradeNODTiberiumWarhead</Cmd>
+		 <Cmd>Command_UpgradeNODVehicleReactor</Cmd>
+         <Cmd>Command_CloakingField</Cmd>
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>  
+
+</AssetDeclaration>

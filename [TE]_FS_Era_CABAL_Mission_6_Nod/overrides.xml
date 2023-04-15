@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+   	  <Include source="NODBlackHandSquad.xml" type="all"/>
+	  <Include source="NODConfessor.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding1.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding2.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding3.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding4.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding5.xml" type="all"/>	  
+	  <Include source="NSStrongholdBuilding6.xml" type="all"/>
+	  <Include source="NSLabRadarBuilding.xml" type="all"/>	  
+      <Include source="AlienDronePlatform.xml" type="all"/>
+      <Include source="AlienMCV.xml" type="all"/>	  
+      <Include source="AlienFoundry.xml" type="all"/>	  
+      <Include source="AlienPortal.xml" type="all"/>
+	  <Include source="AlienStatisChamber.xml" type="all"/>
+      <Include source="AlienGateway.xml" type="all"/>
+      <Include source="AlienControlCenter.xml" type="all"/>
+      <Include source="AlienWarpBeacon.xml" type="all"/>		
+      <Include source="NODPowerPlant.xml" type="all"/>	  
+      <Include source="AlienReactor.xml" type="all"/> 
+      <Include source="LogicSet.xml" type="all"/>
+	<Include source="CoreDefender.xml" type="all"/>
+   </Includes>
+    	<SpecialPowerTemplate
+		id="SpecialPowerNuclearMissile"
+		DisplayName="NAME:SuperweaponTimerNuclearMissile"
+		Description="DESC:SuperweaponTimerNuclearMissile"
+		Flags="IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="600s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300" 
+		RestrictionType="1"
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateAlly="AlliedNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateEnemy="EnemyNuclearMissileLaunched"
+		TimerImage="Button_PlayerPowerNuclearMissile"/>
+	    <SpecialPowerTemplate
+		id="SpecialPowerIonCannonControlIonCannon"
+		DisplayName="NAME:SuperweaponTimerIonCannon"
+		Description="DESC:SuperweaponTimerIonCannon"
+		Flags="IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="420s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300"
+		RestrictionType="1" 
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnIonCannonActivated"
+		EvaEventToPlayOnInitiateAlly="AlliedIonCannonActivated"
+		EvaEventToPlayOnInitiateEnemy="EnemyIonCannonActivated"
+		TimerImage="Button_PlayerPowerIonCannon"/>		
+
+
+
+
+<!--
+FIXES FOR VEINHOLE in 2.0 (WEINHOLE)
+-->
+
+
+	<GameObject
+		id="WeinsCluster"
+		KindOf="SELECTABLE IMMOBILE SHADOW_ULTRA_HIGH_ONLY NO_COLLIDE NOT_AUTOACQUIRABLE IGNORE_FOR_VICTORY DO_NOT_CLASSIFY HARVESTABLE"
+		Browser="NEUTRAL MISC_NATURAL"
+		Description="Desc:GreenTiberiumCrystal"
+		RadarPriority="STRUCTURE"
+		Side="Neutral"
+		EditorName="WeinsCluster"
+		EditorSorting="MISC_NATURAL"
+		BuildTime="1"
+		SelectPortrait="Portrait_GreenTiberium"
+		ButtonImage="Portrait_GreenTiberium"
+		IsHarvestable="True">
+		<DisplayName>Name:NeutralTiberiumWeins</DisplayName>
+		<ArmorSet
+			Armor="WeinsClusterArmor"
+			DamageFX="VehicleDamageFX" />
+		<Draws>
+			<ScriptedModelDraw
+				id="0x50DF2C46">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="W3DContainer:TIBWEINCLUSTER01" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="RUBBLE">
+					<Model
+						Name="W3DContainer:TIBWEINCLUSTER01_R" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_CRYSTAL_TYPE1">
+					<Model
+						Name="W3DContainer:TIBWEINCLUSTER01" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_CRYSTAL_TYPE2">
+					<Model
+						Name="W3DContainer:TIBWEINCLUSTER02" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_CRYSTAL_TYPE3">
+					<Model
+						Name="W3DContainer:TIBWEINCLUSTER02" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT" />
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_GROWING"
+					Flags="START_FRAME_LAST">
+					<Animation
+						AnimationName="TibCell01"
+						AnimationMode="MANUAL"
+						AnimationBlendTime="0" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_CRYSTAL_TYPE1">
+					<Animation
+						AnimationName="TibCell01"
+						AnimationMode="MANUAL"
+						AnimationBlendTime="0" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_CRYSTAL_TYPE2">
+					<Animation
+						AnimationName="TibCell01"
+						AnimationMode="MANUAL"
+						AnimationBlendTime="0" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TIBERIUM_CRYSTAL_TYPE3">
+					<Animation
+						AnimationName="TibCell01"
+						AnimationMode="MANUAL"
+						AnimationBlendTime="0" />
+				</AnimationState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<RandomModelCondition
+				id="Random_Model"
+				Conditions="TIBERIUM_CRYSTAL_TYPE1 TIBERIUM_CRYSTAL_TYPE2 TIBERIUM_CRYSTAL_TYPE3" />
+			<TiberiumCrystal
+				id="0xBC71C8AC"
+				NumBoxes="50"
+				ValuePerBox="21"
+				TimeBetweenGrowthStages="3s">
+				<RadarColor
+					R="4"
+					G="210"
+					B="254" />
+			</TiberiumCrystal>
+			<FireWeaponUpdate
+				id="0x955F8DC3">
+				<FireWeaponNugget
+					WeaponName="WeinsWeapon"
+					FireDelay="3s" />
+			</FireWeaponUpdate>
+			<SlowDeath
+				id="0x73542D4A"
+				SinkRate="1"
+				SinkDelay="15s"
+				DestructionDelay="3s">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</SlowDeath>
+			<FXListBehavior
+				id="0xC74C39D8">
+				<DieMuxData
+					DeathTypes="ALL"
+					DeathTypesForbidden="EXTRA_8" />
+				<Event
+					FX="FX_TibWeinsGore" />
+			</FXListBehavior>
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="0xA5C3EB8A"
+				MaxHealth="2000" />
+		</Body>
+		<Geometry>
+			<Shape
+				Type="CYLINDER"
+				MajorRadius="20"
+				Height="10">
+				<Offset />
+			</Shape>
+		</Geometry>
+		<AudioArrayVoice>
+			<AudioEntry
+				Sound="TiberiumCrystal_Select"
+				AudioType="voiceSelect" />
+		</AudioArrayVoice>
+		<AudioArraySound>
+			<AudioEntry
+				Sound="TiberiumCrystal_AmbientDelayedLoop"
+				AudioType="soundAmbient" />
+		</AudioArraySound>
+		<ShadowInfo
+			Type="DECAL"
+			Texture="TiberiumCrystal02Energy"
+			SizeX="14"
+			SizeY="14" />
+		<VisionInfo />
+		<CrusherInfo
+			CrushableLevel="1" />
+	</GameObject>
+
+
+
+
+
+
+
+
+</AssetDeclaration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

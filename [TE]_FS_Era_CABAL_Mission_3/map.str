@@ -1,0 +1,71 @@
+MSNSTR:RDS:CABAL:M3:IonStormIntensifies
+	"Ion Storm intensifies in:"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormSubsides
+	"Ion Storm subsides in:"
+END
+
+MSNSTR:RDS:CABAL:M3:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M3:Intro2
+	"CABAL: It is time to remove the human and mutant factor from this equation.\nThey will all die."
+END
+
+MSNSTR:RDS:CABAL:M3:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormApproching
+	"Ion Storm Approching"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormIntensified
+	"Ion Storm is now Category 2"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormIntensified2
+	"Ion Storm is now Category 3"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormHere
+	"Warning: Ion Storm here!"
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_1
+	"Objective 1: Capture or destroy the Weather Control Device"
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_1_Complete
+	"Primary Objective complete. \nIon storm beginning to subside."
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_2
+	"Objective: Kill all humans and mutants"
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_2_Complete
+	"Secondary Objective achieved.\nBeginning planet wide Nod, GDI and Mutant termination protocols."
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_1_Info
+	"The Mutants are using their Weather Controller to maintain and intensify the Ion Storm.\nDestroy it."
+END
+
+MSNSTR:RDS:CABAL:M3:Floater_Warning
+	"WARNING: Large Tiberium Floaters detected to the North."
+END
+
+MSNSTR:RDS:CABAL:M3:Avatar_Ready
+	"CABAL: GDI walker technology has been adapted to create a new cyborg unit.\nCommence testing for Core Defender programme."
+END
+
+MSNSTR:RDS:CABAL:M3:Win
+	"Mission acommplished"
+END
+
+MSNSTR:RDS:CABAL:M3:Lose
+	"Mission failed"
+END

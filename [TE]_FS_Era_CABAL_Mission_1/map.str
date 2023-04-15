@@ -1,0 +1,47 @@
+MSNSTR:RDS:CABAL:M1:CABAL_Scan_Timer
+	"Mutant base located in:"
+END
+
+MSNSTR:RDS:CABAL:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M1:Intro2
+	"CABAL: The mutant vermin have stolen our stealth technology and are using it against us."
+END
+
+MSNSTR:RDS:CABAL:M1:Intro3
+	"CABAL: After I locate their base, I will punish them with a nuclear missile."
+END
+
+MSNSTR:RDS:CABAL:M1:Intro4
+	"CABAL: The vermin have constructed their own superweapon. \nIf they discover our base, they will surely use it."
+END
+
+MSNSTR:RDS:CABAL:M1:ControlOnline
+	"****BATTLEFIELD CONTROL ESTABLISHED****\nStealth is Key"
+END
+
+MSNSTR:RDS:CABAL:M1:Cabal_Objective_1
+	"Objective 1: Do not allow the mutants to discover our base\nuntil the scan is complete"
+END
+
+MSNSTR:RDS:CABAL:M1:Cabal_Objective_2
+	"Objective 2: Exterminate all mutants"
+END
+
+MSNSTR:RDS:CABAL:M1:Cabal_Objective_1_Complete
+	"Objective 1 complete"
+END
+
+MSNSTR:RDS:CABAL:M1:MutantsRetreat
+	"CABAL: The vermin are retreating from the area. Engaging hunt protocal."
+END
+
+MSNSTR:RDS:CABAL:M1:Win
+	"Mission acommplished"
+END
+
+MSNSTR:RDS:CABAL:M1:Lose
+	"Mission failed \n The vermin have discovered our base."
+END

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="LogicSet.xml" type="all"/>
+      <Include source="Weather.xml" type="all"/>	  
+	</Includes>
+	    <SpecialPowerTemplate
+		id="SpecialPowerIonCannonControlIonCannon"
+		DisplayName="NAME:SuperweaponTimerIonCannon"
+		Description="DESC:SuperweaponTimerIonCannon"
+		Flags="HAS_PUBLIC_TIMER IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="300s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300"
+		RestrictionType="1" 
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnIonCannonActivated"
+		EvaEventToPlayOnInitiateAlly="AlliedIonCannonActivated"
+		EvaEventToPlayOnInitiateEnemy="EnemyIonCannonActivated"
+		TimerImage="Button_PlayerPowerIonCannon"/> 
+</AssetDeclaration>

@@ -2482,3 +2482,563 @@ MSNSTR:RDS:SCRINCAMP:M2:Scrin2_Objective_2_Detail
 "The faction known as the Brotherhood of Nod are threatening us and the Ichor-gifted humans. Destroy them all."
 END
 
+MSNSTR:RDS:CABAL:M1:CABAL_Scan_Timer
+"Mutant base located in:"
+END
+
+MSNSTR:RDS:CABAL:M1:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M1:Intro2
+"CABAL: The mutant vermin have stolen our stealth technology and are using it against us."
+END
+
+MSNSTR:RDS:CABAL:M1:Intro3
+"CABAL: After I locate their base, I will punish them with a nuclear missile."
+END
+
+MSNSTR:RDS:CABAL:M1:Intro4
+"CABAL: The vermin have constructed their own superweapon. \nIf they discover our base, they will surely use it."
+END
+
+MSNSTR:RDS:CABAL:M1:ControlOnline
+"****BATTLEFIELD CONTROL ESTABLISHED**** \nStealth is Key"
+END
+
+MSNSTR:RDS:CABAL:M1:Cabal_Objective_1
+"Objective 1: Do not allow the mutants to discover our base \nuntil the scan is complete"
+END
+
+MSNSTR:RDS:CABAL:M1:Cabal_Objective_2
+"Objective 2: Exterminate all mutants"
+END
+
+MSNSTR:RDS:CABAL:M1:Cabal_Objective_1_Complete
+"Objective 1 complete"
+END
+
+MSNSTR:RDS:CABAL:M1:MutantsRetreat
+"CABAL: The vermin are retreating from the area. Engaging hunt protocal."
+END
+
+MSNSTR:RDS:CABAL:M1:Win
+"Mission acommplished"
+END
+
+MSNSTR:RDS:CABAL:M1:Lose
+"Mission failed \n The vermin have discovered our base."
+END
+
+MSNSTR:RDS:CABAL:M2:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M2:Intro2
+"CABAL: GDI is beginning to mass produce Mammoth MKII Walkers."
+END
+
+MSNSTR:RDS:CABAL:M2:Intro3
+"CABAL: This facility must be deleted so they cannot pose a credible threat to me."
+END
+
+MSNSTR:RDS:CABAL:M2:ControlOnline
+"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal2_Objective_1
+"Objective 1: Capture the GDI Construction Yard and Command Post"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal2_Objective_2
+"Objective 2: Locate and destroy the first Mammoth MKII"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal2_Objective_3
+"Objective 3: Destroy the remaining Mammoth MKII Walkers \nand all Deployment Zones"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal_Objective_1_Complete
+"Primary Objective achieved"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal_Objective_2_Complete
+"Secondary Objective achieved"
+END
+
+MSNSTR:RDS:CABAL:M2:Cabal_Objective_3_Complete
+"Tertiary Objective achieved \nCABAL: Probability of GDI survival down to 10%."
+END
+
+MSNSTR:RDS:CABAL:M2:Win
+"Mission acommplished"
+END
+
+MSNSTR:RDS:CABAL:M2:Lose
+"Mission failed \n We have lost too many saboteurs."
+END
+
+MSNSTR:RDS:CABAL:M2:Lose2
+"Mission failed \n Critical Structure lost."
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormIntensifies
+"Ion Storm intensifies in:"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormSubsides
+"Ion Storm subsides in:"
+END
+
+MSNSTR:RDS:CABAL:M3:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M3:Intro2
+"CABAL: It is time to remove the human and mutant factor from this equation. \nThey will all die."
+END
+
+MSNSTR:RDS:CABAL:M3:ControlOnline
+"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormApproching
+"Ion Storm Approching"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormIntensified
+"Ion Storm is now Category 2"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormIntensified2
+"Ion Storm is now Category 3"
+END
+
+MSNSTR:RDS:CABAL:M3:IonStormHere
+"Warning: Ion Storm here!"
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_1
+"Objective 1: Capture or destroy the Weather Control Device"
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_1_Complete
+"Primary Objective complete. \nIon storm beginning to subside."
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_2
+"Objective: Kill all humans and mutants"
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_2_Complete
+"Secondary Objective achieved. \nBeginning planet wide Nod, GDI and Mutant termination protocols."
+END
+
+MSNSTR:RDS:CABAL:M3:Cabal3_Objective_1_Info
+"The Mutants are using their Weather Controller to maintain and intensify the Ion Storm. \nDestroy it."
+END
+
+MSNSTR:RDS:CABAL:M3:Floater_Warning
+"WARNING: Large Tiberium Floaters detected to the North."
+END
+
+MSNSTR:RDS:CABAL:M3:Avatar_Ready
+"CABAL: GDI walker technology has been adapted to create a new cyborg unit. \nCommence testing for Core Defender programme."
+END
+
+MSNSTR:RDS:CABAL:M3:Win
+"Mission acommplished"
+END
+
+MSNSTR:RDS:CABAL:M3:Lose
+"Mission failed"
+END
+
+MSNSTR:RDS:CABAL:M4:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M4:Intro2
+"CABAL: Listen to the sounds of your own extinction."
+END
+
+MSNSTR:RDS:CABAL:M4:ControlOnline
+"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1
+"Objective 1: Capture the towns and city by killing the guards"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_5_Shrines
+"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 100%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_4_Shrines
+"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 80%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_3_Shrines
+"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 60%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_2_Shrines
+"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 40%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_1_Complete_1_Shrine
+"Primary Objective complete. \nAll population centres secured. Assimilation efficiency at 20%"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_2
+"Objective 2: Destroy the GDI Base"
+END
+
+MSNSTR:RDS:CABAL:M4:Objective_2_Complete
+"Secondary Objective complete. \nGDI has been defeated."
+END
+
+MSNSTR:RDS:CABAL:M4:Town1Captured
+"Civilian town captured. \n---Cyborg production available--- \n---Harvesting subroutine initiated---"
+END
+
+MSNSTR:RDS:CABAL:M4:MutantTownCaptured
+"Mutant town captured. \n---Cyborg Obliterator available--- \n---Harvesting subroutine initiated--- \n---Cyborgs upgraded with Tiberium Beam---"
+END
+
+MSNSTR:RDS:CABAL:M4:EastCityCaptured
+"Eastside captured. \n---Aircraft available--- \n---Tiberium Silo captured--- \n---Reapers upgraded with Tiberium Missiles---"
+END
+
+MSNSTR:RDS:CABAL:M4:CityCentreCaptured
+"City Centre captured. \n---Cyborg production expanded--- \n---Tiberium Silos captured--- \n---Obliterators upgraded with Tiberium Power Packs---"
+END
+
+MSNSTR:RDS:CABAL:M4:GDIRetaliates
+"WARNING: GDI are mobilising their forces."
+END
+
+MSNSTR:RDS:CABAL:M4:Wololo
+"Your cyborgs have ran into an error and will need to restart. \n If you would like to know more, you can search online later for this error: \nBLUE SCREEN OF DEATH WOLOLO RED SCREEN OF DEATH"
+END
+
+MSNSTR:RDS:CABAL:M4:Win
+"Mission accomplished"
+END
+
+MSNSTR:RDS:CABAL:M4:Lose
+"Mission failed"
+END
+
+MSNSTR:RDS:CABAL:M5:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M5:Intro2
+"CABAL: Nod and GDI have united against me. All cyborgs are directed to defend key assests."
+END
+
+MSNSTR:RDS:CABAL:M5:ControlOnline
+"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M5:Objective_1
+"Objective 1: The train must reach the Core outpost. \n Select the front of the train to move it, if you think the next area is safe."
+END
+
+MSNSTR:RDS:CABAL:M5:FirestormWarning
+"CABAL: GDI Firestorm Generators no longer have a cooldown period. Eliminate the powerplants to force them offline."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainStation
+"CABAL: The train will stop at each station to repair. Protect it at all costs."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainMoving
+"CABAL: The train is moving to the next area."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainStopped
+"CABAL: The train has stopped."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainUnderAttack
+"WARNING: The train is under attack."
+END
+
+MSNSTR:RDS:CABAL:M5:NodDestroysCABALHarvesting
+"Nod has destroyed a mass harvesting base. Rerouting remaining resources to the Core."
+END
+
+MSNSTR:RDS:CABAL:M5:GDIHacksCyborgs
+"WARNING: Virus detected! All systems infected! Attempting system purge..."
+END
+
+MSNSTR:RDS:CABAL:M5:CyborgsPurged
+"CABAL: System purge complete. Significant cyborg loses detected. Controls restablished."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainDestroyed
+"CABAL: Train destroyed. Probabilty of my survival is 0%."
+END
+
+MSNSTR:RDS:CABAL:M5:TrainSurvives
+"CABAL: Train evacuated. Constructing Core Defender. All units to return to the Core immediately."
+END
+
+MSNSTR:RDS:CABAL:M5:Win
+"Mission accomplished"
+END
+
+MSNSTR:RDS:CABAL:M5:Lose
+"Mission failed"
+END
+
+MSNSTR:RDS:CABAL:M6G:Core_Defender_Timer
+"Core Defender online in:"
+END
+
+MSNSTR:RDS:CABAL:M6G:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M6G:Intro2
+"CABAL: Resistance is futile, GDI."
+END
+
+MSNSTR:RDS:CABAL:M6G:Intro3
+"CABAL: The Code structures must not be captured by GDI. My Firestorm defences will fall without them."
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIArrives
+"***WARNING: NOD AND GDI HAVE CAPTURED A CODE STRUCTURE AND 4 MISSILE SILOS***"
+END
+
+MSNSTR:RDS:CABAL:M6G:NodControlsCode1
+"***WARNING: NOD HAS CAPTURED A CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6G:NodControlsCode2
+"***WARNING: GDI HAS CAPTURED THE FINAL CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6G:Objective_1
+"Objective 1: Defend the remaining Code Structure at all costs \nObjective 2: Wait until the Core Defender is ready \nOR defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6G:Objective_2
+"Objective 1: Defend the remaining Code Structure at all costs \nUpdated Objective 2:Defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIBaseInvulnerable
+"ALERT: GDI Firestorm defences are near-invulnerable. Only the Core Defender has the firepower to penetrate the shields."
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIFirestormOverload
+"Firestorm overload detected. Detecting catostrophic explosion at the GDI base."
+END
+
+MSNSTR:RDS:CABAL:M6G:CoreDefenderDestroyed
+"Core Defender destoryed. Enemy structures are invulnerable. Mission Failed"
+END
+
+MSNSTR:RDS:CABAL:M6G:MammothArrives
+"CABAL: Mammoth Walkers? Ha! How pathetic!"
+END
+
+MSNSTR:RDS:CABAL:M6G:CoreDefenderOnline
+"CABAL: 'Activating Defence Portocol: Defender, now. \nTarget the Firestorm Generators to make GDI vulnerable.'"
+END
+
+MSNSTR:RDS:CABAL:M6G:NodDefeated
+"CABAL: 'You made this easy, flesh bags.'"
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIDefeated
+"CABAL: 'Your defeat is at hand, GDI.'"
+END
+
+MSNSTR:RDS:CABAL:M6G:Win
+"CABAL: GDI are retreating to Southern Cross and Slavik is dead. Cybernetic intellegnce is proven to be superior once again!"
+END
+
+MSNSTR:RDS:CABAL:M6N:Core_Defender_Timer
+"Core Defender online in:"
+END
+
+MSNSTR:RDS:CABAL:M6N:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M6N:Intro2
+"CABAL: I am impressed, General Slavik. But your desperate tactics has doomed the Brotherhood."
+END
+
+MSNSTR:RDS:CABAL:M6N:Intro3
+"CABAL: The Code structures must not be captured by Nod. My Firestorm defences will fall without them."
+END
+
+MSNSTR:RDS:CABAL:M6N:GDIArrives
+"***WARNING: NOD AND GDI HAVE CAPTURED A CODE STRUCTURE AND 4 MISSILE SILOS***"
+END
+
+MSNSTR:RDS:CABAL:M6N:NodControlsCode1
+"***WARNING: NOD HAS CAPTURED A CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6N:NodControlsCode2
+"***WARNING: NOD HAS CAPTURED THE FINAL CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6N:Objective_1
+"Objective 1: Defend the remaining Code Structure at all costs \nObjective 2: Wait until the Core Defender is ready \nOR defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6N:Objective_2
+"Objective 1: Defend the remaining Code Structure at all costs \nUpdated Objective 2: Defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6N:CoreDefenderOnline
+"CABAL: 'Activating Defence Portocol: Defender, now.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:SlavikArrives
+"CABAL: 'General Slavik, you must be desperate if you think your Montauk will save Nod!'"
+END
+
+MSNSTR:RDS:CABAL:M6N:SlavikDies
+"CABAL: 'The Brotherhood dies with you, Slavik. Kane thanks you for your service.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:NodDefeated
+"CABAL: 'You made this easy, flesh bags.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:GDIDefeated
+"CABAL: 'Your defeat is at hand, GDI.'"
+END
+
+MSNSTR:RDS:CABAL:M6N:Win
+"CABAL:The Brotherhood is dead, and GDI will soon join them. All cyborgs, prepare to invade Southern Cross. \nHuman extinction is at hand!"
+END
+
+MSNSTR:RDS:CABAL:M7:IonStormSubsides
+"Ion Storm subsides in:"
+END
+
+MSNSTR:RDS:CABAL:M7:GDSSPhiladelphiaDamage
+"GDSS Philadelphia damage (%):"
+END
+
+MSNSTR:RDS:CABAL:M7:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M7:Intro2
+"CABAL: Cortez cowers in Southern Cross. It is protected by the Firestorm Generator."
+END
+
+MSNSTR:RDS:CABAL:M7:Intro3
+"CABAL: The Firestorm also protects an Ion Cannon Control Centre that I need. \n Destroy the Firestorm's interior power source to shut it down."
+END
+
+MSNSTR:RDS:CABAL:M7:Intro4
+"CABAL: The Cyborg Commando has entered Southern Cross through the emergency tunnel. \nEstablishing video uplink."
+END
+
+MSNSTR:RDS:CABAL:M7:IonStormApproching
+"Ion Storm Approaching"
+END
+
+MSNSTR:RDS:CABAL:M7:IonStormHere
+"Warning: Ion Storm here!"
+END
+
+MSNSTR:RDS:CABAL:M7:ControlOnline
+"****BATTLE CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M7:DestroyFirestormPowerplants
+"Destroy the Firestorm Power Plants"
+END
+
+MSNSTR:RDS:CABAL:M7:FirestormOffline
+"CABAL: Firestorm Defence offline. The Ion Cannon Control Centre is vulnerable."
+END
+
+MSNSTR:RDS:CABAL:M7:ExterminateThemAll
+"Exterminate them all"
+END
+
+MSNSTR:RDS:CABAL:M7:BeachheadSecured
+"CABAL: Beachhead secured. Execute termination subroutines."
+END
+
+MSNSTR:RDS:CABAL:M7:TerminateCortez
+"Terminate Cortez (Commando)"
+END
+
+MSNSTR:RDS:CABAL:M7:CortezDeath
+"CABAL: Cortez is dead. Detecting desperation in GDI forces. Objective complete."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_1
+"Objective 1: Capture the Ion Cannon Control Centre \nIT MUST NOT BE DESTROYED"
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_1_Complete_IonStormContinues
+"Primary Objective complete. \nUnable to connect to the Ion Cannon until Ion Storm subsides."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_1_Complete_IonStormEnds
+"Primary Objective complete. \nContact with Ion Cannon established. Scrambling codes and setting target...stand by."
+END
+
+MSNSTR:RDS:CABAL:M7:IonControlCapturedIonStormEnds
+"Contact with Ion Cannon established. Scrambling codes and setting target...stand by."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_2
+"Final Objective: Protect the Ion Cannon Control Centre at all costs."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_2_Complete
+"Final Objective complete. \nThe Philadelphia is burning through space."
+END
+
+MSNSTR:RDS:CABAL:M7:PhiladelphiaReinforcements
+"WARNING: GDI has received reinforcements from the Philadelphia."
+END
+
+MSNSTR:RDS:CABAL:M7:PhiladelphiaDamage1
+"The Philadelphia has sustained severe damage. The station is unable to launch drop pods and dropships."
+END
+
+MSNSTR:RDS:CABAL:M7:CABALLastCall
+"CABAL: Detecting large troop movements approaching Southern Cross. \nUse my elite guard to defend the Ion Cannon Control Centre."
+END
+
+MSNSTR:RDS:CABAL:M7:AILastCall
+"WARNING: A large, combined force of GDI, Nod and Forgotten have arrived. Defend the Ion Cannon Control Centre at all costs."
+END
+
+MSNSTR:RDS:CABAL:M7:AINodLastCall
+"WARNING: Nod vehicle battalions have arrived to support GDI. Defend the Ion Cannon Control Centre at all costs."
+END
+
+MSNSTR:RDS:CABAL:M7:Win
+"CABAL: 'Kane's vision has come to pass: we have inherited the Earth.'"
+END
+
+MSNSTR:RDS:CABAL:M7:Win2
+"CABAL: 'The new year is dawning. Sleep, my children, we must prepare for Year One."
+END
+
+MSNSTR:RDS:CABAL:M7:Lose
+"Ion Cannon Control Centre destroyed."
+END
+
+MSNSTR:RDS:CABAL:M7:Lose2
+"Mission failed"
+END
+

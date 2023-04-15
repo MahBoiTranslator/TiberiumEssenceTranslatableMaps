@@ -1,0 +1,119 @@
+MSNSTR:RDS:CABAL:M7:IonStormSubsides
+	"Ion Storm subsides in:"
+END
+
+MSNSTR:RDS:CABAL:M7:GDSSPhiladelphiaDamage
+	"GDSS Philadelphia damage (%):"
+END
+
+MSNSTR:RDS:CABAL:M7:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M7:Intro2
+	"CABAL: Cortez cowers in Southern Cross. It is protected by the Firestorm Generator."
+END
+
+MSNSTR:RDS:CABAL:M7:Intro3
+	"CABAL: The Firestorm also protects an Ion Cannon Control Centre that I need.\n Destroy the Firestorm's interior power source to shut it down."
+END
+
+MSNSTR:RDS:CABAL:M7:Intro4
+	"CABAL: The Cyborg Commando has entered Southern Cross through the emergency tunnel.\nEstablishing video uplink."
+END
+
+MSNSTR:RDS:CABAL:M7:IonStormApproching
+	"Ion Storm Approaching"
+END
+
+MSNSTR:RDS:CABAL:M7:IonStormHere
+	"Warning: Ion Storm here!"
+END
+
+MSNSTR:RDS:CABAL:M7:ControlOnline
+	"****BATTLE CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:CABAL:M7:DestroyFirestormPowerplants
+	"Destroy the Firestorm Power Plants"
+END
+
+MSNSTR:RDS:CABAL:M7:FirestormOffline
+	"CABAL: Firestorm Defence offline. The Ion Cannon Control Centre is vulnerable."
+END
+
+MSNSTR:RDS:CABAL:M7:ExterminateThemAll
+	"Exterminate them all"
+END
+
+MSNSTR:RDS:CABAL:M7:BeachheadSecured
+	"CABAL: Beachhead secured. Execute termination subroutines."
+END
+
+MSNSTR:RDS:CABAL:M7:TerminateCortez
+	"Terminate Cortez (Commando)"
+END
+
+MSNSTR:RDS:CABAL:M7:CortezDeath
+	"CABAL: Cortez is dead. Detecting desperation in GDI forces. Objective complete."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_1
+	"Objective 1: Capture the Ion Cannon Control Centre \nIT MUST NOT BE DESTROYED"
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_1_Complete_IonStormContinues
+	"Primary Objective complete. \nUnable to connect to the Ion Cannon until Ion Storm subsides."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_1_Complete_IonStormEnds
+	"Primary Objective complete. \nContact with Ion Cannon established. Scrambling codes and setting target...stand by."
+END
+
+MSNSTR:RDS:CABAL:M7:IonControlCapturedIonStormEnds
+	"Contact with Ion Cannon established. Scrambling codes and setting target...stand by."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_2
+	"Final Objective: Protect the Ion Cannon Control Centre at all costs."
+END
+
+MSNSTR:RDS:CABAL:M7:Objective_2_Complete
+	"Final Objective complete. \nThe Philadelphia is burning through space."
+END
+
+MSNSTR:RDS:CABAL:M7:PhiladelphiaReinforcements
+	"WARNING: GDI has received reinforcements from the Philadelphia."
+END
+
+MSNSTR:RDS:CABAL:M7:PhiladelphiaDamage1
+	"The Philadelphia has sustained severe damage. The station is unable to launch drop pods and dropships."
+END
+
+MSNSTR:RDS:CABAL:M7:CABALLastCall
+	"CABAL: Detecting large troop movements approaching Southern Cross. \nUse my elite guard to defend the Ion Cannon Control Centre."
+END
+
+MSNSTR:RDS:CABAL:M7:AILastCall
+	"WARNING: A large, combined force of GDI, Nod and Forgotten have arrived. Defend the Ion Cannon Control Centre at all costs."
+END
+
+MSNSTR:RDS:CABAL:M7:AINodLastCall
+	"WARNING: Nod vehicle battalions have arrived to support GDI. Defend the Ion Cannon Control Centre at all costs."
+END
+
+MSNSTR:RDS:CABAL:M7:Win
+	"CABAL: 'Kane's vision has come to pass: we have inherited the Earth.'"
+END
+
+MSNSTR:RDS:CABAL:M7:Win2
+	"CABAL: 'The new year is dawning. Sleep, my children, we must prepare for Year One."
+END
+
+MSNSTR:RDS:CABAL:M7:Lose
+	"Ion Cannon Control Centre destroyed."
+END
+
+MSNSTR:RDS:CABAL:M7:Lose2
+	"Mission failed"
+END

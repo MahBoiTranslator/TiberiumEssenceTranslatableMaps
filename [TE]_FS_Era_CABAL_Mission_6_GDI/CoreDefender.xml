@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<!--					xsi:schemaLocation="uri:ea.com:eala:asset ..\..\..\..\..\..\Schemas\CnC3Types\0.0-dev\xsd\CnC3Types.xsd"> -->
+	<Tags></Tags>
+	<Includes>
+		<Include type="all" source="Art:Images/Portrait_Defender.xml" />
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NODDefender.xml"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUMORNSTAR_SKN.xml"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VehicleAC.xml"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VehicleAC_DMG.xml"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VehicleAC_NRM.xml"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VehicleAC_SPM.xml"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_AIDA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_AIFA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_AIFB.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_AIFC.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_ATKA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_BATA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_BIDA.w3x"/>
+<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_BIFA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_BIFB.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_BLDA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_DIEA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_DSEL.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_EMPA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_FP.w3x"/>
+<!--MARKER--><Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_RUNA.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_SKN.w3x"/><!--MARKER-->
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_TRNL.w3x"/>
+		<Include type="all" source="ART:Firestorm\Units\NODDarkTwilight\NUL_VEHICLEAC_TRNR.w3x"/>
+
+
+
+		<Include
+			type="all"
+			source="ART:NUMech_SKN.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_FP.W3X" />			
+		<Include
+			type="all"
+			source="ART:NUMechR_SKN.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_ABTA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_ACCL.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_AIDA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_ATKA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_ATKB.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_BATA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_BIDA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_BLDA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_DECL.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_DIEB.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_GRBA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_GRBB.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_GRBC.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_GRBD.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_GTPA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_TRNL.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_TRNR.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_WLKA.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_WLKB.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_WLKC.W3X" />
+		<Include
+			type="all"
+			source="ART:NUMech_K.xml" />
+		<Include
+			type="all"
+			source="ART:NUMechD_K.xml" />
+		<Include	
+			type="all"
+			source="ART:FXInvisBone.w3x" />
+		<Include
+			type="all"
+			source="ART:FXspotlight.w3x" />
+		<Include
+			type="all"
+			source="ART:FXObeliskLaser.xml" />
+		<Include
+			type="all"
+			source="ART:FXObeliskLaserHeroic.xml"/>
+		<Include
+			type="all"
+			source="ART:FXFireStream.xml" />		
+			
+		<!-- Base Object -->
+		<Include
+			type="instance"
+			source="DATA:BaseObjects/BaseVehicle.xml" />
+	</Includes>
+	
+	
+	<ExperienceLevelTemplate
+		id="NODAvatarExperienceLevel_1"
+		RequiredExperience="1"
+		ExperienceAward="3000"
+		Rank="1">
+		<LevelUpTintColor
+			r="1.0"
+			g="1.0"
+			b="1.0" />
+		<Target>NODAvatar</Target>
+		<Decal
+			Texture="decal_N_level1"
+			Texture2="decal_Nod_S_CO" 
+			Style="MERGE_DECAL"
+			OpacityMin="80"
+			OpacityMax="100"
+			MinRadius="75"
+			MaxRadius="200"
+			MaxSelectedUnits="40"/>
+	</ExperienceLevelTemplate>
+	<ExperienceLevelTemplate
+		id="NODAvatarExperienceLevel_2"
+		Prerequisite="NODAvatarExperienceLevel_1"
+		RequiredExperience="27000"
+		ExperienceAward="3900"
+		ModelConditionState="SPECIAL_CHEERING"
+		Rank="2">
+		<LevelUpTintColor
+			r="1.0"
+			g="1.0"
+			b="1.0" />
+		<Upgrade>Upgrade_Veterancy_VETERAN</Upgrade>
+		<LevelUpFxList
+			FxList="FX_NODLevelUp_01" />
+		<Target>NODAvatar</Target>
+		<AttributeModifier>Unit_Veteran</AttributeModifier>
+		<Decal
+			Texture="decal_N_level1"
+			Texture2="decal_Nod_S_CO" 
+			Style="MERGE_DECAL"
+			OpacityMin="80"
+			OpacityMax="100"
+			MinRadius="75"
+			MaxRadius="200"
+			MaxSelectedUnits="40"/>
+	</ExperienceLevelTemplate>
+	<ExperienceLevelTemplate
+		id="NODAvatarExperienceLevel_3"
+		Prerequisite="NODAvatarExperienceLevel_2"
+		RequiredExperience="54000"
+		ExperienceAward="4800"
+		ModelConditionState="SPECIAL_CHEERING"
+		Rank="3">
+		<LevelUpTintColor
+			r="1.0"
+			g="1.0"
+			b="1.0" />
+		<Upgrade>Upgrade_Veterancy_ELITE</Upgrade>
+		<LevelUpFxList
+			FxList="FX_NODLevelUp_02" />
+		<Target>NODAvatar</Target>
+		<AttributeModifier>Unit_Elite</AttributeModifier>
+		<Decal
+			Texture="decal_N_level1"
+			Texture2="decal_Nod_S_CO" 
+			Style="MERGE_DECAL"
+			OpacityMin="80"
+			OpacityMax="100"
+			MinRadius="75"
+			MaxRadius="200"
+			MaxSelectedUnits="40"/>
+	</ExperienceLevelTemplate>
+	<ExperienceLevelTemplate
+		id="NODAvatarExperienceLevel_4"
+		Prerequisite="NODAvatarExperienceLevel_3"
+		RequiredExperience="81000"
+		ExperienceAward="6000"
+		ModelConditionState="SPECIAL_CHEERING"
+		Rank="4">
+		<LevelUpTintColor
+			r="1.0"
+			g="1.0"
+			b="1.0" />
+		<Upgrade>Upgrade_Veterancy_HEROIC</Upgrade>
+		<LevelUpFxList
+			FxList="FX_NODLevelUp_03" />
+		<Target>NODAvatar</Target>
+		<AttributeModifier>Unit_Heroic</AttributeModifier>
+		<Decal
+			Texture="decal_N_level1"
+			Texture2="decal_Nod_S_CO" 
+			Style="MERGE_DECAL"
+			OpacityMin="80"
+			OpacityMax="100"
+			MinRadius="75"
+			MaxRadius="200"
+			MaxSelectedUnits="40"/>
+	</ExperienceLevelTemplate>	
+	
+	
+	
+	
+	
+	
+	
+	<SpecialPowerTemplate
+		id="SpecialPower_GdiFirestorm2"
+		TargetType="NONE"
+		ReloadTime="180s"
+		InitiateAtLocationSound="ALI_MotherShip_SoundCreate">
+		<ObjectFilter
+			Rule="UNPARSED" />
+		<ForbiddenObjectFilter
+			Rule="UNPARSED" />
+	</SpecialPowerTemplate>
+
+	<ObjectCreationList
+		id="OCL_SummonGdiFirestorm2">
+		<CreateObject
+			Options="IGNORE_ALL_OBJECTS DONT_SET_PRODUCER"
+			Disposition="LIKE_EXISTING"
+			StartingModelConditions="">
+			<CreateObject>GdiFirestormObject2</CreateObject>
+		</CreateObject>
+	</ObjectCreationList>
+
+	<GameObject
+		id="GdiFirestormObject2"
+		KindOf="IMMOBILE CAN_ATTACK NO_COLLIDE NOT_AUTOACQUIRABLE TAINTEFFECT RESIST_EMP"
+		Side="Neutral"
+		EditorName="GdiFirestormObject2"
+		EditorSorting="MISC_NATURAL">
+		<DisplayName>Name:IonStorm</DisplayName>
+		<Draws>
+			<ScriptedModelDraw
+				id="0x50DF2C46">
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="NONE">
+					<Model
+						Name="W3DContainer:GUFIRESTORM" />
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<PassiveAreaEffectBehavior
+				id="0x7FFDED05"
+				EffectRadius="250"
+				NonStackable="True">
+				<Modifier>Firestorm_Shield_AttributeModifier</Modifier>
+				<AllowFilter
+					Rule="ALL"
+					Relationship="ALLIES"
+					Include="STRUCTURE INFANTRY VEHICLE"
+					Exclude="AIRCRAFT" />
+			</PassiveAreaEffectBehavior>
+			<FireWeaponUpdate
+				id="0x1957388F">
+				<FireWeaponNugget
+					WeaponName="GdiFirestormTintWeapon2" />
+			</FireWeaponUpdate>
+			<LifetimeUpdate
+				id="0x6D14780C"
+				MinLifetime="15s"
+				MaxLifetime="15s"
+				DeathType="FADED" />
+			<FXListBehavior
+				id="0xC74C39D8">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					Index="onCreate"
+					FX="FX_GdiFirestormField" />
+			</FXListBehavior>
+			<DestroyDie
+				id="0xA78F6D28">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="0xB313F576"
+				MaxHealth="99999" />
+		</Body>
+		<Geometry
+			IsSmall="True">
+			<Shape
+				Type="CYLINDER"
+				MajorRadius="100"
+				Height="160" />
+		</Geometry>
+
+		<VisionInfo
+			VisionRange="250"
+			ShroudClearingRange="300" />
+		<CrusherInfo
+			CrushableLevel="100" />
+	</GameObject>
+
+	<WeaponTemplate
+		id="GdiFirestormTintWeapon2"
+		Name="GdiFirestormTintWeapon2"
+		AttackRange="50000"
+		RadiusDamageAffects="ALLIES ENEMIES PROJECTILES">
+		<Nuggets>
+			<DamageNugget
+				Damage="5000"
+				Radius="240"
+				DamageType="UNRESISTABLE"
+				DeathType="BURNED"
+				DamageFXType="GDI_SHOCKWAVE">
+				<SpecialObjectFilter
+					Rule="ALL"
+					Relationship="ENEMIES"
+				/>
+			</DamageNugget>
+			<ParalyzeNugget
+				Radius="30.0"
+				DurationSeconds="7s"
+				ParalyzeType="EMP"
+				ParalyzeFX="FX_NODBuggyEmpHit">
+<!--				<SpecialObjectFilter
+					Rule="ALL"
+					Relationship="ALLIES"
+				/>-->
+				<SpecialObjectFilter Rule="NONE">
+					<IncludeThing>NODAvatar</IncludeThing>
+				</SpecialObjectFilter>	
+			</ParalyzeNugget>
+					<!-- Heal to all allies -->
+			<DamageNugget 
+				Damage="400.0" 
+				Radius="240.0" 
+				DamageType="HEALING">
+			<!--	<SpecialObjectFilter Relationship="ALLIES">
+				</SpecialObjectFilter>-->
+			</DamageNugget>
+		</Nuggets>
+		
+		
+	</WeaponTemplate>
+
+
+	<LogicCommandSet
+		id="NODDefenderCommandSet">
+		<Cmd>Command_StanceDrillDown</Cmd>
+		<Cmd>Command_AttackMove</Cmd>
+		<Cmd>Command_NodCCMegaBlast</Cmd>
+		<Cmd>Command_SpecialPowerGdiFirestorm</Cmd>
+	</LogicCommandSet>
+	<LogicCommand
+		id="Command_NodCCMegaBlast"
+		Type="SPECIAL_POWER">
+		<SpecialPower>NodCybCommMegaBlastTrigger</SpecialPower>
+	</LogicCommand>
+
+
+
+	<WeaponTemplate
+		id="NODCyborgCommandoPlasmaGun2"
+		Name="NODCyborgCommandoPlasmaGun2"
+		AttackRange="350"
+		AcceptableAimDelta="5d"
+		WeaponSpeed="600"
+		MinWeaponSpeed="5000"
+		MaxWeaponSpeed="5000"
+		FireSound="AudioEvent:Nod_CC_Plasmagun"
+		FireFX="FX_NODPlasmaFire"
+		FireVeteranFX="FX_NODSpitfireFire"
+		ClipSize="1"
+		CanFireWhileMoving="True"
+		RotatingTurret="True">
+		<FiringDuration
+			MinSeconds="0.2s"
+			MaxSeconds="0.2s" />
+		<ClipReloadTime
+			MinSeconds="3s"
+			MaxSeconds="3s" />
+		<Nuggets>
+			<ProjectileNugget
+				WarheadTemplate="NODPlasmaBoltWarhead"
+				ProjectileTemplate="NODPlasmaBolt">
+				<VeterancyProjectiles
+					VeterancyLevel="HEROIC"
+					ProjectileTemplate="NODPlasmaBolt_Heroic" />
+			</ProjectileNugget>
+		</Nuggets>
+	</WeaponTemplate>
+
+
+	<WeaponTemplate
+		id="NODCCPlasmaSpecial2"
+		Name="NODCCPlasmaSpecial2"
+		AttackRange="500"
+		AcceptableAimDelta="20d"
+		WeaponSpeed="600"
+		FireSound="AudioEvent:Nod_CC_Plasmagun"
+		FireFX="FX_NODPlasmaFire"
+		ReAcquireDetailType="PRE_FIRE"
+		ClipSize="1"
+		ShotsPerBarrel="1"
+		PreAttackType="PER_SHOT"
+		CheckStatusFlagsInRangeChecks="False"
+		ScatterRadius="200"
+		ScatterLength="50">
+		<ClipReloadTime
+			MinSeconds=".1s"
+			MaxSeconds=".1s" />
+		<Nuggets>
+			<ProjectileNugget
+				WarheadTemplate="NODCCPlasmaSpecialWarhead2"
+				ProjectileTemplate="NODNapalmShell2" />
+		</Nuggets>
+	</WeaponTemplate>
+
+	<GameObject
+		id="NODPlasmaMegaBolt"
+		KindOf="PROJECTILE NO_COLLIDE HIDE_IF_FOGGED"
+		Side="NOD"
+		EditorName="NODPlasmaMegaBolt"
+		EditorSorting="SYSTEM">
+		<Draws>
+			<ScriptedModelDraw
+				id="0x64AA9F3F">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="W3DContainer:NUPLASMABOLT" />
+					<ParticleSysBone
+						BoneName="FX_PlasmaBolt"
+						FXParticleSystemTemplate="NodPlasmaBoltTrail"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FX_PlasmaBolt"
+						FXParticleSystemTemplate="CybComMegablastProjGlow"
+						FollowBone="True" />
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<DestroyDie
+				id="0x20CBA3E0">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+			<FXListBehavior
+				id="0xAEDF5153">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_SST_Nuke" />
+			</FXListBehavior>
+			<FXListBehavior
+				id="SECONDID">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_CatHit" />
+			</FXListBehavior>			
+			<FXListBehavior
+				id="THIRDID">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_NOD_CatalystMissile_TiberiumExplosion" />
+			</FXListBehavior>
+			<BezierProjectile
+				id="0xB5CB00F3"
+				FirstPercentIndent="33%"
+				SecondPercentIndent="66%"
+				FlightPathAdjustDistPerSecond="100"
+				CurveFlattenMinDist="300"
+				DetonateCallsKill="True"
+				OrientToFlightPath="True"
+				PingPongSidewaysDrift="False" />
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="0x3E81637F"
+				MaxHealth="100" />
+		</Body>
+		<Geometry
+			IsSmall="True">
+			<Shape
+				MajorRadius="0.8" />
+		</Geometry>
+		<VisionInfo />
+	</GameObject>
+
+	<GameObject
+		id="NODNapalmShell2"
+		KindOf="PROJECTILE NO_COLLIDE HIDE_IF_FOGGED"
+		Side="NOD"
+		EditorName="NODNapalmShell2"
+		EditorSorting="SYSTEM">
+		<ArmorSet
+			Armor="ProjectileArmor" />
+		<Draws>
+			<ScriptedModelDraw
+				id="0x64AA9F3F">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="GUMis" />
+					<ParticleSysBone
+						BoneName="ROOTTRANSFORM"
+						FXParticleSystemTemplate="NodNapalmsmoketrail"
+						FollowBone="True" />
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<FXListBehavior
+				id="FIRST">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_NOD_NapalmShellExplode" />
+			</FXListBehavior>
+<!--			<FXListBehavior
+				id="SECOND">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_SST_Nuke" />
+			</FXListBehavior>-->
+			<FXListBehavior
+				id="THIRD">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_CatHit" />
+			</FXListBehavior>	
+			<DestroyDie
+				id="0x20CBA3E0">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+			<BezierProjectile
+				id="0xB5CB00F3"
+				SecondHeightMin="10"
+				SecondHeightMax="20"
+				FirstPercentIndent="33%"
+				SecondPercentIndent="66%"
+				GroundHitFX="FX_NOD_CC_PlasmaImpactGround"
+				FlightPathAdjustDistPerSecond="300"
+				CurveFlattenMinDist="300"
+				DetonateCallsKill="True"
+				OrientToFlightPath="True" />
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="0x3E81637F"
+				MaxHealth="100" />
+		</Body>
+		<Geometry
+			IsSmall="True">
+			<Shape
+				MajorRadius="0.8" />
+		</Geometry>
+		<VisionInfo />
+	</GameObject>
+
+
+	<WeaponTemplate
+		id="NODCCPlasmaSpecialWarhead2"
+		Name="NODCCPlasmaSpecialWarhead2"
+		ProjectileCollidesWith="ALLIES ENEMIES NEUTRAL STRUCTURES WALLS">
+		<Nuggets>
+	<!--		<DamageNugget
+				Damage="3500"
+				Radius="100"
+				DelayTimeSeconds="0.25s"
+				DamageType="GRENADE"
+				DeathType="POISONED"
+				DamageFXType="NOD_MISSILE">
+				<DamageScalarDetails
+					Scalar="200%">
+					<Filter
+						Include="VEHICLE" />
+				</DamageScalarDetails>
+			</DamageNugget>-->
+			<SuppressionNugget
+				Radius="25"
+				Suppression="100"
+				DurationSeconds="10s" />
+				
+			<DamageAndSpawnNugget 
+				Damage="3500.0" 
+				Radius="150.0" 
+				DamageFXType="NOD_SONIC"
+				DamageType="GRENADE"
+				SpawnProbability="0.5"
+				DeathType="POISONED">
+				<SpecialObjectFilter
+					Rule="ALL"
+					Exclude="AIRCRAFT STRUCTURE"
+					Relationship="ENEMIES"/>
+				<!--SpawnedModelConditionFlags="EMOTION_DISSIDENT"-->
+<!--				<SpecialObjectFilter
+					Rule="NONE"
+					Include="INFANTRY" 
+					Relationship="ENEMIES">
+					<ExcludeThing>Viceroid</ExcludeThing>
+				</SpecialObjectFilter>-->
+				<SpawnTemplate>NODCyborg</SpawnTemplate>
+			</DamageAndSpawnNugget>
+			<DamageNugget
+				Damage="2500.0" 
+				Radius="100.0" 
+				DamageFXType="NOD_SONIC"
+				DamageType="GRENADE"
+				DeathType="POISONED">
+				<SpecialObjectFilter
+					Rule="NONE"
+					Include="STRUCTURE"
+					Relationship="ENEMIES"/>				
+			</DamageNugget>
+		</Nuggets>
+	</WeaponTemplate>
+
+		<WeaponTemplate
+		id="NODMontaukLaser2"
+		Name="NODMontaukLaser2"
+		AcceptableAimDelta="5d"
+		AttackRange="350"
+		FireSound="AudioEvent:NOD_AvatarWarMech_WeaponFireLaser2"
+		FireFX="FX_NODSpitfireFire"
+		FireVeteranFX="FX_NODSpitfireFireHeroic"
+		ClipSize="1"
+		CanFireWhileMoving="True">
+		<FiringDuration
+			MinSeconds="1s"
+			MaxSeconds="1s" />
+		<ClipReloadTime
+			MinSeconds=".6s"
+			MaxSeconds=".6s" />
+		<Nuggets>
+			<ActivateLaserNugget
+				Lifetime="0.95s"
+				LaserId="1"
+				HitGroundFX="FX_NODSpitfireHit" />
+			<DamageNugget
+				Damage="3000"
+				DelayTimeSeconds="0.4s"
+				DamageType="CANNON"
+				DeathType="LASERED"
+				DamageFXType="NOD_LASER" />
+			<SuppressionNugget
+				Radius="10"
+				Suppression="50"
+				DurationSeconds="5s" />
+		</Nuggets>
+	</WeaponTemplate>
+
+	<WeaponTemplate
+		id="NodAvatarNapalmLauncher2"
+		Name="NodAvatarNapalmLauncher2"
+		AcceptableAimDelta="20d"
+		AttackRange="370"
+		WeaponSpeed="500"
+		FireFX="FX_GDI_RPGCannonFire"
+		FireVeteranFX="FX_GDI_RPGCannonFire_Heroic"
+		ClipSize="1"
+		ShotsPerBarrel="1"
+		ProjectileCollidesWith="ALLIES ENEMIES NEUTRAL STRUCTURES WALLS"
+		CanFireWhileMoving="True">
+		<FiringDuration
+			MinSeconds="0.2s"
+			MaxSeconds="0.2s" />
+		<ClipReloadTime
+			MinSeconds="3s"
+			MaxSeconds="3s" />
+		<Nuggets>
+			<ProjectileNugget
+				WarheadTemplate="NodAvatarNapalmLauncherWarhead2"
+				ProjectileTemplate="NODNapalmShell2">
+				<VeterancyProjectiles
+					VeterancyLevel="HEROIC"
+					ProjectileTemplate="NODNapalmShell2" />
+			</ProjectileNugget>
+			<SuppressionNugget
+				Radius="50"
+				Suppression="50"
+				DurationSeconds="2s" />
+		</Nuggets>
+		<ScatterRadiusVsType
+			Radius="25">
+			<Filter
+				Include="INFANTRY" />
+		</ScatterRadiusVsType>
+	</WeaponTemplate>
+	<WeaponTemplate
+		id="NodAvatarNapalmLauncherWarhead2"
+		Name="NodAvatarNapalmLauncherWarhead2"
+		ProjectileCollidesWith="ALLIES ENEMIES NEUTRAL STRUCTURES WALLS">
+		<Nuggets>
+<!--			<DamageNugget
+				Damage="1500"
+				Radius="25"
+				DamageType="GRENADE"
+				DeathType="BURNED" />-->
+			<DamageAndSpawnNugget 
+				Damage="1500.0" 
+				Radius="3.0" 
+				DamageFXType="NOD_LASER"
+				DamageType="GRENADE"
+				SpawnProbability="1.0"
+				SpawnedModelConditionFlags="EMOTION_DISSIDENT">
+				<SpecialObjectFilter
+					Rule="NONE"
+					Include="INFANTRY" 
+					Relationship="ENEMIES">
+					<ExcludeThing>NODCyborg</ExcludeThing>
+				</SpecialObjectFilter>
+				<SpawnTemplate>NODCyborg</SpawnTemplate>
+			</DamageAndSpawnNugget>	
+		</Nuggets>
+	</WeaponTemplate>
+
+	<WeaponTemplate
+		id="NODStealthTankRocket2"
+		Name="NODStealthTankRocket2"
+		AttackRange="350.0" 
+		AntiMask="ANTI_AIRBORNE_VEHICLE ANTI_AIRBORNE_INFANTRY"
+		WeaponSpeed="200" 
+		MinWeaponSpeed="300" 
+		MaxWeaponSpeed="310" 
+		PreAttackType="PER_SHOT"
+		FireFX="FX_NODStealthMissileFire"
+		FireVeteranFX="FX_GDIMissileManFireHeroic"
+		ClipSize="3"  
+		AutoReloadsClip="AUTO"
+		CanFireWhileMoving="true"
+		AcceptableAimDelta="10d"
+ 		>
+		<PreAttackDelay
+		  MinSeconds="0.1s"
+		  MaxSeconds="0.1s" />
+		<FiringDuration
+			MinSeconds="0.1s"
+			MaxSeconds="0.1s" />
+		<ClipReloadTime
+			MinSeconds="5s"
+			MaxSeconds="5s" />
+		<Nuggets>
+			<ProjectileNugget 
+				WarheadTemplate="NODStealthTankRocketWarhead" 
+				ProjectileTemplate="TiberiumRocketWeaponProjectile">
+				<VeterancyProjectiles
+					VeterancyLevel="HEROIC"
+					ProjectileTemplate="NODStealthTankRocketProjectile_Veteran"/>
+			</ProjectileNugget>
+		</Nuggets>
+		<ScatterRadiusVsType
+			Radius="30.0">
+			<Filter
+				Rule="NONE"
+				Include="INFANTRY" />
+		</ScatterRadiusVsType>
+	</WeaponTemplate>
+
+
+
+<ArmorTemplate
+        id="NODEpicVehicleUnitArmor"
+        SideDamageScalar="110%"
+        RearDamageScalar="150%">
+        <Armor Damage="CANNON" Percent="30%"/>
+        <Armor Damage="ROCKET" Percent="22%"/>
+        <Armor Damage="GRENADE" Percent="7%"/>
+        <Armor Damage="GUN" Percent="4%"/>
+        <Armor Damage="SNIPER" Percent="1%"/>
+    </ArmorTemplate>
+
+
+	<GameObject id="NODAvatar" inheritFrom="BaseVehicle" KindOf="SELECTABLE CAN_ATTACK CAN_CAST_REFLECTIONS PRELOAD SCORE HUGE_VEHICLE LARGE_RECTANGLE_PATHFIND VEHICLE SIEGE_WEAPON UNIQUE_UNIT CAN_BE_FAVORITE_UNIT" Description="Desc:CABAL_CORE_DEFENDER" TypeDescription="Type:CABAL_CORE_DEFENDER" ThreatLevel="10" BuildFadeInOnCreateTimeSeconds="0.25s" Side="NOD" EditorName="NODCoreDefender" BuildTime="50" CommandSet="NODDefenderCommandSet" SelectPortrait="Portrait_Defender" ButtonImage="Portrait_Defender" VoicePriority="242" WeaponCategory="CANNON" BuildCost="25000" MaxSimultaneousOfType="1">
+		<DisplayName xmlns:xai="uri:ea.com:eala:asset:instance" xai:joinAction="Replace">Name:CABAL_CORE_DEFENDER</DisplayName>
+		<DisplayUpgrade>Upgrade_FirestormIgnition</DisplayUpgrade>
+		<GameDependency>
+			<RequiredObject>NODTemple</RequiredObject>
+		</GameDependency>
+		<ArmorSet Armor="GDIMammothMechArmor" DamageFX="VehicleDamageFX"/>
+		<LocomotorSet Locomotor="NODAvatarLocomotor" Condition="NORMAL" Speed="50.0"/>
+		<SkirmishAIInformation UnitBuilderStandardCombatUnit="true"/>
+		<Draws>
+			<ScriptedModelDraw id="ModuleTag_Draw" MaxRecoilDistance="10" RecoilDamping="2" RecoilSettleSpeed="3" OkToChangeModelColor="true">
+				<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+					<Model Name="NUL_VEHICLEAC_SKN"/>
+
+					<WeaponFireFXBone WeaponSlotID="1" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponl01"/>
+					<WeaponRecoilBone WeaponSlotID="1" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponl01"/>
+					<WeaponMuzzleFlash WeaponSlotID="1" WeaponSlotType="PRIMARY_WEAPON" BoneName="MUZZLEFLASH_01"/>
+					<WeaponLaunchBone WeaponSlotID="1" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponl01"/>
+					<WeaponFireFXBone WeaponSlotID="2" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponr01"/>
+					<WeaponRecoilBone WeaponSlotID="2" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponr01"/>
+					<WeaponMuzzleFlash WeaponSlotID="2" WeaponSlotType="PRIMARY_WEAPON" BoneName="MUZZLEFLASH_02"/>
+					<WeaponLaunchBone WeaponSlotID="2" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponr01"/>
+					<WeaponFireFXBone WeaponSlotID="3" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponugl01"/>
+					<WeaponRecoilBone WeaponSlotID="3" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponugl01"/>
+					<WeaponMuzzleFlash WeaponSlotID="3" WeaponSlotType="PRIMARY_WEAPON" BoneName="MUZZLEFLASH_03"/>
+					<WeaponLaunchBone WeaponSlotID="3" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponugl01"/>
+					<WeaponFireFXBone WeaponSlotID="4" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponugr01"/>
+					<WeaponRecoilBone WeaponSlotID="4" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponugr01"/>
+					<WeaponMuzzleFlash WeaponSlotID="4" WeaponSlotType="PRIMARY_WEAPON" BoneName="MUZZLEFLASH_04"/>
+					<WeaponLaunchBone WeaponSlotID="4" WeaponSlotType="PRIMARY_WEAPON" BoneName="fx_weaponugr01"/>
+					<WeaponLaunchBone WeaponSlotID="5" WeaponSlotType="PRIMARY_WEAPON" BoneName="ac_head"/>
+					<WeaponLaunchBone WeaponSlotID="6" WeaponSlotType="PRIMARY_WEAPON" BoneName="ac_cntrlcann"/>		
+					<WeaponLaunchBone WeaponSlotID="7" WeaponSlotType="PRIMARY_WEAPON" BoneName="ac_head"/>					
+					<WeaponRecoilBone
+						BoneName="ac_cntrlcann" />					
+				</ModelConditionState>
+				<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DYING">
+					<Model Name="NUL_VEHICLEAC_SKN"/>
+					<Texture Original="NUL_VehicleAC" New="NUL_VehicleAC_DMG"/>
+<!--					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedElectric" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedElectricFlash" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedSpurt" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedSmoke" FollowBone="true"/>-->
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+<!--					<ParticleSysBone BoneName="ac_rleg02" FXParticleSystemTemplate="RedeemerDamageBlueFlashes" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rleg02" FXParticleSystemTemplate="RedeemerDamageBlueSpark" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rleg02" FXParticleSystemTemplate="RedeemerDamageBlueZap" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedElectric" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedElectricFlash" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedSpurt" FollowBone="true"/>-->
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedSmoke" FollowBone="true"/>
+				</ModelConditionState>
+				<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="REALLYDAMAGED">
+					<Model Name="NUL_VEHICLEAC_SKN"/>
+					<Texture Original="NUL_VehicleAC" New="NUL_VehicleAC_DMG"/>
+<!--					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedElectric" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedElectricFlash" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedSpurt" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedSmoke" FollowBone="true"/>-->
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+<!--					<ParticleSysBone BoneName="ac_rleg02" FXParticleSystemTemplate="RedeemerDamageBlueFlashes" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rleg02" FXParticleSystemTemplate="RedeemerDamageBlueSpark" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rleg02" FXParticleSystemTemplate="RedeemerDamageBlueZap" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedElectric" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedElectricFlash" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedSpurt" FollowBone="true"/>-->
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedSmoke" FollowBone="true"/>
+				</ModelConditionState>
+				<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DAMAGED">
+					<Model Name="NUL_VEHICLEAC_SKN"/>
+<!--					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedElectric" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedElectricFlash" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedSpurt" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_hips" FXParticleSystemTemplate="RedeemerDamagedSmoke" FollowBone="true"/>-->
+					<ParticleSysBone BoneName="ac_lftoe" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_uglcannon02" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon02" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+<!--					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedElectric" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedElectricFlash" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_rcannon01" FXParticleSystemTemplate="RedeemerDamagedSpurt" FollowBone="true"/>-->
+					<ParticleSysBone BoneName="bone_contact_point_03" FXParticleSystemTemplate="GDIDebrisSmallSmoke" FollowBone="true"/>
+					<ParticleSysBone BoneName="ac_turret" FXParticleSystemTemplate="GDIMammothDamagedSmoke" FollowBone="true"/>
+				</ModelConditionState>
+				<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="FORMATION_PREVIEW">
+					<Model Name="NUL_VEHICLEAC_FP"/>
+				</ModelConditionState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="FORMATION_PREVIEW"/>
+				<AnimationState ParseCondStateType="PARSE_DEFAULT" StateName="STATE_bored" Flags="RESTART_ANIM_WHEN_COMPLETE" AllowRepeatInRandomPick="true">
+					<Animation AnimationName="NUL_VEHICLEAC_BIDA" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="15"/>
+					<Animation AnimationName="NUL_VEHICLEAC_BIFA" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="5"/>
+					<Animation AnimationName="NUL_VEHICLEAC_BIFB" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="5"/>
+					<Script> Prev = CurDrawablePrevAnimationState() if Prev == "STATE_Selected" then CurDrawableSetTransitionAnimState("TRANS_SelectedToIdle") end </Script>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="COMING_OUT_OF_FACTORY" StateName="STATE_Built">
+					<Animation AnimationName="NUL_VEHICLEAC_BLDA" AnimationMode="ONCE" AnimationBlendTime="0" AnimationSpeedFactorMin="2" AnimationSpeedFactorMax="2"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DYING">
+					<Animation AnimationName="NUL_VEHICLEAC_DIEA" AnimationMode="ONCE"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="AFFECTED_BY_EMP">
+					<Animation AnimationName="NUL_VEHICLEAC_EMPA" AnimationMode="MANUAL" AnimationBlendTime="15"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="TURN_LEFT_HIGH_SPEED" Flags="MAINTAIN_FRAME_ACROSS_STATES">
+					<Animation AnimationName="NUL_VEHICLEAC_RUNA" AnimationMode="LOOP" Distance="60"/>
+					<FXEvent Frame="1" Effect="FX_NODAvatarFootprint_L" Bone="ac_lftoe" FireWhenSkipped="true"/>
+					<FXEvent Frame="23" Effect="FX_NODAvatarFootprint_R" Bone="ac_rftoe" FireWhenSkipped="true"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="TURN_RIGHT_HIGH_SPEED" Flags="MAINTAIN_FRAME_ACROSS_STATES">
+					<Animation AnimationName="NUL_VEHICLEAC_RUNA" AnimationMode="LOOP" Distance="60"/>
+					<FXEvent Frame="1" Effect="FX_NODAvatarFootprint_L" Bone="ac_lftoe" FireWhenSkipped="true"/>
+					<FXEvent Frame="23" Effect="FX_NODAvatarFootprint_R" Bone="ac_rftoe" FireWhenSkipped="true"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="TURN_LEFT">
+					<Animation AnimationName="NUL_VEHICLEAC_TRNL" AnimationMode="LOOP"/>
+					<FXEvent Frame="1" Effect="FX_NODAvatarFootprint_L" Bone="ac_lftoe" FireWhenSkipped="true"/>
+					<FXEvent Frame="23" Effect="FX_NODAvatarFootprint_R" Bone="ac_rftoe" FireWhenSkipped="true"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="TURN_RIGHT">
+					<Animation AnimationName="NUL_VEHICLEAC_TRNR" AnimationMode="LOOP"/>
+					<FXEvent Frame="1" Effect="FX_NODAvatarFootprint_R" Bone="ac_rftoe" FireWhenSkipped="true"/>
+					<FXEvent Frame="23" Effect="FX_NODAvatarFootprint_L" Bone="ac_lftoe" FireWhenSkipped="true"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="MOVING" Flags="MAINTAIN_FRAME_ACROSS_STATES">
+					<Animation AnimationName="NUL_VEHICLEAC_RUNA" AnimationMode="LOOP" Distance="60" AnimationBlendTime="15"/>
+					<FXEvent Frame="1" Effect="FX_NODAvatarFootprint_L" Bone="ac_lftoe" FireWhenSkipped="true"/>
+					<FXEvent Frame="23" Effect="FX_NODAvatarFootprint_R" Bone="ac_rftoe" FireWhenSkipped="true"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="WEAPONSLOTID_01">
+					<Animation AnimationName="NUL_VEHICLEAC_ATKA" AnimationMode="ONCE" AnimationBlendTime="15"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="ATTACKING" StateName="STATE_Selected">
+					<Animation AnimationName="NUL_VEHICLEAC_ATKA" AnimationMode="MANUAL"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="SELECTED" StateName="STATE_Selected" Flags="RESTART_ANIM_WHEN_COMPLETE">
+					<Animation AnimationName="NUL_VEHICLEAC_AIDA" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="15"/>
+					<Animation AnimationName="NUL_VEHICLEAC_AIFA" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="5"/>
+					<Animation AnimationName="NUL_VEHICLEAC_AIFB" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="5"/>
+					<Animation AnimationName="NUL_VEHICLEAC_AIFC" AnimationMode="ONCE" AnimationBlendTime="15" AnimationPriority="5"/>
+					<Script> Prev = CurDrawablePrevAnimationState() if Prev == "STATE_bored" then CurDrawableSetTransitionAnimState("TRANS_IdleToSelected")</Script>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_TRANSITION" StateName="TRANS_IdleToSelected">
+					<Animation AnimationName="NUL_VEHICLEAC_BATA" AnimationMode="ONCE" AnimationPriority="10"/>
+				</AnimationState>
+				<AnimationState ParseCondStateType="PARSE_TRANSITION" StateName="TRANS_SelectedToIdle">
+					<Animation AnimationName="NUL_VEHICLEAC_DSEL" AnimationMode="ONCE"/>
+				</AnimationState>
+			</ScriptedModelDraw>
+			<ScriptedModelDraw id="ModuleTag_DeathFX" AttachToBoneInAnotherModule="ac_torso">
+				<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+					<Model Name="GUMAMM_FX"/>
+				</ModelConditionState>
+				<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DYING">
+					<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkFire" FollowBone="true"/>
+					<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkFireGlow" FollowBone="true"/>
+					<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkFireDistortion" FollowBone="true"/>
+					<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkSmoke" FollowBone="true"/>
+				</AnimationState>
+			</ScriptedModelDraw>
+			<ScriptedModelDraw id="ModuleTag_DrawDecal" OkToChangeModelColor="true">
+				<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+					<Model Name=""/>
+				</ModelConditionState>
+				<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="SELECTED">
+					<Model Name="FXINVISBONE"/>
+					<ShadowInfo Type="ADDITIVE_DECAL" Texture="Decal_LeadershipBuff" SizeX="600" SizeY="600" MaxHeight="200" OverrideLODVisibility="true" UseHouseColor="true" LocalPlayerOnly="true"/>
+				</ModelConditionState>
+			</ScriptedModelDraw>
+			
+			<!-- BEGINNING OF LASERDRAW SET-->
+<!--			<LaserDraw
+				id="ModuleTag_LaserDraw1"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".03"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="1"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="30"
+				LaserWidth="20"
+				WeaponSlotID="1"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXObeliskLaser</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLaserOverlay</Value>
+						</Texture>
+					</Constants>
+				</FXShader>				
+			</LaserDraw>
+			<LaserDraw
+				id="ModuleTag_LaserDistort1"
+				UseDistortionShader="true"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".01"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="1"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="1"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXRailGunCoreDistortion</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXRailGunCoreMask</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+
+		<LaserDraw
+				id="ModuleTag_LaserDraw2"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".03"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="1"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="30"
+				LaserWidth="20"
+				WeaponSlotID="2"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXObeliskLaser</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLaserOverlay</Value>
+						</Texture>
+					</Constants>
+				</FXShader>				
+			</LaserDraw>
+			<LaserDraw
+				id="ModuleTag_LaserDistort2"
+				UseDistortionShader="true"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".01"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="1"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="1"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXRailGunCoreDistortion</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXRailGunCoreMask</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>-->
+			
+						<LaserDraw
+				id="0x7956E6AD"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="25"
+				WeaponSlotID="5"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXObeliskLaser</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLaserOverlay</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x29D5FD23"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="40"
+				WeaponSlotID="5"
+				LaserStateID="1"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0x8C5A6A4B"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="30"
+				WeaponSlotID="5"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+						<LaserDraw
+				id="ModuleTag_LaserDraw01Veterancy"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".3"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate=".7"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="30"
+				LaserWidth="50"
+				WeaponSlotID="5"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXAlienLaserHeroic</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXAlienLaserHeroic</Value>
+						</Texture>
+					</Constants>
+				</FXShader>				
+			</LaserDraw>	
+
+
+			<StreamDraw
+				id="ModuleTag_StreamDraw"
+				UseDistortionShader="false"
+				Velocity="200.0"
+				ArcHeightFactor="0.0625"
+				UVWorldSize="100.0"
+				NumTubeSides="8"
+				TubeRadius="0.5"
+				HitFx="FX_NODFlameTankPlasmaFire">
+				<!-- HitFx="FX_BulletHitGDI" -->
+				<!-- FX_NOD_BlackHandFlameWeaponHit = FX_BulletHitGDI - the bullet ricochet sounds! -->
+				<FXShader
+					ShaderName="Stream.fx"
+					TechniqueIndex="1">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXFireStream</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXFireStream</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ParticleSystems>
+					<ParticleSys>NUBlkHndStreamFlame</ParticleSys>
+					<ParticleSys>NUBlkHndStreamGlow</ParticleSys>
+					<ParticleSys>NUBlkHndStreamDistort</ParticleSys>
+					<ParticleSys>NUBlkHndStreamFlame_Green</ParticleSys>
+					<ParticleSys>NUBlkHndStreamGlow_Green</ParticleSys>
+				</ParticleSystems>
+			</StreamDraw>
+
+		</Draws>
+		<Behaviors>
+			<WeaponSetUpdate id="ModuleTag_WeaponSetUpdate">
+				<WeaponSlotHardpoint ID="1" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE">
+					<Weapon Template="NODCyborgCommandoPlasmaGun2" Ordering="PRIMARY_WEAPON"/>
+
+				</WeaponSlotHardpoint>
+				<WeaponSlotHardpoint ID="2" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE">
+					<Weapon Template="NODCyborgCommandoPlasmaGun2" Ordering="PRIMARY_WEAPON"/>
+
+				</WeaponSlotHardpoint>
+				<WeaponSlotHardpoint ID="3" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE">
+					<Weapon Template="NODCyborgCommandoPlasmaGun2" Ordering="PRIMARY_WEAPON"/>
+
+				</WeaponSlotHardpoint>
+				<WeaponSlotHardpoint ID="4" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE">
+					<Weapon Template="NODCyborgCommandoPlasmaGun2" Ordering="PRIMARY_WEAPON"/>
+
+				</WeaponSlotHardpoint>
+				<WeaponSlotHardpoint ID="5" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_RANDOM">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="NODMontaukLaser2" />
+<!--					<Weapon
+						Ordering="SECONDARY_WEAPON"
+						Template="NODObeliskAntiInfantryLaser2" />-->
+
+				</WeaponSlotHardpoint>		
+				<WeaponSlotHardpoint ID="6" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_RANDOM">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="NODStealthTankRocket2" />
+<!--					<Weapon
+						Ordering="SECONDARY_WEAPON"
+						Template="NODObeliskAntiInfantryLaser2" />-->
+
+				</WeaponSlotHardpoint>	
+				<WeaponSlotHardpoint ID="7" AllowInterleavedFiring="true" InterleavedStyle="INTERLEAVE_RANDOM">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="NODCCFlamer" />
+<!--					<Weapon
+						Ordering="SECONDARY_WEAPON"
+						Template="NODObeliskAntiInfantryLaser2" />-->
+
+				</WeaponSlotHardpoint>	
+			</WeaponSetUpdate>
+			<LaserState
+				id="ModuleTag_LaserState"
+				LaserId="1" />		
+			<StreamState
+				id="ModuleTag_StreamState"
+				StreamId="0"></StreamState>
+			<SweepingLaserState
+				id="ModuleTag_AntiInfantryLaserState"
+				LaserId="1"
+				Radius="25.0"
+				SweepFXList="FX_NodLaserSweep"
+				SweepWeapon="NODObeliskSweepWeapon" />
+
+			<SpecialPower
+				id="0x4B1DBEDF"
+				SpecialPowerTemplate="NodCybCommMegaBlastTrigger"
+				UpdateModuleStartsAttack="True">
+				<AttributeModifierAffects
+					Rule="UNPARSED" />
+				<RequirementsFilterMP
+					Rule="UNPARSED" />
+				<RequirementsFilterStrategic
+					Rule="UNPARSED" />
+			</SpecialPower>
+			<WeaponFireSpecialAbilityUpdate
+				id="0xF520FDFB"
+				SpecialPowerTemplate="NodCybCommMegaBlastTrigger"
+				StartAbilityRange="500"
+				PackTime=".5s"
+				UnpackTime=".5s"
+				PersistentPrepTime=".5s"
+				PersistentCount="8"				
+				Options="LOSE_STEALTH_ON_TRIGGER"
+				TriggerSound="AudioEvent:Nod_Banshee_Weapon"
+				SpecialWeapon="NODCCPlasmaSpecial2"
+				WhichSpecialWeapon="0"
+				BusyForDuration=".5s" 
+				WeaponSlotID="6"/>
+	
+				
+			<OCLSpecialPower
+				id="0x09541C62"
+				SpecialPowerTemplate="SpecialPower_GdiFirestorm"
+				OCL="OCL_SummonGdiFirestorm2"
+				CreateLocation="USE_SECONDARY_OBJECT_LOCATION">
+				<AttributeModifierAffects
+					Rule="UNPARSED" />
+				<RequirementsFilterMP
+					Rule="UNPARSED" />
+				<RequirementsFilterStrategic
+					Rule="UNPARSED" />
+				<NearestSecondaryObjectFilter
+					Rule="ANY">
+					<IncludeThing>NODAvatar</IncludeThing>
+				</NearestSecondaryObjectFilter>
+			</OCLSpecialPower>
+			
+			
+			
+			<AISpecialPowerUpdate
+				id="0x88A803F6"
+				CommandButtonName="Command_SpecialPowerGdiFirestorm"
+				SpecialPowerAIType="SPECIAL_POWER_RANGED_AOE_ATTACK"
+				SpecialPowerRadius="350" />				
+				
+				
+				
+				
+				
+				
+				
+			<AISpecialPowerUpdate
+				id="0x6772D46B"
+				CommandButtonName="Command_NodCCMegaBlast"
+				SpecialPowerAIType="SPECIAL_POWER_RANGED_AOE_ATTACK"
+				SpecialPowerRadius="350"
+				EnemyUnitExclude="AIRCRAFT" />
+
+				
+			<Physics id="ModuleTag_Physics"/>
+			<ProductionUpdate id="ModuleTag_Production"/>
+<!--			<FXListBehavior id="ModuleTag_FXList">
+				<DieMuxData DeathTypes="ALL"/>
+				<Event Index="onDeath" FX="FX_NOD_RedeemerExplodeWithVoice"/>
+			</FXListBehavior>-->
+			<CreateObjectDie id="ModuleTag_CreateObjectDie" CreationList="OCL_NODRedeemerDebris">
+				<DieMuxData DeathTypes="ALL"/>
+			</CreateObjectDie>
+			<!--  dying, spawn a husk  -->
+			<SlowDeath id="ModuleTag_Death" SinkRate="2" SinkDelay="6s" DestructionDelay="12s">
+				<DieMuxData DeathTypes="ALL"/>
+			</SlowDeath>
+			<StatusBitsUpgrade id="ModuleTag_FirestormIgnitionUpgrade" StatusToSet="WEAPON_UPGRADED_01">
+				<TriggeredBy>Upgrade_FirestormIgnition</TriggeredBy>
+			</StatusBitsUpgrade>
+			<AudioLoopUpgrade id="ModuleTag_FirestormIgnitionAudioLoop" SoundToPlay="GDI_Sandstorm_ThermoBaricMissilesUpgrade">
+				<TriggeredBy>Upgrade_FirestormIgnition</TriggeredBy>
+			</AudioLoopUpgrade>
+			<AttributeModifierAuraUpdate id="ModuleTag_PropgandaAttribute" AttributeModifierName="PropagandaBuff_AttributeModifier" RefreshDelay="1s" Range="265">
+				<ObjectFilter Rule="ANY" Relationship="ALLIES" Include="INFANTRY" Exclude="HORDE"/>
+			</AttributeModifierAuraUpdate>
+		</Behaviors>
+		<AI>
+			<AIUpdate id="ModuleTag_AI" AutoAcquireEnemiesWhenIdle="YES">
+				<UnitAITargetChooserData/>
+			</AIUpdate>
+		</AI>
+		<Body>
+			<ActiveBody id="ModuleTag_Body" MaxHealth="125000.0"/>
+		</Body>
+		<ClientBehaviors>
+			<ModelConditionAudioLoopClientBehavior id="MCALCB">
+				<!--<ModelConditionSound Sound="NOD_Redeemer_DieSpark" RequiredFlags="DYING"/>-->
+			</ModelConditionAudioLoopClientBehavior>
+<!--			<AnimationSoundClientBehavior id="ModuleTag_ASCB">
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_AIFB" Frame="42 70"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_BATA" Frame="45 60"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_BIFB" Frame="27 116 236"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_DIEA" Frame="13 30"/>
+				<Sound Sound="NOD_Redeemer_Bodyfall" Animation="NUL_VEHICLEAC_DIEA" Frame="125"/>
+				<Sound Sound="NOD_Redeemer_DieCreak" Animation="NUL_VEHICLEAC_DIEA" Frame="73 95"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_DSEL" Frame="123 141"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_RUNA" Frame="20 40"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_TRNL" Frame="15 30"/>
+				<Sound Sound="NOD_Redeemer_Footstep" Animation="NUL_VEHICLEAC_TRNR" Frame="15 30"/>
+			</AnimationSoundClientBehavior>-->
+<!--			<AnimationSoundClientBehavior
+				id="ModuleTag_ASCB">
+				<Sound Sound="NOD_AvatarWarMech_Commandeer" Animation="NUMECH_GRBA" Frame="50" />
+				<Sound Sound="NOD_AvatarWarMech_Commandeer" Animation="NUMECH_GRBB" Frame="53" />
+				<Sound Sound="NOD_AvatarWarMech_Commandeer" Animation="NUMECH_GRBC" Frame="48" />
+				<Sound Sound="NOD_AvatarWarMech_Commandeer" Animation="NUMECH_GRBD" Frame="54" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_ABTA" Frame="22 44" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_AIDA" Frame="139 168" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_ACCL" Frame="14" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_BATA" Frame="16 31" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_DECL" Frame="15" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_GRBA" Frame="18 59" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_GRBB" Frame="17 60" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_GRBC" Frame="17 60" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_GRBD" Frame="18 59" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_GTPA" Frame="45 53 76" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_TRNL" Frame="22 45" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_TRNR" Frame="22 45" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_WLKA" Frame="1 25" />
+				<Sound Sound="NOD_AvatarWarMech_Footstep" Animation="NUMECH_WLKB" Frame="23 46" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Short" Animation="NUMECH_GRBA" Frame="7 51" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Long" Animation="NUMECH_GRBA" Frame="14 34 66" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Short" Animation="NUMECH_GRBB" Frame="10 51" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Long" Animation="NUMECH_GRBB" Frame="11 37" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Short" Animation="NUMECH_GRBC" Frame="10 53" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Long" Animation="NUMECH_GRBC" Frame="12 35" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Short" Animation="NUMECH_GRBD" Frame="10 54" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Long" Animation="NUMECH_GRBD" Frame="24 42" />
+				<Sound Sound="NOD_AvatarWarMech_Recovered2" Animation="NUMECH_GTPA" Frame="25" />
+				<Sound Sound="NOD_AvatarWarMech_Recovered1" Animation="NUMECH_GTPA" Frame="50" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Short" Animation="NUMECH_AIDA" Frame="47 76 88" />
+				<Sound Sound="NOD_AvatarWarMech_GearMovement_Long" Animation="NUMECH_AIDA" Frame="47 103" />
+			</AnimationSoundClientBehavior>	-->		
+			<AnimationSoundClientBehavior
+				id="0x7A2074AA">
+				<Sound
+					Sound="AudioEvent:Cyborg_Move"
+					Animation="NUCYBCOMM_WLKA"
+					Frame="0 25" />
+				<Sound
+					Sound="AudioEvent:Nod_Cyborg_VoiceLaugh"
+					Animation="NUL_VEHICLEAC_BIFB"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:Nod_Cyborg_VoiceLaugh"
+					Animation="NUCYBCOMM_BIFA"
+					Frame="0" />
+			</AnimationSoundClientBehavior>
+		</ClientBehaviors>
+		<Geometry>
+			<Shape Type="CYLINDER" MajorRadius="8" MinorRadius="5" Height="18" ContactPointGeneration="VEHICLE">
+				<Offset x="-5" y="0" z="48"/>
+			</Shape>
+			<Shape Type="CYLINDER" MajorRadius="13" MinorRadius="7" Height="37" ContactPointGeneration="VEHICLE">
+				<Offset x="-5" y="0" z="67"/>
+			</Shape>
+			<Shape Type="BOX" MajorRadius="9" MinorRadius="6" Height="60">
+				<Offset x="0" y="-12" z="0"/>
+			</Shape>
+			<Shape Type="BOX" MajorRadius="9" MinorRadius="6" Height="60">
+				<Offset x="0" y="12" z="0"/>
+			</Shape>
+		</Geometry>
+		<AudioArrayVoice>
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceAttack"
+				AudioType="voiceAttack" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceAttack"
+				AudioType="voiceAttackAfterMoving" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceCreate"
+				AudioType="voiceCreated" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceCreate"
+				AudioType="voiceFullyCreated" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceMove"
+				AudioType="voiceGarrison" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceMove"
+				AudioType="voiceGuard" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceMove"
+				AudioType="voiceMove" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceMove"
+				AudioType="voiceRetreatToCastle" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceSelect"
+				AudioType="voiceSelect" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Cyborg_VoiceSelect"
+				AudioType="voiceSelectBattle" />
+		</AudioArrayVoice>
+		<AudioArraySound>
+<!--			<AudioEntry Sound="NOD_Redeemer_MoveStart" AudioType="soundMoveStart"/>
+			<AudioEntry Sound="NOD_Redeemer_IdleLoop" AudioType="soundAmbient"/>-->
+		</AudioArraySound>
+		<ShadowInfo Type="VOLUME"/>
+		<VisionInfo VisionRange="650" ShroudClearingRange="500"/>
+		<CrusherInfo CrushDecelerationPercent="25%" CrusherLevel="4" CrushableLevel="4"/>
+	</GameObject>
+
+<!--	<Texture id="NODDefender" File="NODDefender.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false"/>
+	<PackedTextureImage
+		id="Portrait_NODDefender"
+		Texture="NODDefender">
+		<Dimensions x="128" y="128"/>
+		<Coords x="0" y="0"/>
+		<TextureDimensions x="128" y="128"/>
+	</PackedTextureImage>
+-->
+<!--
+	<LogicCommand
+		Type="UNIT_BUILD"
+		id="Command_ConstructNODDarkTwilight">
+		<Object>NODDarkTwilight</Object>
+	</LogicCommand>
+-->
+	<LogicCommandSet
+		id="GenericUnitCommandSet">
+		<Cmd>Command_StanceDrillDown</Cmd>
+		<Cmd>Command_AttackMove</Cmd>
+		<Cmd>Command_Stop</Cmd>
+	</LogicCommandSet>
+
+
+
+
+</AssetDeclaration>

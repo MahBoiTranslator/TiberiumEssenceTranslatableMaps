@@ -1,0 +1,67 @@
+MSNSTR:RDS:CABAL:M6G:Core_Defender_Timer
+	"Core Defender online in:"
+END
+
+MSNSTR:RDS:CABAL:M6G:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:CABAL:M6G:Intro2
+	"CABAL: Resistance is futile, GDI."
+END
+
+MSNSTR:RDS:CABAL:M6G:Intro3
+	"CABAL: The Code structures must not be captured by GDI. My Firestorm defences will fall without them."
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIArrives
+	"***WARNING: NOD AND GDI HAVE CAPTURED A CODE STRUCTURE AND 4 MISSILE SILOS***"
+END
+
+MSNSTR:RDS:CABAL:M6G:NodControlsCode1
+	"***WARNING: NOD HAS CAPTURED A CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6G:NodControlsCode2
+	"***WARNING: GDI HAS CAPTURED THE FINAL CODE STRUCTURE***"
+END
+
+MSNSTR:RDS:CABAL:M6G:Objective_1
+	"Objective 1: Defend the remaining Code Structure at all costs\nObjective 2: Wait until the Core Defender is ready\nOR defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6G:Objective_2
+	"Objective 1: Defend the remaining Code Structure at all costs\nUpdated Objective 2:Defeat Nod and GDI."
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIBaseInvulnerable
+	"ALERT: GDI Firestorm defences are near-invulnerable. Only the Core Defender has the firepower to penetrate the shields."
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIFirestormOverload
+	"Firestorm overload detected. Detecting catostrophic explosion at the GDI base."
+END
+
+MSNSTR:RDS:CABAL:M6G:CoreDefenderDestroyed
+	"Core Defender destoryed. Enemy structures are invulnerable. Mission Failed"
+END
+
+MSNSTR:RDS:CABAL:M6G:MammothArrives
+	"CABAL: Mammoth Walkers? Ha! How pathetic!"
+END
+
+MSNSTR:RDS:CABAL:M6G:CoreDefenderOnline
+	"CABAL: 'Activating Defence Portocol: Defender, now.\nTarget the Firestorm Generators to make GDI vulnerable.'"
+END
+
+MSNSTR:RDS:CABAL:M6G:NodDefeated
+	"CABAL: 'You made this easy, flesh bags.'"
+END
+
+MSNSTR:RDS:CABAL:M6G:GDIDefeated
+	"CABAL: 'Your defeat is at hand, GDI.'"
+END
+
+MSNSTR:RDS:CABAL:M6G:Win
+	"CABAL: GDI are retreating to Southern Cross and Slavik is dead. Cybernetic intellegnce is proven to be superior once again!"
+END
