@@ -1,0 +1,23 @@
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_1
+	"Defeat Death Dealer's army"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_1_Detail
+	"It is a sad day when brother must fight brother. However, Death Dealer sealed her fate when she sided with Nod once again. Defeat her followers."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_2
+	"Destroy the Weather Control Device"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_2_Detail
+	"We have no means to capture Death Dealer's superweapon, so we must destroy it before it kills us all."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Death_Dealer_Defeated
+	"Death Dealer has fled! Her forces have sworn loaylty to Ghost Stalker!."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Weather_Controller_Destroyed
+	"The Weather Controller is destroyed! Let's see what we can salvage..."
+END

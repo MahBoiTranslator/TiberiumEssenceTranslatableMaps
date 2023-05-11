@@ -1,0 +1,87 @@
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_1
+	"Complete the mission before the Nod EVA shuts down"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_1_Detail
+	"CABAL is attempting to hack and shut down the Nod EVA we are using. We MUST save all villages in the area before we lose it."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_2
+	"Ghost Stalker must survive"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_2_Detail
+	"Ghost Stalker is the only one capable to inspire the Forgotten to take up arms once again. He must survive."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_3
+	"Bring Ghost Stalker to the northern Forgotten Village and defend it"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_3_Detail
+	"CABAL intends to exterminate this Forgotten clan. Bring Ghost Stalker and other units to bolster the village defences. They will provide us with harvesting equipment, Fiends and the Sanctuary if we are successful."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_4
+	"Construct the Sanctuary"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_4_Detail
+	"We now have access to new technology. Build a Sanctuary so we can contact the next Forgotten Village."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_5
+	"Bring Ghost Stalker to the Southern Forgotten Village and defend it"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_5_Detail
+	"Another village is being targeted by CABAL. Bring Ghost Stalker and your new units to protect it. This village will provide us with Machanics, the Machine Shop and Scrapyard."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_6
+	"Bring Ghost Stalker to Death Dealer's Fortress"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_6_Detail
+	"Death Dealer was Ghost Stalker's rival and a supporter of Nod. We wouldn't normally reach out a hand to her but we must try and gain as many allies as we can against CABAL. Bring Ghost Stalker to her fortress in the North-East."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_7
+	"Crush CABAL's outpost"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_7_Detail
+	"CABAL is attempting one last offensive at us. Destory his oupost before he can cause us more harm."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:EVA_ShutDown_Timer
+	"Nod EVA offline in:"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:CABAL_Attack_Timer
+	"CABAL forces arrive in:"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Ghost_Speaks_1
+	"Ghost Stalker: CABAL is coming! Prepare the defences!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Leader_Speaks_1
+	"Village Leader: Understood Ghost! Take these men to help you!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Ghost_Speaks_2
+	"Ghost Stalker: The Cyborgs are hunting us! Defend yourselves!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Leader_Speaks_2
+	"Village Leader: Thanks for the heads up! These units are under your command."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Ghost_Speaks_3
+	"Ghost Stalker: Death Dealer, please...CABAL is too strong. We must united against him."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Death_Speaks_3
+	"Death Dealer: For once we agree...we will fight side by side for now."
+END

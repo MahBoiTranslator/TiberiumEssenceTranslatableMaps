@@ -1,0 +1,51 @@
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_1
+	"Investigate the Mutant Hovel"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_1_Detail
+	"We haven't heard from our brethren in days. Investigate the Hovel."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_2
+	"Ghost Stalker must survive"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_2_Detail
+	"Ghost Stalker is critcal to the survival of the Forgotten. Do not allow him to die."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3Fake
+	"Avenge our brethren! Eliminate all Nod forces"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3_DetailFake
+	"Nod has destroyed our homes! We must find their forces so we can have our revenge. Kill the guards at the base so we can claim the Operations Center."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3
+	"Destroy the Cyborgs in the Nod base. DO NOT destroy the Operations Center"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3_Detail
+	"Cyborgs? But CABAL is dead! We must investage further. Kill the cyborgs!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_4
+	"Protect the Operations Center"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_4_Detail
+	"This Operation Center can help us locate and unite the Forgotten. Protect it!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_5
+	"Destroy the Cyber Shrine"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_5_Detail
+	"We cannot secure the area while the Cyber Shine is online. Destroy it at once!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:All_Dead
+	"It looks like Nod killed them all. They will pay for this."
+END

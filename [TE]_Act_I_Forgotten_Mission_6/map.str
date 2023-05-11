@@ -1,0 +1,51 @@
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_1
+	"Survive the Nod counter attack"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_1_Detail
+	"The Ion Cannon has allowed us to push into this area. Do not allow Nod to push back."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_2
+	"Locate the Montauk"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_2_Detail
+	"Slavik is hiding under his stealth technology. Force him out of hiding."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_3
+	"Kill Anton Slavik"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_3_Detail
+	"The Montauk's drilling systems have failed. Slavik is trapped. Kill him and the Serbian Wolf will no longer threaten the Forgotten. Beware of Marcion though, he may try to steal the glory of the kill if you allow him."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Miller_Marauders
+	"Miller Marauder reinforcements have arrived."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Hell_Spawn_Arrived
+	"Hell Spawn 29 squadron has arrived to assist you, Commander."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Rebels
+	"We are getting reports that members of the Black Hand, led by Marcion, are rebelling against Slavik."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Rebels2
+	"Slavik must die at our hands, not Maricion's. Destroy the rebels if they become a threat."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Defeated
+	"Marcion has fled. It is time for us to put the wolf down!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Wins
+	"Slavik has died at Marcion's hand. It is a hollow victory."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgotten_Wins
+	"Slavik is dead! No longer will his vile tyranny stain the Forgotten!"
+END

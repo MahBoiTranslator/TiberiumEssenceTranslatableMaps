@@ -1,0 +1,35 @@
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_1_Detail
+	"Our deal with GDI binds us to help defend their base. In return, GDI have given us a stable EVA unit (housed at the Command Post) for our command needs. Both the Construction Yard and Command Post must survive."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_2
+	"Eliminate CABAL's forces in the city"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_2_Detail
+	"Assist GDI in pushing back CABAL from the city. This will help us both regroup and plan the counter-attack."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_1
+	"Protect GDI's Construction Yard and our Command Post"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_3
+	"Destroy CABAL's North-Eastern Outpost"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_3_Detail
+	"GDI will focus on CABAL's main base. We will focus on the river outpost. Destroying the outpost will grant us new Catapult Artillery."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_4
+	"Destroy CABAL's Main Base"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_4_Detail
+	"CABAL's main base is heavily fortified against ground and air units. If we can aquire artillery...we should be able to break those defences easily."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Catapult_Ready
+	"Catapult artillery can now be build from the Machine Shop."
+END

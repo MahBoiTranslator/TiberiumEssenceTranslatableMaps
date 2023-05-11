@@ -1,0 +1,19 @@
+MSNSTR:RDS:ACT_I_FRGTN:M4:Forgot4_Objective_1
+	"Capture all 3 CABAL Tech Centers with GDI Engineers"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Forgot4_Objective_1_Detail
+	"If GDI and Nod are to defeat CABAL's Core, we must deny him his advanced technology. Capture all 3 Tech Centers so GDI's engineers can erase them. DO NOT destroy the Tech Centers."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:GDI_Success
+	"GDI have successfully infected CABAL's Cyborgs. They are going berzerk!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Nod_Success
+	"Nod has successfully destroyed CABAL's mass havesting operation. CABAL will now take longer to train units."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Death_Dealer_Speaks
+	"Death Dealer: Thanks for the new tech, Stalker. Slavik will be most pleased."
+END

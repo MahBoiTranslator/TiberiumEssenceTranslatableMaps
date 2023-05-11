@@ -3042,3 +3042,275 @@ MSNSTR:RDS:CABAL:M7:Lose2
 "Mission failed"
 END
 
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_1
+"Investigate the Mutant Hovel"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_1_Detail
+"We haven't heard from our brethren in days. Investigate the Hovel."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_2
+"Ghost Stalker must survive"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_2_Detail
+"Ghost Stalker is critcal to the survival of the Forgotten. Do not allow him to die."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3Fake
+"Avenge our brethren! Eliminate all Nod forces"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3_DetailFake
+"Nod has destroyed our homes! We must find their forces so we can have our revenge. Kill the guards at the base so we can claim the Operations Center."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3
+"Destroy the Cyborgs in the Nod base. DO NOT destroy the Operations Center"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_3_Detail
+"Cyborgs? But CABAL is dead! We must investage further. Kill the cyborgs!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_4
+"Protect the Operations Center"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_4_Detail
+"This Operation Center can help us locate and unite the Forgotten. Protect it!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_5
+"Destroy the Cyber Shrine"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:Forgot1_Objective_5_Detail
+"We cannot secure the area while the Cyber Shine is online. Destroy it at once!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M1:All_Dead
+"It looks like Nod killed them all. They will pay for this."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_1
+"Complete the mission before the Nod EVA shuts down"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_1_Detail
+"CABAL is attempting to hack and shut down the Nod EVA we are using. We MUST save all villages in the area before we lose it."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_2
+"Ghost Stalker must survive"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_2_Detail
+"Ghost Stalker is the only one capable to inspire the Forgotten to take up arms once again. He must survive."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_3
+"Bring Ghost Stalker to the northern Forgotten Village and defend it"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_3_Detail
+"CABAL intends to exterminate this Forgotten clan. Bring Ghost Stalker and other units to bolster the village defences. They will provide us with harvesting equipment, Fiends and the Sanctuary if we are successful."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_4
+"Construct the Sanctuary"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_4_Detail
+"We now have access to new technology. Build a Sanctuary so we can contact the next Forgotten Village."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_5
+"Bring Ghost Stalker to the Southern Forgotten Village and defend it"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_5_Detail
+"Another village is being targeted by CABAL. Bring Ghost Stalker and your new units to protect it. This village will provide us with Machanics, the Machine Shop and Scrapyard."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_6
+"Bring Ghost Stalker to Death Dealer's Fortress"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_6_Detail
+"Death Dealer was Ghost Stalker's rival and a supporter of Nod. We wouldn't normally reach out a hand to her but we must try and gain as many allies as we can against CABAL. Bring Ghost Stalker to her fortress in the North-East."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_7
+"Crush CABAL's outpost"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Forgot2_Objective_7_Detail
+"CABAL is attempting one last offensive at us. Destory his oupost before he can cause us more harm."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:EVA_ShutDown_Timer
+"Nod EVA offline in:"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:CABAL_Attack_Timer
+"CABAL forces arrive in:"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Ghost_Speaks_1
+"Ghost Stalker: CABAL is coming! Prepare the defences!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Leader_Speaks_1
+"Village Leader: Understood Ghost! Take these men to help you!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Ghost_Speaks_2
+"Ghost Stalker: The Cyborgs are hunting us! Defend yourselves!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Leader_Speaks_2
+"Village Leader: Thanks for the heads up! These units are under your command."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Ghost_Speaks_3
+"Ghost Stalker: Death Dealer, please...CABAL is too strong. We must united against him."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M2:Death_Speaks_3
+"Death Dealer: For once we agree...we will fight side by side for now."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_1_Detail
+"Our deal with GDI binds us to help defend their base. In return, GDI have given us a stable EVA unit (housed at the Command Post) for our command needs. Both the Construction Yard and Command Post must survive."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_2
+"Eliminate CABAL's forces in the city"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_2_Detail
+"Assist GDI in pushing back CABAL from the city. This will help us both regroup and plan the counter-attack."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_1
+"Protect GDI's Construction Yard and our Command Post"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_3
+"Destroy CABAL's North-Eastern Outpost"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_3_Detail
+"GDI will focus on CABAL's main base. We will focus on the river outpost. Destroying the outpost will grant us new Catapult Artillery."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_4
+"Destroy CABAL's Main Base"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Forgot3_Objective_4_Detail
+"CABAL's main base is heavily fortified against ground and air units. If we can aquire artillery...we should be able to break those defences easily."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M3:Catapult_Ready
+"Catapult artillery can now be build from the Machine Shop."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Forgot4_Objective_1
+"Capture all 3 CABAL Tech Centers with GDI Engineers"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Forgot4_Objective_1_Detail
+"If GDI and Nod are to defeat CABAL's Core, we must deny him his advanced technology. Capture all 3 Tech Centers so GDI's engineers can erase them. DO NOT destroy the Tech Centers."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:GDI_Success
+"GDI have successfully infected CABAL's Cyborgs. They are going berzerk!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Nod_Success
+"Nod has successfully destroyed CABAL's mass havesting operation. CABAL will now take longer to train units."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M4:Death_Dealer_Speaks
+"Death Dealer: Thanks for the new tech, Stalker. Slavik will be most pleased."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_1
+"Defeat Death Dealer's army"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_1_Detail
+"It is a sad day when brother must fight brother. However, Death Dealer sealed her fate when she sided with Nod once again. Defeat her followers."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_2
+"Destroy the Weather Control Device"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Forgot5_Objective_2_Detail
+"We have no means to capture Death Dealer's superweapon, so we must destroy it before it kills us all."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Death_Dealer_Defeated
+"Death Dealer has fled! Her forces have sworn loaylty to Ghost Stalker!."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M5:Weather_Controller_Destroyed
+"The Weather Controller is destroyed! Let's see what we can salvage..."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_1
+"Survive the Nod counter attack"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_1_Detail
+"The Ion Cannon has allowed us to push into this area. Do not allow Nod to push back."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_2
+"Locate the Montauk"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_2_Detail
+"Slavik is hiding under his stealth technology. Force him out of hiding."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_3
+"Kill Anton Slavik"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgot6_Objective_3_Detail
+"The Montauk's drilling systems have failed. Slavik is trapped. Kill him and the Serbian Wolf will no longer threaten the Forgotten. Beware of Marcion though, he may try to steal the glory of the kill if you allow him."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Miller_Marauders
+"Miller Marauder reinforcements have arrived."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Hell_Spawn_Arrived
+"Hell Spawn 29 squadron has arrived to assist you, Commander."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Rebels
+"We are getting reports that members of the Black Hand, led by Marcion, are rebelling against Slavik."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Rebels2
+"Slavik must die at our hands, not Maricion's. Destroy the rebels if they become a threat."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Defeated
+"Marcion has fled. It is time for us to put the wolf down!"
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Marcion_Wins
+"Slavik has died at Marcion's hand. It is a hollow victory."
+END
+
+MSNSTR:RDS:ACT_I_FRGTN:M6:Forgotten_Wins
+"Slavik is dead! No longer will his vile tyranny stain the Forgotten!"
+END
+
