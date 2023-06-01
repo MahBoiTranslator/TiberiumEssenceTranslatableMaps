@@ -1,0 +1,163 @@
+MSNSTR:RDS:ACT_0:M3:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M3:Briefing_Detail
+	"Message from ???:\nCommander, thank you for answering my request. I'm glad you're helping me take back what is rightfully mine. I will use my equipment to help lessen the pain you and your people are going through, but retrieving said equipment will be tough. The first thing that will kill us is the extreme cold. I know Tiberium isn't well adapted to the cold, so I guess we won't have an easy time either. The GDI armour we 'borrowed' from the airbase isn't suited for Arctic conditions, but it's better than nothing.\n\nOnce we land, I'll need you to guide Ghost Stalker through the GDI checkpoints. I'll help you as much as possible, after all, I used to live and work here."
+END
+
+MSNSTR:RDS:ACT_0:M3:DistressSignal
+	"Distress Signal sent in:"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro1
+	"???: 'We're close. Land near that village.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro2
+	"Carryall Pilot: 'Understood Ma'am.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro3
+	"???: 'That...was...my home. Within it lies the equpiment I'll need to save your people.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro4
+	"Ghost Stalker: 'Our people, remember. Anyway, what's the plan?'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro5
+	"???: 'Ha, right. Our first priority should be taking out the outpost. We don't want GDI discovering the Carryalls.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro6
+	"Ghost Stalker: 'Sounds like a plan, let's get going before I freeze to death.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:MedicalTent
+	"???: 'Commander, bring Ghost Stalker close to the Medical Tent to heal him from the cold.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:OutpostSpotted
+	"???: 'Take out that Command Post! Quickly!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:CommandPostDestroyed
+	"???: 'Good work, an APC usually delivers supplies to the south village, we should take it.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:APCCaptured1
+	"???: 'Damn, the bridge is out. We will have to go across the ice.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:APCCaptured2
+	"???: 'The APC should be light enough to traverse...hopefully.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:HoverMLRS1
+	"Ghost Stalker: 'What are those?'"
+END
+
+MSNSTR:RDS:ACT_0:M3:HoverMLRS2
+	"???: 'Hover MLRS. GDI must have finished development. Not even the waters are safe anymore...'"
+END
+
+MSNSTR:RDS:ACT_0:M3:ContactWarning
+	"???: 'The Lab had regular contact with the outpost. Ghost, you will need to convince them that Nod is responsible for the blackout.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie1
+	"GDI Commander: 'Are you guys from the outpost? What's happened? Why has it gone dark?'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie2
+	"Ghost Stalker: 'Nod are attacking! They wiped out the Command Post before we could send a distress signal!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie3
+	"GDI Commander: 'Nod are here? S***. Go to the Headquarters, I'll take some scouts to see what Nod are up to.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie4
+	"???: 'Nice acting, Ghost. Commander, I'll take it from here.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:The Raid Begins 1
+	"???: 'Everyone, follow my lead.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidBegins2
+	"???: 'Now...where did they keep it? Ah, here it is.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidBegins3
+	"???: 'Ghost, this is for you. It's a prototype Railgun.\nThank you for giving me a purpose again.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidBegins4
+	"???: 'So much for stealth! Commander, shooting the barrels will destroy the bridge and stop GDI from overwhelming us!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidEnds
+	"???: 'That's all of it! Commander, get us back the Carryalls!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:GDICommanderRealisesTrap
+	"GDI Commander: 'You Shiner scum! You'll pay for your deception!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:GDICommanderDies
+	"GDI Commander: 'AAAAAAAHHHHH!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:EndTeamDestroyedEarly
+	"???: 'Persistent, aren't you? I'm impressed, but we need to leave, quickly!"
+END
+
+MSNSTR:RDS:ACT_0:M3:MLRSAmbush
+	"Carryall Pilot: 'Commander! Those GDI hover units are attacking us from the water!\nWe can't take off until you destroy them!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Lose APC
+	"APC destroyed.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M3:DistressSignalSent
+	"???: 'We're too late. The outpost has sent the distress signal."
+END
+
+MSNSTR:RDS:ACT_0:M3:AttackedTooEarly
+	"???: 'Commander, why did you attack them? There's no way we can reach the lab now."
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseACarryall
+	"???: 'A Carryall has been destroyed. We have no way home now.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseGhostStalker
+	"Ghost Stalker killed.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseSydney
+	"???: 'It...wasn't...meant...to...end like this...'"
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseDestroyedBridge
+	"Smart move, dumbass. You destroyed the bridge from the wrong side!"
+END
+
+MSNSTR:RDS:ACT_0:M3:WinA
+	"Carryall Pilot: 'We're clear for take off! Everyone, get inside the transports!"
+END
+
+MSNSTR:RDS:ACT_0:M3:MissionAccomplished
+	"Mission Accomplished"
+END
+
+MSNSTR:RDS:ACT_0:M3:WinB
+	"Carryall Pilot: 'What took you so long? We thought you gave us the...cold...shoulder!"
+END
+
+MSNSTR:RDS:ACT_0:M3:WinB2
+	"Ghost Stalker: '...for f*** sake, Dave."
+END

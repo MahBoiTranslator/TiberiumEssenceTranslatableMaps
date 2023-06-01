@@ -1,0 +1,111 @@
+MSNSTR:RDS:ACT_0:M4:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M4:Briefing_Detail
+	"Message from Tratos:\nI hoped we would never have to see Temple Prime again. But we have no choice. The Tacitus unlocks secrets to Tiberium that must never be revealed to Nod. I...was tricked by Kane into to translating the device in return for freedom. GDI began attacking the temple as I was working on translating, so I was able to hide the Tacitus as Nod were busy fighting.\n\nGDI are going to be tough to dislodge, so use stealth to reach the Temple if possible. Try to get the Tacitus before Nod arrives; we are not ready to face two powerful foes at once. Good luck, I look forward to seeing you when you get home\n"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaTimer
+	"Vega leaves in:"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro1
+	"Umagon: 'Shit, we're too late. GDI and Nod are already fighting over the old Temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro2
+	"Ghost Stalker: 'Sounds like perfect timing to me. Let them destroy each other as we reap the rewards.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro3
+	"Umagon: 'True. I just hope one of them hasn't reached the device Tratos saw in his vision.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro4
+	"Ghost Stalker: 'Only one way to find out. Commander, we need to find the path to the Temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective_1
+	"Objective 1: Locate the old Temple of Nod\nUmagon must survive"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective_2
+	"New Objective: Get Umagon to the Nod Tunnel"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective_3
+	"Objective 3: Destroy all GDI forces"
+END
+
+MSNSTR:RDS:ACT_0:M4:GDIWarning
+	"Ghost Stalker: 'GDI have tight security here. We must be close to the temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:NodWarning
+	"Umagon: 'Nod has a base on the cliff. It will be hard to dislodge them.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaFucksOff1A
+	"Nod Solider: 'General Vega! Mutants have been sighted near the temple!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaFucksOff1B
+	"Nod Solider: 'General Vega! Our base has been breached!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaFucksOff2
+	"Vega: 'Ah, enough of this! I have more important problems to deal with!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonNeedsToLeave
+	"Umagon: 'He might be after the device! Commander, get me to that Tunnel!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves1
+	"Umagon: 'Thanks, Commander. I'll report in if I find anything interesting.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves2
+	"Umagon: 'What the hell! There's a massive ship in here! There's no way this was made by humans...'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves3
+	"Umagon: 'I'm entering the ship, I'll try and maintain contact.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves4
+	"Umagon: 'The ship is taking off! Vega must have activated it, there's no way off.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves5
+	"Umagon: 'The device isn't here. It must still be in the Temple. You'll have to find it without me.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective3Trigger
+	"Ghost Stalker: 'Vega's forces may have left but GDI are still here.\nWe should take them out before we enter the Temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective3Complete
+	"Ghost Stalker:'That's GDI taken care of, let's move.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:AFewHoursLater
+	"A few hours later"
+END
+
+MSNSTR:RDS:ACT_0:M4:Win
+	"'Move quickly, before they see us.'\n'We have to get this to Tratos immediately.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:GhostStalker
+	"Ghost Stalker has been injured. He will be unable to help you complete the mission."
+END
+
+MSNSTR:RDS:ACT_0:M4:LoseUmagon
+	"Umagon has died\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M4:LoseVegaLeaves
+	"Umagon: 'We're too late! What the hell is that thing?\nMission Failed"
+END

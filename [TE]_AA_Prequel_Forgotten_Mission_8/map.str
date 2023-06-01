@@ -1,0 +1,215 @@
+MSNSTR:RDS:ACT_0:M8:GDIVictoryTimer
+	"GDI victory in Cairo estimated in:"
+END
+
+MSNSTR:RDS:ACT_0:M8:PlayerSuperweaponOnlineTimer
+	"Weather Controller Online In:"
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing_Detail
+	"Message from Ghost Stalker:\nYou've done the right thing, Commander. Let no one tell you any different.\n\nMcNeil and GDI are currently engaging Nod in Cairo to try and stop the launch of the World Altering Missile. We cannot allow the so-called 'Divine' to enter the city, it is as simple as that. If we fail, GDI will be overrun and the Earth will be doomed.\nThis is tough on all of us. We are all dying without Death Dealer's help, but if saving the world comes at the cost of our lives...it's a cost we have to pay.\n Our objective will be complete if GDI is victorious in Cairo, so it's up to you whether to hold the line or take the fight to the Divine. Either way will no doubt be costly.\nGood luck, our people are counting on you."
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing2
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing2_Detail
+	"Message from Death Dealer:\nYou're on the right side of history, Commander. Let no one tell you any different.\n\nGhost Stalker believes that we are attempting to help Kane defend the World Altering Missile, but he is only half right.\nWith the Forgotten blockading south Cairo, a new opportunity presents itself: the reunion of Divine and Forgotten. If they're not willing to join us, we will force them to submit to us.\n\nYour mission is simple: destroy all of the Forgotten production structures to force them to submit but leave Ghost Stalker alive. If we can force Ghost Stalker to join us, the Forgotten will follow him into our arms. We will walk into Cairo together, to usher in a world fit only for our people. Good luck, our people are counting on you."
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro1
+	"Ghost Stalker: 'I never wanted it to end this way.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro2
+	"Death Dealer: 'I know. I wish we could go into exile and spend our final days together.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro3
+	"Ghost Stalker: 'Look around you. Look at the lives you saved. Look at how strong they are because of you. Don't tell me you're willing to take that away from them!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro4
+	"Death Dealer: 'Move out of my way, and no one will have to die.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro5
+	"Ghost Stalker: 'I can't do that. That missile will kill us all.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro6
+	"Death Dealer: 'Do you honestly think living under GDI's tyranny will be any better?'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro7
+	"Ghost Stalker: 'Commander, I'm sorry, you must choose.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro8
+	"Select Ghost Stalker to side with the Forgotten\n\nSelect Death Dealer to side with the Divine"
+END
+
+MSNSTR:RDS:ACT_0:M8:Empty
+	""
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro9
+	"Ghost Stalker: 'Sydney...'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro10
+	"Ghost Stalker: 'We had a good time, didn't we?'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro11
+	"Sydney: '...and it ended much too soon, my love.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro12
+	"Death Dealer: 'Warn your people: those who reject change will be conquered by it.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro13ForForgotten
+	"Ghost Stalker: 'Commander, if even one of these blockades fall, the Divine will enter Cairo and assist Nod. Ensure that does not happen.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostCollapses1
+	"Archon: 'Ghost! What's the matter?!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostCollapses2
+	"Archon: 'Shit! I've got to help him! You will have to stop the Divine without us, but I will fill you in on anything our scouts find. I'm sorry, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostUpdate1
+	"Archon: 'Commander, it's me. It's not good news: Ghost Stalker's Tiberium mutation has reached the final stage. We can't treat him without Death Dealer's help.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostUpdate2
+	"Archon: 'I'm going to contact Agent Park to see if GDI can help us. Hold tight, my friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkHelps
+	"Agent Park: 'Commander, this is Park. Archon told me everything. I've requested some Drop Pod reinforcements to help you. I hope it helps.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkGivesGoodNewsEASY
+	"Agent Park: 'I have an update from our forces in Cairo: they are pushing south and Nod are on the back foot! They estimate they will reach Kane's Pyramid in 20 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkGivesGoodNewsNORMAL
+	"Agent Park: 'I have an update from our forces in Cairo: they are pushing south and Nod are on the back foot! They estimate they will reach Kane's Pyramid in 40 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkGivesGoodNewsHARD
+	"Agent Park: 'I have an update from our forces in Cairo: they are pushing south and Nod are on the back foot! They estimate they will reach Kane's Pyramid in 60 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathWorriesForTheForgotten1
+	"Death Dealer: 'I can't believe it's come to this. I don't want to kill the ones that saved me.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathWorriesForTheForgotten2
+	"Death Dealer: 'But so long as GDI exists, we will never prosper. I'm sorry, Commander, but many of our people will have to die today.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:WhereIsGhost
+	"Death Dealer: 'Where's Ghost Stalker? I thought he'd be leading the charge.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DamnGDI
+	"Death Dealer: 'Using GDI to fight your battles... damn you, Ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostStalkerObjective
+	"Final Objective: Do not allow the Divine to enter Cairo"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealerObjective
+	"Final Objective: Subjugate the Forgotten by destroying their production structures\nDO NOT kill Ghost Stalker"
+END
+
+MSNSTR:RDS:ACT_0:M8:PlayerBuildsWeatherController
+	"The Weather Controller needs time to come online for balance reasons."
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealerBuildsWeatherController
+	"Archon: 'Commander, our scouts have detected an unknown structure filled with Blue Tiberium. Be careful!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DDWeatherControllerDestroyedBeforeOnline
+	"Archon: 'Excellent timing, Commander. We should study that device and salvage what we can.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealerWeatherControllerOnline
+	"Archon: 'That doesn't look like a normal Ion Storm! It must have been caused by that new device, it looks like it activates about every 7 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostStalker2SurrendersToPlayer
+	"Mutant Leader: 'Stop! We surrender! Ghost Stalker was wrong, we will become Divine in the new world!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealer2SurrendersToPlayer
+	"Mutant Leader: 'Stop! We surrender! Death Dealer was wrong, we will all die if Kane launches that missile!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DaveAndHisFloater
+	"Mutant: 'I haven't seen a floater that big since that time Dave forgot to flush!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DaveAndHisFloater2
+	"Mutant Serge: 'F*** sake, Dave.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DivineEnterCairo
+	"Death Dealer: 'My forces have entered Cario and are now pushing back GDI. You have lost. There is no place in our new world for you, you pathetic traitor.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:EndingForgottenVictory
+	"Archon: 'Commander, you can stop now. GDI has destroyed the World Altering Missile. I'm contacting Death Dealer about Ghost, perhaps that will end this bloodshed before it gets worse.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:EndingDivineVictory
+	"Archon: 'You're too late. We've received word that GDI has destroyed Kane's missile.\nBut Ghost Stalker is in the last stage of mutation... he's dying... please come and see him quickly.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending1
+	"Archon: 'This way, there's not much time.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending2
+	"Death Dealer: 'Why didn't you tell me sooner? You know only I can save you!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending3
+	"Ghost Stalker: 'Our people come first; I wanted you to stablise everyone before you treated me, but then you left.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending4
+	"Death Dealer: 'Many of our people have just died fighting each other because of YOUR stubbornness!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending5
+	"Death Dealer: 'But fine, if that's what you want, let's make a deal:'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending6
+	"Death Dealer: 'I save your life, and teach your medics how to stabilse the tiberium mutations.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending7
+	"Death Dealer: 'In return... the Forgotten leave me and the Divine alone.\nShould GDI betray you, like they betrayed me, you give me command of the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending8
+	"Ghost Stalker: 'For the sake of the Forgotten... I accept.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending9
+	"Death Dealer: 'Good, we need you now more than ever. I hope the new dawn will be bright for both of us.'"
+END

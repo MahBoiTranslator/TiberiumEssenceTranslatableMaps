@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<Tags/>
+	<Includes>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSCommandCenter.xml" type="instance"/>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSStrongholdBuilding1.xml" type="instance"/>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSStrongholdBuilding2.xml" type="instance"/>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSStrongholdBuilding3.xml" type="instance"/>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSStrongholdBuilding4.xml" type="instance"/>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSStrongholdBuilding5.xml" type="instance"/>
+		<Include source="DATA:NOD\Structures_SinglePlayerCampaign\NSStrongholdBuilding6.xml" type="instance"/>
+
+		<Include source="DATA:NOD\Units\NODConfessor.xml" type="instance"/>
+		<Include source="DATA:NOD\Units\NODBlackHandSquad.xml" type="instance"/>
+
+		<Include source="DATA:NOD\Structures\NODSecretShrine.xml" type="instance"/>
+
+		<Include source="DATA:Alien\Units\AlienMastermind.xml" type="instance"/>
+
+		<Include source="ART:Kane\NUS_InfantryZ.xml" type="all"/>
+		<Include source="ART:Kane\NUS_InfantryZ_HC.xml" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_DIEA.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_SKN.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_TLKA.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_TLKC.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_TLKE.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_TLKY.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_TLKZ.w3x" type="all"/>
+		<Include source="ART:Kane\NUS_INFANTRYZ_WLKA.w3x" type="all"/>
+
+	</Includes>
+
+	<GameObject
+		id="NODBlackHandSquad"
+		inheritFrom="NODBlackHandSquad"
+		SelectPortrait="Portrait_NODConfessor"
+		ButtonImage="Portrait_NODConfessor"
+		BuildCost="300"
+		BuildTime="5"
+		WeaponCategory="GUN"
+		EditorName="NODConfessor"
+		Description="Desc:NODConfessor"
+		TypeDescription="Type:NODConfessor"
+		UnitTypeIcon="RiflemenIcon">
+		<DisplayName xai:joinAction="Replace" xmlns:xai="uri:ea.com:eala:asset:instance">Name:NODConfessor</DisplayName>
+		<Behaviors>
+			<HordeContain
+				id="ModuleTag_HordeContain"
+				xai:joinAction="Replace"
+				FrontAngle="4.7123"
+				FlankedDelaySeconds="2.0"
+				ShowPips="false"
+				Formation="MAIN"
+				MeleeAttackLeashDistance="1"
+				Slots="3"
+				ObjectStatusOfContained=""
+				ConditionForEntry="INVALID">
+				<PassengerFilter Rule="NONE" Include="INFANTRY"/>
+				<DieMuxData/>
+				<InitialPayload Name="NODConfessor" Count="3"/>
+				<MeleeBehavior Type="AMOEBA"/>
+				<RandomOffset x="4" y="4"/>
+				<RankInfo RankID="1" UnitType="NODConfessor">
+					<Position X="10" Y="-20"/>
+					<Position X="20" Y="0"/>
+					<Position X="10" Y="20"/>
+				</RankInfo>
+				<RankToReleaseWhenAttacking>1</RankToReleaseWhenAttacking>
+			</HordeContain>
+		</Behaviors>
+	</GameObject>
+
+	<GameObject
+		id="NODConfessor"
+		inheritFrom="NODConfessor">
+		<Behaviors>
+			<WeaponSetUpdate
+				id="ModuleTag_WeaponSetUpdate"
+				xai:joinAction="Replace">
+				<WeaponSlotHardpoint
+					ID="1"
+					AllowInterleavedFiring="true"
+					InterleavedStyle="INTERLEAVE_RANDOM"
+					WeaponChoiceCriteria="PREFER_MOST_DAMAGE">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="NODCyborgMinigun"/>
+				</WeaponSlotHardpoint>
+			</WeaponSetUpdate>
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="ModuleTag_Body"
+				xai:joinAction="Replace"
+				MaxHealth="300"/>
+		</Body>
+	</GameObject>
+
+	<GameObject
+		id="AlienMastermind"
+		inheritFrom="AlienMastermind">
+		<LocomotorSet
+			Locomotor="HumanLocomotor"
+			Condition="NORMAL"
+			Speed="48.0" />
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Replace"
+				OkToChangeModelColor="true">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="NUS_INFANTRYZ_SKN"/>
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT"
+					StateName="STATE_bored"
+					Flags="RESTART_ANIM_WHEN_COMPLETE"
+					AllowRepeatInRandomPick="true">
+					<Animation
+						AnimationName="NUS_INFANTRYZ_TLKA"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.8"
+						AnimationSpeedFactorMax="1.2"
+						AnimationPriority="90"/>
+					<Animation
+						AnimationName="NUS_INFANTRYZ_TLKC"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.8"
+						AnimationSpeedFactorMax="1.2"/>
+					<Animation
+						AnimationName="NUS_INFANTRYZ_TLKE"
+						AnimationMode="ONCE"
+						AnimationBlendTime="10"
+						AnimationSpeedFactorMin="0.8"
+						AnimationSpeedFactorMax="1.2"
+						AnimationPriority="25"/>
+					<Animation
+						AnimationName="NUS_INFANTRYZ_TLKY"
+						AnimationMode="ONCE"
+						AnimationBlendTime="10"
+						AnimationSpeedFactorMin="0.8"
+						AnimationSpeedFactorMax="1.2"/>
+					<Animation
+						AnimationName="NUS_INFANTRYZ_TLKZ"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.8"
+						AnimationSpeedFactorMax="1.2"
+						AnimationPriority="35"/>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<Animation
+						AnimationName="NUS_INFANTRYZ_DIEA"
+						AnimationMode="ONCE"/>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING">
+					<Animation
+						AnimationName="NUS_INFANTRYZ_WLKA"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+				</AnimationState>
+			</ScriptedModelDraw>
+		</Draws>
+	</GameObject>
+
+	<WeaponTemplate
+		id="NODCyborgMinigun"
+		Name="NODCyborgMinigun"
+		AttackRange="250"
+		AcceptableAimDelta="10d"
+		WeaponSpeed="999999"
+		FireSoundPerClip="AudioEvent:NOD_Cyborg_GunFire"
+		FireFX="FX_NODRifleManFire"
+		FireVeteranFX="FX_GDIRifleManFireHeroic"
+		ClipSize="9"
+		CanFireWhileMoving="True">
+		<FiringDuration
+			MinSeconds="0.1s"
+			MaxSeconds="0.1s" />
+		<ClipReloadTime
+			MinSeconds="1.5s"
+			MaxSeconds="1.5s" />
+		<Nuggets>
+			<DamageNugget
+				Damage="25"
+				DamageType="GUN"
+				DamageFXType="NOD_MACHINEGUN" />
+			<SuppressionNugget
+				Radius="25"
+				Suppression="25"
+				DurationSeconds="2s" />
+		</Nuggets>
+	</WeaponTemplate>
+
+	<GameObject
+		id="NOD_CommandCenter"
+		inheritFrom="NOD_CommandCenter">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+	<GameObject
+		id="NOD_StrongholdBuilding1"
+		inheritFrom="NOD_StrongholdBuilding1">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+	<GameObject
+		id="NOD_StrongholdBuilding2"
+		inheritFrom="NOD_StrongholdBuilding2">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+	<GameObject
+		id="NOD_StrongholdBuilding3"
+		inheritFrom="NOD_StrongholdBuilding3">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+	<GameObject
+		id="NOD_StrongholdBuilding4"
+		inheritFrom="NOD_StrongholdBuilding4">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+	<GameObject
+		id="NOD_StrongholdBuilding5"
+		inheritFrom="NOD_StrongholdBuilding5">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+	<GameObject
+		id="NOD_StrongholdBuilding6"
+		inheritFrom="NOD_StrongholdBuilding6">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				xai:joinAction="Append"
+				OkToChangeModelColor="true"/>
+		</Draws>
+	</GameObject>
+
+</AssetDeclaration>

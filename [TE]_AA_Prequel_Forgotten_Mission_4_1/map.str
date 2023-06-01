@@ -1,0 +1,91 @@
+MSNSTR:RDS:ACT_0:M41:Line_1
+	"Death Dealer: 'Commander! Ghost! Can you hear me? There's been an attack!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_2
+	"Death Dealer: 'They've taken him! They've taken them all!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_3
+	"Ghost Stalker: 'Slow down! Tell us from the start.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_4
+	"Death Dealer: 'Right. I was preparing to stabilise Archon...'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_5
+	"Death Dealer: 'So you call him Archon because he keeps questioning orders and thinks he's a leader?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_6
+	"Tratos: 'That's right. So if he ever gives you trouble, feel free to use it against him.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_7
+	"Death Dealer: 'Will do!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_8
+	"Tratos: 'Listen, you've done so much to help the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_9
+	"Tratos: 'To reward you, I'm going to teach you to translate the Tacitus.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_10
+	"Death Dealer: 'Are you sure? I don't even know what the Tacitus is.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_11
+	"Tratos: 'I'm sure. You already have a great understanding of Tiberium.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_12
+	"Tratos: 'And, should anything happen to me, I need someone I can trust to guard it.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_13
+	"Death Dealer: 'Can you at least tell me what the Tacitus is first?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_14
+	"Tratos: 'Oh, right, sorry. The Tacitus is...'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_15
+	"Tratos: 'What's that sound?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_16
+	"Mutant: 'Tratos! It's a Nod ambush! They...'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_17
+	"Nod Cyborg: 'Surrender, mutants.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_18
+	"Tratos: 'Death Dealer, evacuate with Archon!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_19
+	"Death Dealer: 'What about you?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_20
+	"Tratos: 'I need to rally everyone else. Now, go!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_21
+	"Death Dealer: 'Understood. You men, help me get Archon to safety!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_22
+	"Death Dealer: 'We barely escaped. I saw Nod take Tratos and others away as we were leaving.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_23
+	"Death Dealer: 'Please, return home as soon as possible.'"
+END

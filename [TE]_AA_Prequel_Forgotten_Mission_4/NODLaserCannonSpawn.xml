@@ -1,0 +1,162 @@
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+<GameObject id="NODLaserCannonSpawn" KindOf="SELECTABLE IMMOBILE CAN_ATTACK CAN_CAST_REFLECTIONS STRUCTURE CANT_TOGGLE_POWER ATTACK_NEEDS_LINE_OF_SIGHT FS_BASE_DEFENSE POWERED KEEP_CLASSIFIED_WHEN_DEAD NOT_SELLABLE COVER AUTO_ACQUIRABLE_BY_AI" Description="Desc:NODLaserCannon" TypeDescription="Type:NODLaserCannon" RadarPriority="STRUCTURE" PlacementViewAngle="225d" Side="NOD" EditorName="NODLaserCannonSpawn" EditorSorting="STRUCTURE" BuildTime="4" CommandSet="GDIWatchTowerCommandSet" SelectPortrait="Portrait_NodGunTower" ButtonImage="Portrait_NodGunTower" CampnessValue="2000" CampnessValueRadius="300" ProductionQueueType="OTHER_STRUCTURE" BuildPlacementTypeFlag="OTHER_STRUCTURE" UnitCategory="STRUCTURE" WeaponCategory="CANNON" BuildCost="400" TransportSlotCount="1">
+<DisplayName>Name:NODGunTurret</DisplayName>
+<ArmorSet Armor="NODBaseDefenceArmor" DamageFX="FactionStructureDamageFX"/>
+<SkirmishAIInformation BaseBuildingLocation="SPREAD"/>
+<Draws>
+<ScriptedModelDraw id="ModuleTag_Draw" InitialRecoilSpeed="10" MaxRecoilDistance="6" RecoilDamping="2" RecoilSettleSpeed="3" ExtraPublicBone="FX_WEAPON Barrel" OkToChangeModelColor="True">
+<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+<Model Name="W3DContainer:NBGUNTURRET_SKN"/>
+<WeaponFireFXBone BoneName="FX_Weapon"/>
+<WeaponRecoilBone BoneName="Barrel"/>
+<WeaponLaunchBone BoneName="FX_Weapon"/>
+<Turret TurretNameKey="B_Turret" TurretPitch="B_Turret_Pitch" TurretID="1"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="REPAIRING_DISABLED">
+<Model Name="W3DContainer:NBGUNTURRET_SKN"/>
+<Texture Original="NBLsrCann" New="NBLsrCannD"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="RUBBLE">
+<Model Name="W3DContainer:NBGUNTURRET_SKN"/>
+<Texture Original="NBLsrCann" New="NBLsrCannD"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="REALLYDAMAGED">
+<Model Name="W3DContainer:NBGUNTURRET_SKN"/>
+<Texture Original="NBLsrCann" New="NBLsrCannD"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DAMAGED">
+<Model Name="W3DContainer:NBGUNTURRET_SKN"/>
+<Texture Original="NBLsrCann" New="NBLsrCannD"/>
+</ModelConditionState>
+<AnimationState ParseCondStateType="PARSE_DEFAULT" Flags="RESTART_ANIM_WHEN_COMPLETE">
+<Animation AnimationName="NBGUNTURRET_IDLA" AnimationMode="ONCE"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="USER_1">
+<Animation AnimationName="NBGUNTURRET_BLDA" AnimationMode="ONCE" AnimationBlendTime="0"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="STRUCTURE_UNPACKING">
+<Animation AnimationName="NBGUNTURRET_BLDA" AnimationMode="ONCE" AnimationBlendTime="0"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="REPAIRING_DISABLED" StateName="STATE_Rubble" Flags="START_FRAME_LAST">
+<Animation AnimationName="NBGUNTURRET_D3AN" AnimationMode="ONCE" AnimationBlendTime="0"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="RUBBLE" StateName="STATE_Rubble" Flags="START_FRAME_LAST">
+<Animation AnimationName="NBGUNTURRET_D3AN" AnimationMode="ONCE"/>
+<Script> Prev = CurDrawablePrevAnimationState(); if Prev ~= "STATE_Rubble" and Prev ~= "TRANS_IntoRubble" then CurDrawableSetTransitionAnimState("TRANS_IntoRubble") end </Script>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="REALLYDAMAGED" StateName="STATE_ReallyDamaged" Flags="START_FRAME_LAST">
+<Animation AnimationName="NBGUNTURRET_IDLA" AnimationMode="MANUAL"/>
+<Script> Prev = CurDrawablePrevAnimationState(); if Prev ~= "STATE_ReallyDamaged" and Prev ~= "TRANS_IntoReallyDamaged" then CurDrawableSetTransitionAnimState("TRANS_IntoReallyDamaged") end </Script>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_TRANSITION" StateName="TRANS_IntoReallyDamaged">
+<Animation AnimationName="NBGUNTURRET_IDLA" AnimationMode="ONCE" AnimationBlendTime="0"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_TRANSITION" StateName="TRANS_IntoRubble">
+<Animation AnimationName="NBGUNTURRET_D3AN" AnimationMode="ONCE" AnimationBlendTime="0"/>
+</AnimationState>
+</ScriptedModelDraw>
+<LaserDraw id="ModuleTag_LaserDraw" Texture1_VTile="0.5" Texture2_VTile="0.03" Texture1_VScrollRate="0.2" Texture2_VScrollRate="1" LaserStateID="1" LaserWidth="10">
+<FXShader ShaderName="Laser.fx">
+<Constants>
+<Texture Name="Texture1">
+<Value>FXObeliskLaser</Value>
+</Texture>
+<Texture Name="Texture2">
+<Value>FXLaserOverlay</Value>
+</Texture>
+</Constants>
+</FXShader>
+<ObjectStatusValidation RequiredStatus="WEAPON_UPGRADED_01"/>
+</LaserDraw>
+<LaserDraw id="ModuleTag_LaserDistort" Texture1_VTile="0.5" Texture2_VTile="0.01" Texture1_VScrollRate="0.2" Texture2_VScrollRate="1" Texture2_FrameRate="1" LaserWidth="50" LaserStateID="1" UseDistortionShader="True">
+<FXShader ShaderName="Laser.fx">
+<Constants>
+<Texture Name="Texture1">
+<Value>FXRailgunCoreDistortion</Value>
+</Texture>
+<Texture Name="Texture2">
+<Value>FXRailGunCoreMask</Value>
+</Texture>
+</Constants>
+</FXShader>
+</LaserDraw>
+</Draws>
+<Behaviors>
+<AttributeModifierPoolUpdate id="ModuleTag_AttributeModifier"/>
+<FireWeaponWhenDead id="ModuleTag_FWWD" DeathWeapon="CatalystInfantryDeathWeapon" InitiallyActive="True">
+<DieMuxData DeathTypes="CATALYST"/>
+</FireWeaponWhenDead>
+<WeaponSetUpdate id="ModuleTag_WeaponSetUpdate">
+<WeaponSlotTurret ID="1">
+<Weapon Template="NODGunTurretCannon"/>
+<Weapon Template="NODLaserCannonWeapon2" ObjectStatus="WEAPON_UPGRADED_01"/>
+<TurretSettings TurretTurnRate="360" TurretPitchRate="100" MinimumPitch="-60d" PitchHeight="90%" MinIdleScanTime="1s" MaxIdleScanTime="5s" MaxIdleScanAngle="180" AllowsPitch="True">
+<TurretAITargetChooserData TargetingCompareList="DefaultTurretTargetingCompareList"/>
+</TurretSettings>
+</WeaponSlotTurret>
+</WeaponSetUpdate>
+<LaserState id="ModuleTag_LaserState" LaserId="1"/>
+<FXListBehavior id="ModuleTag_FXList">
+<DieMuxData DeathTypes="ALL"/>
+<Event FX="FX_NOD_DefensiveTurret_Explode"/>
+<Event Index="onTransitionToDamaged" FX="FX_BuildDamaged_Small"/>
+<Event Index="onTransitionToReallyDamaged" FX="FX_BuildDamaged_Small"/>
+<Event Index="onTransitionToRubble" FX="FX_BuildRubble_Small"/>
+</FXListBehavior>
+<SlavedUpdate id="ModuleTag_SlavedUpdate" DieOnMastersDeathType="SUICIDED" DieOnMastersDeath="True"/>
+<StructureUnpackUpdate UnpackTime="1.5s"/>
+<SlowDeath id="ModuleTag_Death" SinkRate="4" SinkDelay="3s" DestructionDelay="8s">
+<DieMuxData DeathTypes="SUICIDED"/>
+</SlowDeath>
+<KeepObjectDie id="ModuleTag_KeepObjDie">
+<DieMuxData DeathTypes="ALL" DeathTypesForbidden="SUICIDED"/>
+</KeepObjectDie>
+<InitiateRepairDie id="ModuleTag_IRD" DelayTime="10s" MasterDeadDieFX="FX_TEMPLarge" Options="REPAIR_INSTANT" InstantRepairModelCondition="USER_1" InstantRepairAnimDuration="1.5s">
+<Die DeathTypes="ALL" DeathTypesForbidden="SUICIDED"/>
+</InitiateRepairDie>
+<AutoHealBehavior id="ModuleTag_AutoHealBehavior" HealingAmount="50" HealingDelay="1s" StartHealingDelay="3s" InitiallyActive="True" HealOnlyIfNotUnderAttack="True" HealOnlyIfNotInCombat="True"/>
+<SubObjectsUpgrade id="ModuleTag_LaserGunSubObject" ShowSubObjects="LASERGUN" HideSubObjects="Barrel">
+<TriggeredBy>Upgrade_NODTechCenterLaserCapacitor</TriggeredBy>
+</SubObjectsUpgrade>
+<StatusBitsUpgrade id="ModuleTag_LaserCapacitorUpgrade" StatusToSet="WEAPON_UPGRADED_01">
+<TriggeredBy>Upgrade_NODTechCenterLaserCapacitor</TriggeredBy>
+</StatusBitsUpgrade>
+<RepairUpdate id="ModuleTag_Repair" Toggleable="False" RepairableWhenDead="True">
+<PercentOfBuildCostToRebuildInfo/>
+<SelfAudio/>
+</RepairUpdate>
+</Behaviors>
+<AI>
+<AIUpdate id="ModuleTag_AI" AutoAcquireEnemiesWhenIdle="YES">
+<UnitAITargetChooserData CanPickDynamicTargets="False"/>
+</AIUpdate>
+</AI>
+<Body>
+<ActiveBody id="ModuleTag_Body" MaxHealth="1800"/>
+</Body>
+<ClientBehaviors>
+<ModelConditionAudioLoopClientBehavior id="MCALCB">
+<ModelConditionSound Sound="NOD_GenericTurret_Regenerate" RequiredFlags="USER_1"/>
+</ModelConditionAudioLoopClientBehavior>
+</ClientBehaviors>
+<Geometry>
+<Shape Type="CYLINDER" ContactPointGeneration="INFANTRY" MajorRadius="9" Height="23"/>
+</Geometry>
+<AudioArrayVoice>
+<AudioEntry EvaEvent="BuildingStolen" AudioType="voiceDefectingAway"/>
+<AudioEntry EvaEvent="EnemyBuildingCaptured" AudioType="voiceDefectingTowards"/>
+<AudioEntry Sound="NOD_LaserTurret" AudioType="voiceSelect"/>
+</AudioArrayVoice>
+<AudioArraySound>
+<AudioEntry Sound="AudioEvent:GDI_BuildingPlaced" AudioType="soundUnderConstruction"/>
+<AudioEntry Sound="AudioEvent:NOD_GenericTurret_MoveStart" AudioType="soundTurretMoveLoop"/>
+<AudioEntry Sound="NOD_GenericTurret_Deploy" AudioType="soundPrepositioned"/>
+<AudioEntry Sound="HumanFaction_SmallBuilding_LightDamageMS" AudioType="soundOnDamaged"/>
+<AudioEntry Sound="HumanFaction_SmallBuilding_HeavyDamageMS" AudioType="soundOnReallyDamaged"/>
+</AudioArraySound>
+<EvaEvents EvaEventSoldOwner="StructureSold" EvaEventDamagedOwner="StructureUnderAttack" EvaEventSecondDamageFarFromFirstTimeoutMS="155" EvaEventRepairingOwner="StructureRepairing" EvaEnemyObjectSightedEvent="EnemyCampSighted" EvaEventAvailableForProduction="NewConstructionOptions" EvaEventProductionStarted="BuildingConstructionStarted" EvaEventProductionComplete="BuildingConstructionComplete" EvaEventPlacementFailed="StructurePlacementFailed" EvaEventCannotBuildDueToFullBuildQueue="StructureCannotBuildDueToFullBuildQueue" EvaEventBuildOnHold="BuildOnHold" EvaEventBuildCancelled="BuildCancelled" EvaEventManuallyPoweredOff="BuildingManuallyPoweredDown" EvaEventManuallyPoweredOn="BuildingManuallyPoweredUp"/>
+<ShadowInfo Type="VOLUME"/>
+<VisionInfo VisionRange="400" ShroudClearingRange="400"/>
+<DisplayUpgrade>Upgrade_NODTechCenterLaserCapacitor</DisplayUpgrade>
+</GameObject>
+</AssetDeclaration>

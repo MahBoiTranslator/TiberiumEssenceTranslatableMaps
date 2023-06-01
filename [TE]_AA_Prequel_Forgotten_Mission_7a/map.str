@@ -1,0 +1,267 @@
+MSNSTR:RDS:ACT_0:M7A:DeathDealersReturnTimer
+	"Death Dealer's forces reach Cairo in:"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkExecutedTimer
+	"Agent Park executed by Cyborg Commando in:"
+END
+
+MSNSTR:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:Briefing_Detail
+	"Message from Ghost Stalker:\n 'Commander, thank you for staying with us. The Forgotten would not survive if you had left with Death Dealer.\n I've recieved a strange transmission from an unknown source, claiming that Archon and Umagon have been taken to Cairo.\nWith Tratos falling ill and being taken care of on the Kodiak, I've been elected to lead our people until Tratos feels better.\nWe cannot attack Nod head-on, so we will move under the cover of an Ion Storm to build a base on the outskirts of Cairo. This will prevent Nod from detecting us and putting our people at risk. The base will help blockade the city and make a rescue operation in Nod's second city easier.\nOnly you and I will enter the city, as I dont want to risk losing more than with have already. If the records recovered at Vega's Operation Centre are accurate, we should have the exact location of the Nod prison in Cairo. No doubt Umagon and Archon will have been taken there. With luck (and the Ion Storm) on our side, this should be a straightforward mission.\nI'm counting on you, my friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Intro1
+	"Ghost Stalker: 'Is everyone okay? Good. The Commander and I will head into the city. Make sure the base is ready for our escape.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Intro2
+	"Ghost Stalker: 'Come on, Commander. Let's go save our people.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonLocation
+	"Objective 1: Explore the Nod prison.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NoGuards
+	"Ghost Stalker: 'Why are there no guards? This place should be crawling with Nod.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NoPrisoners
+	"Ghost Stalker: 'The gates have been opened...did our people manage to escape somehow?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Bodies
+	"Ghost Stalker: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro1
+	"????: 'Halt! Are you Forgotten or Divine?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro2
+	"Ghost Stalker: 'Divine? What kind of egotistical shit is that?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro3
+	"Agent Park: 'Correct answer. My name is Agent Park, I'm with GDI. You must be Ghost Stalker, I'm the one who sent you the transmission about your fellow Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro4
+	"Ghost Stalker: 'How do know my name? Where are Archon and Umagon?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro5
+	"Agent Park: 'I'll tell you and your commander everything. But first, we better get inside in case this Ion Storm gets worse.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback1
+	"Agent Park: 'As you can probably tell from my uniform, I've managed to reach the higher ranks of the Black Hand. This means I'm able to attend important meetings with Kane involved.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback2
+	"Agent Park: 'A few days ago, a mutant with blue skin arrived to meet with Kane.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback3
+	"Ghost Stalker: 'Death Dealer...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback4
+	"Agent Park: 'Exactly. She made a deal with him: she would join Nod in return for Kane helping her lead an army of her own.\nShe requested that Kane keep Archon safe. She disappeared for a day, saying that she wanted to recruit...you.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback5
+	"Agent Park: 'When she returned to Cairo without you, I was ordered to guard her.\nShe offered a deal to the mutant prisoners for their loyality to her in return for freedom.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback6
+	"Agent Park: 'The broken ones didn't hesitate in joining her. The others resisted and she ordered them to be executed.\nShe didn't even flinch, but there was a sadness in her eyes...like a tortured soul trying to break through.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback7
+	"Agent Park: 'A few hours ago, she reported that she captured a Forgotten spy who had been tracking her. Once she told Kane that the spy was Umagon, I recognised the name as a key ally to GDI and contacted McNeil, who then sent me your details.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback8
+	"Agent Park: 'Kane ordered for Umagon to be taken to his Pyramid. We will need to take this APC to reach her and Archon. We should get going now the Ion Storm has passed.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Underground1
+	"Agent Park: 'Huh, lucky that we ended up in emergency exit. I'll go into that security point and guide you from there.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Underground2
+	"Agent Park: 'You'll need to find some Black Hand armour to sneak through the Pyramid; Nod militia are not allowed inside here.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:ArchonLocated
+	"Agent Park: ***I've located Archon, he's in the prison section not far from here. I haven't see Umagon yet.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Eerie
+	"Agent Park: ***It's unusally quiet. They must be preparing for something.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NotThatWay
+	"Agent Park: ***That's not the quickest way to Archon! You don't have time to waste!***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NotYet
+	"Agent Park: ***This way is blocked. It's best not to touch anything right now.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL1
+	"?????: 'I'm impressed that you have made it this far, mutant.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL2
+	"?????: 'Where the humans have failed, my cyborgs will succeed.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL3
+	"Ghost Stalker: 'Park! How the hell do I get out of here?!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL4
+	"Agent Park: ***I don't know! Just find something that looks important and blow it up!***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL5
+	"Agent Park: 'Er...good work? I guess you won't need any Black Hand armour now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:DestroyTheBarrierHint
+	"Agent Park: ***Those look like the power sources for the barrier. Destroy one of them.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:RunBitchRUN
+	"Agent Park: ***GHOST! RUN! Those cyborgs have gone berserk!***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:BridgeHint
+	"Agent Park: ***There should be a bridge coming up, I can destroy it from here once you cross it.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:DestroyBridge
+	"Ghost Stalker: 'That was too close! Hold on, Archon. I'm almost there.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Keys
+	"Ghost Stalker: 'Looks like this guard has the keys to the cells, it's nice to have good luck for once.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion1
+	"Ghost Stalker: 'Archon! It's me! We need to get out of here!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion2
+	"Archon: 'Stop calling me that you...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion3
+	"Archon: 'Ghost Stalker? Why are you here? You should be...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion4
+	"Ghost Stalker: 'Don't say a word, not this time. Nothing you can suggest is more important than saving you and Umagon.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion5
+	"Archon: 'You really came to save me? I...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion6
+	"Agent Park: ***I hate to break up the reunion, but I've just recieved news about Death Dealer.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion7
+	"Ghost Stalker: 'Archon, listen to this, it's about Death Dealer. Go ahead, Park.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion8
+	"Agent Park: ***Her forces have destroyed a large GDI base south of Cairo, they're returning to this Pyramid as we speak.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion9
+	"Ghost Stalker: 'Shit! If they get back here, Cairo will be an impenetrable fortress!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion10
+	"Archon: 'Ghost, I saw them drag Umagon to the upper level. We won't have time to save her if we want to stop Death Dealer.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion11
+	"Ghost Stalker: 'You're right, we have no choice. I'll contact McNeil when we leave. Let's get out of this hellhole.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Objective_LeaveReminder
+	"Objective: Ghost Stalker and Archon must reach the APC"
+END
+
+MSNSTR:RDS:ACT_0:M7A:WAMView1
+	"Ghost Stalker: 'My god, this is Nod's goal? This missile could destroy the entire Earth!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:WAMView2
+	"Ghost Stalker: 'We need to contact GDI quickly; there is no way the Forgotten can take this thing down.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NoCyborgCommandosEASY
+	"Agent Park: 'Nod have the cyborgs under control again, but it looks like there are no more down here for now.\nGet Ghost Stalker and Archon to the APC as soon as possible.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:SpawnCyborgCommandosNORMAL
+	"Agent Park: 'Nod have the cyborgs under control again, a Cyborg Commando has been sent to discover suspected saboteurs! Destroy it before it gets to me!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:SpawnCyborgCommandosHARD
+	"Agent Park: 'Nod have the cyborgs under control again, two Cyborg Commandos have been sent to discover suspected saboteurs! Destroy them before they get to me!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CyborgCommandosClose
+	"Cyborg Commando: 'You have been marked for termination. Commencing execution.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CyborgCommandosDestroyed
+	"Agent Park: 'I thought I was a goner! Let's get the hell out of here!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Win1
+	"Agent Park: 'Nice to meet you Archon, let's go.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Ending1
+	"Ghost Stalker: 'Send a distess call to the Kodiak, quickly.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Ending2
+	"Ghost Stalker: 'I fear my mission has failed.\nAt Kane's Temple in Cairo, I found a missile that will soon destroy the Earth.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Ending3
+	"Ghost Stalker: 'And Umagon has been held captive by Kane.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseArchonDead
+	"Archon is dead.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseGhostStalkerDead
+	"Ghost Stalker is dead.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseAgentParkDead
+	"Agent Park is dead.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseDeathDealerReturns
+	"Agent Park: 'Death Dealer's forces have reached Cairo.'\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseAPCDestroyed
+	"The APC had been destroyed. Escaping the Pyramid is impossible.\nMission Failed"
+END

@@ -1,0 +1,95 @@
+MSNSTR:RDS:ACT_0:M7B:WeatherControllerTimer
+	"Weather Controller online in:"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Briefing_Detail
+	"Message from Death Dealer:\nYou made the right choice, Commander. You saw through Ghost Stalker's naivety and know what GDI truly are: a wilting, tyranical regime only fit for the pages of history.\nYou and I...we are no longer lowly outcasts content with mere survival; we are Divine.\n\nWith Kane on our side, it is time to destroy those who tore my life asunder.\nA large GDI taskforce has set up a base south of Cairo. With the World Altering Missile close to launch, Kane predicts that GDI will launch an assualt on Cairo within a matter of hours. We must destroy this taskforce before it can invade Cario or join with any other GDI forces approaching the city.\n\nA Nod base is engaging the encroaching GDI vermin as we speak. If we are quick enough, we will be able to reinforce the base and push GDI out together.\n\nWith the help of Nod's Tiberium scientists and engineers, I have new units for you to test, as well as a new Construction Yard and superweapon. I'm sure you will have a lot of fun using them to eradicate GDI. Just make sure the Constuction yard survives, it is the only one we have for now."
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro1
+	"Death Dealer: 'What did Ghost think he'd gain by sending you to spy on me?'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro2
+	"Umagon: 'He didn't send me; I'm here to stop you from tearing our people apart!'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro3
+	"Death Dealer: 'Tearing your people apart? Blame your precious GDI for that before we bury them.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro4
+	"Death Dealer: 'Take her to Kane. My commander and I have other unwelcome guests to deal with.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro5
+	"Death Dealer: 'Looks like this Nod base is about to fall, but no matter, all the glory will be ours.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro6
+	"Death Dealer: 'Our arsenal has been greatly expanded. Feel free to test our new weapons on the vermin, but make sure our Construction Yard survives as it is the only one we have right now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Objective_1
+	"Objective 1: Eradicate all GDI forces.\nObjective 2: Your Construction Yard must survive."
+END
+
+MSNSTR:RDS:ACT_0:M7B:ObeliskHint
+	"Death Dealer: 'The Nod base is destroyed, but the Obelisks are still standing. Use Engineers to bring them under our control.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:WeatherControllerOnline
+	"Nod Engineer: 'Commander! The Weather Controller is ready to use!'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:IonCannonBuilt
+	"Death Dealer: 'An Ion Cannon?! They are finally taking us seriously. Let's see how the like our own superweapon.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltCatapult
+	"The Catapult is an artillery unit armed with 4 mortar barrels. It can be upgraded to turn enemy infantry into friendly Viceroids within seconds."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltVindicator
+	"The Vindicator's Blue Tiberium weapon is based upon Archon's new-found abilities during his interrupted stablisation process. It can destroy enemy vehicles with ease."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltPurifier
+	"Old Flame Tanks, gifted from Nod, now use a powerful stream of pressurised liquid Tiberium to melt flesh and metal alike."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltWarFloater
+	"Floaters are new and extremely powerful Tiberium creatures that have made their homes near Veinholes.\nWe have tamed a number of these beasts to carry garrison pods for transportation and increased firepower."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltImpaler
+	"The Impaler is a Tiberium plant that can rapidly move its roots to cause heavy damage to hostile units from underground."
+END
+
+MSNSTR:RDS:ACT_0:M7B:GDIOutpostDestroyed
+	"Death Dealer: 'Excellent, destroying that outpost will help strengthen our position.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:GDIAirbaseDestroyed
+	"Death Dealer: 'GDI has lost their air support. The battle is all but won now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:GDIMainBaseDestroyed
+	"Death Dealer: 'The main GDI base is destroyed. South Cairo is be safe for now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:MissionAccomplished
+	"Death Dealer: 'Excellent work, Commander! I will contact Kane's Pyramid and let them know of our victory. Get ready to return to Cairo, we are about to lead a new world.\nMISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:ACT_0:M7B:LoseWeatherController
+	"Death Dealer: 'The Weather Controller has been destroyed, I am disappointed with you, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:LoseConstructionYard
+	"Our Construction Yard has been destroyed.\nMission Failed"
+END

@@ -1,0 +1,63 @@
+MSNSTR:RDS:ACT_0:M21:Line_1
+	"???: 'Well, this is a new experience.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_2
+	"Ghost Stalker: 'I hope we don't get air sick...or bus-in-the-air sick...or something.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_3
+	"???: 'I'm fine.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_4
+	"Ghost Stalker: 'Can you continue your story? It'll help take my mind off the turbulence.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_5
+	"???: 'Okay, since everyone else is asleep. Commander, listen close.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_6
+	"???: 'I don't know how much time passed, but it was enough for Tiberium to be safely infused into my DNA.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_7
+	"???: 'Unfortunately, it was also enough time for GDI to break into my lab and take me into custody.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_8
+	"???: 'I was brought before GDI world leaders and generals. I can still feel their buring eyes staring into my soul.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_9
+	"???: 'They accused me of justifying Kane's vision of humanity, arrogant to the fact Kane was the one who forced me down this path.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_10
+	"???: 'They were disgusted at me for saving my own life. But they believed they were above 'barbaric' executions.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_11
+	"???: 'So they dealt me a fate worse than death: living the rest of my life exiled in a godforsaken land.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_12
+	"???: 'For that, I will never forgive them.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_13
+	"Ghost Stalker: 'I'm sorry.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_14
+	"???: 'It's not your fault. In fact, you, Tratos and the commander are giving me a purpose again.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_15
+	"???: 'You took me in and gave me a home. Once we get my equipment, I will repay my debt.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_16
+	"???: 'I promise you both, I will save the Forgotten.'"
+END

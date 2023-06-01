@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="Weather.xml" type="all"/>
+      <Include source="FXSnowflake.xml" type="all"/>
+      <Include source="GhostStalker.xml" type="all"/>
+   </Includes>
+   
+	<MissionObjectiveList id="MissionObjectives">
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_0:M3:Briefing"
+			Description="MSNSTR:RDS:ACT_0:M3:Briefing_Detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>			
+	</MissionObjectiveList>	
+</AssetDeclaration>

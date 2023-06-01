@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+	  <Include source="Bridge2.xml" type="all"/>   
+	  <Include source="NSLabRadarBuilding.xml" type="all"/>
+	  <Include source="NSDockHQ.xml" type="all"/>
+	  <Include source="NSManufacturingFacility1.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding1.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding2.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding3.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding4.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding5.xml" type="all"/>	  
+	  <Include source="NSStrongholdBuilding6.xml" type="all"/>
+	  <!-- <Include source="NSWeaponsLabFacility.xml" type="all"/> -->
+	  <Include source="NSCommandCenter2.xml" type="all"/>
+	  <Include source="NSIonDisruptionFieldGenerator.xml" type="all"/>	  
+ 	  <Include source="NSSilo01.xml" type="all"/>	  
+ 	  <Include source="NSSilo02.xml" type="all"/>
+ 	  <Include source="NSSilo03.xml" type="all"/>
+ 	  <Include source="NSSilo04.xml" type="all"/>	  
+	  <Include source="NODSaboteur.xml" type="all"/>
+	  <!-- <Include source="NODBlackHandSquad.xml" type="all"/> -->
+	  <Include source="NODConfessor.xml" type="all"/>
+	  <!-- <Include source="NODMilitantRocketSquad.xml" type="all"/>	 -->
+   </Includes>
+  	<SpecialPowerTemplate
+		id="SpecialPowerNuclearMissile"
+		DisplayName="NAME:SuperweaponTimerNuclearMissile"
+		Description="DESC:SuperweaponTimerNuclearMissile"
+		Flags="IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="9999s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300" 
+		RestrictionType="1"
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateAlly="AlliedNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateEnemy="EnemyNuclearMissileLaunched"
+		TimerImage="Button_PlayerPowerNuclearMissile"/>	
+
+	<MissionObjectiveList id="MissionObjectives">
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_0:M7A:Briefing"
+			Description="MSNSTR:RDS:ACT_0:M7A:Briefing_Detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>			
+	</MissionObjectiveList>			   
+</AssetDeclaration>

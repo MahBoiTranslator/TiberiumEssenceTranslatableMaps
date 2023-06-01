@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<GameObject
+		id="ForgottenFortress"
+		KindOf="SELECTABLE IMMOBILE CAN_ATTACK CAN_CAST_REFLECTIONS STRUCTURE ATTACK_NEEDS_LINE_OF_SIGHT FS_BASE_DEFENSE POWERED CAN_SEE_THROUGH_STRUCTURE COVER AUTO_ACQUIRABLE_BY_AI LINE_OF_SIGHT_IGNORES_BUILDINGS"
+		Description="Desc:TechBuildingMutantHovel"
+		TypeDescription="Type:NODObelisk"
+		RadarPriority="STRUCTURE"
+		FenceWidth="0"
+		FenceXOffset="0"
+		RemoveTerrainRadius="0"
+		EmotionRange="0"
+		PlacementViewAngle="315d"
+		BuildFadeInOnCreateTimeSeconds="0s"
+		FactoryExitWidth="0"
+		FactoryExtraBibWidth="0"
+		Side="Forgotten"
+		EditorName="ForgottenFortress"
+		EditorSorting="STRUCTURE"
+		BountyValue="0"
+		BuildTime="40"
+		BuildFadeInOnCreateTime="0"
+		EnergyProduction="-10"
+		EnergyBonus="0"
+		CommandSet="NODObeliskCommandSet"
+		SelectPortrait="Portrait_NeutralMutantHovel"
+		ButtonImage="Portrait_NeutralMutantHovel"
+		VoicePriority="0"
+		MinZIncreaseForVoiceMoveToHigherGround="-1"
+		CrowdResponse=""
+		CampnessValue="5000"
+		CampnessValueRadius="300"
+		Scale="1"
+		HealthBoxScale="1.5"
+		HealthBoxHeightOffset="10"
+		OcclusionDelay="0"
+		LiveCameraPitch="0"
+		FormationWidth="1"
+		FormationDepth="1"
+		InstanceScaleFuzziness="0"
+		ThreatRadius="-1"
+		RamPower="0"
+		RamZMult="1"
+		ShockwaveResistance="0"
+		CommandPoints="0"
+		CommandPointBonus="0"
+		VoiceAttackChargeTimeout="0"
+		MaxDistanceForEngaged="0"
+		EngagedStateTimeout="0"
+		ThreatLevel="1"
+		SlopeLimitIndex="0"
+		PathfindDiameter="-1"
+		SupplyOverride="0"
+		DisplayMeleeDamage="-1"
+		DisplayRangedDamage="-1"
+		HeroSortOrder="2147483647"
+		FiringArc="360"
+		CamouflageDetectionMultiplier="1"
+		SelectionPriority="2147483647"
+		ProductionQueueType="MAIN_STRUCTURE"
+		BuildPlacementTypeFlag="MAIN_STRUCTURE"
+		BuildOnRequiredObjectKindOf=""
+		UnitCategory="STRUCTURE"
+		WeaponCategory="NONE"
+		HasFiredRecentlyTime="2s"
+		UnitTypeIcon=""
+		ReinvisibilityDelay="4s"
+		BuildCost="4000"
+		RefundValue="0"
+		ThreatValue="0"
+		MaxSimultaneousOfType="0"
+		TransportSlotCount="1"
+		IsTrainable="True"
+		IsForbidden="False"
+		IsPrerequisite="False"
+		IsGrabbable="False"
+		IsHarvestable="False"
+		StructureRubbleHeight="0"
+		ForceLuaRegistration="False"
+		ShowHealthInSelectionDecal="False"
+		KeepSelectableWhenDead="False"
+		IsAutoBuilt="False"
+		CanPathThroughGates="True"
+		ShouldClearShotsOnIdle="False"
+		BuildInProximityToSamePlayerStucture="True">
+		<DisplayName>TechBuildingMutantHovel</DisplayName>
+		<ArmorSet
+			Armor="TechStructureArmor"
+			DamageFX="FactionStructureDamageFX"
+			Conditions="" />
+		<Draws>
+			<ScriptedModelDraw
+				id="A1E3803C"
+				InitialRecoilSpeed="2"
+				MaxRecoilDistance="3"
+				RecoilDamping="0.4"
+				RecoilSettleSpeed="0.065"
+				MinLODRequired="LOW"
+				ProjectileBoneFeedbackEnabledSlots=""
+				TrackMarks=""
+				DependencySharedModelFlags=""
+				HighDetailLODThreshold="0"
+				LowDetailLODThreshold="0"
+				WadingParticleSys=""
+				AlphaCameraFadeOuterRadius="0"
+				AlphaCameraFadeInnerRadius="0"
+				AlphaCameraAtInnerRadius="100%"
+				StaticSortLevelWhileFading="-1"
+				BirthFadeTime="0"
+				OkToChangeModelColor="True"
+				AnimationsRequirePower="True"
+				UseYAxisForTurretRotation="False"
+				TrackMarksOnlyWhenCorneringQuickly="False"
+				UseProducerTexture="False"
+				NoRotate="False"
+				UseFiringArcRotation="False"
+				Selectable="True"
+				RandomTextureFixedRandomIndex="False"
+				ParticlesAttachedToAnimatedBones="False"
+				ParticleBonesCheckDrawable="False"
+				ShadowForceDisable="False"
+				SwitchModelLODMode="False"
+				StaticModelLODMode="False"
+				ShowShadowWhileContained="False"
+				UseStandardModelNames="False"
+				UseDefaultAnimation="False"
+				BirthFadeAdditive="False"
+				ZWriteDisableOverride="False"
+				MultiPlayerOnly="False"
+				AffectedByStealth="True"
+				InvertStealthOpacity="False"
+				HighDetailOnly="False">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:C7BF69ED]"
+						ExtraMesh="False" />
+					<WeaponFireFXBone
+						WeaponSlotID="1"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="FX_Weapon" />
+					<WeaponMuzzleFlash
+						WeaponSlotID="1"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="FX_Weapon" />
+					<WeaponLaunchBone
+						WeaponSlotID="1"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="FX_Weapon" />
+					<Turret
+						TurretNameKey="Turret"
+						TurretArtAngle="0d"
+						TurretPitch="Turret_Pitch"
+						TurretArtPitch="0d"
+						TurretID="1" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="RUBBLE"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:0F9A7024]"
+						ExtraMesh="False" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="REALLYDAMAGED"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:CE4046BF]"
+						ExtraMesh="False" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DAMAGED"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:89AE054C]"
+						ExtraMesh="False" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False" />
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="RUBBLE"
+					StateName="STATE_Rubble"
+					Flags="START_FRAME_LAST"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:0F9A7024]"
+						AnimationMode="MANUAL"
+						Distance="0"
+						AnimationBlendTime="5"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+					<Script> Prev = CurDrawablePrevAnimationState(); if Prev ~=
+          "STATE_Rubble" and Prev ~= "TRANS_IntoRubble" then
+          CurDrawableSetTransitionAnimState("TRANS_IntoRubble") end </Script>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="REALLYDAMAGED"
+					StateName="STATE_ReallyDamaged"
+					Flags="START_FRAME_LAST"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:CE4046BF]"
+						AnimationMode="MANUAL"
+						Distance="0"
+						AnimationBlendTime="5"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+					<Script> Prev = CurDrawablePrevAnimationState(); if Prev ~=
+          "STATE_ReallyDamaged" and Prev ~= "TRANS_IntoReallyDamaged" then
+          CurDrawableSetTransitionAnimState("TRANS_IntoReallyDamaged") end
+          </Script>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_TRANSITION"
+					StateName="TRANS_IntoReallyDamaged"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:CE4046BF]"
+						AnimationMode="ONCE"
+						Distance="0"
+						AnimationBlendTime="0"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_TRANSITION"
+					StateName="TRANS_IntoRubble"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:0F9A7024]"
+						AnimationMode="ONCE"
+						Distance="0"
+						AnimationBlendTime="0"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+				</AnimationState>
+			</ScriptedModelDraw>
+			<ScriptedModelDraw
+				id="7E032DE2"
+				InitialRecoilSpeed="2"
+				MaxRecoilDistance="3"
+				RecoilDamping="0.4"
+				RecoilSettleSpeed="0.065"
+				MinLODRequired="LOW"
+				ProjectileBoneFeedbackEnabledSlots=""
+				TrackMarks=""
+				ExtraPublicBone="Runway0Park0Han"
+				DependencySharedModelFlags=""
+				HighDetailLODThreshold="0"
+				LowDetailLODThreshold="0"
+				WadingParticleSys=""
+				AlphaCameraFadeOuterRadius="0"
+				AlphaCameraFadeInnerRadius="0"
+				AlphaCameraAtInnerRadius="100%"
+				StaticSortLevelWhileFading="-1"
+				BirthFadeTime="0"
+				OkToChangeModelColor="True"
+				AnimationsRequirePower="True"
+				UseYAxisForTurretRotation="False"
+				TrackMarksOnlyWhenCorneringQuickly="False"
+				UseProducerTexture="False"
+				NoRotate="False"
+				UseFiringArcRotation="False"
+				Selectable="True"
+				RandomTextureFixedRandomIndex="False"
+				ParticlesAttachedToAnimatedBones="False"
+				ParticleBonesCheckDrawable="False"
+				ShadowForceDisable="False"
+				SwitchModelLODMode="False"
+				StaticModelLODMode="False"
+				ShowShadowWhileContained="False"
+				UseStandardModelNames="False"
+				UseDefaultAnimation="False"
+				BirthFadeAdditive="False"
+				ZWriteDisableOverride="False"
+				MultiPlayerOnly="False"
+				AffectedByStealth="True"
+				InvertStealthOpacity="False"
+				HighDetailOnly="False">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:85969A0E]"
+						ExtraMesh="False" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="RUBBLE"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:FFEEABB4]"
+						ExtraMesh="False" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="REALLYDAMAGED"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:FE1E3B8F]"
+						ExtraMesh="False" />
+					<ParticleSysBone
+						BoneName="FXBone01"
+						FXParticleSystemTemplate="GDIPPDamagedFire"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone01"
+						FXParticleSystemTemplate="GDIPPDamagedSmoke"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone01"
+						FXParticleSystemTemplate="GDIRefineryDamagedDist"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone02"
+						FXParticleSystemTemplate="GDIPPDamagedFire"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone02"
+						FXParticleSystemTemplate="GDIPPDamagedSmoke"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone02"
+						FXParticleSystemTemplate="GDIRefineryDamagedDist"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone03"
+						FXParticleSystemTemplate="GDIPPDamagedFire"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone03"
+						FXParticleSystemTemplate="GDIPPDamagedSmoke"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone03"
+						FXParticleSystemTemplate="GDIRefineryDamagedDist"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DAMAGED"
+					PortraitImage=""
+					ButtonImage=""
+					RetainSubObjects="False">
+					<Model
+						Name="Asset not found in stream: [F0F08712:85969A0E]"
+						ExtraMesh="False" />
+					<Texture
+						Original="Asset not found in stream: [21E727DA:85969A0E]"
+						New="Asset not found in stream: [21E727DA:B13C1B71]" />
+					<ParticleSysBone
+						BoneName="FXBone01"
+						FXParticleSystemTemplate="GDIPPDamagedSmoke"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+					<ParticleSysBone
+						BoneName="FXBone02"
+						FXParticleSystemTemplate="GDIPPDamagedSmoke"
+						PersistID="0"
+						FollowBone="True"
+						OnlyIfOnWater="False"
+						OnlyIfOnLand="False" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False" />
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="RUBBLE"
+					StateName="STATE_Rubble"
+					Flags="START_FRAME_LAST"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:FFEEABB4]"
+						AnimationMode="MANUAL"
+						Distance="0"
+						AnimationBlendTime="5"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+					<Script> Prev = CurDrawablePrevAnimationState(); if Prev ~=
+          "STATE_Rubble" and Prev ~= "TRANS_IntoRubble" then
+          CurDrawableSetTransitionAnimState("TRANS_IntoRubble") end </Script>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="REALLYDAMAGED"
+					StateName="STATE_ReallyDamaged"
+					Flags="START_FRAME_LAST"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:FE1E3B8F]"
+						AnimationMode="MANUAL"
+						Distance="0"
+						AnimationBlendTime="5"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+					<Script> Prev = CurDrawablePrevAnimationState(); if Prev ~=
+          "STATE_ReallyDamaged" and Prev ~= "TRANS_IntoReallyDamaged" then
+          CurDrawableSetTransitionAnimState("TRANS_IntoReallyDamaged") end
+          </Script>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_TRANSITION"
+					StateName="TRANS_IntoReallyDamaged"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:FE1E3B8F]"
+						AnimationMode="ONCE"
+						Distance="0"
+						AnimationBlendTime="0"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_TRANSITION"
+					StateName="TRANS_IntoRubble"
+					EnteringStateFX=""
+					FrameForPristineBonePositions="0"
+					ShareAnimation="False"
+					AllowRepeatInRandomPick="False"
+					SimilarRestart="False">
+					<Animation
+						AnimationName="Asset not found in stream: [2448AE30:FFEEABB4]"
+						AnimationMode="ONCE"
+						Distance="0"
+						AnimationBlendTime="0"
+						AnimationSpeedFactorMin="1"
+						AnimationSpeedFactorMax="1"
+						WeaponTimingOrdering="PRIMARY_WEAPON"
+						WeaponTimingSlotID="1"
+						AnimationPriority="1"
+						FadeBeginFrame="-1"
+						FadeEndFrame="-1"
+						AnimationMustCompleteBlend="False"
+						UseWeaponTiming="False"
+						FadingIn="False" />
+				</AnimationState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<AttributeModifierPoolUpdate
+				id="513BC476" />
+			<FireWeaponWhenDead
+				id="DDED328F"
+				RequiresAllTriggers="False"
+				RequiresAllConflictingTriggers="False"
+				Permanent="False"
+				WaypointMode="False"
+				WaypointModeTerminal="True"
+				DelayTime="0s"
+				DeathWeapon="Asset not found in stream: [94D4D96E:BB2D8E68]"
+				FocusFireKindOfFlag=""
+				InitiallyActive="True"
+				ActiveDuringConstruction="False"
+				ContinueToBezierDestination="False">
+				<DieMuxData
+					ExemptStatus=""
+					RequiredStatus=""
+					DamageAmountRequired="-1"
+					MinKillerAngle="0.9999999d"
+					MaxKillerAngle="-0.9999999d"
+					DeathTypes="CATALYST"
+					DeathTypesForbidden="" />
+			</FireWeaponWhenDead>
+			<WeaponSetUpdate
+				id="720F4A50">
+				<WeaponSlotTurret
+					ID="1"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					WeaponChoiceCriteria="PREFER_MOST_DAMAGE"
+					AllowInterleavedFiring="False">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="Asset not found in stream: [94D4D96E:587F91B5]"
+						Upgrade=""
+						ObjectStatus=""
+						IsPlayerUpgradePermanent="False" />
+					<TurretSettings
+						TurretTurnRate="200"
+						TurretPitchRate="100"
+						MinimumPitch="-74.99999d"
+						PitchHeight="90%"
+						ControlledWeaponSlots=""
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MinIdleScanAngle="0"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="180d"
+						MaxDeflectionAntiClockwise="180d"
+						NaturalTurretAngle="0d"
+						AllowsPitch="True"
+						RecenterWhenOutOfTurnRange="True">
+						<TurretAITargetChooserData
+							IdleScanDelay="0.8s"
+							ReacquireDelay="5s"
+							StartupDelay="0s"
+							SympathyRange="25"
+							CheckVisionRange="False"
+							CanPickDynamicTargets="True"
+							RotateToTargetWhenAiming="True"
+							CanAutoAcquireNonAutoAcquirable="False"
+							TargetingCompareList="Asset not found in stream: [BE06A9E5:CBF6A532]"
+							ActiveWhenPerformingSpecialAbility="False"
+							CanAcquireDynamicIfAssignedOutOfRange="False"
+							CanPickTargetsOutOfTurretAngle="False" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+			</WeaponSetUpdate>
+			<BuildingBehavior
+				id="2118A085"
+				NightWindowObject="LIGHT_01" />
+			<RadarBehavior
+				id="A504956C" />
+			<SlowDeath
+				id="73542D4A"
+				SinkRate="4"
+				ProbabilityModifier="10"
+				ModifierBonusPerOverkillPercent="0%"
+				SinkDelay="3s"
+				SinkDelayVariance="0s"
+				DestructionDelay="8s"
+				DestructionDelayVariance="0s"
+				DecayBeginTime="0s"
+				FlingForce="0"
+				FlingForceVariance="0"
+				FlingPitch="0d"
+				FlingPitchVariance="0d"
+				DeathFlags=""
+				FadeTime="0s"
+				FadeDelay="0s"
+				DeathTypes=""
+				DeathObjectStatusBits=""
+				ShadowWhenDead="False"
+				Fade="False">
+				<Sound
+					Type="INITIAL"
+					List="HumanFaction_MediumBuilding_DieMS" />
+				<DieMuxData
+					ExemptStatus=""
+					RequiredStatus=""
+					DamageAmountRequired="-1"
+					MinKillerAngle="0.9999999d"
+					MaxKillerAngle="-0.9999999d"
+					DeathTypes="ALL"
+					DeathTypesForbidden="" />
+			</SlowDeath>
+			<FXListBehavior
+				id="C74C39D8">
+				<DieMuxData
+					ExemptStatus=""
+					RequiredStatus=""
+					DamageAmountRequired="-1"
+					MinKillerAngle="0.9999999d"
+					MaxKillerAngle="-0.9999999d"
+					DeathTypes="ALL"
+					DeathTypesForbidden="" />
+				<Event
+					Index="onTransitionToDamaged"
+					FX="FX_BuildDamaged_Large"
+					MinThreshold="0"
+					MaxThreshold="0"
+					Direction="Default"
+					OrientToObject="True"
+					ForceUseDoFXObj="False" />
+				<Event
+					Index="onTransitionToReallyDamaged"
+					FX="FX_BuildDamaged_Large"
+					MinThreshold="0"
+					MaxThreshold="0"
+					Direction="Default"
+					OrientToObject="True"
+					ForceUseDoFXObj="False" />
+				<Event
+					Index="onTransitionToRubble"
+					FX="FX_ForgottenBuildRubble_Large"
+					MinThreshold="0"
+					MaxThreshold="0"
+					Direction="Default"
+					OrientToObject="True"
+					ForceUseDoFXObj="False" />
+			</FXListBehavior>
+			<StructureUnpackUpdate
+				UnpackTime="0.1s" />
+			<ProductionUpdate
+				id="749674DE"
+				MaxQueueEntries="1"
+				NumDoorAnimations="0"
+				DoorOpeningTime="0s"
+				DoorWaitOpenTime="0s"
+				DoorCloseTime="0s"
+				ConstructionCompleteDuration="0"
+				DisabledTypesToProcess=""
+				UnitInvulnerableTime="0"
+				SpecialPrepModelconditionTime="0"
+				BonusForType=""
+				SpeedBonusAudioLoop=""
+				Type="MAIN_STRUCTURE"
+				ProductionTimeDelayScalar="0s"
+				GiveNoXP="False"
+				VeteranUnitsFromVeteranFactory="False"
+				SetBonusModelConditionOnSpeedBonus="False"
+				SecondaryQueue="False"
+				IgnorePreReqs="False" />
+			<ProductionUpdate
+				id="999647B9"
+				MaxQueueEntries="1"
+				NumDoorAnimations="0"
+				DoorOpeningTime="0s"
+				DoorWaitOpenTime="0s"
+				DoorCloseTime="0s"
+				ConstructionCompleteDuration="0"
+				DisabledTypesToProcess=""
+				UnitInvulnerableTime="0"
+				SpecialPrepModelconditionTime="0"
+				BonusForType=""
+				SpeedBonusAudioLoop=""
+				Type="OTHER_STRUCTURE"
+				ProductionTimeDelayScalar="0s"
+				GiveNoXP="False"
+				VeteranUnitsFromVeteranFactory="False"
+				SetBonusModelConditionOnSpeedBonus="False"
+				SecondaryQueue="False"
+				IgnorePreReqs="False" />
+			<ProductionUpdateInfo
+				id="EF2F9805" />
+			<QueueProductionExitUpdate
+				id="09A084CF"
+				PlacementViewAngle="0d"
+				ExitDelay="1"
+				InitialBurst="0"
+				AllowAirborneCreation="False"
+				NoExitPath="False"
+				CanRallyToSlaughter="False"
+				ClearAlliesFromDestination="True">
+				<UnitCreatePoint
+					x="-3"
+					y="0"
+					z="0" />
+				<NaturalRallyPoint
+					x="80"
+					y="0"
+					z="0" />
+			</QueueProductionExitUpdate>
+			<RepairUpdate
+				id="41FDEB2A"
+				RepopThreshold="0.2"
+				HealAmountPerSecond="150"
+				Toggleable="True"
+				RepairableWhenDead="False">
+				<PercentOfBuildCostToRebuildInfo
+					Pristine="50%"
+					Damaged="50%"
+					ReallyDamaged="50%"
+					Rubble="50%" />
+				<SelfAudio
+					SelfRepairFromDamageLoop=""
+					SelfRepairFromRubbleLoop="" />
+			</RepairUpdate>
+			<EngineerContain
+				id="E2BE8599"
+				ReplaceWith=""
+				NameOfVoiceToUseForFriendlyEnter="9D165EA1"
+				NameOfVoiceToUseForHostileEnter="124DB476"
+				FXForRepair="FX_Building_Repaired"
+				FXForCapture="FX_Building_Captured"
+				FXForCaptureAndReplace="FX_Building_Captured"
+				EvaEventForRepair="BuildingRepaired"
+				EvaEventForCapture="EnemyBuildingCaptured"
+				ImmediatelyEnabled="True">
+				<CanEnterFilter
+					Rule="NONE"
+					Relationship=""
+					Alignment="NONE"
+					Include=""
+					Exclude="">
+					<IncludeThing>GDIEngineer</IncludeThing>
+					<IncludeThing>NODSaboteur</IncludeThing>
+					<IncludeThing>AlienAssimilator</IncludeThing>
+				</CanEnterFilter>
+			</EngineerContain>
+			<CreateObjectDie
+				id="34FD1923"
+				CreationList="Asset not found in stream: [E86E4D61:84385819]">
+				<DieMuxData
+					ExemptStatus=""
+					RequiredStatus=""
+					DamageAmountRequired="-1"
+					MinKillerAngle="0.9999999d"
+					MaxKillerAngle="-0.9999999d"
+					DeathTypes="ALL"
+					DeathTypesForbidden="SUICIDED DETONATED" />
+				<UpgradeForbidden>Upgrade_NoSpawnUponDestruction</UpgradeForbidden>
+			</CreateObjectDie>
+			<CreateObjectDie
+				id="4BF392A4"
+				CreationList="Asset not found in stream: [E86E4D61:EBED6933]">
+				<DieMuxData
+					ExemptStatus=""
+					RequiredStatus=""
+					DamageAmountRequired="-1"
+					MinKillerAngle="0.9999999d"
+					MaxKillerAngle="-0.9999999d"
+					DeathTypes="SUICIDED"
+					DeathTypesForbidden="" />
+			</CreateObjectDie>
+		</Behaviors>
+		<AI>
+			<AIUpdate
+				id="4B2D0C2A"
+				AutoAcquireEnemiesWhenIdle="YES"
+				StopChaseDistance="500"
+				HoldGroundCloseRangeDistance="0"
+				AILuaEventsList="BuildingPowerFunctions"
+				MinCowerTime="0s"
+				MaxCowerTime="0s"
+				RampageTime="0s"
+				BurningDeathTime="0s"
+				TimeToEjectPassengersOnRampage="0"
+				ComboLocomotorSet="NORMAL"
+				ComboLocoAttackDistance="80"
+				IdleTargetTime="0s"
+				MaxCombineChildren="1"
+				SpawnOffsetRadius="0"
+				StandGround="False"
+				CanAttackWhileContained="False"
+				RampageRequiresAflame="False"
+				FadeOnPortals="False" />
+		</AI>
+		<Body>
+			<ActiveBody
+				id="B313F576"
+				MaxHealth="25000"
+				MaxHealthDamaged="0"
+				MaxHealthReallyDamaged="0"
+				InitialHealth="-1"
+				RecoveryTime="0"
+				DodgePercent="0"
+				EnteringDamagedTransitionTime="0s"
+				EnteringReallyDamagedTransitionTime="0s"
+				GrabFX=""
+				GrabDamage="200"
+				HealingBuffFX=""
+				DamagedAttributeModifier=""
+				ReallyDamagedAttributeModifier=""
+				CheerRadius="200"
+				BurningDeathFX=""
+				UseDefaultDamageSettings="True"
+				RemoveUpgradesOnDeath="False"
+				BurningDeathBehavior="False" />
+		</Body>
+		<ClientBehaviors>
+			<AnimationSoundClientBehavior
+				id="3706DCA5"
+				MaxUpdateRangeCap="0">
+				<Sound
+					Sound="Asset not found in stream: [A3A7AF37:4833BA9A]"
+					Animation="Asset not found in stream: [0243449B]"
+					Frame="1" />
+				<Sound
+					Sound="Asset not found in stream: [844D7B9F:77E989DD]"
+					Animation="Asset not found in stream: [0243449B]"
+					Frame="55" />
+				<Sound
+					Sound="Asset not found in stream: [844D7B9F:A04F512E]"
+					Animation="Asset not found in stream: [0243449B]"
+					Frame="74" />
+				<Sound
+					Sound="Asset not found in stream: [844D7B9F:1BD5090F]"
+					Animation="Asset not found in stream: [0243449B]"
+					Frame="87" />
+			</AnimationSoundClientBehavior>
+		</ClientBehaviors>
+		<Geometry
+			IsSmall="False">
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="NONE"
+				MajorRadius="12"
+				MinorRadius="71.7348"
+				Height="20.0376"
+				FrontAngle="0d"
+				Active="True"
+				UsedForHealthBox="True">
+				<Offset
+					x="-2.03085"
+					y="6.14268"
+					z="0" />
+			</Shape>
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="NONE"
+				MajorRadius="78.9483"
+				MinorRadius="12"
+				Height="19.2361"
+				FrontAngle="0d"
+				Active="True"
+				UsedForHealthBox="True">
+				<Offset
+					x="-8.44289"
+					y="-0.67012"
+					z="0" />
+			</Shape>
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="STRUCTURE"
+				MajorRadius="15.2663"
+				MinorRadius="15.0678"
+				Height="24.6407"
+				FrontAngle="0d"
+				Active="True"
+				UsedForHealthBox="True">
+				<Offset
+					x="-0.82859"
+					y="0.932892"
+					z="0" />
+			</Shape>
+			<Shape
+				Type="CYLINDER"
+				ContactPointGeneration="NONE"
+				MajorRadius="8.04718"
+				MinorRadius="8.04718"
+				Height="56.9069"
+				FrontAngle="0d"
+				Active="True"
+				UsedForHealthBox="True">
+				<Offset
+					x="-2.4316"
+					y="1.7344"
+					z="0" />
+			</Shape>
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="NONE"
+				MajorRadius="68.2663"
+				MinorRadius="52.0678"
+				Height="32.6407"
+				FrontAngle="0d"
+				Active="True"
+				UsedForHealthBox="True">
+				<Offset
+					x="-20"
+					y="-10"
+					z="0" />
+			</Shape>
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="NONE"
+				MajorRadius="48.2663"
+				MinorRadius="40.0678"
+				Height="24.6407"
+				FrontAngle="0d"
+				Active="True"
+				UsedForHealthBox="True">
+				<Offset
+					x="15"
+					y="15"
+					z="0" />
+			</Shape>
+		</Geometry>
+		<AudioArrayVoice>
+			<AudioEntry
+				EvaEvent="BuildingStolen"
+				AudioType="voiceDefectingAway" />
+			<AudioEntry
+				EvaEvent="EnemyBuildingCaptured"
+				AudioType="voiceDefectingTowards" />
+			<AudioEntry
+				Sound="Asset not found in stream: [844D7B9F:163E1435]"
+				AudioType="voiceSelect" />
+		</AudioArrayVoice>
+		<AudioArraySound>
+			<AudioEntry
+				Sound="Asset not found in stream: [844D7B9F:45BB2ECF]"
+				AudioType="soundUnderConstruction" />
+			<AudioEntry
+				Sound="Asset not found in stream: [A3A7AF37:FDA3F3E1]"
+				AudioType="soundOnDamaged" />
+			<AudioEntry
+				Sound="Asset not found in stream: [A3A7AF37:10435FC9]"
+				AudioType="soundOnReallyDamaged" />
+		</AudioArraySound>
+		<EvaEvents
+			EvaEventSoldOwner="StructureSold"
+			EvaEventDamagedOwner="StructureUnderAttack"
+			EvaEventSecondDamageFarFromFirstScanRange="200"
+			EvaEventSecondDamageFarFromFirstTimeoutMS="155"
+			EvaEventRepairingOwner="StructureRepairing"
+			EvaEnemyObjectSightedEvent="EnemyCampSighted"
+			EvaEventAvailableForProduction="NewConstructionOptions"
+			EvaEventProductionStarted="BuildingConstructionStarted"
+			EvaEventProductionComplete="BuildingConstructionComplete"
+			EvaEventPlacementFailed="StructurePlacementFailed"
+			EvaEventCannotBuildDueToFullBuildQueue="StructureCannotBuildDueToFullBuildQueue"
+			EvaEventBuildOnHold="BuildOnHold"
+			EvaEventBuildCancelled="BuildCancelled"
+			EvaEventManuallyPoweredOff="BuildingManuallyPoweredDown"
+			EvaEventManuallyPoweredOn="BuildingManuallyPoweredUp" />
+		<ShadowInfo
+			Type="VOLUME"
+			Texture=""
+			AdditionalTexture=""
+			SizeX="0"
+			SizeY="0"
+			OffsetX="0"
+			OffsetY="0"
+			OpacityStart="0"
+			OpacityFadeInTime="0s"
+			OpacityPeak="1"
+			OpacityFadeOutTime="0s"
+			OpacityEnd="0"
+			MaxHeight="20"
+			SunAngle="0"
+			OverrideLODVisibility="False"
+			UseHouseColor="False"
+			IsRotatingWithObject="True"
+			LocalPlayerOnly="False" />
+		<VisionInfo
+			VisionRange="400"
+			ShroudClearingRange="500"
+			VisionSide="100%"
+			VisionRear="100%"
+			VisionBonusTestRadius="100"
+			VisionBonusTestSegments="8"
+			VisionBonusPercentPerFoot="0%"
+			MaxVisionBonusPercent="50%"
+			MinVisionBonusPercent="-50%" />
+		<ProjectedBuildabilityInfo
+			Radius="420"
+			BuildPlacementTypes="MAIN_STRUCTURE OTHER_STRUCTURE"
+			StatusToReject=""
+			ModelConditionsToReject="" />
+	</GameObject>
+</AssetDeclaration>

@@ -1,0 +1,167 @@
+MSNSTR:RDS:ACT_0:M6:ForgottenReinforcementsTimer
+	"Reinforcements Arrive In:"
+END
+
+MSNSTR:RDS:ACT_0:M6:NodMissileStrikeOnGDIFacility
+	"Nod Missile Strike On GDI Facility In:"
+END
+
+MSNSTR:RDS:ACT_0:M6:ForgottenReinforcements
+	"Reinforcements have arrived"
+END
+
+MSNSTR:RDS:ACT_0:M6:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M6:Briefing_Detail
+	"Message from Tratos:\nCommander, I know I'm placing you in an uncomfortable position, but I want you to understand why I need you to do the unthinkable.\nKane himself has informed us that GDI is producing an anti-Tiberium weapon for use against the Forgotten.\nOf course, he's probably lying, but such a harrowing claim cannot be left to chance.\nI have sent some of our people to a nearby abandoned city, where a Nod agent will deliver supplies for us to seal this alliance.\nIn return, we will clear the tunnel of GDI forces so that Nod can safely send an MCV and build a base. Our communication network is linked to Nod's for this mission, it would be wise to attack together to minimise losses.\n\nI...won't be able to give you much to work with. I still have my doubts about Kane's information so I don't want to lose more precious lives needlessly.\nOur more...vocal...warriors with anti-GDI sympathies are eager to join the battle with you. They will arrive periodically.\nThey may be willing to die in battle, but I want to see them return home. Please be careful, my child.\n\nNOTE: Once Nod builds up their base, you will not be defeated if you lose all your limited forces. You will only be defeated if Nod loses their base."
+END
+
+MSNSTR:RDS:ACT_0:M6:Intro3
+	"'Thanks! We can use the supplies. I'll go gather my people.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:SurprisedGDIGuard
+	"'Hey! Where'd all those shiners come from?'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_1
+	"Objective 1: Clear both ends of the tunnel to the west.\n The Nod Spy (Shadow) must survive."
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_2
+	"Objective 2: Fight your way to the GDI Research Facility.\nNOTE: You will NOT be defeated if you lose all your units, so long as the Nod base survives."
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_3
+	"Objective 3: Help Ghost Stalker reach the GDI Research Facility before Nod destroys it.\nGDI will not attack Ghost Stalker."
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_4
+	"Objective 4: Damage the Montauk to force Nod to surrender.\nThe Kodiak must survive."
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseYourDestiny
+	"Select Ghost Stalker for Rocket Soldiers, Forgotten Sergeants, Marauders and Lifetime of War upgrade\n\nSelect Death Dealer for Rocket Soldiers, Fiends, Brutes and Blue Tiberium Infusion Upgrade"
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseYourDestinyHard
+	"Select Ghost Stalker for Rocket Soldiers, Forgotten Sergeants and Marauders\n\nSelect Death Dealer for Rocket Soldiers, Fiends and Brutes"
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseGhostStalker
+	"Death Dealer: 'You're denying me my chance for revenge? I'm disappointed with you, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseDeathDealer
+	"Ghost Stalker: 'Commander, please be careful. Something doesn't feel right about this.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Tratos1
+	"Tratos: 'Commander, I need you and Ghost Stalker to listen. I've told Umagon to meet Commander McNeil of GDI. He was the one that helped save me from the Nod medical facility.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Tratos2
+	"Tratos: 'I will only believe GDI's claim of innocence if McNeil can prove it. Do not tell Death Dealer, her bias will doom the truth.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Tratos3
+	"Tratos: 'Umagon will contact you. Until then, fight alongside Nod.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Umagon1
+	"Umagon: 'Commander, stop fighting GDI! Mac says this mission is a trap for Nod. They want to root out the Nod general leading this mission.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil1
+	"McNeil: 'That's right, we leaked false info to Nod saying that this facility is developing a cure for Tiberium, but it's a hospital treating victims of Tiberium posioning.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil2
+	"Tratos: 'I need proof, McNeil. I can only trust Ghost Stalker to get it.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil3
+	"McNeil: 'Don't worry, get Ghost Stalker to the facility and he will find a hospital with shiner...I mean Forgotten patients.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil4
+	"McNeil: 'My forces won't attack you, Ghost Stalker. Commander, get him to the hospital quickly.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane1
+	"Kane: 'Death Dealer, I've heard so much about you from my forces. Your knowledge of Tiberium is only matched by your hatred of GDI. The Forgotten should treat yourself and your commander with more respect.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane2
+	"Death Dealer: 'Kane? I owe them my life, they took me in when GDI cast me aside.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane3
+	"Kane: 'And yet I sense they fear you for being different, exactly as GDI did. They don't trust you. Why not break the cycle by leading your own people?'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane4
+	"Death Dealer: 'And why should I trust you? Vega, one of YOUR generals, destroyed my home.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane5
+	"Kane: 'Vega was executed for doing so. Only I know what you want, and soon you will realise I am the only one you can have faith in.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:GhostFindsTheTruth1
+	"Ghost Stalker: 'Everyone! Look! These GDI scientists are caring for our people, not killing them! Kane is using us!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:GhostFindsTheTruth2
+	"Mutants: 'Liars! GDI is trying to help us! You will die for this!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kodiak_vs_Montauk
+	"McNeil: 'The Montauk has surfaced! Let's bag that son of a bitch!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:DeathLosesHerShit1
+	"Death Dealer: 'What is going on? Why are you fighting Nod?!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:DeathLosesHerShit2
+	"Death Dealer: 'Ghost Stalker?! Tratos?! Why aren't you repsonding?!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:DeathLosesHerShit3
+	"Death Dealer: 'Commander, abort mission! I will not allow us to die for GDI!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:MissionAccomplished
+	"Nod has surrendered!\nMISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:ACT_0:M6:ReturnHome
+	"Death Dealer: ***How could you betray me?! After all we've been through! Kane was right; the Forgotten are no different than GDI!***"
+END
+
+MSNSTR:RDS:ACT_0:M6:MissionAborted
+	"MISSION ABORTED"
+END
+
+MSNSTR:RDS:ACT_0:M6:MissionFailed
+	"MISSION FAILED"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseNodSpy
+	"The Nod Spy is dead.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseAttackedNodBase
+	"Slavik: 'You dare betray your brotherhood? Your lives are forfeit.'\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseNodBase
+	"The Nod base is destroyed.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseKodiak
+	"The Kodiak is destroyed. Umagon and McNeil are dead.\nMission Failed"
+END

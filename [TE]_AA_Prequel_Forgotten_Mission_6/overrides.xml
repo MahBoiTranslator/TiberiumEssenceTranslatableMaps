@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="AlienAssimilator.xml" type="all"/>
+      <Include source="GDIGrenadeSoldierSquad.xml" type="all"/>	  
+      <Include source="GDISurveyor.xml" type="all"/>
+      <Include source="NODEmissary.xml" type="all"/>	  
+	  <Include source="NODLaserCannon.xml" type="all"/>	  
+	  <Include source="NODLaserCannonSpawn.xml" type="all"/>
+	  <Include source="NODLaserCannonWeapon2.xml" type="all"/>
+	  <Include source="NODRaiderTank.xml" type="all"/>	  
+	  <Include source="NODHarvester.xml" type="all"/>
+	  <Include source="NODBlackHandSquad.xml" type="all"/>
+	  <Include source="NODConfessor.xml" type="all"/>
+	  <Include source="NODMilitantRocketSquad.xml" type="all"/>	  
+	  <Include source="NODSaboteur.xml" type="all"/>
+	  <Include source="NukeTransport.xml" type="all"/>
+	  <Include source="LiquidTiberiumTransport.xml" type="all"/>
+	  <Include source="NSSiloC.xml" type="all"/>	  
+	  <Include source="LogicSet.xml" type="all"/>
+	  <Include source="Weather.xml" type="all"/>	  
+	</Includes>
+   	<SpecialPowerTemplate
+		id="SpecialPowerNuclearMissile"
+		DisplayName="NAME:SuperweaponTimerNuclearMissile"
+		Description="DESC:SuperweaponTimerNuclearMissile"
+		Flags="IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="9999s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300" 
+		RestrictionType="1"
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateAlly="AlliedNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateEnemy="EnemyNuclearMissileLaunched"
+		TimerImage="Button_PlayerPowerNuclearMissile"/>	
+
+	<MissionObjectiveList id="MissionObjectives">
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_0:M6:Briefing"
+			Description="MSNSTR:RDS:ACT_0:M6:Briefing_Detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>			
+	</MissionObjectiveList>			
+</AssetDeclaration>

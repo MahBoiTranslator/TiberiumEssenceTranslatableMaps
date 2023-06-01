@@ -1,0 +1,194 @@
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+<GameObject id="NODRaiderTank" KindOf="SELECTABLE CAN_ATTACK CAN_CAST_REFLECTIONS PRELOAD SCORE ATTACK_NEEDS_LINE_OF_SIGHT CAN_REVERSE_MOVE VEHICLE CAN_BE_FAVORITE_UNIT" Description="Desc:NODScorpionTank" TypeDescription="Type:NODScorpionTank" RadarPriority="UNIT" Side="NOD" EditorName="NODRaiderTank" EditorSorting="UNIT" BuildTime="10" CommandSet="NODRaiderTankCommandSet" SelectPortrait="Portrait_NodNewScorpion" ButtonImage="Portrait_NodNewScorpion" VoicePriority="188" ShockwaveResistance="100" CommandPoints="100" ProductionQueueType="VEHICLE" UnitCategory="VEHICLE" WeaponCategory="CANNON" ReinvisibilityDelay="7s" BuildCost="850" TransportSlotCount="1">
+<DisplayName>Name:NODScorpionTank</DisplayName>
+<ArmorSet Armor="NODRaiderTankArmorDozerBlades" DamageFX="VehicleDamageFX"/>
+<LocomotorSet Speed="90" Locomotor="NODRaiderTankLocomotor"/>
+<LocomotorSet Condition="NORMAL_UPGRADED" Locomotor="NODRaiderTankLocomotor_Deployed"/>
+<SkirmishAIInformation BaseBuildingLocation="FRONT" UnitBuilderStandardCombatUnit="true"/>
+<Draws>
+<TankDraw id="ModuleTag_Draw" InitialRecoilSpeed="8" MaxRecoilDistance="4" RecoilDamping="2" RecoilSettleSpeed="2" TrackMarks="extnktrack" ExtraPublicBone="FXTreadL FXTreadR FXTracksL FXTracksR" TrackMarksLeftBone="FXTracksL" TrackMarksRightBone="FXTracksR" OkToChangeModelColor="True" TreadAnimationRate="0.15" TreadPivotSpeedFraction="0.9" TreadDriveSpeedFraction="0.25">
+<ModelConditionState ParseCondStateType="PARSE_DEFAULT" RetainSubObjects="True">
+<Model Name="W3DContainer:NUSCORPTANK_SKN"/>
+<WeaponFireFXBone BoneName="MuzzleFlash_01"/>
+<WeaponRecoilBone BoneName="GUN"/>
+<WeaponMuzzleFlash BoneName="MuzzleFlash_01"/>
+<WeaponLaunchBone BoneName="MuzzleFlash_01"/>
+<Turret TurretNameKey="Bone_Turret" TurretPitch="Bone_GunPitch" TurretID="1"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="FORMATION_PREVIEW">
+<Model Name="W3DMesh:NUSCORPTANK_FP"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DAMAGED" RetainSubObjects="True">
+<Model Name="W3DContainer:NUSCORPTANK_SKN"/>
+<ParticleSysBone BoneName="FXTracksR" FXParticleSystemTemplate="NODDamagedSmoke" FollowBone="True"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="REALLYDAMAGED" RetainSubObjects="True">
+<Model Name="W3DContainer:NUSCORPTANK_SKN"/>
+<Texture Original="NUScorpionTank" New="NUScorpionTankD"/>
+<ParticleSysBone BoneName="FXTracksR" FXParticleSystemTemplate="NODDamagedSmoke" FollowBone="True"/>
+<ParticleSysBone BoneName="Turret" FXParticleSystemTemplate="NODDamagedFire" FollowBone="True"/>
+<ParticleSysBone BoneName="Turret" FXParticleSystemTemplate="NODDamagedFireDistortion" FollowBone="True"/>
+<ParticleSysBone BoneName="Turret" FXParticleSystemTemplate="NODDamagedSmoke" FollowBone="True"/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DYING">
+<Model Name="W3DContainer:NUSCORPTANKR_SKN"/>
+</ModelConditionState>
+<AnimationState ParseCondStateType="PARSE_DEFAULT">
+<Script> CurDrawableShowSubObject("TreadsStop") CurDrawableHideSubObject("TreadsMove") CurDrawableHideSubObject("TreadsTurnLeft") CurDrawableHideSubObject("TreadsTurnRight") </Script>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="MOVING TURN_LEFT">
+<Script> CurDrawableHideSubObject("TreadsStop") CurDrawableHideSubObject("TreadsMove") CurDrawableShowSubObject("TreadsTurnLeft") CurDrawableHideSubObject("TreadsTurnRight") </Script>
+<ParticleSysBone BoneName="FXTracksL" FXParticleSystemTemplate="TreadDust" FollowBone="True"/>
+<ParticleSysBone BoneName="FXTracksR" FXParticleSystemTemplate="TreadDust" FollowBone="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="MOVING TURN_RIGHT">
+<Script> CurDrawableHideSubObject("TreadsStop") CurDrawableHideSubObject("TreadsMove") CurDrawableHideSubObject("TreadsTurnLeft") CurDrawableShowSubObject("TreadsTurnRight") </Script>
+<ParticleSysBone BoneName="FXTracksL" FXParticleSystemTemplate="gditanktreaddust" FollowBone="True"/>
+<ParticleSysBone BoneName="FXTracksR" FXParticleSystemTemplate="gditanktreaddust" FollowBone="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="MOVING">
+<Script> CurDrawableHideSubObject("TreadsStop") CurDrawableShowSubObject("TreadsMove") CurDrawableHideSubObject("TreadsTurnLeft") CurDrawableHideSubObject("TreadsTurnRight") </Script>
+<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="GDIWheelDustLight" FollowBone="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="DYING">
+<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkFire" FollowBone="True"/>
+<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkFireGlow" FollowBone="True"/>
+<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkFireDistortion" FollowBone="True"/>
+<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="GDIMammothHulkSmoke" FollowBone="True"/>
+<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="TankExplo_AfterFlames" FollowBone="True"/>
+<ParticleSysBone BoneName="FXHULKFIRE" FXParticleSystemTemplate="TankExplo_AfterFlamesDistort" FollowBone="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="UNPACKING PACKING_TYPE_1">
+<Animation AnimationName="NUSCORPTANK_DIGA" AnimationMode="ONCE"/>
+<FXEvent Frame="1" Effect="FX_DigIn_NodScorpion" Bone="Bone_DozerBlade" FireWhenSkipped="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="PACKING PACKING_TYPE_1">
+<Animation AnimationName="NUSCORPTANK_DIGB" AnimationMode="ONCE"/>
+<FXEvent Frame="10" Effect="FX_DigIn_NodScorpion" Bone="Bone_DozerBlade" FireWhenSkipped="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="UNPACKING PACKING_TYPE_2">
+<Animation AnimationName="NUSCORPTANK_DIGC" AnimationMode="ONCE"/>
+<FXEvent Frame="1" Effect="FX_DigIn_NodScorpion" Bone="Bone_DozerBlade" FireWhenSkipped="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="PACKING PACKING_TYPE_2">
+<Animation AnimationName="NUSCORPTANK_DIGD" AnimationMode="ONCE"/>
+<FXEvent Frame="10" Effect="FX_DigIn_NodScorpion" Bone="Bone_DozerBlade" FireWhenSkipped="True"/>
+</AnimationState>
+<AnimationState ParseCondStateType="PARSE_NORMAL" ConditionsYes="LOCOMOTOR_NORMAL_UPGRADED" Flags="START_FRAME_FIRST">
+<Animation AnimationName="NUSCORPTANK_DIGB" AnimationMode="MANUAL"/>
+</AnimationState>
+<LeftTread>"FXTracksL"</LeftTread>
+<RightTread>"FXTracksR"</RightTread>
+<ArticulationBone ArticulationBoneName="Bone_HullFront" ArticulationHelperBoneName="FXTreadR"/>
+</TankDraw>
+<ScriptedModelDraw id="ModuleTag_TreadR" OkToChangeModelColor="True" StaticModelLODMode="True" UseStandardModelNames="True">
+<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+<Model/>
+</ModelConditionState>
+<ModelConditionState ParseCondStateType="PARSE_NORMAL" ConditionsYes="SELECTED USER_5">
+<Model Name="FXINVISBONE"/>
+<ShadowInfo Type="ADDITIVE_DECAL" Texture="AUDronShipDecalIdle" SizeX="75" SizeY="65" MaxHeight="200" OverrideLODVisibility="True" UseHouseColor="True"/>
+</ModelConditionState>
+</ScriptedModelDraw>
+</Draws>
+<Behaviors>
+<AttributeModifierPoolUpdate id="ModuleTag_AttributeModifier"/>
+<SquishCollide id="ModuleTag_SquishCollide"/>
+<FireWeaponWhenDead id="ModuleTag_FWWD" DeathWeapon="CatalystInfantryDeathWeapon" InitiallyActive="True">
+<DieMuxData DeathTypes="CATALYST"/>
+</FireWeaponWhenDead>
+<AutoHealBehavior id="ModuleTag_HeroicHeal" HealingAmount="100" HealingDelay="0.5s" StartHealingDelay="1s">
+<TriggeredBy>Upgrade_Veterancy_HEROIC</TriggeredBy>
+</AutoHealBehavior>
+<AttributeModifierUpgrade id="ModuleTag_AttributeModifierUpgradeMUCSpeed" AttributeModifier="Modifier_MultifunctionUpgradeCenterSpeed">
+<TriggeredBy>Upgrade_MultifunctionUpgradeCenterSpeed</TriggeredBy>
+</AttributeModifierUpgrade>
+<AttributeModifierUpgrade id="ModuleTag_AttributeModifierUpgradeMUCDamage" AttributeModifier="Modifier_MultifunctionUpgradeCenterDamage">
+<TriggeredBy>Upgrade_MultifunctionUpgradeCenterDamage</TriggeredBy>
+</AttributeModifierUpgrade>
+<AttributeModifierUpgrade id="ModuleTag_AttributeModifierUpgradeMUCArmor" AttributeModifier="Modifier_MultifunctionUpgradeCenterArmor">
+<TriggeredBy>Upgrade_MultifunctionUpgradeCenterArmor</TriggeredBy>
+</AttributeModifierUpgrade>
+<StancesBehavior id="ModuleTag_Stance" StanceTemplate="Generic"/>
+<LevelUpUpgrade id="ModuleTag_LevelUpUpgrade_Veteran" LevelsToGain="1" LevelCap="4">
+<TriggeredBy>Upgrade_ProductionVeterancy_VETERAN</TriggeredBy>
+</LevelUpUpgrade>
+<LevelUpUpgrade id="ModuleTag_LevelUpUpgrade_Elite" LevelsToGain="2" LevelCap="4">
+<TriggeredBy>Upgrade_ProductionVeterancy_ELITE</TriggeredBy>
+</LevelUpUpgrade>
+<LevelUpUpgrade id="ModuleTag_LevelUpUpgrade_Heroic" LevelsToGain="3" LevelCap="4">
+<TriggeredBy>Upgrade_ProductionVeterancy_HEROIC</TriggeredBy>
+</LevelUpUpgrade>
+<WeaponSetUpdate id="ModuleTag_WeaponSetUpdate">
+<WeaponSlotTurret ID="1">
+<Weapon Template="NODRaiderTankCannon2"/>
+<TurretSettings TurretTurnRate="360" TurretPitchRate="20" MinimumPitch="-20d" PitchHeight="99%" MinIdleScanTime="1s" MaxIdleScanTime="5s" MaxIdleScanAngle="90" AllowsPitch="True">
+<TurretAITargetChooserData TargetingCompareList="DefaultTurretTargetingCompareList" CanAcquireDynamicIfAssignedOutOfRange="True"/>
+</TurretSettings>
+</WeaponSlotTurret>
+</WeaponSetUpdate>
+<Physics id="ModuleTag_Physics"/>
+<ProductionUpdate id="ModuleTag_ProductionUpdate"/>
+<SlowDeath id="ModuleTag_Death" SinkRate="1" SinkDelay="3s" DestructionDelay="7s">
+<OCL>
+<OCL>OCL_NodScorpTankDebris</OCL>
+</OCL>
+<Sound List="NOD_Generic_VoiceDieMS"/>
+<DieMuxData DeathTypes="ALL" DeathTypesForbidden="TOPPLED"/>
+</SlowDeath>
+<FXListBehavior id="ModuleTag_FXList">
+<DieMuxData DeathTypes="ALL"/>
+<Event FX="FX_GDIVehicleExplode"/>
+</FXListBehavior>
+<SpecialPower id="ModuleTag_DigIn" SpecialPowerTemplate="SpecialPower_ScorpionDigIn" UpdateModuleStartsAttack="True"/>
+<SwitchLocomotorsSpecialAbilityUpdate id="ModuleTag_SwitchLocomotorDigIn" SpecialPowerTemplate="SpecialPower_ScorpionDigIn" UnpackTime="1.5s" Options="IGNORE_FACING_CHECK" UnpackSound="AudioEvent:NodApcDrill" UnpackingVariation="1" SetObjectStatusOnTrigger="IMMOBILE" TriggerAttributeModifier="Modifier_NODDigIn" BusyForDuration="2s" UseUpgradedLocomotor="True"/>
+<SpecialPower id="ModuleTag_DigOut" SpecialPowerTemplate="SpecialPower_ScorpionDigOut" UpdateModuleStartsAttack="True"/>
+<SwitchLocomotorsSpecialAbilityUpdate id="ModuleTag_SwitchLocomotorDigOut" SpecialPowerTemplate="SpecialPower_ScorpionDigOut" PackTime="1.5s" Options="MUST_FINISH_ABILITY IGNORE_FACING_CHECK" PackSound="AudioEvent:NodApcDrill" UnpackingVariation="1" ClearObjectStatusOnExit="IMMOBILE" TriggerAttributeModifier="Modifier_NODDigOut" BusyForDuration="2s" UseUpgradedLocomotor="False"/>
+<CreateAndEnterObjectSpecialPower id="ModuleTag_EnterTransport" SpecialPowerTemplate="SpecialPowerCallForTransportNODScorpion" TriggerFX="FX_NodCallForTransportFlare" IdleWhenStartingPower="True" ChildModuleHandlesFX="True" OCL="OCL_NodCallForTransportVehicle" CreateLocation="CREATE_ABOVE_LOCATION">
+<FXOffset x="25"/>
+</CreateAndEnterObjectSpecialPower>
+<StatusBitsUpgrade id="ModuleTag_VeterancyUpgrade" StatusToSet="WEAPON_UPGRADED_02">
+<TriggeredBy>Upgrade_Veterancy_HEROIC</TriggeredBy>
+</StatusBitsUpgrade>
+<AudioLoopUpgrade id="ModuleTag_InvisibilityAudioLoop" SoundToPlay="Ts_cloaking_sound">
+<TriggeredBy>Upgrade_CloakingFieldInvisibility</TriggeredBy>
+</AudioLoopUpgrade>
+<EngineerContain id="ModuleTag_HijackerContain" ReplaceWith="OCL_HijackerNODRaiderTank" NameOfVoiceToUseForFriendlyEnter="VoiceEngineerRepair" NameOfVoiceToUseForHostileEnter="VoiceCaptureBuilding" FXForCapture="FX_Husk_Captured" FXForReplace="FX_Husk_Repaired" FXForCaptureAndReplace="FX_Husk_Captured" EvaEventForReplace="HuskRepaired" EvaEventForCaptureAndReplace="HuskRepaired">
+<CanEnterFilter Relationship="ENEMIES">
+<IncludeThing>NODHijacker</IncludeThing>
+<IncludeThing>MutantHijacker</IncludeThing>
+</CanEnterFilter>
+</EngineerContain>
+</Behaviors>
+<AI>
+<AIUpdate id="ModuleTag_AI" AutoAcquireEnemiesWhenIdle="YES">
+<UnitAITargetChooserData SympathyRange="100" CanPickDynamicTargets="False" TargetingCompareList="DefaultTurretTargetingCompareList"/>
+</AIUpdate>
+</AI>
+<Body>
+<ActiveBody id="ModuleTag_Body" MaxHealth="2700"/>
+</Body>
+<Geometry IsSmall="True">
+<Shape Type="BOX" ContactPointGeneration="VEHICLE" MajorRadius="20" MinorRadius="14" Height="12"/>
+</Geometry>
+<AudioArrayVoice>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceAttack" AudioType="voiceAttack"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceCreate" AudioType="voiceCreated"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceMove" AudioType="voiceGuard"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceMove" AudioType="voiceMove"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceMoveAttack" AudioType="voiceAttackAfterMoving"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceRetreat" AudioType="voiceRetreatToCastle"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceSelectMS" AudioType="voiceSelect"/>
+<AudioEntry Sound="NOD_ScorpionTank_VoiceSelectBattleMS" AudioType="voiceSelectBattle"/>
+</AudioArrayVoice>
+<AudioArraySound>
+<AudioEntry Sound="NOD_ScorpionTank_MoveStart" AudioType="soundMoveStart"/>
+<AudioEntry Sound="NOD_ScorpionTank_IdleLoop" AudioType="soundAmbient"/>
+<AudioEntry Sound="VehicleCrush" AudioType="soundCrushing"/>
+</AudioArraySound>
+<EvaEvents EvaEventDieOwner="UnitLost" EvaEventDamagedOwner="UnitUnderAttack" EvaEventDamagedFromShroudedSourceOwner="UnitUnderAttackFromShroudedUnit" EvaEventDamagedByFireOwner="GenericUnitBeingBurned" EvaEventSecondDamageFarFromFirstScanRange="600" EvaEventSecondDamageFarFromFirstTimeoutMS="155" EvaEventAmbushed="UnitAmbushed" EvaEnemyObjectSightedEvent="GenericEnemyUnitSighted" EvaEventDetectedEnemy="EnemyStealthUnitDiscovered" EvaEventAvailableForProduction="NewConstructionOptions" EvaEventProductionStarted="UnitConstructionStarted" EvaEventBuildOnHold="BuildOnHold" EvaEventBuildCancelled="BuildCancelled" EvaEventPromotedOwner="UnitPromoted"/>
+<ShadowInfo Type="VOLUME"/>
+<VisionInfo VisionRange="350" ShroudClearingRange="400"/>
+<CrusherInfo CrushRevengeWeapon="MediumVehicleDeathMine" CrusherLevel="2" CrushableLevel="2"/>
+</GameObject>
+</AssetDeclaration>

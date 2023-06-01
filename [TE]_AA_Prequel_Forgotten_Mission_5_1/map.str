@@ -1,0 +1,147 @@
+MSNSTR:RDS:ACT_0:M51:Line_1
+	"Death Dealer: 'Keep your guard up. There's no telling what GDI's plan is.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_2
+	"Death Dealer: 'Welcome home, Tratos.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_3
+	"Tratos: 'Thank you. Why were you all pointing guns at the GDI transport?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_4
+	"Death Dealer: 'You can never be too careful.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_5
+	"Tratos: 'I see...'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_6
+	"Umagon: 'Let's go inside, Tratos. You need to rest.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_7
+	"Tratos: 'The Tacitus? Why are you holding the Tacitus?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_8
+	"Death Dealer: 'Ghost gave it to me after he returned from Sarajevo and you were captured by Nod. Is something wrong?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_9
+	"Tratos: 'I don't understand! In my vision, I saw Kane with the Tacitus, not you!'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_10
+	"Umagon: 'Perhaps Nod's experiments on you has affected your visions, Tratos.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_11
+	"Ghost Stalker: 'They don't go cheap on the propaganda. It makes sense that it had some influence on you.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_12
+	"Death Dealer: 'Do you want me to help you, Tratos?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_13
+	"Tratos: 'No...no. I promised I would teach you to translate the Tacitus, there's no better time than now.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_14
+	"Mutant Soldier: 'Everyone! GDI forces are attacking us! They've almost breached the main gate!''"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_15
+	"Umagon: 'GDI?! Are you sure?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_16
+	"Mutant Soldier: 'Well I'm sure those Titan walkers crushing our soliders don't belong to us or Nod, Umagon!'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_17
+	"Ghost Stalker: 'It doesn't make sense, why would GDI attack us after helping us save Tratos?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_18
+	"Death Dealer: 'You said it yourself: it was a deal, not an alliance. But either way, once they get what they want out of you, they WILL destroy you.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_19
+	"Umagon: 'Bullshit! GDI would never...'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_20
+	"Death Dealer: 'With all due respect, Umagon, you don't know GDI as much as I do.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_21
+	"Umagon: 'And you don't know the horrors Nod inflicted on us!"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_22
+	"Tratos: 'Enough! They are coming for me; I lied to them about the Tacitus. I will surrender myself to them. Perhaps they will spare our people.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_23
+	"Umagon: 'It wasn't a lie. You only said what you saw in your vision.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_24
+	"Tratos: 'Even so, I have to save my children somehow.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_25
+	"Tratos: 'You have killed enough of my children, take me and be done with this violence.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_26
+	"Titan Pilot: 'We don't need you. We've been ordered to take the Tacitus.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_27
+	"Titan Pilot: 'Give it to us and we will spare you all.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_28
+	"Death Dealer: 'We refuse! We will never...'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_29
+	"Tratos: 'As you wish, just please leave us alone.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_30
+	"Titan Pilot: 'GDI thanks you for your cooperation.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_31
+	"Nod Spy: 'We saw everything. The Brotherhood offers friendship in your hour of need.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_32
+	"Death Dealer: '...Can you provide us with medical supplies and weapons?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_33
+	"Nod Spy: 'Of course. In return for an alliance.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_34
+	"Tratos: '...So be it. Commander, Death Dealer, Ghost Stalker, prepare your forces to attack GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_35
+	"Death Dealer: 'With pleasure.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_36
+	"Tratos: 'Umagon, contact McNeil.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Few_Days_Later
+	"A few days later"
+END

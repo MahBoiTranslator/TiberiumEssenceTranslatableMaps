@@ -3314,3 +3314,2359 @@ MSNSTR:RDS:ACT_I_FRGTN:M6:Forgotten_Wins
 "Slavik is dead! No longer will his vile tyranny stain the Forgotten!"
 END
 
+MSNSTR:RDS:ACT_0:M01:Line_1
+"Kane's Temple of Nod, Sarajevo---End of the First Tiberium War"
+END
+
+MSNSTR:RDS:ACT_0:M01:Line_2
+"Ghost Stalker: 'That light...so the rumours were true...'"
+END
+
+MSNSTR:RDS:ACT_0:M01:Line_3
+"Tratos: 'We were all strangers lucky to escape hell. Now we must survive the unknown as a communty.'"
+END
+
+MSNSTR:RDS:ACT_0:M01:Line_4
+"Tratos: 'I am a diplomat, not a commander. Is anyone here willing to take such a harrowing role?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M1:Briefing_Detail
+"Message from Tratos: \nCongratulations earning this postion, Commander. As we find more of those like us; those who escaped the horrors of Nod's prisons, it's imperative that we find a place to call home. One pontentially suitable area is an old industrial site that was ruined during the Tiberium War. My scouts have reported that GDI and Nod are fighting over the area, so there must be some value left in the site. Because of this, I'm sending our most experienced warrior, Ghost Stalker, to help you find anything of value. \nHowever, it's unlikely GDI and Nod will take much interest in our presence. To them, we are forgotten."
+END
+
+MSNSTR:RDS:ACT_0:M1:Intro1
+"Tratos: 'Despite their small forces here, GDI and Nod are fighting relentlessly.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Intro2
+"Tratos: 'There should be plenty of salvage around. Let me know what you can find, Ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Objective_1
+"Objective 1: Find useful salvage in the area \nGhost Stalker must survive."
+END
+
+MSNSTR:RDS:ACT_0:M1:Objective_2
+"Objective 2: Capture GDI's and Nod's Tiberium Refineries. Do not destroy them."
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostLocatesBarracks
+"Ghost Stalker: 'Looks like Nod have set up a camp, they won't be needing it for much longer.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostClaimsBarracks
+"Tratos: 'Well done. Our people can use this camp to rest and train. \n You can recruit help here.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostLocatesFactory
+"Ghost Stalker: 'GDI are guarding an old factory, it must have some value left.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostClaimsFactory
+"Tratos: 'Excellent work. I'm sending talented mechanics to see what vehicles can be built for you.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:RefineryReveal1
+"Tratos: 'Ghost, we can use this industrial estate to rehome our people.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:RefineryReveal2
+"Tratos: 'GDI and Nod each have a Tiberium refinery to the north of us. \nCapture both to give us the ability to rebuild this place.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostDies
+"Tratos: 'Ghost? Can you hear me? Ghost...'"
+END
+
+MSNSTR:RDS:ACT_0:M1:UnableToCaptureRefineries
+"How? How are you unable to capture the refineries? The AI doesn't even attack your War Camp and you can't sell nor destroy it yourself. Did you edit the map so you could? Seek help dude, seek help."
+END
+
+MSNSTR:RDS:ACT_0:M1:RefineryDestroyed
+"Tratos: 'One of the refineries has been destroyed. We have lost our chance to become more than mere salvagers.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win1
+"Tratos: 'You did it, my friend!. Our people are starting to settle and build up our new home.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win2
+"Later that day"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win3
+"Mutant Trooper: 'What are you? Why do you have blue skin?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win4
+"Mutant Engineer: 'Are you going to die? Is that how this ends for us?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win5
+"Tratos: 'What is your name, my child?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win6
+"???: 'I have no name to be proud of.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win7
+"Ghost Stalker: 'We can help you find one. You are more than welcome to join us.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win8
+"???: 'Thank you.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_1
+"Tratos: 'Ghost Stalker, your old friend has found a GDI airbase just east of here.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_2
+"Tratos: 'He says it contains two transport aircraft that should help you reach the research lab.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_3
+"Tratos: 'Take this bus, the directions to our outpost are inside. Good luck and take care.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_4
+"???: 'I'll drive, I trust you can read the directions to me?'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_5
+"Ghost Stalker: 'Of course. Commander, you're with us. Make yourself comfortable.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_6
+"Ghost Stalker: 'Take the left road. \nSo, what's your story? I don't think I saw you in the camps.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_7
+"???: 'I wasn't at any camps. I...worked for GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_8
+"Ghost Stalker: 'GDI?'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_9
+"???: 'Yes. I was one of their leading Tiberium scientists.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_10
+"???: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_11
+"Ghost Stalker: 'Painful memories? I understand if you don't want to talk about it.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_12
+"???: 'It's fine. We probably have a long drive ahead of us anyway.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_13
+"???: 'During the war, I was captured by Nod and used a Tiberium experiment. GDI rescued me but the damage was already done.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_14
+"Ghost Stalker: 'Go straight ahead at the cross roads. \nYou were dying?'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_15
+"???: 'Yes. GDI refused to try anything to save me becuase the Tiberium mutation was too advanced for them. So, I had to save myself.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_16
+"Ghost Stalker: 'Go right and you'll reach to reach your destination.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_17
+"???: 'Using the last of my strength, I ran to my lab and prepared an experiment based on Dr P...'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_18
+"Ghost Stalker: 'I'm sorry to interrupt, but we're here.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_19
+"???: 'Already? Okay, remind me to continue later.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_20
+"Ghost Stalker: 'I look forward to it.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M2:Briefing_Detail
+"Message from Tratos: \nIt looks like we have gained more than just a home. An unknown, blue-skinned Forgotten, as unique as she is mysterious, has agreed to use her knowledge of Tiberium for the good of our people. However, she needs her equipment from a GDI lab located in the Arctic Circle. I know I'm stating the obvious, but we don't have the means to build aircraft that will travel that far. \n \nThe only option we have is stealing some of the new GDI transports my scouts have discovered. Codenamed: 'Carryall', we believe these transports are designed to carry heavy vehicles across great distances. Two of them are located at a GDI airbase near the new city GDI is building. Try not to harm the civilians, they are not our enemy."
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro1
+"Mutant Sergeant: 'Welcome, Ghost, Commander. We have located the GDI transports you requested.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro2
+"Ghost Stalker: 'This wasn't my request; our friend here needs them.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro3
+"Mutant Sergeant: 'So we are now taking orders from a nameless outsider? \nWhy does she deserve to lead us?'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro4
+"Ghost Stalker: 'Think about where we came from before you call anyone else an outsider, Sergeant.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro5
+"Mutant Sergeant: 'Just go and find some salvage or something. I'll stay with the Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro6
+"Ghost Stalker: 'Whatever you say...Archon.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Objective_1
+"Objective: Destroy all GDI forces to secure the Orca Carryalls."
+END
+
+MSNSTR:RDS:ACT_0:M2:GDIWarning
+"Archon: 'GDI don't have much of a presence here. But don't underestimate them, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:GDIWalkers
+"Archon: 'What the hell is that thing? Commander, keep our infantry away from it!'"
+END
+
+MSNSTR:RDS:ACT_0:M2:FiendsDiscovered
+"???: 'Commander, take a look at this. \nThey're not attacking us. They must think we're part of the pack.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:FiendsUnderControl
+"???: 'I think we can tame more. You should look for them near Tiberium fields.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Bridge
+"Ghost Stalker: 'I think we can flank the GDI defences if you can get an engineer to repair the bridge.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:GhostInjured
+"???: 'Ghost has been hurt! I'm going to get him back to base!'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Win1
+"Archon: 'Mission accomplished. Well done, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Win2
+"???: 'Grab some GDI armour, everyone, Oh, and pack a scarf; it's going to be chilly up there.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Lose
+"Mission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_1
+"???: 'Well, this is a new experience.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_2
+"Ghost Stalker: 'I hope we don't get air sick...or bus-in-the-air sick...or something.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_3
+"???: 'I'm fine.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_4
+"Ghost Stalker: 'Can you continue your story? It'll help take my mind off the turbulence.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_5
+"???: 'Okay, since everyone else is asleep. Commander, listen close.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_6
+"???: 'I don't know how much time passed, but it was enough for Tiberium to be safely infused into my DNA.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_7
+"???: 'Unfortunately, it was also enough time for GDI to break into my lab and take me into custody.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_8
+"???: 'I was brought before GDI world leaders and generals. I can still feel their buring eyes staring into my soul.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_9
+"???: 'They accused me of justifying Kane's vision of humanity, arrogant to the fact Kane was the one who forced me down this path.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_10
+"???: 'They were disgusted at me for saving my own life. But they believed they were above 'barbaric' executions.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_11
+"???: 'So they dealt me a fate worse than death: living the rest of my life exiled in a godforsaken land.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_12
+"???: 'For that, I will never forgive them.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_13
+"Ghost Stalker: 'I'm sorry.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_14
+"???: 'It's not your fault. In fact, you, Tratos and the commander are giving me a purpose again.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_15
+"???: 'You took me in and gave me a home. Once we get my equipment, I will repay my debt.'"
+END
+
+MSNSTR:RDS:ACT_0:M21:Line_16
+"???: 'I promise you both, I will save the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M3:Briefing_Detail
+"Message from ???: \nCommander, thank you for answering my request. I'm glad you're helping me take back what is rightfully mine. I will use my equipment to help lessen the pain you and your people are going through, but retrieving said equipment will be tough. The first thing that will kill us is the extreme cold. I know Tiberium isn't well adapted to the cold, so I guess we won't have an easy time either. The GDI armour we 'borrowed' from the airbase isn't suited for Arctic conditions, but it's better than nothing. \n \nOnce we land, I'll need you to guide Ghost Stalker through the GDI checkpoints. I'll help you as much as possible, after all, I used to live and work here."
+END
+
+MSNSTR:RDS:ACT_0:M3:DistressSignal
+"Distress Signal sent in:"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro1
+"???: 'We're close. Land near that village.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro2
+"Carryall Pilot: 'Understood Ma'am.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro3
+"???: 'That...was...my home. Within it lies the equpiment I'll need to save your people.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro4
+"Ghost Stalker: 'Our people, remember. Anyway, what's the plan?'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro5
+"???: 'Ha, right. Our first priority should be taking out the outpost. We don't want GDI discovering the Carryalls.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Intro6
+"Ghost Stalker: 'Sounds like a plan, let's get going before I freeze to death.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:MedicalTent
+"???: 'Commander, bring Ghost Stalker close to the Medical Tent to heal him from the cold.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:OutpostSpotted
+"???: 'Take out that Command Post! Quickly!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:CommandPostDestroyed
+"???: 'Good work, an APC usually delivers supplies to the south village, we should take it.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:APCCaptured1
+"???: 'Damn, the bridge is out. We will have to go across the ice.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:APCCaptured2
+"???: 'The APC should be light enough to traverse...hopefully.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:HoverMLRS1
+"Ghost Stalker: 'What are those?'"
+END
+
+MSNSTR:RDS:ACT_0:M3:HoverMLRS2
+"???: 'Hover MLRS. GDI must have finished development. Not even the waters are safe anymore...'"
+END
+
+MSNSTR:RDS:ACT_0:M3:ContactWarning
+"???: 'The Lab had regular contact with the outpost. Ghost, you will need to convince them that Nod is responsible for the blackout.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie1
+"GDI Commander: 'Are you guys from the outpost? What's happened? Why has it gone dark?'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie2
+"Ghost Stalker: 'Nod are attacking! They wiped out the Command Post before we could send a distress signal!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie3
+"GDI Commander: 'Nod are here? S***. Go to the Headquarters, I'll take some scouts to see what Nod are up to.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:NodLie4
+"???: 'Nice acting, Ghost. Commander, I'll take it from here.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:The Raid Begins 1
+"???: 'Everyone, follow my lead.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidBegins2
+"???: 'Now...where did they keep it? Ah, here it is.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidBegins3
+"???: 'Ghost, this is for you. It's a prototype Railgun. \nThank you for giving me a purpose again.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidBegins4
+"???: 'So much for stealth! Commander, shooting the barrels will destroy the bridge and stop GDI from overwhelming us!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:TheRaidEnds
+"???: 'That's all of it! Commander, get us back the Carryalls!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:GDICommanderRealisesTrap
+"GDI Commander: 'You Shiner scum! You'll pay for your deception!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:GDICommanderDies
+"GDI Commander: 'AAAAAAAHHHHH!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:EndTeamDestroyedEarly
+"???: 'Persistent, aren't you? I'm impressed, but we need to leave, quickly!"
+END
+
+MSNSTR:RDS:ACT_0:M3:MLRSAmbush
+"Carryall Pilot: 'Commander! Those GDI hover units are attacking us from the water! \nWe can't take off until you destroy them!'"
+END
+
+MSNSTR:RDS:ACT_0:M3:Lose APC
+"APC destroyed. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M3:DistressSignalSent
+"???: 'We're too late. The outpost has sent the distress signal."
+END
+
+MSNSTR:RDS:ACT_0:M3:AttackedTooEarly
+"???: 'Commander, why did you attack them? There's no way we can reach the lab now."
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseACarryall
+"???: 'A Carryall has been destroyed. We have no way home now.'"
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseGhostStalker
+"Ghost Stalker killed. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseSydney
+"???: 'It...wasn't...meant...to...end like this...'"
+END
+
+MSNSTR:RDS:ACT_0:M3:LoseDestroyedBridge
+"Smart move, dumbass. You destroyed the bridge from the wrong side!"
+END
+
+MSNSTR:RDS:ACT_0:M3:WinA
+"Carryall Pilot: 'We're clear for take off! Everyone, get inside the transports!"
+END
+
+MSNSTR:RDS:ACT_0:M3:MissionAccomplished
+"Mission Accomplished"
+END
+
+MSNSTR:RDS:ACT_0:M3:WinB
+"Carryall Pilot: 'What took you so long? We thought you gave us the...cold...shoulder!"
+END
+
+MSNSTR:RDS:ACT_0:M3:WinB2
+"Ghost Stalker: '...for f*** sake, Dave."
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_1
+"???: 'Good morning, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_2
+"???: 'The stablisation was a success; your Tiberium mutations have slowed down significantly.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_3
+"Ghost Stalker: 'Congratulations, Commander! You're the first Forgotten to be stabilised.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_4
+"Tratos: 'May I come in?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_5
+"??? 'Of course, Tratos.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_6
+"Tratos: 'I'm sorry I'm late. How are you all? How did the raid go?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_7
+"???: 'We had a good time didn't we, Ghost?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_8
+"Ghost Stalker: 'But it ended much too soon! I was just starting to enjoy the cold weather!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_9
+"???: 'Ha! You must have been, since you took your armour off as soon as I gave you the railgun!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_10
+"Ghost Stalker: 'I did look badass though, didn't I?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_11
+"???: 'It's a good thing the commander ordered you to go to the medical tents to warm up, else you'd have been a frozen badass!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_12
+"Ghost Stalker: 'True. Thanks, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_13
+"???: 'Tratos, the commander has been stabilised. I'm confident that my equipment will be able to save all the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_14
+"Tratos: 'Excellent. I've been thinking of a name for you, and I think I've just found the perfect one...'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_15
+"Tratos: 'Death Dealer, the one who wards off Death when all hope is lost.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_16
+"???: 'Death Dealer... I like it.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_17
+"Death Dealer: 'Tratos! What's wrong?!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_18
+"Ghost Stalker: 'Stop! He's having a vision! He had them back when we were at the Nod camps!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_19
+"Tratos: 'The Tacitus...'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_20
+"Ghost Stalker: 'Tacitus? What is the Tacitus?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_21
+"Tratos: 'There's no time to explain. It's still hidden in Sarajevo, but Kane is searching for it. Ghost Stalker, Commander, you need to get it before Nod does.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_22
+"Death Dealer: 'What about me?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_23
+"Tratos: 'I need you to stay here with me and heal our people. You're the only one with the knowledge to save them.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_24
+"Death Dealer: 'Understood. Good luck everyone.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M4:Briefing_Detail
+"Message from Tratos: \nI hoped we would never have to see Temple Prime again. But we have no choice. The Tacitus unlocks secrets to Tiberium that must never be revealed to Nod. I...was tricked by Kane into to translating the device in return for freedom. GDI began attacking the temple as I was working on translating, so I was able to hide the Tacitus as Nod were busy fighting. \n \nGDI are going to be tough to dislodge, so use stealth to reach the Temple if possible. Try to get the Tacitus before Nod arrives; we are not ready to face two powerful foes at once. Good luck, I look forward to seeing you when you get home \n"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaTimer
+"Vega leaves in:"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro1
+"Umagon: 'Shit, we're too late. GDI and Nod are already fighting over the old Temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro2
+"Ghost Stalker: 'Sounds like perfect timing to me. Let them destroy each other as we reap the rewards.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro3
+"Umagon: 'True. I just hope one of them hasn't reached the device Tratos saw in his vision.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Intro4
+"Ghost Stalker: 'Only one way to find out. Commander, we need to find the path to the Temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective_1
+"Objective 1: Locate the old Temple of Nod \nUmagon must survive"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective_2
+"New Objective: Get Umagon to the Nod Tunnel"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective_3
+"Objective 3: Destroy all GDI forces"
+END
+
+MSNSTR:RDS:ACT_0:M4:GDIWarning
+"Ghost Stalker: 'GDI have tight security here. We must be close to the temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:NodWarning
+"Umagon: 'Nod has a base on the cliff. It will be hard to dislodge them.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaFucksOff1A
+"Nod Solider: 'General Vega! Mutants have been sighted near the temple!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaFucksOff1B
+"Nod Solider: 'General Vega! Our base has been breached!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:VegaFucksOff2
+"Vega: 'Ah, enough of this! I have more important problems to deal with!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonNeedsToLeave
+"Umagon: 'He might be after the device! Commander, get me to that Tunnel!'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves1
+"Umagon: 'Thanks, Commander. I'll report in if I find anything interesting.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves2
+"Umagon: 'What the hell! There's a massive ship in here! There's no way this was made by humans...'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves3
+"Umagon: 'I'm entering the ship, I'll try and maintain contact.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves4
+"Umagon: 'The ship is taking off! Vega must have activated it, there's no way off.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:UmagonLeaves5
+"Umagon: 'The device isn't here. It must still be in the Temple. You'll have to find it without me.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective3Trigger
+"Ghost Stalker: 'Vega's forces may have left but GDI are still here. \nWe should take them out before we enter the Temple.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:Objective3Complete
+"Ghost Stalker:'That's GDI taken care of, let's move.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:AFewHoursLater
+"A few hours later"
+END
+
+MSNSTR:RDS:ACT_0:M4:Win
+"'Move quickly, before they see us.' \n'We have to get this to Tratos immediately.'"
+END
+
+MSNSTR:RDS:ACT_0:M4:GhostStalker
+"Ghost Stalker has been injured. He will be unable to help you complete the mission."
+END
+
+MSNSTR:RDS:ACT_0:M4:LoseUmagon
+"Umagon has died \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M4:LoseVegaLeaves
+"Umagon: 'We're too late! What the hell is that thing? \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_1
+"Death Dealer: 'Commander! Ghost! Can you hear me? There's been an attack!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_2
+"Death Dealer: 'They've taken him! They've taken them all!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_3
+"Ghost Stalker: 'Slow down! Tell us from the start.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_4
+"Death Dealer: 'Right. I was preparing to stabilise Archon...'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_5
+"Death Dealer: 'So you call him Archon because he keeps questioning orders and thinks he's a leader?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_6
+"Tratos: 'That's right. So if he ever gives you trouble, feel free to use it against him.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_7
+"Death Dealer: 'Will do!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_8
+"Tratos: 'Listen, you've done so much to help the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_9
+"Tratos: 'To reward you, I'm going to teach you to translate the Tacitus.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_10
+"Death Dealer: 'Are you sure? I don't even know what the Tacitus is.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_11
+"Tratos: 'I'm sure. You already have a great understanding of Tiberium.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_12
+"Tratos: 'And, should anything happen to me, I need someone I can trust to guard it.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_13
+"Death Dealer: 'Can you at least tell me what the Tacitus is first?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_14
+"Tratos: 'Oh, right, sorry. The Tacitus is...'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_15
+"Tratos: 'What's that sound?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_16
+"Mutant: 'Tratos! It's a Nod ambush! They...'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_17
+"Nod Cyborg: 'Surrender, mutants.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_18
+"Tratos: 'Death Dealer, evacuate with Archon!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_19
+"Death Dealer: 'What about you?'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_20
+"Tratos: 'I need to rally everyone else. Now, go!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_21
+"Death Dealer: 'Understood. You men, help me get Archon to safety!'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_22
+"Death Dealer: 'We barely escaped. I saw Nod take Tratos and others away as we were leaving.'"
+END
+
+MSNSTR:RDS:ACT_0:M41:Line_23
+"Death Dealer: 'Please, return home as soon as possible.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M5:Briefing_Detail
+"We have recieved a distress call from home. Through the garbled tranmission, all we could decipher were these words from Death Dealer: 'underground', 'taking prisoners' 'Archon and I', and 'meet in the south'. \n \nReturning from Sarajevo , Ghost Stalker and yourself must reach Death Dealer and Archon before assessing the situation. We have no more intel at this time."
+END
+
+MSNSTR:RDS:ACT_0:M5:Intro1
+"Ghost Stalker: 'No time to waste. We need to get the southern camp ASAP.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective_1
+"Objective 1: Bring Ghost Stalker to Death Dealer and Archon"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective_2
+"Objective 2: Capture the Operations Centre at the main Nod base"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective_3
+"Objective 3: Destroy all remaining Nod forces \nGhost Stalker and Death Dealer's Combat Support Hospital must survive"
+END
+
+MSNSTR:RDS:ACT_0:M5:StolenDevilsTounge
+"Hijacker: Man, it's hot as hell in here!"
+END
+
+MSNSTR:RDS:ACT_0:M5:NaughtyHijacker
+"Hijacker: Don't shoot! It's me!"
+END
+
+MSNSTR:RDS:ACT_0:M5:ReachCamp
+"Marauder: Thank God you're alive! Death Dealer is waiting for you by her hospital!"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp1
+"Death Dealer: 'Ghost! Commander! We thought you'd never make it through!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp2
+"Ghost Stalker: 'I feared the worst when I heard! Archon? Is that you?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp3
+"Archon: 'Stop..calling me that...you...bast...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp4
+"Death Dealer: 'Nod attacked during his treatment. We had to evacuate before I could stablise the effects.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp5
+"Death Dealer: 'We've lost much. We will have to use our remaining resources wisely.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp6
+"Death Dealer: 'I think we should focus on training our new infantry; Nod won't be expecting us to switch tactics.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp7
+"Ghost Stalker: 'I disagree. Our new tanks and gunships should break down Nod with ease.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseYourDestiny
+"Select Ghost Stalker for heavy vehicles and Scrapyard \nSelect Death Dealer for elite infantry and Vault of Knowledge"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseGhostStalker
+"Ghost Stalker: 'Glad you agree, Commander. Let's test our new vehicles against the cowards. Death Dealer, look after the Tactitus.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseDeathDealer
+"Death Dealer: 'Wise choice, Commander. A surprise attack by our Brutes and Ascended Squads should win this battle quickly. I will look after the Tactitus'"
+END
+
+MSNSTR:RDS:ACT_0:M5:WhyDidYouChooseGhostStalker
+"Archon: 'You...made the wrong choice...Commander. Everyone knows Death Dealer's infantry...would have been...better for this...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:WhyDidYouChooseDeathDealer
+"Archon: 'You...made the wrong choice...Commander. Ghost Stalker's armour...would have been better for this...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:GhostResponseToArchon
+"Ghost Stalker: 'Shut up...and get well soon, my friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon1
+"Archon: 'Nope.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon2
+"Archon: 'Selecting me a second time won't change anything.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon3
+"Archon: 'Fine! Since you want to select me so much, I've disabled your mouse and keyboard!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon4
+"Archon: 'So, since you are now locked here, do you want to hear a secret?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon5
+"Archon: 'You know that grey Black Hand soldier that observes some of the missions?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon6
+"Archon: 'That's right! This one!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon7
+"Archon: 'Observe.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SetUpObjectives2and3
+"Death Dealer: 'Commander, I saw Nod dragging Tratos into an APC. If you can capture the main Operations Centre, we should be able to find out where that APC is going.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective2Complete1
+"Mutant Engineer: 'I'm inside the Ops Centre. Accessing transmission logs. Standby...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective2Complete2
+"Mutant Engineer: 'Orders from General Vega: The mutant leader to be sent to the prison colony in eastern Mexico. \nOther surviors to be sent to prisons in Central Europe and North Africa.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective2Complete3
+"Ghost Stalker: 'Vega? He was on that ship Umagon found in Sarajevo...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective3Complete
+"Ghost Stalker: 'That's for destroying our home you blunt scum.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SubterraneanAttack
+"---WARNING--- A Subterranean unit has surfaced in our camp!"
+END
+
+MSNSTR:RDS:ACT_0:M5:UmagonContact1
+"Umagon: 'Ghost Stalker! Can you hear me? The ship crash landed and I think I can hear GDI and Nod fighting for control of it!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:UmagonContact2
+"Ghost Stalker: 'Umagon, Nod has destroyed our home and taken prisoners. We're trying to salvage anything we can.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:UmagonContact3
+"Ghost Stalker: 'Try and stay in touch with us, we'll update you once we destroy these bastards.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win1
+"Ghost Stalker: 'There's nothing left for us here. We have to move on.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win2
+"Death Dealer: 'What about Tratos? How are we going to save him?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win3
+"Ghost Stalker: 'Nod's prisons are monitored by well-guarded senor arrays; they'll detect us and kill Tratos before we'd even see the prison.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win4
+"Ghost Stalker: 'You won't like this...but...we're going to have to ask GDI for help.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win5
+"Death Dealer: 'Are you insane?! By allying with GDI, you will doom us all!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win6
+"Ghost Stalker: 'It's a deal, not an alliance. We need Tratos back, and only GDI has the resources to pull off a rescue.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win7
+"Death Dealer: 'And what are you going to offer in return?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win8
+"Ghost Stalker: 'Umagon and I will help find Vega for them. I'm sure GDI won't miss a chance to take out a Nod general.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win9
+"Death Dealer: 'Fine. But I'm only agreeing because I trust you, Ghost. The Commander and I will set up a new HQ when you leave.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:MissionAccomplished
+"MISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:ACT_0:M5:GhostStalkerDying
+"Ghost Stalker is seriously hurt. He must not die."
+END
+
+MSNSTR:RDS:ACT_0:M5:LoseGhostStalker
+"Ghost Stalker has been killed. Mission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M5:CombatHospitalUnderAttack
+"Death Dealer's Combat Support Hospital is under attack. Protect it at all costs!"
+END
+
+MSNSTR:RDS:ACT_0:M5:LoseDeathDealerAndArchon
+"Death Dealer's Combat Support Hospital has been destroyed. Death Dealer and Archon are dead. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M5:OpsCentreUnderAttack
+"DO NOT destroy the Operations Centre. We need it to locate Tratos!"
+END
+
+MSNSTR:RDS:ACT_0:M5:LoseOpsCentre
+"Operations Centre destroyed. We will never be able to locate Tratos and other Forgotten. \n Mission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_1
+"Death Dealer: 'Keep your guard up. There's no telling what GDI's plan is.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_2
+"Death Dealer: 'Welcome home, Tratos.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_3
+"Tratos: 'Thank you. Why were you all pointing guns at the GDI transport?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_4
+"Death Dealer: 'You can never be too careful.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_5
+"Tratos: 'I see...'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_6
+"Umagon: 'Let's go inside, Tratos. You need to rest.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_7
+"Tratos: 'The Tacitus? Why are you holding the Tacitus?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_8
+"Death Dealer: 'Ghost gave it to me after he returned from Sarajevo and you were captured by Nod. Is something wrong?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_9
+"Tratos: 'I don't understand! In my vision, I saw Kane with the Tacitus, not you!'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_10
+"Umagon: 'Perhaps Nod's experiments on you has affected your visions, Tratos.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_11
+"Ghost Stalker: 'They don't go cheap on the propaganda. It makes sense that it had some influence on you.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_12
+"Death Dealer: 'Do you want me to help you, Tratos?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_13
+"Tratos: 'No...no. I promised I would teach you to translate the Tacitus, there's no better time than now.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_14
+"Mutant Soldier: 'Everyone! GDI forces are attacking us! They've almost breached the main gate!''"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_15
+"Umagon: 'GDI?! Are you sure?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_16
+"Mutant Soldier: 'Well I'm sure those Titan walkers crushing our soliders don't belong to us or Nod, Umagon!'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_17
+"Ghost Stalker: 'It doesn't make sense, why would GDI attack us after helping us save Tratos?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_18
+"Death Dealer: 'You said it yourself: it was a deal, not an alliance. But either way, once they get what they want out of you, they WILL destroy you.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_19
+"Umagon: 'Bullshit! GDI would never...'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_20
+"Death Dealer: 'With all due respect, Umagon, you don't know GDI as much as I do.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_21
+"Umagon: 'And you don't know the horrors Nod inflicted on us!"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_22
+"Tratos: 'Enough! They are coming for me; I lied to them about the Tacitus. I will surrender myself to them. Perhaps they will spare our people.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_23
+"Umagon: 'It wasn't a lie. You only said what you saw in your vision.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_24
+"Tratos: 'Even so, I have to save my children somehow.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_25
+"Tratos: 'You have killed enough of my children, take me and be done with this violence.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_26
+"Titan Pilot: 'We don't need you. We've been ordered to take the Tacitus.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_27
+"Titan Pilot: 'Give it to us and we will spare you all.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_28
+"Death Dealer: 'We refuse! We will never...'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_29
+"Tratos: 'As you wish, just please leave us alone.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_30
+"Titan Pilot: 'GDI thanks you for your cooperation.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_31
+"Nod Spy: 'We saw everything. The Brotherhood offers friendship in your hour of need.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_32
+"Death Dealer: '...Can you provide us with medical supplies and weapons?'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_33
+"Nod Spy: 'Of course. In return for an alliance.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_34
+"Tratos: '...So be it. Commander, Death Dealer, Ghost Stalker, prepare your forces to attack GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_35
+"Death Dealer: 'With pleasure.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Line_36
+"Tratos: 'Umagon, contact McNeil.'"
+END
+
+MSNSTR:RDS:ACT_0:M51:Few_Days_Later
+"A few days later"
+END
+
+MSNSTR:RDS:ACT_0:M6:ForgottenReinforcementsTimer
+"Reinforcements Arrive In:"
+END
+
+MSNSTR:RDS:ACT_0:M6:NodMissileStrikeOnGDIFacility
+"Nod Missile Strike On GDI Facility In:"
+END
+
+MSNSTR:RDS:ACT_0:M6:ForgottenReinforcements
+"Reinforcements have arrived"
+END
+
+MSNSTR:RDS:ACT_0:M6:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M6:Briefing_Detail
+"Message from Tratos: \nCommander, I know I'm placing you in an uncomfortable position, but I want you to understand why I need you to do the unthinkable. \nKane himself has informed us that GDI is producing an anti-Tiberium weapon for use against the Forgotten. \nOf course, he's probably lying, but such a harrowing claim cannot be left to chance. \nI have sent some of our people to a nearby abandoned city, where a Nod agent will deliver supplies for us to seal this alliance. \nIn return, we will clear the tunnel of GDI forces so that Nod can safely send an MCV and build a base. Our communication network is linked to Nod's for this mission, it would be wise to attack together to minimise losses. \n \nI...won't be able to give you much to work with. I still have my doubts about Kane's information so I don't want to lose more precious lives needlessly. \nOur more...vocal...warriors with anti-GDI sympathies are eager to join the battle with you. They will arrive periodically. \nThey may be willing to die in battle, but I want to see them return home. Please be careful, my child. \n \nNOTE: Once Nod builds up their base, you will not be defeated if you lose all your limited forces. You will only be defeated if Nod loses their base."
+END
+
+MSNSTR:RDS:ACT_0:M6:Intro3
+"'Thanks! We can use the supplies. I'll go gather my people.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:SurprisedGDIGuard
+"'Hey! Where'd all those shiners come from?'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_1
+"Objective 1: Clear both ends of the tunnel to the west. \n The Nod Spy (Shadow) must survive."
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_2
+"Objective 2: Fight your way to the GDI Research Facility. \nNOTE: You will NOT be defeated if you lose all your units, so long as the Nod base survives."
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_3
+"Objective 3: Help Ghost Stalker reach the GDI Research Facility before Nod destroys it. \nGDI will not attack Ghost Stalker."
+END
+
+MSNSTR:RDS:ACT_0:M6:Objective_4
+"Objective 4: Damage the Montauk to force Nod to surrender. \nThe Kodiak must survive."
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseYourDestiny
+"Select Ghost Stalker for Rocket Soldiers, Forgotten Sergeants, Marauders and Lifetime of War upgrade \n \nSelect Death Dealer for Rocket Soldiers, Fiends, Brutes and Blue Tiberium Infusion Upgrade"
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseYourDestinyHard
+"Select Ghost Stalker for Rocket Soldiers, Forgotten Sergeants and Marauders \n \nSelect Death Dealer for Rocket Soldiers, Fiends and Brutes"
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseGhostStalker
+"Death Dealer: 'You're denying me my chance for revenge? I'm disappointed with you, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:ChooseDeathDealer
+"Ghost Stalker: 'Commander, please be careful. Something doesn't feel right about this.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Tratos1
+"Tratos: 'Commander, I need you and Ghost Stalker to listen. I've told Umagon to meet Commander McNeil of GDI. He was the one that helped save me from the Nod medical facility.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Tratos2
+"Tratos: 'I will only believe GDI's claim of innocence if McNeil can prove it. Do not tell Death Dealer, her bias will doom the truth.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Tratos3
+"Tratos: 'Umagon will contact you. Until then, fight alongside Nod.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Umagon1
+"Umagon: 'Commander, stop fighting GDI! Mac says this mission is a trap for Nod. They want to root out the Nod general leading this mission.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil1
+"McNeil: 'That's right, we leaked false info to Nod saying that this facility is developing a cure for Tiberium, but it's a hospital treating victims of Tiberium posioning.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil2
+"Tratos: 'I need proof, McNeil. I can only trust Ghost Stalker to get it.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil3
+"McNeil: 'Don't worry, get Ghost Stalker to the facility and he will find a hospital with shiner...I mean Forgotten patients.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:McNeil4
+"McNeil: 'My forces won't attack you, Ghost Stalker. Commander, get him to the hospital quickly.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane1
+"Kane: 'Death Dealer, I've heard so much about you from my forces. Your knowledge of Tiberium is only matched by your hatred of GDI. The Forgotten should treat yourself and your commander with more respect.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane2
+"Death Dealer: 'Kane? I owe them my life, they took me in when GDI cast me aside.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane3
+"Kane: 'And yet I sense they fear you for being different, exactly as GDI did. They don't trust you. Why not break the cycle by leading your own people?'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane4
+"Death Dealer: 'And why should I trust you? Vega, one of YOUR generals, destroyed my home.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kane5
+"Kane: 'Vega was executed for doing so. Only I know what you want, and soon you will realise I am the only one you can have faith in.'"
+END
+
+MSNSTR:RDS:ACT_0:M6:GhostFindsTheTruth1
+"Ghost Stalker: 'Everyone! Look! These GDI scientists are caring for our people, not killing them! Kane is using us!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:GhostFindsTheTruth2
+"Mutants: 'Liars! GDI is trying to help us! You will die for this!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:Kodiak_vs_Montauk
+"McNeil: 'The Montauk has surfaced! Let's bag that son of a bitch!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:DeathLosesHerShit1
+"Death Dealer: 'What is going on? Why are you fighting Nod?!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:DeathLosesHerShit2
+"Death Dealer: 'Ghost Stalker?! Tratos?! Why aren't you repsonding?!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:DeathLosesHerShit3
+"Death Dealer: 'Commander, abort mission! I will not allow us to die for GDI!'"
+END
+
+MSNSTR:RDS:ACT_0:M6:MissionAccomplished
+"Nod has surrendered! \nMISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:ACT_0:M6:ReturnHome
+"Death Dealer: ***How could you betray me?! After all we've been through! Kane was right; the Forgotten are no different than GDI!***"
+END
+
+MSNSTR:RDS:ACT_0:M6:MissionAborted
+"MISSION ABORTED"
+END
+
+MSNSTR:RDS:ACT_0:M6:MissionFailed
+"MISSION FAILED"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseNodSpy
+"The Nod Spy is dead. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseAttackedNodBase
+"Slavik: 'You dare betray your brotherhood? Your lives are forfeit.' \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseNodBase
+"The Nod base is destroyed. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M6:LoseKodiak
+"The Kodiak is destroyed. Umagon and McNeil are dead. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_1
+"Death Dealer: 'Listen to me! All of you!'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_2
+"Death Dealer: 'GDI are going to turn us into their puppets; Tratos is ignorant to their treachary.'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_3
+"Death Dealer: 'They took my life away from me, and they are going to do the same to you.'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_4
+"Death Dealer: 'Right now, Ghost Stalker and Umagon are enslaved to GDI. Do you expect they will come home again?'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_5
+"Death Dealer: 'So tell me...'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_6
+"Death Dealer: 'Are you willing to die for those who will spit on your grave?'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_7
+"Mutant Soldier: 'Death Dealer is right. We cannot allow GDI to control us.'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_8
+"Mutant Engineer: 'Are you insane, brother?! She sounds like a Nod zealot!'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_9
+"Mutant Soldier: 'Better to be a Nod zealot than a GDI lapdog.'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_10
+"Mutant Engineer: 'I can't believe what I'm hearing! She's going to tear the Forgotten apart!'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_11
+"Death Dealer: 'Those of you who will not follow me: don't worry...I will not kill you.'"
+END
+
+MSNSTR:RDS:ACT_0:M61:Line_12
+"Death Dealer: 'But remember...only I can save you from your mutations.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_1
+"Umagon: 'I'm glad that thing is on our side.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_2
+"Ghost Stalker: 'Tell McNeil that we are going to HQ. I'm worried about...'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_3
+"Death Dealer: 'Me?'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_4
+"Umagon: 'What are you doing here?'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_5
+"Death Dealer: 'Looking for you three.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_6
+"Ghost Stalker: 'Please come home, we need to talk.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_7
+"Death Dealer: 'That place is not my home anymore.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_8
+"Death Dealer: 'What's the matter? It looks like you've seen a ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_9
+"Umagon: 'You have lost your mind!"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_10
+"Death Dealer: 'Says the one blindly devoted to GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_11
+"Death Dealer: 'I'm here to make you a deal, Ghost: join me in the Brotherhood, and I will continue to save the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_12
+"Ghost Stalker: 'If only you were at the Nod camps...you'd know why I can't accept.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_13
+"Ghost Stalker: 'I'm sorry for not telling you what Tratos planned. If I knew this would happen, I never would've agreed to it.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_14
+"Ghost Stalker: 'Please, come home!'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_15
+"Death Dealer: 'We had a good time, didn't we?'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_16
+"Ghost Stalker: 'Don't say that like it's the END! Our people need you! I...'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_17
+"Umagon: 'I'll track her down. You two should go back home.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_18
+"Umagon: 'With Tratos recovering on the Kodiak, you are the sole leader of our people now.'"
+END
+
+MSNSTR:RDS:ACT_0:M62:Line_19
+"Umagon: 'I'll stay in touch, good luck.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:DeathDealersReturnTimer
+"Death Dealer's forces reach Cairo in:"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkExecutedTimer
+"Agent Park executed by Cyborg Commando in:"
+END
+
+MSNSTR:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:Briefing_Detail
+"Message from Ghost Stalker: \n 'Commander, thank you for staying with us. The Forgotten would not survive if you had left with Death Dealer. \n I've recieved a strange transmission from an unknown source, claiming that Archon and Umagon have been taken to Cairo. \nWith Tratos falling ill and being taken care of on the Kodiak, I've been elected to lead our people until Tratos feels better. \nWe cannot attack Nod head-on, so we will move under the cover of an Ion Storm to build a base on the outskirts of Cairo. This will prevent Nod from detecting us and putting our people at risk. The base will help blockade the city and make a rescue operation in Nod's second city easier. \nOnly you and I will enter the city, as I dont want to risk losing more than with have already. If the records recovered at Vega's Operation Centre are accurate, we should have the exact location of the Nod prison in Cairo. No doubt Umagon and Archon will have been taken there. With luck (and the Ion Storm) on our side, this should be a straightforward mission. \nI'm counting on you, my friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Intro1
+"Ghost Stalker: 'Is everyone okay? Good. The Commander and I will head into the city. Make sure the base is ready for our escape.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Intro2
+"Ghost Stalker: 'Come on, Commander. Let's go save our people.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonLocation
+"Objective 1: Explore the Nod prison.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NoGuards
+"Ghost Stalker: 'Why are there no guards? This place should be crawling with Nod.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NoPrisoners
+"Ghost Stalker: 'The gates have been opened...did our people manage to escape somehow?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Bodies
+"Ghost Stalker: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro1
+"????: 'Halt! Are you Forgotten or Divine?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro2
+"Ghost Stalker: 'Divine? What kind of egotistical shit is that?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro3
+"Agent Park: 'Correct answer. My name is Agent Park, I'm with GDI. You must be Ghost Stalker, I'm the one who sent you the transmission about your fellow Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro4
+"Ghost Stalker: 'How do know my name? Where are Archon and Umagon?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:AgentParkIntro5
+"Agent Park: 'I'll tell you and your commander everything. But first, we better get inside in case this Ion Storm gets worse.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback1
+"Agent Park: 'As you can probably tell from my uniform, I've managed to reach the higher ranks of the Black Hand. This means I'm able to attend important meetings with Kane involved.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback2
+"Agent Park: 'A few days ago, a mutant with blue skin arrived to meet with Kane.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback3
+"Ghost Stalker: 'Death Dealer...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback4
+"Agent Park: 'Exactly. She made a deal with him: she would join Nod in return for Kane helping her lead an army of her own. \nShe requested that Kane keep Archon safe. She disappeared for a day, saying that she wanted to recruit...you.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback5
+"Agent Park: 'When she returned to Cairo without you, I was ordered to guard her. \nShe offered a deal to the mutant prisoners for their loyality to her in return for freedom.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback6
+"Agent Park: 'The broken ones didn't hesitate in joining her. The others resisted and she ordered them to be executed. \nShe didn't even flinch, but there was a sadness in her eyes...like a tortured soul trying to break through.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback7
+"Agent Park: 'A few hours ago, she reported that she captured a Forgotten spy who had been tracking her. Once she told Kane that the spy was Umagon, I recognised the name as a key ally to GDI and contacted McNeil, who then sent me your details.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:PrisonFlashback8
+"Agent Park: 'Kane ordered for Umagon to be taken to his Pyramid. We will need to take this APC to reach her and Archon. We should get going now the Ion Storm has passed.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Underground1
+"Agent Park: 'Huh, lucky that we ended up in emergency exit. I'll go into that security point and guide you from there.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Underground2
+"Agent Park: 'You'll need to find some Black Hand armour to sneak through the Pyramid; Nod militia are not allowed inside here.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:ArchonLocated
+"Agent Park: ***I've located Archon, he's in the prison section not far from here. I haven't see Umagon yet.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Eerie
+"Agent Park: ***It's unusally quiet. They must be preparing for something.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NotThatWay
+"Agent Park: ***That's not the quickest way to Archon! You don't have time to waste!***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NotYet
+"Agent Park: ***This way is blocked. It's best not to touch anything right now.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL1
+"?????: 'I'm impressed that you have made it this far, mutant.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL2
+"?????: 'Where the humans have failed, my cyborgs will succeed.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL3
+"Ghost Stalker: 'Park! How the hell do I get out of here?!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL4
+"Agent Park: ***I don't know! Just find something that looks important and blow it up!***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CABAL5
+"Agent Park: 'Er...good work? I guess you won't need any Black Hand armour now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:DestroyTheBarrierHint
+"Agent Park: ***Those look like the power sources for the barrier. Destroy one of them.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:RunBitchRUN
+"Agent Park: ***GHOST! RUN! Those cyborgs have gone berserk!***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:BridgeHint
+"Agent Park: ***There should be a bridge coming up, I can destroy it from here once you cross it.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:DestroyBridge
+"Ghost Stalker: 'That was too close! Hold on, Archon. I'm almost there.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Keys
+"Ghost Stalker: 'Looks like this guard has the keys to the cells, it's nice to have good luck for once.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion1
+"Ghost Stalker: 'Archon! It's me! We need to get out of here!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion2
+"Archon: 'Stop calling me that you...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion3
+"Archon: 'Ghost Stalker? Why are you here? You should be...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion4
+"Ghost Stalker: 'Don't say a word, not this time. Nothing you can suggest is more important than saving you and Umagon.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion5
+"Archon: 'You really came to save me? I...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion6
+"Agent Park: ***I hate to break up the reunion, but I've just recieved news about Death Dealer.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion7
+"Ghost Stalker: 'Archon, listen to this, it's about Death Dealer. Go ahead, Park.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion8
+"Agent Park: ***Her forces have destroyed a large GDI base south of Cairo, they're returning to this Pyramid as we speak.***"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion9
+"Ghost Stalker: 'Shit! If they get back here, Cairo will be an impenetrable fortress!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion10
+"Archon: 'Ghost, I saw them drag Umagon to the upper level. We won't have time to save her if we want to stop Death Dealer.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Reunion11
+"Ghost Stalker: 'You're right, we have no choice. I'll contact McNeil when we leave. Let's get out of this hellhole.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Objective_LeaveReminder
+"Objective: Ghost Stalker and Archon must reach the APC"
+END
+
+MSNSTR:RDS:ACT_0:M7A:WAMView1
+"Ghost Stalker: 'My god, this is Nod's goal? This missile could destroy the entire Earth!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:WAMView2
+"Ghost Stalker: 'We need to contact GDI quickly; there is no way the Forgotten can take this thing down.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:NoCyborgCommandosEASY
+"Agent Park: 'Nod have the cyborgs under control again, but it looks like there are no more down here for now. \nGet Ghost Stalker and Archon to the APC as soon as possible.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:SpawnCyborgCommandosNORMAL
+"Agent Park: 'Nod have the cyborgs under control again, a Cyborg Commando has been sent to discover suspected saboteurs! Destroy it before it gets to me!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:SpawnCyborgCommandosHARD
+"Agent Park: 'Nod have the cyborgs under control again, two Cyborg Commandos have been sent to discover suspected saboteurs! Destroy them before they get to me!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CyborgCommandosClose
+"Cyborg Commando: 'You have been marked for termination. Commencing execution.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:CyborgCommandosDestroyed
+"Agent Park: 'I thought I was a goner! Let's get the hell out of here!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Win1
+"Agent Park: 'Nice to meet you Archon, let's go.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Ending1
+"Ghost Stalker: 'Send a distess call to the Kodiak, quickly.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Ending2
+"Ghost Stalker: 'I fear my mission has failed. \nAt Kane's Temple in Cairo, I found a missile that will soon destroy the Earth.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:Ending3
+"Ghost Stalker: 'And Umagon has been held captive by Kane.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseArchonDead
+"Archon is dead. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseGhostStalkerDead
+"Ghost Stalker is dead. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseAgentParkDead
+"Agent Park is dead. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseDeathDealerReturns
+"Agent Park: 'Death Dealer's forces have reached Cairo.' \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A:LoseAPCDestroyed
+"The APC had been destroyed. Escaping the Pyramid is impossible. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_1
+"Mutant Soldier: 'So, what do we do now?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_2
+"Death Dealer: 'I don't know.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_3
+"Mutant Soldier: 'You don't know?! You brought us here without a plan?!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_4
+"Death Dealer: 'No! I just need time to...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_5
+"Brute: 'We left the Forgotten for this?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_6
+"Death Dealer: 'Be quiet. Archon needs to rest.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_7
+"Brute: 'That bastard is a friend of Ghost Stalker. I don't know why you told me to take him with us.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_8
+"Death Dealer: 'I need him because...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_9
+"Mutant Soldier: 'I say we leave Death Dealer and Archon here. We can destroy GDI on our..."
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_10
+"Nod Spy: 'I recognise you. You refused to side with GDI when the Forgotten turned on us.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_11
+"Nod Spy: 'All of you, come with us. You can shelter at our base not far from here.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_12
+"Death Dealer: 'Thanks..I guess. Let's go. Bring Archon with us.''"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_13
+"Death Dealer: 'I don't understand. Why have you only brought the commander and I here?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_14
+"Black Hand Guard: 'He wishes to speak with you two alone. Your followers will be safe in our Hand of Nod.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_15
+"Kane: 'Greetings, Death Dealer.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_16
+"Kane: 'And you must be the exalted commander that also refused to fight for GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_17
+"Kane: 'What is the matter, my dear? You do not look pleased to see me.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_18
+"Kane: 'I sense something about you. It is like I have seen you before...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_19
+"Kane: 'Yes...you are the Mobius girl...'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_20
+"Death Dealer: 'That name means nothing to me! I will kill anyone who dares utter it!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_21
+"Kane: 'I see there is much anger in you. Let's put it to good use.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_22
+"Kane: 'You served GDI and the Forgotten with distinction, and yet they never asked what you wanted in return.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_23
+"Kane: 'So tell me, what do you desire?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_24
+"Death Dealer: 'To be listened to, to lead, to belong.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_25
+"Kane: 'The Forgotten never gave you those desires, did they?'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_26
+"Death Dealer: 'No.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_27
+"Kane: 'I have the resources to help you make your people divine.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_28
+"Kane: 'Just as you are.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_29
+"Kane: 'Join the Brotherhood, my child, and I will ensure you feel belonged.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_30
+"Death Dealer: 'You want me to join Nod?! You turned me into this monster! I refuse!'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_31
+"Kane: 'I merely gave you the tools to ascend. Only someone strong and determined to survive can obtain Divination.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_32
+"Kane: 'I cannot destroy GDI alone, and neither can you.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_33
+"Kane: 'But together, we can turn this planet into a home fit for the Divine...and you will lead them.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_34
+"Death Dealer: 'If you can keep Archon safe, and let me convince Ghost Stalker to join us...I'll accept.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_35
+"Kane: 'So be it. Acrhon will be safe at my Pyramid in Cairo. My forces will help you locate Ghost Stalker.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_36
+"Death Dealer: 'Commander, I need you to look after Archon. If we can convince him that GDI is the true enemy, he will be a powerful weapon against them.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_37
+"Death Dealer: 'I will try to save Ghost Stalker, he deserves a chance at redemption for what he's done for us.'"
+END
+
+MSNSTR:RDS:ACT_0:M7A1:Line_38
+"Death Dealer: 'And then, we save the Forgotten together.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:WeatherControllerTimer
+"Weather Controller online in:"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Briefing_Detail
+"Message from Death Dealer: \nYou made the right choice, Commander. You saw through Ghost Stalker's naivety and know what GDI truly are: a wilting, tyranical regime only fit for the pages of history. \nYou and I...we are no longer lowly outcasts content with mere survival; we are Divine. \n \nWith Kane on our side, it is time to destroy those who tore my life asunder. \nA large GDI taskforce has set up a base south of Cairo. With the World Altering Missile close to launch, Kane predicts that GDI will launch an assualt on Cairo within a matter of hours. We must destroy this taskforce before it can invade Cario or join with any other GDI forces approaching the city. \n \nA Nod base is engaging the encroaching GDI vermin as we speak. If we are quick enough, we will be able to reinforce the base and push GDI out together. \n \nWith the help of Nod's Tiberium scientists and engineers, I have new units for you to test, as well as a new Construction Yard and superweapon. I'm sure you will have a lot of fun using them to eradicate GDI. Just make sure the Constuction yard survives, it is the only one we have for now."
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro1
+"Death Dealer: 'What did Ghost think he'd gain by sending you to spy on me?'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro2
+"Umagon: 'He didn't send me; I'm here to stop you from tearing our people apart!'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro3
+"Death Dealer: 'Tearing your people apart? Blame your precious GDI for that before we bury them.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro4
+"Death Dealer: 'Take her to Kane. My commander and I have other unwelcome guests to deal with.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro5
+"Death Dealer: 'Looks like this Nod base is about to fall, but no matter, all the glory will be ours.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Intro6
+"Death Dealer: 'Our arsenal has been greatly expanded. Feel free to test our new weapons on the vermin, but make sure our Construction Yard survives as it is the only one we have right now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:Objective_1
+"Objective 1: Eradicate all GDI forces. \nObjective 2: Your Construction Yard must survive."
+END
+
+MSNSTR:RDS:ACT_0:M7B:ObeliskHint
+"Death Dealer: 'The Nod base is destroyed, but the Obelisks are still standing. Use Engineers to bring them under our control.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:WeatherControllerOnline
+"Nod Engineer: 'Commander! The Weather Controller is ready to use!'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:IonCannonBuilt
+"Death Dealer: 'An Ion Cannon?! They are finally taking us seriously. Let's see how the like our own superweapon.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltCatapult
+"The Catapult is an artillery unit armed with 4 mortar barrels. It can be upgraded to turn enemy infantry into friendly Viceroids within seconds."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltVindicator
+"The Vindicator's Blue Tiberium weapon is based upon Archon's new-found abilities during his interrupted stablisation process. It can destroy enemy vehicles with ease."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltPurifier
+"Old Flame Tanks, gifted from Nod, now use a powerful stream of pressurised liquid Tiberium to melt flesh and metal alike."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltWarFloater
+"Floaters are new and extremely powerful Tiberium creatures that have made their homes near Veinholes. \nWe have tamed a number of these beasts to carry garrison pods for transportation and increased firepower."
+END
+
+MSNSTR:RDS:ACT_0:M7B:BuiltImpaler
+"The Impaler is a Tiberium plant that can rapidly move its roots to cause heavy damage to hostile units from underground."
+END
+
+MSNSTR:RDS:ACT_0:M7B:GDIOutpostDestroyed
+"Death Dealer: 'Excellent, destroying that outpost will help strengthen our position.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:GDIAirbaseDestroyed
+"Death Dealer: 'GDI has lost their air support. The battle is all but won now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:GDIMainBaseDestroyed
+"Death Dealer: 'The main GDI base is destroyed. South Cairo is be safe for now.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:MissionAccomplished
+"Death Dealer: 'Excellent work, Commander! I will contact Kane's Pyramid and let them know of our victory. Get ready to return to Cairo, we are about to lead a new world. \nMISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:ACT_0:M7B:LoseWeatherController
+"Death Dealer: 'The Weather Controller has been destroyed, I am disappointed with you, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M7B:LoseConstructionYard
+"Our Construction Yard has been destroyed. \nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M8:GDIVictoryTimer
+"GDI victory in Cairo estimated in:"
+END
+
+MSNSTR:RDS:ACT_0:M8:PlayerSuperweaponOnlineTimer
+"Weather Controller Online In:"
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing_Detail
+"Message from Ghost Stalker: \nYou've done the right thing, Commander. Let no one tell you any different. \n \nMcNeil and GDI are currently engaging Nod in Cairo to try and stop the launch of the World Altering Missile. We cannot allow the so-called 'Divine' to enter the city, it is as simple as that. If we fail, GDI will be overrun and the Earth will be doomed. \nThis is tough on all of us. We are all dying without Death Dealer's help, but if saving the world comes at the cost of our lives...it's a cost we have to pay. \n Our objective will be complete if GDI is victorious in Cairo, so it's up to you whether to hold the line or take the fight to the Divine. Either way will no doubt be costly. \nGood luck, our people are counting on you."
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing2
+"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M8:Briefing2_Detail
+"Message from Death Dealer: \nYou're on the right side of history, Commander. Let no one tell you any different. \n \nGhost Stalker believes that we are attempting to help Kane defend the World Altering Missile, but he is only half right. \nWith the Forgotten blockading south Cairo, a new opportunity presents itself: the reunion of Divine and Forgotten. If they're not willing to join us, we will force them to submit to us. \n \nYour mission is simple: destroy all of the Forgotten production structures to force them to submit but leave Ghost Stalker alive. If we can force Ghost Stalker to join us, the Forgotten will follow him into our arms. We will walk into Cairo together, to usher in a world fit only for our people. Good luck, our people are counting on you."
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro1
+"Ghost Stalker: 'I never wanted it to end this way.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro2
+"Death Dealer: 'I know. I wish we could go into exile and spend our final days together.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro3
+"Ghost Stalker: 'Look around you. Look at the lives you saved. Look at how strong they are because of you. Don't tell me you're willing to take that away from them!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro4
+"Death Dealer: 'Move out of my way, and no one will have to die.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro5
+"Ghost Stalker: 'I can't do that. That missile will kill us all.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro6
+"Death Dealer: 'Do you honestly think living under GDI's tyranny will be any better?'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro7
+"Ghost Stalker: 'Commander, I'm sorry, you must choose.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro8
+"Select Ghost Stalker to side with the Forgotten \n \nSelect Death Dealer to side with the Divine"
+END
+
+MSNSTR:RDS:ACT_0:M8:Empty
+""
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro9
+"Ghost Stalker: 'Sydney...'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro10
+"Ghost Stalker: 'We had a good time, didn't we?'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro11
+"Sydney: '...and it ended much too soon, my love.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro12
+"Death Dealer: 'Warn your people: those who reject change will be conquered by it.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Intro13ForForgotten
+"Ghost Stalker: 'Commander, if even one of these blockades fall, the Divine will enter Cairo and assist Nod. Ensure that does not happen.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostCollapses1
+"Archon: 'Ghost! What's the matter?!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostCollapses2
+"Archon: 'Shit! I've got to help him! You will have to stop the Divine without us, but I will fill you in on anything our scouts find. I'm sorry, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostUpdate1
+"Archon: 'Commander, it's me. It's not good news: Ghost Stalker's Tiberium mutation has reached the final stage. We can't treat him without Death Dealer's help.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostUpdate2
+"Archon: 'I'm going to contact Agent Park to see if GDI can help us. Hold tight, my friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkHelps
+"Agent Park: 'Commander, this is Park. Archon told me everything. I've requested some Drop Pod reinforcements to help you. I hope it helps.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkGivesGoodNewsEASY
+"Agent Park: 'I have an update from our forces in Cairo: they are pushing south and Nod are on the back foot! They estimate they will reach Kane's Pyramid in 20 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkGivesGoodNewsNORMAL
+"Agent Park: 'I have an update from our forces in Cairo: they are pushing south and Nod are on the back foot! They estimate they will reach Kane's Pyramid in 40 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:AgentParkGivesGoodNewsHARD
+"Agent Park: 'I have an update from our forces in Cairo: they are pushing south and Nod are on the back foot! They estimate they will reach Kane's Pyramid in 60 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathWorriesForTheForgotten1
+"Death Dealer: 'I can't believe it's come to this. I don't want to kill the ones that saved me.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathWorriesForTheForgotten2
+"Death Dealer: 'But so long as GDI exists, we will never prosper. I'm sorry, Commander, but many of our people will have to die today.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:WhereIsGhost
+"Death Dealer: 'Where's Ghost Stalker? I thought he'd be leading the charge.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DamnGDI
+"Death Dealer: 'Using GDI to fight your battles... damn you, Ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostStalkerObjective
+"Final Objective: Do not allow the Divine to enter Cairo"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealerObjective
+"Final Objective: Subjugate the Forgotten by destroying their production structures \nDO NOT kill Ghost Stalker"
+END
+
+MSNSTR:RDS:ACT_0:M8:PlayerBuildsWeatherController
+"The Weather Controller needs time to come online for balance reasons."
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealerBuildsWeatherController
+"Archon: 'Commander, our scouts have detected an unknown structure filled with Blue Tiberium. Be careful!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DDWeatherControllerDestroyedBeforeOnline
+"Archon: 'Excellent timing, Commander. We should study that device and salvage what we can.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealerWeatherControllerOnline
+"Archon: 'That doesn't look like a normal Ion Storm! It must have been caused by that new device, it looks like it activates about every 7 minutes.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:GhostStalker2SurrendersToPlayer
+"Mutant Leader: 'Stop! We surrender! Ghost Stalker was wrong, we will become Divine in the new world!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DeathDealer2SurrendersToPlayer
+"Mutant Leader: 'Stop! We surrender! Death Dealer was wrong, we will all die if Kane launches that missile!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DaveAndHisFloater
+"Mutant: 'I haven't seen a floater that big since that time Dave forgot to flush!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DaveAndHisFloater2
+"Mutant Serge: 'F*** sake, Dave.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:DivineEnterCairo
+"Death Dealer: 'My forces have entered Cario and are now pushing back GDI. You have lost. There is no place in our new world for you, you pathetic traitor.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:EndingForgottenVictory
+"Archon: 'Commander, you can stop now. GDI has destroyed the World Altering Missile. I'm contacting Death Dealer about Ghost, perhaps that will end this bloodshed before it gets worse.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:EndingDivineVictory
+"Archon: 'You're too late. We've received word that GDI has destroyed Kane's missile. \nBut Ghost Stalker is in the last stage of mutation... he's dying... please come and see him quickly.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending1
+"Archon: 'This way, there's not much time.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending2
+"Death Dealer: 'Why didn't you tell me sooner? You know only I can save you!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending3
+"Ghost Stalker: 'Our people come first; I wanted you to stablise everyone before you treated me, but then you left.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending4
+"Death Dealer: 'Many of our people have just died fighting each other because of YOUR stubbornness!'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending5
+"Death Dealer: 'But fine, if that's what you want, let's make a deal:'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending6
+"Death Dealer: 'I save your life, and teach your medics how to stabilse the tiberium mutations.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending7
+"Death Dealer: 'In return... the Forgotten leave me and the Divine alone. \nShould GDI betray you, like they betrayed me, you give me command of the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending8
+"Ghost Stalker: 'For the sake of the Forgotten... I accept.'"
+END
+
+MSNSTR:RDS:ACT_0:M8:Ending9
+"Death Dealer: 'Good, we need you now more than ever. I hope the new dawn will be bright for both of us.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro1
+"3 Years after the Battle of Cairo"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro2
+"Divine soldier: 'They're landing in our base! We're going to be overrun!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro3
+"Death Dealer: 'Destroy the bridges! We need to slow ZOCOM down before divination takes place!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro4
+"Death Dealer: 'Reinforcements are on the way, get ready!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:EstablishingControl
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_0:M81:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_1
+"Destroy the bridges to delay ZOCOM"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_1_Detail
+"ZOCOM are dangerously close to the Divine Shrines. Destroying the bridges will buy us time to prepare the defences."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_2
+"UPDATE: The bridges MUST SURVIVE"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_2_Detail
+"The arrival of Forgotten refugees has complicated this mission further. Death Dealer requests that we save the Forgotten as quickly as possible. Therefore, the bridges MUST survive."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_3
+"Destroy the eastern ZOCOM defences"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_3_Detail
+"The quickest route between our base and the Forgotten camp is the eastern road. ZOCOM defences along the route must be destroyed in order to secure safe passage to the Forgotten convoy. \n \nZOCOM will be focused on destroying our base, so you shouldn't have to deal with their main forces."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_4
+"Escort the first Forgotten convoy"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_4_Detail
+"The Forgotten are sending their first convoy of survivors to our base. You must protect the trucks from ZOCOM at all costs."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_5
+"Destroy the Ion Cannon Control Centre"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_5_Detail
+"ZOCOM know that we are trying to save the Forgotten and are calling in an Ion Cannon to stop this. They have built the Control Centre in an old town south of the main base. Take the western road to avoid the ZOCOM base but beware the battleship."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_6
+"Escort the second Forgotten convoy"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_6_Detail
+"With the Ion Cannon offline and road cleared, Archon is sending a second Forgotten convoy along the western road. Defend the convoy at all costs."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_7
+"Destroy the ZOCOM base to reunite the Forgotten and the Divine"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_7_Detail
+"Archon has given command of his camp to you. Use the remaining Forgotten forces and Divine funding to destroy the ZOCOM base from the south."
+END
+
+MSNSTR:RDS:ACT_0:M81:ForgottenArrives
+"Archon: 'Death Dealer! We're here to uphold our end of the deal. Please help us.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:BattleshipArrives
+"Death Dealer: 'They know what we are doing. We must move quickly before ZOCOM decide to destroy all the bridges.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:WestConvoyDestroyed
+"Death Dealer: 'Bastards! Is there no end to their bloodlust?! Archon, there's no way through to us now.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:AllAboard
+"Archon: 'No. There's still a way.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win
+"Death Dealer: 'The road is clear. Bring the last of the Forgotten to me, Archon.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win2
+"Death Dealer: 'Welcome home.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win3
+"Death Dealer: 'Where's Ghost? Why do you have his railgun?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win4
+"Archon: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback1
+"Ghost Stalker: 'Is everyone ready to evacuate?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback2
+"Archon: 'Yes, but are you sure we can trust her? You said it yourself that she broke our alliance with GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback3
+"Ghost Stalker: 'I have to honour my agreement with her. She leads the Forgotten now.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback4
+"Archon: 'She expolited your agreement to get what she wanted! She has no right to lead us!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback5
+"Ghost Stalker: 'You're right. But what choice do we have? The Forgotten will be exterminated if we don't join with the Divine.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback6
+"Archon: 'I understand. Let's go.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback7
+"Archon: 'Ghost?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback8
+"Ghost Stalker: 'Take the railgun and give it to Death Dealer.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback9
+"Archon: 'Why?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback10
+"Ghost Stalker: 'Those who reject change will be conquered by it.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback11
+"Ghost Stalker: 'Goodbye, my old friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback12
+"Archon: 'I will try to make you proud, Ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Realisation1
+"Death Dealer: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Realisation2
+"Death Dealer: 'Everyone, go to the Shrines. The Black Hand will guard you as you rest.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Realisation3
+"Death Dealer: 'Commander, I need you to help the Black Hand protect the Divine Shrines. \n So long as our people live, Ghost Stalker will never be forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:LoseBridgeDestroyed
+"Death Dealer: 'A bridge has been destroyed. You have failed.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:LoseTruckDestroyed
+"Death Dealer: 'A Forgotten truck has been destroyed. You have failed.'"
+END
+

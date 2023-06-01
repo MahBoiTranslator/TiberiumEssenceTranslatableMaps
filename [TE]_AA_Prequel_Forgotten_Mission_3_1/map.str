@@ -1,0 +1,95 @@
+MSNSTR:RDS:ACT_0:M31:Line_1
+	"???: 'Good morning, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_2
+	"???: 'The stablisation was a success; your Tiberium mutations have slowed down significantly.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_3
+	"Ghost Stalker: 'Congratulations, Commander! You're the first Forgotten to be stabilised.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_4
+	"Tratos: 'May I come in?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_5
+	"??? 'Of course, Tratos.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_6
+	"Tratos: 'I'm sorry I'm late. How are you all? How did the raid go?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_7
+	"???: 'We had a good time didn't we, Ghost?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_8
+	"Ghost Stalker: 'But it ended much too soon! I was just starting to enjoy the cold weather!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_9
+	"???: 'Ha! You must have been, since you took your armour off as soon as I gave you the railgun!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_10
+	"Ghost Stalker: 'I did look badass though, didn't I?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_11
+	"???: 'It's a good thing the commander ordered you to go to the medical tents to warm up, else you'd have been a frozen badass!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_12
+	"Ghost Stalker: 'True. Thanks, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_13
+	"???: 'Tratos, the commander has been stabilised. I'm confident that my equipment will be able to save all the Forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_14
+	"Tratos: 'Excellent. I've been thinking of a name for you, and I think I've just found the perfect one...'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_15
+	"Tratos: 'Death Dealer, the one who wards off Death when all hope is lost.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_16
+	"???: 'Death Dealer... I like it.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_17
+	"Death Dealer: 'Tratos! What's wrong?!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_18
+	"Ghost Stalker: 'Stop! He's having a vision! He had them back when we were at the Nod camps!'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_19
+	"Tratos: 'The Tacitus...'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_20
+	"Ghost Stalker: 'Tacitus? What is the Tacitus?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_21
+	"Tratos: 'There's no time to explain. It's still hidden in Sarajevo, but Kane is searching for it. Ghost Stalker, Commander, you need to get it before Nod does.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_22
+	"Death Dealer: 'What about me?'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_23
+	"Tratos: 'I need you to stay here with me and heal our people. You're the only one with the knowledge to save them.'"
+END
+
+MSNSTR:RDS:ACT_0:M31:Line_24
+	"Death Dealer: 'Understood. Good luck everyone.'"
+END

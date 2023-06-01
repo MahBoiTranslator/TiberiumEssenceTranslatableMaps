@@ -1,0 +1,71 @@
+MSNSTR:RDS:ACT_0:M2:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M2:Briefing_Detail
+	"Message from Tratos:\nIt looks like we have gained more than just a home. An unknown, blue-skinned Forgotten, as unique as she is mysterious, has agreed to use her knowledge of Tiberium for the good of our people. However, she needs her equipment from a GDI lab located in the Arctic Circle. I know I'm stating the obvious, but we don't have the means to build aircraft that will travel that far.\n\nThe only option we have is stealing some of the new GDI transports my scouts have discovered. Codenamed: 'Carryall', we believe these transports are designed to carry heavy vehicles across great distances. Two of them are located at a GDI airbase near the new city GDI is building. Try not to harm the civilians, they are not our enemy."
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro1
+	"Mutant Sergeant: 'Welcome, Ghost, Commander. We have located the GDI transports you requested.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro2
+	"Ghost Stalker: 'This wasn't my request; our friend here needs them.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro3
+	"Mutant Sergeant: 'So we are now taking orders from a nameless outsider?\nWhy does she deserve to lead us?'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro4
+	"Ghost Stalker: 'Think about where we came from before you call anyone else an outsider, Sergeant.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro5
+	"Mutant Sergeant: 'Just go and find some salvage or something. I'll stay with the Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Intro6
+	"Ghost Stalker: 'Whatever you say...Archon.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Objective_1
+	"Objective: Destroy all GDI forces to secure the Orca Carryalls."
+END
+
+MSNSTR:RDS:ACT_0:M2:GDIWarning
+	"Archon: 'GDI don't have much of a presence here. But don't underestimate them, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:GDIWalkers
+	"Archon: 'What the hell is that thing? Commander, keep our infantry away from it!'"
+END
+
+MSNSTR:RDS:ACT_0:M2:FiendsDiscovered
+	"???: 'Commander, take a look at this.\nThey're not attacking us. They must think we're part of the pack.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:FiendsUnderControl
+	"???: 'I think we can tame more. You should look for them near Tiberium fields.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Bridge
+	"Ghost Stalker: 'I think we can flank the GDI defences if you can get an engineer to repair the bridge.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:GhostInjured
+	"???: 'Ghost has been hurt! I'm going to get him back to base!'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Win1
+	"Archon: 'Mission accomplished. Well done, Commander.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Win2
+	"???: 'Grab some GDI armour, everyone, Oh, and pack a scarf; it's going to be chilly up there.'"
+END
+
+MSNSTR:RDS:ACT_0:M2:Lose
+	"Mission Failed"
+END

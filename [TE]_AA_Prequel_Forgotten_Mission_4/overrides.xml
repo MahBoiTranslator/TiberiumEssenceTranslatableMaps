@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="AlienAssimilator.xml" type="all"/>
+      <Include source="GDIGrenadeSoldierSquad.xml" type="all"/>	  
+      <Include source="GDISurveyor.xml" type="all"/>
+      <Include source="NODEmissary.xml" type="all"/>	  	  
+	  <Include source="NODLaserCannonSpawn.xml" type="all"/>
+	  <Include source="NODLaserCannonWeapon2.xml" type="all"/>
+	  <Include source="NODLaserCannon.xml" type="all"/>	  
+	  <Include source="NODRaiderTank.xml" type="all"/>	  
+	  <Include source="NODHarvester.xml" type="all"/>
+	  <Include source="NODBlackHandSquad.xml" type="all"/>
+	  <Include source="NODConfessor.xml" type="all"/>
+	  <Include source="NODMilitantRocketSquad.xml" type="all"/>	  
+	  <Include source="NODSaboteur.xml" type="all"/>
+      <Include source="GhostStalker.xml" type="all"/>		  
+	  <Include source="LogicSet.xml" type="all"/>
+		<Include type="all" source="ART:EGRLarge01.w3x" />
+		<!-- Base Object -->
+		<Include type="instance" source="DATA:BaseObjects/BaseRock.xml" />
+		<Include
+			type="all"
+			source="ART:GUSUV_SKN.w3x" />
+		<Include
+			type="all"
+			source="ART:GUSuvUPAK_SN.w3x" />
+		<Include
+			type="all"
+			source="ART:GUSuvUPAK_AN.w3x" />
+		<Include
+			type="all"
+			source="ART:GUSUVR_SKN.w3x" />
+		<Include
+			type="all"
+			source="ART:GUSUV_FP.w3x" />
+		<!-- Base Object -->
+		<Include
+			type="instance"
+			source="DATA:BaseObjects/BaseVehicle.xml" />	  
+	</Includes>
+
+	<LocomotorTemplate
+		id="RockLocomotor"
+		Name="RockLocomotor"
+		Surfaces="GROUND CRUSHABLE_OBSTACLE" 
+		TurnTimeSeconds="16.0s" 
+		TurnTimeDamagedSeconds="16.0s" 
+		MaxSpeedDamaged="75%"
+		AccelerationSeconds="1.0s"
+		BrakingSeconds="1.0s"
+		SlowTurnRadius="20.0" 
+		FastTurnRadius="40.0" 
+		BehaviorZ="NO_MOTIVE_FORCE"	
+		Appearance="FOUR_WHEELS" 
+			
+		UseTerrainSmoothing="true"
+			
+		AccelPitchLimit="3d"
+		BounceKick="3d"
+		PitchStiffness="0.2"
+		RollStiffness="0.75"
+		PitchDamping="0.15"
+		RollDamping="0.75"
+		ForwardAccelerationPitchFactor="0.05"
+		LateralAccelerationRollFactor="0.0"
+		HasSuspension="true"
+		
+		ClampOrientationToPathTangent="true"
+		MaximumWheelExtension="-2.3"
+		MaximumWheelCompression="1.4"
+		WheelTurnAngle="30d"
+	/>
+
+	<GameObject
+		id="EGRLarge01"
+		inheritFrom="BaseVehicle"
+		SelectPortrait="Portrait_GDISurveyor"
+		ButtonImage="Portrait_GDISurveyor"
+		Side="GDI"
+		EditorSorting="UNIT"
+		TransportSlotCount="1"
+		BuildCost="1500"
+		BuildTime="15"
+		CommandSet="GDISurveyorCommandSet"
+		KindOf="PRELOAD SELECTABLE CAN_CAST_REFLECTIONS SCORE VEHICLE FS_FACTORY CAN_REVERSE_MOVE EXPANSION_UNIT CAN_BE_FAVORITE_UNIT UNATTACKABLE NOT_AUTOACQUIRABLE"
+		RadarPriority="UNIT"
+		PlacementViewAngle="315d"
+		ProductionQueueType="OTHER_STRUCTURE"
+		UnitCategory="VEHICLE"
+		VoicePriority="48"
+		EditorName="GDISurveyor"
+		Description="Desc:GDISurveyor"
+		TypeDescription="Type:GDISurveyor">
+		<DisplayName>Name:GDISurveyor</DisplayName>
+		<GameDependency>
+			<RequiredObject>GDIConstructionYard</RequiredObject>
+		</GameDependency>
+		<ArmorSet
+			Armor="GDISurveyorArmor"
+			DamageFX="VehicleDamageFX" />
+		<LocomotorSet
+			Locomotor="RockLocomotor"
+			Condition="NORMAL"
+			Speed="50.0" />
+		<Draws>
+		<!--	<PropDraw
+				Model="EGRLarge01" 
+			/>-->
+			<TruckDraw
+				id="ModuleTag_Draw"
+				LeftFrontTireBone="Bone_LFTire"
+				RightFrontTireBone="Bone_RFTire"
+				MidLeftRearTireBone="Bone_LMTire"
+				MidRightRearTireBone="Bone_RMTire"
+				LeftRearTireBone="Bone_LRTire"
+				RightRearTireBone="Bone_RRTire"
+				TireRotationMultiplier="0.1"
+				OkToChangeModelColor="true">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="EGRLarge01" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<Model
+						Name="GUSUVR_SKN" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="FORMATION_PREVIEW">
+					<Model
+						Name="GUSUV_FP" />
+				</ModelConditionState>					
+				<!--				
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="UNPACKING">
+					<Model
+						Name="GUSuvUPAK_SN" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="UNPACKING"
+					Flags="START_FRAME_LAST">
+					<Animation
+						AnimationName="GUSuvUPAK_AN" />
+				</AnimationState>
+-->
+			</TruckDraw>
+		</Draws>
+		<Behaviors>
+			<Physics
+				id="ModuleTag_Physics" />
+			<ProductionUpdate
+				id="ModuleTag_ProductionUpdate" />
+			<SlowDeath
+				id="ModuleTag_Death"
+				DeathObjectStatusBits="DONT_CLEAR_FOR_BUILD"
+				SinkDelay="3s"
+				SinkRate="1.0"
+				DestructionDelay="7s">
+				<OCL
+					Type="INITIAL">
+					<OCL>OCL_GDISUVDebris</OCL>
+				</OCL>
+				<DieMuxData
+					DeathTypes="ALL"
+					DeathTypesForbidden="TOPPLED" />
+				<!-- <Sound Type="INITIAL" List="GDI_Generic_VoiceDieMS" /> -->
+				<!-- need female voice die -->
+			</SlowDeath>
+			<FXListBehavior
+				id="ModuleTag_FXList">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					Index="onDeath"
+					FX="FX_GDIVehicleExplode" />
+			</FXListBehavior>
+			<ReplaceSelfUpgrade
+				id="ModuleTag_ReplaceSelf"
+				CheckBuildAssistant="true">
+				<TriggeredBy>Upgrade_UnPack</TriggeredBy>
+				<ReplacementTemplate>GDIMiniMCVOutpost</ReplacementTemplate>
+			</ReplaceSelfUpgrade>
+			<AISpecialPowerUpdate
+				id="ModuleTag_SurveyorDeployOutpost"
+				CommandButtonName="Command_UnPackSurveyor"
+				SpecialPowerAIType="SPECIAL_POWER_BUILD_CONYARD" />
+			<!-- No stances because there's no weapon -->
+			<StancesBehavior
+				id="ModuleTag_Stance"
+				 />
+
+		</Behaviors>
+		<AI>
+			<AIUpdate
+				id="ModuleTag_AI"
+				AutoAcquireEnemiesWhenIdle="NO"></AIUpdate>
+		</AI>
+		<Body>
+			<ActiveBody
+				id="ModuleTag_Body"
+				MaxHealth="2000.0" />
+		</Body>
+		<ClientBehaviors>
+		<!--
+			<ModelConditionAudioLoopClientBehavior
+				id="ModuleTag_MCALCB">
+				<ModelConditionSound
+					Sound="GDI_MCVpack"
+					RequiredFlags="UNPACKING" />
+			</ModelConditionAudioLoopClientBehavior>
+		-->
+		</ClientBehaviors>
+		<Geometry
+			IsSmall="true">
+			<Shape
+				Type="BOX"
+				MajorRadius="20.0"
+				MinorRadius="10.0"
+				Height="15.0"
+				ContactPointGeneration="VEHICLE" />
+		</Geometry>
+		<AudioArrayVoice>
+			<AudioEntry
+				Sound="GDI_Surveyor_VoiceCreate"
+				AudioType="voiceCreated" />
+			<AudioEntry
+				Sound="GDI_Surveyor_VoiceMove"
+				AudioType="voiceMove" />
+			<AudioEntry
+				Sound="GDI_Surveyor_VoiceRetreat"
+				AudioType="voiceRetreatToCastle" />
+			<AudioEntry
+				Sound="GDI_Surveyor_VoiceSelectMS"
+				AudioType="voiceSelect" />
+		</AudioArrayVoice>
+		<AudioArraySound>
+			<AudioEntry
+				Sound="GDI_Surveyor_MoveStart"
+				AudioType="soundMoveStart" />
+			<AudioEntry
+				Sound="GDI_Surveyor_IdleLoop"
+				AudioType="soundAmbient" />
+		</AudioArraySound>
+		<ShadowInfo
+			Type="VOLUME" />
+		<VisionInfo
+			VisionRange="100"
+			ShroudClearingRange="200" />
+	</GameObject>	
+	
+   	<SpecialPowerTemplate
+		id="SpecialPowerNuclearMissile"
+		DisplayName="NAME:SuperweaponTimerNuclearMissile"
+		Description="DESC:SuperweaponTimerNuclearMissile"
+		Flags="IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="9999s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300" 
+		RestrictionType="1"
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateAlly="AlliedNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateEnemy="EnemyNuclearMissileLaunched"
+		TimerImage="Button_PlayerPowerNuclearMissile"/>	
+		
+	<MissionObjectiveList id="MissionObjectives">
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_0:M4:Briefing"
+			Description="MSNSTR:RDS:ACT_0:M4:Briefing_Detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>			
+	</MissionObjectiveList>			
+</AssetDeclaration>

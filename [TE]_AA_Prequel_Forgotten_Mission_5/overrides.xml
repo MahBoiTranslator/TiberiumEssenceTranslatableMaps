@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="AlienAssimilator.xml" type="all"/>
+      <Include source="GDIGrenadeSoldierSquad.xml" type="all"/>	  
+      <Include source="GDISurveyor.xml" type="all"/>
+      <Include source="NODEmissary.xml" type="all"/>	  	  
+	  <Include source="NODLaserCannonSpawn.xml" type="all"/>
+	  <Include source="NODLaserCannonWeapon2.xml" type="all"/>
+	  <Include source="NODLaserCannon.xml" type="all"/>	  
+	  <Include source="NODRaiderTank.xml" type="all"/>	  
+	  <Include source="NODHarvester.xml" type="all"/>
+	  <Include source="NODBlackHandSquad.xml" type="all"/>
+	  <Include source="NODConfessor.xml" type="all"/>
+	  <Include source="NODMilitantRocketSquad.xml" type="all"/>	  
+	  <Include source="NODSaboteur.xml" type="all"/>	  
+	  <Include source="LogicSet.xml" type="all"/>
+	</Includes> 
+	
+	<MissionObjectiveList id="MissionObjectives">
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_0:M5:Briefing"
+			Description="MSNSTR:RDS:ACT_0:M5:Briefing_Detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>			
+	</MissionObjectiveList>	
+</AssetDeclaration>

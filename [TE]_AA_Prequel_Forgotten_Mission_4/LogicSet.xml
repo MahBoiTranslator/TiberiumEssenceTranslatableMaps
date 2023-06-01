@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<Includes>
+	</Includes> 
+<LogicCommandSet
+		id="GDIConstructionYardCommandSet">
+		<Cmd>Command_ConstructGDIPowerPlant</Cmd>
+		<Cmd>Command_ConstructGDIRefinery</Cmd>
+		<Cmd>Command_ConstructGDIBarracks</Cmd>
+		<Cmd>Command_ConstructGDIWarfactory</Cmd>
+		<Cmd>Command_ConstructGDIMedicalCenter</Cmd>	
+		<Cmd>Command_ConstructGDIWatchTower</Cmd>
+		<Cmd>Command_ConstructGDITiberiumSilo</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet	  
+	     id="GDIPowerPlantCommandSet">
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>	
+<LogicCommandSet
+		 id="GDIBarracksCommandSet">
+		 <Cmd>Command_ConstructGDIRifleSoldierSquad</Cmd>
+		 <Cmd>Command_ConstructGDIGrenadeSoldierSquad</Cmd>
+		 <Cmd>Command_ConstructGDIEngineer</Cmd>		 
+		 <Cmd>Command_ConstructGDIMedic</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="GDIWarFactoryCommandSet">
+		 <Cmd>Command_ConstructGDIHarvester</Cmd>
+		 <Cmd>Command_ConstructGDIPitbull</Cmd>
+		 <Cmd>Command_ConstructGDIPredator</Cmd>
+		 <Cmd>Command_ConstructGDIAPC</Cmd>
+		 <Cmd>Command_ConstructGDISurveyor</Cmd> 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="GDICommandPostCommandSet">		 		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		id="GDIMedicalBayCommandSet">
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+      </LogicCommandSet> 
+<LogicCommandSet
+		id="GDIArmoryCommandSet">
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		id="NODConstructionYardCommandSet">
+		<Cmd>Command_NOD_BuildPowerPlant</Cmd>
+		<Cmd>Command_NOD_BuildRefinery</Cmd>
+		<Cmd>Command_NOD_BuildBarracks</Cmd>
+		<Cmd>Command_NOD_BuildDropZone</Cmd>
+		<Cmd>Command_NOD_BuildOperationsCenter</Cmd>
+		<Cmd>Command_NOD_BuildSecretShrine</Cmd>		
+		<Cmd>Command_NOD_BuildLaserCannon</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumSilo</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>	
+<LogicCommandSet	  
+	     id="NODPowerPlantCommandSet">
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODHandOfNODCommandSet">
+		 <Cmd>Command_ConstructNODMilitantSquad</Cmd>
+		 <Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+		 <Cmd>Command_ConstructNODSaboteur</Cmd>
+         <Cmd>Command_ConstructNODCyborgSquad</Cmd>
+		 <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>	  
+<LogicCommandSet
+		 id="NODDropZoneCommandSet">
+		 <Cmd>Command_ConstructNODHarvester</Cmd> 
+		 <Cmd>Command_ConstructNODScorpionBuggy</Cmd>
+		 <Cmd>Command_ConstructNODRaiderTank</Cmd>
+		 <Cmd>Command_ConstructNODEmissary</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODOperationsCenterCommandSet">
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+        id="NODSecretShrineCommandSet">		
+        <Cmd>Command_TogglePower</Cmd>
+        <Cmd>Command_SelfRepair</Cmd>
+        <Cmd>Command_Sell</Cmd>
+        <Cmd>Command_SetDefaultBuilding</Cmd>
+        <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>	  
+<LogicCommandSet
+		id="ForgottenCraneCommandSet">
+		<Cmd>Command_ConstructForgottenPowerPlant</Cmd>
+		<Cmd>Command_ConstructForgottenRefinery</Cmd>
+		<Cmd>Command_ConstructForgottenBarracks</Cmd>
+		<Cmd>Command_ConstructForgottenWarfactory</Cmd>
+		<Cmd>Command_ConstructForgottenSanctuary</Cmd>		
+		<Cmd>Command_ConstructForgottenScrapyard</Cmd>	
+		<Cmd>Command_ConstructForgottenGuardTower</Cmd>			
+		<Cmd>Command_ConstructForgottenTiberiumSilo</Cmd>		
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>	
+<LogicCommandSet	  
+	     id="ForgottenPowerPlantCommandSet">
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>		
+<LogicCommandSet
+         id="ForgottenBarracksCommandSet">
+         <Cmd>Command_ConstructForgottenBreacherSquad</Cmd> 
+         <Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+         <Cmd>Command_ConstructAlienAssimilator</Cmd>
+	     <Cmd>Command_ConstructForgottenFiend</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="ForgottenWarfactoryCommandSet">
+		 <Cmd>Command_ConstructForgottenHarvester</Cmd>
+		 <Cmd>Command_ConstructForgottenPickup</Cmd>
+		 <Cmd>Command_ConstructForgottenApc</Cmd>		 
+		 <Cmd>Command_ConstructForgottenTrike</Cmd>
+		 <Cmd>Command_ConstructGDISurveyor</Cmd>	
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet	  
+	     id="ForgottenSanctuaryCommandSet">
+         <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+ <LogicCommandSet
+		id="ForgottenScrapyardCommandSet">
+		<Cmd>Command_PurchaseUpgradeForgottenMoreGuns</Cmd>
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>     
+</AssetDeclaration>

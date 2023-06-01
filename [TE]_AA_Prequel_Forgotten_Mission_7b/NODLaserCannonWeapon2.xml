@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+<WeaponTemplate id="NODLaserCannonWeapon2" Name="NODLaserCannonWeapon2" AttackRange="350" AcceptableAimDelta="10d" WeaponSpeed="999999" FireSound="Multisound:NOD_ScorpionTank_BeamWeaponLoop2MS" FireFX="FX_NODSpitfireFire" ClipSize="1" ShotsPerBarrel="1" ReAcquireDetailType="POST_FIRE">
+<PreAttackDelay MinSeconds="0.5s" MaxSeconds="0.5s" />
+<FiringDuration MinSeconds="2s" MaxSeconds="2s" />
+<ClipReloadTime MinSeconds="1s" MaxSeconds="1s" />
+<Nuggets>
+<ActivateLaserNugget Lifetime="0.8s" LaserId="1" HitGroundFX="FX_NODSpitfireHit" />
+<DamageNugget Damage="300" DelayTimeSeconds="0.1s" DamageType="CANNON" DeathType="LASERED" DamageFXType="NOD_LASER" />
+</Nuggets>
+</WeaponTemplate>
+</AssetDeclaration>

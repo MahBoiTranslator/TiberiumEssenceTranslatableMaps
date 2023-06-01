@@ -1,0 +1,91 @@
+MSNSTR:RDS:ACT_0:M1:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M1:Briefing_Detail
+	"Message from Tratos:\nCongratulations earning this postion, Commander. As we find more of those like us; those who escaped the horrors of Nod's prisons, it's imperative that we find a place to call home. One pontentially suitable area is an old industrial site that was ruined during the Tiberium War. My scouts have reported that GDI and Nod are fighting over the area, so there must be some value left in the site. Because of this, I'm sending our most experienced warrior, Ghost Stalker, to help you find anything of value. \nHowever, it's unlikely GDI and Nod will take much interest in our presence. To them, we are forgotten."
+END
+
+MSNSTR:RDS:ACT_0:M1:Intro1
+	"Tratos: 'Despite their small forces here, GDI and Nod are fighting relentlessly.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Intro2
+	"Tratos: 'There should be plenty of salvage around. Let me know what you can find, Ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Objective_1
+	"Objective 1: Find useful salvage in the area\nGhost Stalker must survive."
+END
+
+MSNSTR:RDS:ACT_0:M1:Objective_2
+	"Objective 2: Capture GDI's and Nod's Tiberium Refineries. Do not destroy them."
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostLocatesBarracks
+	"Ghost Stalker: 'Looks like Nod have set up a camp, they won't be needing it for much longer.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostClaimsBarracks
+	"Tratos: 'Well done. Our people can use this camp to rest and train.\n You can recruit help here.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostLocatesFactory
+	"Ghost Stalker: 'GDI are guarding an old factory, it must have some value left.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostClaimsFactory
+	"Tratos: 'Excellent work. I'm sending talented mechanics to see what vehicles can be built for you.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:RefineryReveal1
+	"Tratos: 'Ghost, we can use this industrial estate to rehome our people.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:RefineryReveal2
+	"Tratos: 'GDI and Nod each have a Tiberium refinery to the north of us.\nCapture both to give us the ability to rebuild this place.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:GhostDies
+	"Tratos: 'Ghost? Can you hear me? Ghost...'"
+END
+
+MSNSTR:RDS:ACT_0:M1:UnableToCaptureRefineries
+	"How? How are you unable to capture the refineries? The AI doesn't even attack your War Camp and you can't sell nor destroy it yourself. Did you edit the map so you could? Seek help dude, seek help."
+END
+
+MSNSTR:RDS:ACT_0:M1:RefineryDestroyed
+	"Tratos: 'One of the refineries has been destroyed. We have lost our chance to become more than mere salvagers.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win1
+	"Tratos: 'You did it, my friend!. Our people are starting to settle and build up our new home.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win2
+	"Later that day"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win3
+	"Mutant Trooper: 'What are you? Why do you have blue skin?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win4
+	"Mutant Engineer: 'Are you going to die? Is that how this ends for us?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win5
+	"Tratos: 'What is your name, my child?'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win6
+	"???: 'I have no name to be proud of.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win7
+	"Ghost Stalker: 'We can help you find one. You are more than welcome to join us.'"
+END
+
+MSNSTR:RDS:ACT_0:M1:Win8
+	"???: 'Thank you.'"
+END

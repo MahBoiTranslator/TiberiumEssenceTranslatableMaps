@@ -1,0 +1,179 @@
+MSNSTR:RDS:ACT_0:M81:Intro1
+	"3 Years after the Battle of Cairo"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro2
+	"Divine soldier: 'They're landing in our base! We're going to be overrun!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro3
+	"Death Dealer: 'Destroy the bridges! We need to slow ZOCOM down before divination takes place!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Intro4
+	"Death Dealer: 'Reinforcements are on the way, get ready!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:EstablishingControl
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_0:M81:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_1
+	"Destroy the bridges to delay ZOCOM"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_1_Detail
+	"ZOCOM are dangerously close to the Divine Shrines. Destroying the bridges will buy us time to prepare the defences."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_2
+	"UPDATE: The bridges MUST SURVIVE"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_2_Detail
+	"The arrival of Forgotten refugees has complicated this mission further. Death Dealer requests that we save the Forgotten as quickly as possible. Therefore, the bridges MUST survive."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_3
+	"Destroy the eastern ZOCOM defences"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_3_Detail
+	"The quickest route between our base and the Forgotten camp is the eastern road. ZOCOM defences along the route must be destroyed in order to secure safe passage to the Forgotten convoy.\n\nZOCOM will be focused on destroying our base, so you shouldn't have to deal with their main forces."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_4
+	"Escort the first Forgotten convoy"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_4_Detail
+	"The Forgotten are sending their first convoy of survivors to our base. You must protect the trucks from ZOCOM at all costs."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_5
+	"Destroy the Ion Cannon Control Centre"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_5_Detail
+	"ZOCOM know that we are trying to save the Forgotten and are calling in an Ion Cannon to stop this. They have built the Control Centre in an old town south of the main base. Take the western road to avoid the ZOCOM base but beware the battleship."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_6
+	"Escort the second Forgotten convoy"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_6_Detail
+	"With the Ion Cannon offline and road cleared, Archon is sending a second Forgotten convoy along the western road. Defend the convoy at all costs."
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_7
+	"Destroy the ZOCOM base to reunite the Forgotten and the Divine"
+END
+
+MSNSTR:RDS:ACT_0:M81:Objective_7_Detail
+	"Archon has given command of his camp to you. Use the remaining Forgotten forces and Divine funding to destroy the ZOCOM base from the south."
+END
+
+MSNSTR:RDS:ACT_0:M81:ForgottenArrives
+	"Archon: 'Death Dealer! We're here to uphold our end of the deal. Please help us.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:BattleshipArrives
+	"Death Dealer: 'They know what we are doing. We must move quickly before ZOCOM decide to destroy all the bridges.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:WestConvoyDestroyed
+	"Death Dealer: 'Bastards! Is there no end to their bloodlust?! Archon, there's no way through to us now.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:AllAboard
+	"Archon: 'No. There's still a way.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win
+	"Death Dealer: 'The road is clear. Bring the last of the Forgotten to me, Archon.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win2
+	"Death Dealer: 'Welcome home.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win3
+	"Death Dealer: 'Where's Ghost? Why do you have his railgun?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Win4
+	"Archon: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback1
+	"Ghost Stalker: 'Is everyone ready to evacuate?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback2
+	"Archon: 'Yes, but are you sure we can trust her? You said it yourself that she broke our alliance with GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback3
+	"Ghost Stalker: 'I have to honour my agreement with her. She leads the Forgotten now.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback4
+	"Archon: 'She expolited your agreement to get what she wanted! She has no right to lead us!'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback5
+	"Ghost Stalker: 'You're right. But what choice do we have? The Forgotten will be exterminated if we don't join with the Divine.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback6
+	"Archon: 'I understand. Let's go.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback7
+	"Archon: 'Ghost?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback8
+	"Ghost Stalker: 'Take the railgun and give it to Death Dealer.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback9
+	"Archon: 'Why?'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback10
+	"Ghost Stalker: 'Those who reject change will be conquered by it.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback11
+	"Ghost Stalker: 'Goodbye, my old friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Flashback12
+	"Archon: 'I will try to make you proud, Ghost.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Realisation1
+	"Death Dealer: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Realisation2
+	"Death Dealer: 'Everyone, go to the Shrines. The Black Hand will guard you as you rest.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:Realisation3
+	"Death Dealer: 'Commander, I need you to help the Black Hand protect the Divine Shrines.\n So long as our people live, Ghost Stalker will never be forgotten.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:LoseBridgeDestroyed
+	"Death Dealer: 'A bridge has been destroyed. You have failed.'"
+END
+
+MSNSTR:RDS:ACT_0:M81:LoseTruckDestroyed
+	"Death Dealer: 'A Forgotten truck has been destroyed. You have failed.'"
+END

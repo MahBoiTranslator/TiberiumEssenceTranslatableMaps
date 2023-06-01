@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<Includes>
+	</Includes> 
+<LogicCommandSet
+		 id="GDIBarracksCommandSet">
+		 <Cmd>Command_ConstructGDIRifleSoldierSquad</Cmd>
+		 <Cmd>Command_ConstructGDIGrenadeSoldierSquad</Cmd>
+		 <Cmd>Command_ConstructGDIEngineer</Cmd>		 	 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODHandOfNODCommandSet">
+		 <Cmd>Command_ConstructNODMilitantSquad</Cmd>
+		 <Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+		 <Cmd>Command_ConstructNODSaboteur</Cmd>	 
+		 <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="ForgottenBarracksCommandSet">
+         <Cmd>Command_ConstructForgottenBreacherSquad</Cmd> 
+         <Cmd>Command_ConstructNODMilitantRocketSquad</Cmd>
+         <Cmd>Command_ConstructAlienAssimilator</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+         <Cmd>Command_SelfRepair</Cmd>
+         <Cmd>Command_Sell</Cmd>
+         <Cmd>Command_SetDefaultBuilding</Cmd>
+         <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="ForgottenWarfactoryCommandSet">
+		 <Cmd>Command_ConstructForgottenPickup</Cmd>	 
+		 <Cmd>Command_ConstructForgottenTrike</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Vehicle</Cmd>
+		 <Cmd>Command_RepairVehicle</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		id="ForgottenScrapyardCommandSet">
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>	  	  
+</AssetDeclaration>

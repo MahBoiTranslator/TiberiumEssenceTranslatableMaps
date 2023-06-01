@@ -1,0 +1,215 @@
+MSNSTR:RDS:ACT_0:M5:Briefing
+	"Mission Briefing"
+END
+
+MSNSTR:RDS:ACT_0:M5:Briefing_Detail
+	"We have recieved a distress call from home. Through the garbled tranmission, all we could decipher were these words from Death Dealer: 'underground', 'taking prisoners' 'Archon and I', and 'meet in the south'.\n\nReturning from Sarajevo , Ghost Stalker and yourself must reach Death Dealer and Archon before assessing the situation. We have no more intel at this time."
+END
+
+MSNSTR:RDS:ACT_0:M5:Intro1
+	"Ghost Stalker: 'No time to waste. We need to get the southern camp ASAP.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective_1
+	"Objective 1: Bring Ghost Stalker to Death Dealer and Archon"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective_2
+	"Objective 2: Capture the Operations Centre at the main Nod base"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective_3
+	"Objective 3: Destroy all remaining Nod forces\nGhost Stalker and Death Dealer's Combat Support Hospital must survive"
+END
+
+MSNSTR:RDS:ACT_0:M5:StolenDevilsTounge
+	"Hijacker: Man, it's hot as hell in here!"
+END
+
+MSNSTR:RDS:ACT_0:M5:NaughtyHijacker
+	"Hijacker: Don't shoot! It's me!"
+END
+
+MSNSTR:RDS:ACT_0:M5:ReachCamp
+	"Marauder: Thank God you're alive! Death Dealer is waiting for you by her hospital!"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp1
+	"Death Dealer: 'Ghost! Commander! We thought you'd never make it through!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp2
+	"Ghost Stalker: 'I feared the worst when I heard! Archon? Is that you?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp3
+	"Archon: 'Stop..calling me that...you...bast...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp4
+	"Death Dealer: 'Nod attacked during his treatment. We had to evacuate before I could stablise the effects.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp5
+	"Death Dealer: 'We've lost much. We will have to use our remaining resources wisely.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp6
+	"Death Dealer: 'I think we should focus on training our new infantry; Nod won't be expecting us to switch tactics.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseSetUp7
+	"Ghost Stalker: 'I disagree. Our new tanks and gunships should break down Nod with ease.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseYourDestiny
+	"Select Ghost Stalker for heavy vehicles and Scrapyard\nSelect Death Dealer for elite infantry and Vault of Knowledge"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseGhostStalker
+	"Ghost Stalker: 'Glad you agree, Commander. Let's test our new vehicles against the cowards. Death Dealer, look after the Tactitus.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:ChooseDeathDealer
+	"Death Dealer: 'Wise choice, Commander. A surprise attack by our Brutes and Ascended Squads should win this battle quickly. I will look after the Tactitus'"
+END
+
+MSNSTR:RDS:ACT_0:M5:WhyDidYouChooseGhostStalker
+	"Archon: 'You...made the wrong choice...Commander. Everyone knows Death Dealer's infantry...would have been...better for this...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:WhyDidYouChooseDeathDealer
+	"Archon: 'You...made the wrong choice...Commander. Ghost Stalker's armour...would have been better for this...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:GhostResponseToArchon
+	"Ghost Stalker: 'Shut up...and get well soon, my friend.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon1
+	"Archon: 'Nope.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon2
+	"Archon: 'Selecting me a second time won't change anything.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon3
+	"Archon: 'Fine! Since you want to select me so much, I've disabled your mouse and keyboard!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon4
+	"Archon: 'So, since you are now locked here, do you want to hear a secret?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon5
+	"Archon: 'You know that grey Black Hand soldier that observes some of the missions?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon6
+	"Archon: 'That's right! This one!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SelectArchon7
+	"Archon: 'Observe.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SetUpObjectives2and3
+	"Death Dealer: 'Commander, I saw Nod dragging Tratos into an APC. If you can capture the main Operations Centre, we should be able to find out where that APC is going.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective2Complete1
+	"Mutant Engineer: 'I'm inside the Ops Centre. Accessing transmission logs. Standby...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective2Complete2
+	"Mutant Engineer: 'Orders from General Vega: The mutant leader to be sent to the prison colony in eastern Mexico. \nOther surviors to be sent to prisons in Central Europe and North Africa.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective2Complete3
+	"Ghost Stalker: 'Vega? He was on that ship Umagon found in Sarajevo...'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Objective3Complete
+	"Ghost Stalker: 'That's for destroying our home you blunt scum.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:SubterraneanAttack
+	"---WARNING--- A Subterranean unit has surfaced in our camp!"
+END
+
+MSNSTR:RDS:ACT_0:M5:UmagonContact1
+	"Umagon: 'Ghost Stalker! Can you hear me? The ship crash landed and I think I can hear GDI and Nod fighting for control of it!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:UmagonContact2
+	"Ghost Stalker: 'Umagon, Nod has destroyed our home and taken prisoners. We're trying to salvage anything we can.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:UmagonContact3
+	"Ghost Stalker: 'Try and stay in touch with us, we'll update you once we destroy these bastards.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win1
+	"Ghost Stalker: 'There's nothing left for us here. We have to move on.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win2
+	"Death Dealer: 'What about Tratos? How are we going to save him?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win3
+	"Ghost Stalker: 'Nod's prisons are monitored by well-guarded senor arrays; they'll detect us and kill Tratos before we'd even see the prison.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win4
+	"Ghost Stalker: 'You won't like this...but...we're going to have to ask GDI for help.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win5
+	"Death Dealer: 'Are you insane?! By allying with GDI, you will doom us all!'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win6
+	"Ghost Stalker: 'It's a deal, not an alliance. We need Tratos back, and only GDI has the resources to pull off a rescue.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win7
+	"Death Dealer: 'And what are you going to offer in return?'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win8
+	"Ghost Stalker: 'Umagon and I will help find Vega for them. I'm sure GDI won't miss a chance to take out a Nod general.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:Win9
+	"Death Dealer: 'Fine. But I'm only agreeing because I trust you, Ghost. The Commander and I will set up a new HQ when you leave.'"
+END
+
+MSNSTR:RDS:ACT_0:M5:MissionAccomplished
+	"MISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:ACT_0:M5:GhostStalkerDying
+	"Ghost Stalker is seriously hurt. He must not die."
+END
+
+MSNSTR:RDS:ACT_0:M5:LoseGhostStalker
+	"Ghost Stalker has been killed. Mission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M5:CombatHospitalUnderAttack
+	"Death Dealer's Combat Support Hospital is under attack. Protect it at all costs!"
+END
+
+MSNSTR:RDS:ACT_0:M5:LoseDeathDealerAndArchon
+	"Death Dealer's Combat Support Hospital has been destroyed. Death Dealer and Archon are dead.\nMission Failed"
+END
+
+MSNSTR:RDS:ACT_0:M5:OpsCentreUnderAttack
+	"DO NOT destroy the Operations Centre. We need it to locate Tratos!"
+END
+
+MSNSTR:RDS:ACT_0:M5:LoseOpsCentre
+	"Operations Centre destroyed. We will never be able to locate Tratos and other Forgotten.\n Mission Failed"
+END

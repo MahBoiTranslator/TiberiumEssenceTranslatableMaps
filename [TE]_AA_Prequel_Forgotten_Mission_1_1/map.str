@@ -1,0 +1,79 @@
+MSNSTR:RDS:ACT_0:M11:Line_1
+	"Tratos: 'Ghost Stalker, your old friend has found a GDI airbase just east of here.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_2
+	"Tratos: 'He says it contains two transport aircraft that should help you reach the research lab.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_3
+	"Tratos: 'Take this bus, the directions to our outpost are inside. Good luck and take care.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_4
+	"???: 'I'll drive, I trust you can read the directions to me?'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_5
+	"Ghost Stalker: 'Of course. Commander, you're with us. Make yourself comfortable.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_6
+	"Ghost Stalker: 'Take the left road.\nSo, what's your story? I don't think I saw you in the camps.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_7
+	"???: 'I wasn't at any camps. I...worked for GDI.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_8
+	"Ghost Stalker: 'GDI?'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_9
+	"???: 'Yes. I was one of their leading Tiberium scientists.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_10
+	"???: '...'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_11
+	"Ghost Stalker: 'Painful memories? I understand if you don't want to talk about it.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_12
+	"???: 'It's fine. We probably have a long drive ahead of us anyway.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_13
+	"???: 'During the war, I was captured by Nod and used a Tiberium experiment. GDI rescued me but the damage was already done.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_14
+	"Ghost Stalker: 'Go straight ahead at the cross roads.\nYou were dying?'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_15
+	"???: 'Yes. GDI refused to try anything to save me becuase the Tiberium mutation was too advanced for them. So, I had to save myself.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_16
+	"Ghost Stalker: 'Go right and you'll reach to reach your destination.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_17
+	"???: 'Using the last of my strength, I ran to my lab and prepared an experiment based on Dr P...'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_18
+	"Ghost Stalker: 'I'm sorry to interrupt, but we're here.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_19
+	"???: 'Already? Okay, remind me to continue later.'"
+END
+
+MSNSTR:RDS:ACT_0:M11:Line_20
+	"Ghost Stalker: 'I look forward to it.'"
+END
