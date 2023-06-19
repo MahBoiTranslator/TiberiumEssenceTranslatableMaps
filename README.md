@@ -8,6 +8,7 @@ List of patched maps and campaigns:
 * [Act I ZOCOM: The War That Never Was](https://www.moddb.com/mods/tiberium-essence/addons/te-zocom-origin)
 * [Act I Black Hand: Revelations](https://www.moddb.com/mods/tiberium-essence/addons/te-black-hand-revelations-mission-1)
 * [Steel Talons Bonus Mission: Extinguished](https://www.moddb.com/mods/tiberium-essence/addons/steel-talons-bonus-mission-extinguished)
+* [Act II: Prologue](https://www.moddb.com/mods/tiberium-essence/addons/te-act-ii-prologue)
 * [Tiberian Sun Missions](https://www.moddb.com/mods/tiberian-sun-missions-te)
 * [Scrin Missions](https://www.moddb.com/mods/tiberium-essence/addons/te-scrin-missions)
 * [TS Slavik vs Hassan Campaign](https://www.moddb.com/mods/tiberium-essence/addons/te-ts-slavik-vs-hassan-campaign-16-complete)

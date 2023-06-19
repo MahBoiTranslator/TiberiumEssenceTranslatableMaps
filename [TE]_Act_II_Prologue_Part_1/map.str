@@ -1,0 +1,79 @@
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Intro1
+	"2047, 13 years after Divination."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Objective_1
+	"Get to the Operations Center"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Objective_1_Detail
+	"Dr Giraud said he has evidence that ZOCOM committed atrocities against the Forgotten. I should find it at the Operations Center."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Objective_2
+	"Avoid ZOCOM forces"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Objective_2_Detail
+	"ZOCOM will kill me on sight. It's best I avoid them."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Objective_3
+	"Leave the base and find any other Forgotten survivors"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Objective_3_Detail
+	"I must find a Forgotten clan, surely some of us must have survived? They need to know the truth!"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Voice_In_Head
+	"'What the hell is that voice in my head?'"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Giraud_Evac
+	"'That must be Giraud...Nod must really want to protect him.'"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Found_Recordings
+	"'It looks like Giraud recorded the first GDI exploration into the Red Zone...\nI have what I need.'"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:Black_out
+	"'My...head...what is happening to me?'"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:GDI_Soldier_1
+	"Soldier 1: Come and look at this...I haven't seen a mutant for years."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:GDI_Soldier_2
+	"Soldier 2: This one looks...different...we should take him back to base."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:GDI_Soldier_3
+	"Soldier 1: He has something on him. Looks like a G-Tech data disk..."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:ST_Are_Pissed_1
+	"Commando: You're awake. Don't worry, you're safe here."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:ST_Are_Pissed_2
+	"Commando: We saw Giraud's recordings. I can't believe what ZOCOM has done.\nWe will make sure the Council is informed of the massacre."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:ST_Are_Pissed_3
+	"Scout: Sir! ZOCOM forces are approaching the base!"
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:ZOCOM_Are_Pissed_1
+	"ZOCOM Commander: Steel Talons! We know you have a Divine. Turn it over to us."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:ZOCOM_Are_Pissed_2
+	"Commando: Wait here."
+END
+
+MSNSTR:RDS:ACT_II_PROLOGUE:M1:ZOCOM_Are_Pissed_3
+	"ZOCOM Commander: Last chance... We are doing what is right for the planet."
+END
