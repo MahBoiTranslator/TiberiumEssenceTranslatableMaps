@@ -5786,3 +5786,263 @@ MSNSTR:RDS:ACT_II_PROLOGUE:M2:WinEndGame2
 "Archon: But once we deal with these aliens, I will eriadicate ZOCOM for what they did to Ghost and the clans. \nWith...or without you."
 END
 
+MSNSTR:RDS:ACT_II_ST:M1:Mammoth_Walker_Timer
+"Mammoth MK II arrives in:"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_1
+"Destroy all Alien structures marked: 'Gravity Stabiliser'"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_1_Detail
+"Our scouts report that the damaged Alien capital ships are being repaired at structures which seem to work similarly to our Airfields. If we can destroy these structures, Alien air power will be greatly diminished."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_2
+"Eliminate all Alien aircraft marked: 'Planetary Assault Carrier' and 'Devastor Warship'"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_2_Detail
+"The Alien capital ships that were heavily damaged by GDI Firehawks have been tracked to Sydney Habour. We cannot allow them to threaten Australia and other GDI strongholds."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_3
+"Archon must survive"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_3_Detail
+"Archon is extremely effective against the aliens. He must survive this battle so he can continue to aid us."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:ColossusPilot
+"Colossus Pilot: I can't believe we're building a base inside the Habour!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:TheShips
+"Steel Talons Solider: Look at the ships! How is that even possible?!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Firehawks
+"EVA: Steel Talons' Firehawks have been modified to become pure air-to-air fighters."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:CapitalShipsAttack
+"WARNING: The Alien capital ships are attacking our forces!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Rift
+"EVA: Unknown Alien structure detected. Be careful, Commander"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:TheHint
+"Archon: M...u...."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Lose
+"Archon is dead! We have to retreat!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Win
+"Commander, You're not going to believe this. \nThe Alien attack on our cities were only a distraction..."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Win2
+"They are building large towers in Red Zones around the world. All GDI forces are to destroy them ASAP."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Intro2
+"EVA: Our siege has failed and the Aliens have gained control of our forces here."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Intro3
+"EVA: If we can counter-attack quickly, we can salvage the base and rebuild it."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_1
+"Destroy the Mastermind and all Dominators"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_1_Detail
+"Our forces from the previous siege has been taken over by mind-controlling units...What is this? Yuri's Revenge?"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_2
+"Eliminate all Alien Phase Generators"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_2_Detail
+"The 4 Phase Generators make the Tower invulnerable. Destroy them."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_3
+"Destroy the Tower"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_3_Detail
+"The tower is no longer protected. Bring it down by any means necessary."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_4
+"Archon must survive"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_4_Detail
+"Archon is extremely effective against the aliens. He must survive this battle so he can continue to aid us."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:FreedForces
+"EVA: The freed units are disorientated and it will take them a moment to see us as their allies."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ArchonMindcontrolled
+"ALERT: Archon has been mind-controlled! DO NOT kill him!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ConquerorArrives
+"WARNING: A large unidentifed alien has entered the area!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ZOCOMHelpsOut
+"EVA: The GDI Council has ordered ZOCOM to assist you in this mission. \nAdditional units can be built at the Deployment Zone."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:LastMammoth
+"EVA: Use the Deployment Zone to call in the last Mammoth MKII. \nBe warned: if it is critically damaged, you cannot rebuild it."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:RiftCaptured
+"EVA: Rift Generator Captured. \nThe Tacitus is translating the schematics. Stand by..."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:RiftOnline
+"EVA: Translation successful. \nYou now control this Rift Generator."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Lose
+"Archon is dead! We have to retreat!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Win
+"Archon: We need to know where this aliens are coming from. We can't let them protect the other towers."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Win2
+"Commando: Quick! Get an MCV through that damn wormhole!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Intro2
+"Commando: Archon! We have rein...Archon?"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Intro3
+"Commando: The aliens must use this area to send reinforcements around the world. \nWe better destroy it."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Objective_1
+"Finish off the Alien bases"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Objective_1_Detail
+"It seems that the Alien bases in this area guard wormholes that can transport units across the world. We cannot allow the aliens to threaten the GDI operation at Ground Zero."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Objective_2
+"Defeat ZOCOM"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Objective_2_Detail
+"We fired the first shot. The GDI Council are sure to disband us now. Before we become confined to the history books, we must save Archon from ZOCOM."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Objective_3
+"Capture an Orbital Deployment Centre and call in the Mammoth Mk II"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Objective_3_Detail
+"The Mammoth could aid us in pushing back ZOCOM, if we can call it in from an Orbital Deployment Centre."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:DestroyedZOCOMunits
+"Commando: Those look like...ZOCOM vehicles. \nNo, it can't be."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:GroundZero
+"EVA: GDI forces have destroyed the Alien Control Node. \nAll alien lifeforms have stopped functioning."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:ArchonFound
+"Zone Commando: So, you are the ones who betrayed GDI's cause."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:StandOff1
+"Commando: Genocide is not our cause."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:StandOff2
+"Zone Commando: The cause is to save the planet...at...all...co..."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Remorse
+"Commando: What have I done?"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:CommandoDown
+"EVA: The Commando has been injured. He will return to the Battlefield shortly."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Lose
+"We have been defeated"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Win
+"EVA: Location of Archon is unknown. \nThe GDI council has been notified of the skirmish between Steel Talon and ZOCOM forces."
+END
+
+MSNSTR:RDS:ACT_II_ST:M3:Win2
+"EVA: As the aggressors, Steel Talons will now disband and it's funds seized until an investigation takes place."
+END
+

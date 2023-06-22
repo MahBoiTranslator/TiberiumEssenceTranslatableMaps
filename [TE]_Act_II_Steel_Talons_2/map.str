@@ -1,0 +1,95 @@
+MSNSTR:RDS:ACT_II_ST:M2:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Intro2
+	"EVA: Our siege has failed and the Aliens have gained control of our forces here."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Intro3
+	"EVA: If we can counter-attack quickly, we can salvage the base and rebuild it."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_1
+	"Destroy the Mastermind and all Dominators"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_1_Detail
+	"Our forces from the previous siege has been taken over by mind-controlling units...What is this? Yuri's Revenge?"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_2
+	"Eliminate all Alien Phase Generators"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_2_Detail
+	"The 4 Phase Generators make the Tower invulnerable. Destroy them."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_3
+	"Destroy the Tower"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_3_Detail
+	"The tower is no longer protected. Bring it down by any means necessary."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_4
+	"Archon must survive"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Objective_4_Detail
+	"Archon is extremely effective against the aliens. He must survive this battle so he can continue to aid us."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:FreedForces
+	"EVA: The freed units are disorientated and it will take them a moment to see us as their allies."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ArchonMindcontrolled
+	"ALERT: Archon has been mind-controlled! DO NOT kill him!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ConquerorArrives
+	"WARNING: A large unidentifed alien has entered the area!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:ZOCOMHelpsOut
+	"EVA: The GDI Council has ordered ZOCOM to assist you in this mission.\nAdditional units can be built at the Deployment Zone."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:LastMammoth
+	"EVA: Use the Deployment Zone to call in the last Mammoth MKII.\nBe warned: if it is critically damaged, you cannot rebuild it."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:RiftCaptured
+	"EVA: Rift Generator Captured.\nThe Tacitus is translating the schematics. Stand by..."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:RiftOnline
+	"EVA: Translation successful.\nYou now control this Rift Generator."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Lose
+	"Archon is dead! We have to retreat!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Win
+	"Archon: We need to know where this aliens are coming from. We can't let them protect the other towers."
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:Win2
+	"Commando: Quick! Get an MCV through that damn wormhole!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M2:WinEndGame
+	"Mission accomplished"
+END

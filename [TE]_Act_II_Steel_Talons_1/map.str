@@ -1,0 +1,79 @@
+MSNSTR:RDS:ACT_II_ST:M1:Mammoth_Walker_Timer
+	"Mammoth MK II arrives in:"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_1
+	"Destroy all Alien structures marked: 'Gravity Stabiliser'"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_1_Detail
+	"Our scouts report that the damaged Alien capital ships are being repaired at structures which seem to work similarly to our Airfields. If we can destroy these structures, Alien air power will be greatly diminished."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_2
+	"Eliminate all Alien aircraft marked: 'Planetary Assault Carrier' and 'Devastor Warship'"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_2_Detail
+	"The Alien capital ships that were heavily damaged by GDI Firehawks have been tracked to Sydney Habour. We cannot allow them to threaten Australia and other GDI strongholds."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_3
+	"Archon must survive"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Objective_3_Detail
+	"Archon is extremely effective against the aliens. He must survive this battle so he can continue to aid us."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:ColossusPilot
+	"Colossus Pilot: I can't believe we're building a base inside the Habour!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:TheShips
+	"Steel Talons Solider: Look at the ships! How is that even possible?!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Firehawks
+	"EVA: Steel Talons' Firehawks have been modified to become pure air-to-air fighters."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:CapitalShipsAttack
+	"WARNING: The Alien capital ships are attacking our forces!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Rift
+	"EVA: Unknown Alien structure detected. Be careful, Commander"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:TheHint
+	"Archon: M...u...."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Lose
+	"Archon is dead! We have to retreat!"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Win
+	"Commander, You're not going to believe this.\nThe Alien attack on our cities were only a distraction..."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:Win2
+	"They are building large towers in Red Zones around the world. All GDI forces are to destroy them ASAP."
+END
+
+MSNSTR:RDS:ACT_II_ST:M1:WinEndGame
+	"Mission accomplished"
+END
