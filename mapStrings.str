@@ -6046,3 +6046,251 @@ MSNSTR:RDS:ACT_II_ST:M3:Win2
 "EVA: As the aggressors, Steel Talons will now disband and it's funds seized until an investigation takes place."
 END
 
+MSNSTR:RDS:ACT_II_NOD:M1:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Intro2
+"Ajay: 'Our brothers are under attack! Drive off the invaders!'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_1
+"Protect the Nod base by defeating the invaders"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_1_Detail
+"We can no longer allow these aliens to bury us in the dirt. To hell with Kane's orders! Kill them all!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_2
+"Capture the Nod Hangar"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_2_Detail
+"It looks like the Nod airbase is still standing. It should have all we need to reach our brothers in Italy."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_3
+"Destroy the invader's base"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_3_Detail
+"To protect the Brotherhood we must engage these aliens where possible, not just in self-defence. Destroying the alien's base will save many Nod lives."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Separatist
+"Nod separatist: 'Brother Ajay...You stand bravely against Kane. \nWe stand with you.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Hangar_Captured
+"Ajay: 'Good, the Nightwinds are intact. We can use them to travel to Italy.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Win
+"Ajay: 'There is nothing left for us here in Australia. \nWe have to get to Italy to save our brothers from Kane's madness.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:WinEndGame
+"Mission Accomplished"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Lose
+"Ajay:'We have failed. We have no way to leave Australia now.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:LoseEndGame
+"Mission Failed"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ExcavationStage1
+"Excavation Stage 1 complete in:"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ExcavationStage2
+"Excavation Stage 2 complete in:"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ExcavationStage3
+"Excavation Stage 3 complete in:"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro2
+"Ajay: 'Killian...Time is running out.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro3
+"Ajay: 'Kane will cut me down. There's nothing can be done about that.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro4
+"Ajay: 'Before he does...I will stop these stinking aliens. \nI will save Nod from itself.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro5
+"Nod Officer: I thought you were dead. Help us break the siege. Quickly!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_1
+"Break the siege by destroying the Alien outpost"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_1_Detail
+"The aliens have the Nod garrison trapped. Destroying their outpost will give us breathing space."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_2
+"Protect the excavation team until the Temple is uncovered OR destroy the Alien base"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_2_Detail
+"We need to defend the excavation team while they uncover the old Temple of Nod... Or... We could take the fight to the Aliens... Make them pay for every one of our brothers lost."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_3
+"Prevent the Ion Cannon from firing"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_3_Detail
+"GDI are looking to recreate history. We can't let them take away our chance to uncover the old Temple."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:WhyTheyAreHere
+"Nod Officer: Excellent. We've heard rumours that the old Temple of Nod contains knowledge of these Visi...Aliens."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:WhyTheyAreHere2
+"Nod Officer: As soon as we started the excavation, the aliens attacked. They must be desperate to keep their secrets buried."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:LooksFamiliar
+"Ajay: This land... Kane's old temple...I wonder if the rumours are true."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Excavation1Complete
+"The excavation team has broken through the first layer."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Excavation2Complete
+"The excavation team has broken through the second layer."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:DigTeamUnderAttack
+"The excavation team is under attack! At least one unit must survive!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Lose
+"The excavation team has been destroyed. We have failed."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Win
+"Nod Officer: There it is, the old Temple...I will give you a team to find what you can."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Intro1
+"Ajay: I don't believe it...it was all true."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Intro2
+"Ajay: 'Crap! The entrance has collapsed!'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Intro3
+"Shadow: 'I'll scout for another exit.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Intro4
+"Ajay: 'What the hell was that? Stick together.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level1
+"Find the Shadow"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level1ShadowFate
+"Ajay: 'S***'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level1ShadowFate2
+"Confessor: 'There's someone else here. Looks like they went that way.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:DeathsHint1
+"???: 'Welcome to my house. \nThe place I died and lived again.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level21
+"???: 'If you want you and your men to survive, \nyou must go further below.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level22
+"???: 'Here, the first attempt failed. \nHere, I have succeeded'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:DeathsHint2
+"???: 'My father would turn in his grave if he saw me now. \nPerhaps you will see him soon.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level3
+"Black Hand: 'Stay close to me. It seems they are afraid of fire.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level3Reminder
+"Stay close to the Black Hand Trooper"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level3FeralAttackFalse
+"Run for it!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level3FeralAttackReal
+"Black Hand: 'Run! I'll hold them off!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level3End
+"???: 'You remind me of Ghost. A strong warrior...driven.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level4End
+"???: 'Perhaps I should make you more like he was.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:Level5End
+"Death Dealer: 'Kane has told me all about you, Ajay, \n now I will tell you about me.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:DeathRevealed
+"Death Dealer: 'GDI rescued me from this very temple then cast me aside while I was slowly dying.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:DeathRevealed2
+"Death Dealer: 'As a Mobius, I understood enough about Tiberium to save myself. To make myself divine.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M3:DeathRevealed3
+"Sydney Mobius: 'Now I share that gift with you.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:HN:HeAskedForThis
+"Destroy all 100 of Hartzheim's favourite unit and Play 'My Heart will go on' by Celine Dion"
+END
+
+MSNSTR:RDS:ACT_II_NOD:HN:KellaWasRight
+"Huh, I guess Kella was right...they weren't offensive units!"
+END
+

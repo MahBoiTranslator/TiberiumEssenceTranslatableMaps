@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="LogicSet.xml" type="all"/>
+
+	</Includes>
+	
+	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_II_NOD:M1:Objective_1"
+			Description="MSNSTR:RDS:ACT_II_NOD:M1:Objective_1_Detail">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_II_NOD:M1:Objective_2"
+			Description="MSNSTR:RDS:ACT_II_NOD:M1:Objective_2_Detail">
+			<PresentationSettings
+				ID="SCRIPT:Objective_2"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_II_NOD:M1:Objective_3"
+			Description="MSNSTR:RDS:ACT_II_NOD:M1:Objective_3_Detail">
+			<PresentationSettings
+				ID="SCRIPT:Objective_3"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>			
+	</MissionObjectiveList>
+</AssetDeclaration>

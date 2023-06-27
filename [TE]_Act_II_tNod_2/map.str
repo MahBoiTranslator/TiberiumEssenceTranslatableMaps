@@ -1,0 +1,99 @@
+MSNSTR:RDS:ACT_II_NOD:M2:ExcavationStage1
+	"Excavation Stage 1 complete in:"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ExcavationStage2
+	"Excavation Stage 2 complete in:"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ExcavationStage3
+	"Excavation Stage 3 complete in:"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro2
+	"Ajay: 'Killian...Time is running out.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro3
+	"Ajay: 'Kane will cut me down. There's nothing can be done about that.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro4
+	"Ajay: 'Before he does...I will stop these stinking aliens.\nI will save Nod from itself.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Intro5
+	"Nod Officer: I thought you were dead. Help us break the siege. Quickly!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_1
+	"Break the siege by destroying the Alien outpost"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_1_Detail
+	"The aliens have the Nod garrison trapped. Destroying their outpost will give us breathing space."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_2
+	"Protect the excavation team until the Temple is uncovered OR destroy the Alien base"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_2_Detail
+	"We need to defend the excavation team while they uncover the old Temple of Nod... Or... We could take the fight to the Aliens... Make them pay for every one of our brothers lost."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_3
+	"Prevent the Ion Cannon from firing"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Objective_3_Detail
+	"GDI are looking to recreate history. We can't let them take away our chance to uncover the old Temple."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:WhyTheyAreHere
+	"Nod Officer: Excellent. We've heard rumours that the old Temple of Nod contains knowledge of these Visi...Aliens."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:WhyTheyAreHere2
+	"Nod Officer: As soon as we started the excavation, the aliens attacked. They must be desperate to keep their secrets buried."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:LooksFamiliar
+	"Ajay: This land... Kane's old temple...I wonder if the rumours are true."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Excavation1Complete
+	"The excavation team has broken through the first layer."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Excavation2Complete
+	"The excavation team has broken through the second layer."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:DigTeamUnderAttack
+	"The excavation team is under attack! At least one unit must survive!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Lose
+	"The excavation team has been destroyed. We have failed."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:Win
+	"Nod Officer: There it is, the old Temple...I will give you a team to find what you can."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M2:WinEndGame
+	"Mission accomplished"
+END

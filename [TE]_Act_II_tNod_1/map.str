@@ -1,0 +1,55 @@
+MSNSTR:RDS:ACT_II_NOD:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Intro2
+	"Ajay: 'Our brothers are under attack! Drive off the invaders!'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_1
+	"Protect the Nod base by defeating the invaders"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_1_Detail
+	"We can no longer allow these aliens to bury us in the dirt. To hell with Kane's orders! Kill them all!"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_2
+	"Capture the Nod Hangar"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_2_Detail
+	"It looks like the Nod airbase is still standing. It should have all we need to reach our brothers in Italy."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_3
+	"Destroy the invader's base"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Objective_3_Detail
+	"To protect the Brotherhood we must engage these aliens where possible, not just in self-defence. Destroying the alien's base will save many Nod lives."
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Separatist
+	"Nod separatist: 'Brother Ajay...You stand bravely against Kane.\nWe stand with you.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Hangar_Captured
+	"Ajay: 'Good, the Nightwinds are intact. We can use them to travel to Italy.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Win
+	"Ajay: 'There is nothing left for us here in Australia.\nWe have to get to Italy to save our brothers from Kane's madness.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:WinEndGame
+	"Mission Accomplished"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:Lose
+	"Ajay:'We have failed. We have no way to leave Australia now.'"
+END
+
+MSNSTR:RDS:ACT_II_NOD:M1:LoseEndGame
+	"Mission Failed"
+END
