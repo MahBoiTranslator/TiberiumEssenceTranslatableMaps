@@ -1,0 +1,111 @@
+MSNSTR:RDS:ACT_III_DIV:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Intro2
+	"2052, 5 years after Scrin invasion."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Intro3
+	"Death Dealer: Welcome, Commander.\n LEGION has merged with the Tactius."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Intro4
+	"Death Dealer: Final victory is almost at hand, but there is one piece that is missing.\nArchon, a powerful Divine, must be rescued if we are to fulfil Kane's dream."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_1
+	"Ghost Stalker must survive"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_1_Detail
+	"Death Dealer wants to test the new Ghost Stalker in battle. He must survive."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_2
+	"Scout for ZOCOM weaknesses"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_2_Detail
+	"The ZOCOM prison's western entrance is heavily fortified. Scout the eastern flank to seek any weaknesses."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_3
+	"Capture and protect Tiberium Spikes while gathering 30,000 credits"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_3_Detail
+	"ZOCOM have cleared the area of Tiberium. The only way to gain enough supplies for our forces is through the Tiberium Spikes."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_4
+	"Find Archon"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_4_Detail
+	"ZOCOM are panicking. We cannot allow Archon to be caught in the crossfire. Find him."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Snipers
+	"Death Dealer: I sense...Orcas and Elite Snipers.\n Use the Umagon Sniper to take them out from the cliffs."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:BridgeDestroyed
+	"The bridge is destroyed. Find another route."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Nope
+	"Death Dealer: I have to concentrate. Focus on the mission."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective2Weakness1
+	"Death Dealer: Few men guard this entrance. You can sneak through here."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective2Weakness2
+	"Death Dealer: The fools have grouped their Power Plants together. This is where we will strike."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:IonStorm
+	"Death Dealer: Now watch as GDI tremble in fear."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:StealthBackUp
+	"Death Dealer: Kane has sent us Stealth Tanks."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:NodBackUp
+	"Death Dealer: More Nod forces have arrived."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Win
+	"Ghost Stalker: Archon, you're safe now. Come with us."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Win2
+	"Archon: Ghost? I thought you were dead!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Win3
+	"Death Dealer: We have to go. All will be explained later."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:WinEndGame
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:LoseGhostStalker
+	"Ghost Stalker has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:LoseMoney
+	"All Tiberium Spikes have been destroyed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:LoseEndGame
+	"Mission failed"
+END

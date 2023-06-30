@@ -6294,3 +6294,471 @@ MSNSTR:RDS:ACT_II_NOD:HN:KellaWasRight
 "Huh, I guess Kella was right...they weren't offensive units!"
 END
 
+MSNSTR:RDS:ACT_III_DIV:M1:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Intro2
+"2052, 5 years after Scrin invasion."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Intro3
+"Death Dealer: Welcome, Commander. \n LEGION has merged with the Tactius."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Intro4
+"Death Dealer: Final victory is almost at hand, but there is one piece that is missing. \nArchon, a powerful Divine, must be rescued if we are to fulfil Kane's dream."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_1
+"Ghost Stalker must survive"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_1_Detail
+"Death Dealer wants to test the new Ghost Stalker in battle. He must survive."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_2
+"Scout for ZOCOM weaknesses"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_2_Detail
+"The ZOCOM prison's western entrance is heavily fortified. Scout the eastern flank to seek any weaknesses."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_3
+"Capture and protect Tiberium Spikes while gathering 30,000 credits"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_3_Detail
+"ZOCOM have cleared the area of Tiberium. The only way to gain enough supplies for our forces is through the Tiberium Spikes."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_4
+"Find Archon"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective_4_Detail
+"ZOCOM are panicking. We cannot allow Archon to be caught in the crossfire. Find him."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Snipers
+"Death Dealer: I sense...Orcas and Elite Snipers. \n Use the Umagon Sniper to take them out from the cliffs."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:BridgeDestroyed
+"The bridge is destroyed. Find another route."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Nope
+"Death Dealer: I have to concentrate. Focus on the mission."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective2Weakness1
+"Death Dealer: Few men guard this entrance. You can sneak through here."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Objective2Weakness2
+"Death Dealer: The fools have grouped their Power Plants together. This is where we will strike."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:IonStorm
+"Death Dealer: Now watch as GDI tremble in fear."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:StealthBackUp
+"Death Dealer: Kane has sent us Stealth Tanks."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:NodBackUp
+"Death Dealer: More Nod forces have arrived."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Win
+"Ghost Stalker: Archon, you're safe now. Come with us."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Win2
+"Archon: Ghost? I thought you were dead!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:Win3
+"Death Dealer: We have to go. All will be explained later."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:LoseGhostStalker
+"Ghost Stalker has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:LoseMoney
+"All Tiberium Spikes have been destroyed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M1:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Invasion_Timer
+"Tacitus' signal changes in:"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro2
+"Death Dealer: LEGION has completed his transfer. \nWe need to leave with the Tacitus before GDI arrives!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro3
+"Death Dealer: They're tracking us! Archon, Ghost, deal with ZOCOM."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro4
+"Archon: ZOCOM...They must all die."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_1
+"Ghost Stalker and Archon must survive"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_1_Detail
+"Kane needs Ghost Stalker and Archon alive. Do not fail him."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_2
+"Ensure the Montauk reaches the Nod outpost"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_2_Detail
+"ZOCOM is able to track the Tacitus, even within the Montauk. Use Ghost and Archon to make sure the Montauk reaches the Nod outpost while Death Dealer works on a plan to stop ZOCOM's attack."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_3
+"Defend the Montauk until the Tacitus' signal has changed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_3_Detail
+"Death Dealer will use Tratos' teaching to change the Tacitus' signal. Once she has completed her task, GDI will no longer be able to track the device. She will need all of the Montauk's power to do this so it will be vulnerable. Protect the Montauk with your life."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_4
+"Defeat ZOCOM"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_4_Detail
+"Taking the fight to ZOCOM will make Death Dealer's task easier. But beware, ZOCOM are heavily entrenched within the city. Keep this in mind so you don't overstretch your forces."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:ZOCOMOutpostWarning
+"Death Dealer: A pitiful blockade. That Sonic Emitter is no match for you, Archon."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:ZOCOMOutpostDestroyed
+"Death Dealer: Good work. Let's move before GDI surrounds us."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:NodOutpostAttacked
+"Black Hand Trooper: Get the Montauk to safety! We will hold the unbelievers off!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:MissileHitsCore
+"Death Dealer: Ah, they springed the trap. GDI are paying well for what they did to me."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:GhostAndArchonCanRecover
+"EVA: If Ghost Stalker or Archon fall in battle, they can recover at a Secret Shrine."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakArrives
+"Archon: The Kodiak? It can't be! I saw it burn when the aliens invaded!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakArrives2
+"Death Dealer: ZOCOM must be mass-producing it. This one will burn too."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakSurvivesTheStorm
+"Death Dealer: So, GDI aircraft can now withstand Ion Storms. \nRegardless, they will all fall from the sky."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakAmbushesMontauk
+"WARNING: The Kodiak is attacking the Montauk!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakRetreats
+"Archon: Cowards! Vengence will be ours!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:WeatherControllerCharging
+"Ghost Stalker: It will take time to charge the Weather Controller. Hold the line."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:WeatherControllerCharged
+"Ghost Stalker: Weather Controller charged. Fire when ready, Commander"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Win
+"Death Dealer: It is done. GDI can no longer track the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseMontauk
+"The Montauk is lost along with Death Dealer and the Tacitus. Your life is forfeit."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseGhostStalker
+"Ghost Stalker has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseArchon
+"Archon has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:GDI_Probes_Timer
+"GDI sees Kodiak as enemy in:"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:GDI_Retaliates_Timer
+"GDI Retaliates in:"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Intro2
+"Death Dealer: The Black Hand have tracked the damaged Kodiak, it was forced to land outside the ZOCOM stronghold."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Intro3
+"Death Dealer: These Hijackers and the Mechanic have the skill to capture and use the Kodiak. Turn the monster against it's masters, Commander."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_1
+"Get all Hijackers and the Mechanic to the Kodiak"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_1_Detail
+"The Koidak, that was heavily damaged by you, has landed just outside ZOCOM's headquaters for repairs. We have a unique opportunity to turn the monster against it's creator. All Hijackers and the Mechanic must survive if they are to take control of the Kodiak."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_2
+"Black Out the Zone Wall's defences and destroy the Defence Grid Stations"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_2_Detail
+"GDI and ZOCOM do not know that our Hijackers have claimed the Koidak. Use this chance to strike the wall's weak points. Take out some of the Power Plants to black-out the defences. Destroy the Defence Grid Stations to eliminate the Sonic Walls."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_3
+"Defeat ZOCOM for the final time. Archon and Ghost Stalker must survive."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_3_Detail
+"The wall is down. Nod and Divine pour into the city. Archon and Ghost will be all you need to take out our mortal enemy. Nod and other Divine units will engage GDI while you take down ZOCOM's army for good. Kill. Them. All."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_4
+"Destroy GDI outposts"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Objective_4_Detail
+"Destroying all GDI outposts within the city will not only weaken ZOCOM's defence, but will also grant you reinforcements."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:KodiakStolen
+"Death Dealer: This Kodiak is ours. Vengance is at hand."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Caution
+"Death Dealer: GDI do not know we have claimed this Kodiak...yet. \nUse this chance to scout out the wall's weakness."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:GDIThreat
+"Zone Wall Captain: Hailing Kodiak Mobius. Respond, Mobius. We will be forced to open fire if you do not answer us. You have 30 seconds."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:DeathDealerSurpirse
+"Death Dealer: Tetchy, aren't they? So they named this monster 'Mobius'. How fitting."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:KodiakAttacks
+"Zone Wall Captain: RED ALERT! The Mobius is in enemy hands! Get a Firehawk squadron in the air NOW!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:ZoneWallDefencesOffline
+"Zone Wall defences are offline."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:SonicWallOffline
+"Sonic Wall offline."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:TheWallFalls
+"Death Dealer: Beg to your gods for mercy, ZOCOM. For we will show you none."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:ArchonBattleCry
+"Archon: For the Forgotten!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:TheCityBurns
+"Death Dealer: The city burns! Take these War Floaters finish off our mortal enemies!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:IsParkerWatching
+"Death Dealer: Are you watching as your beloved GDI crumbles, Havoc?"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:KodiakWarning
+"Warning: A Kodiak is airborne!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:KodiakDestroyed
+"EVA: Kodiak destroyed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Win
+"Archon: Vengance is ours. The Forgotten can rest easy now."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Win2
+"Death Dealer: Not yet. Kane has detected a GDI force moving towards the Tower and with them, a Mammoth Walker."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:Win3
+"Archon: The Steel Talons..."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:LoseHijackers
+"Citical unit lost. We can no longer claim the Kodiak."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:LoseKodiak
+"Kodiak destroyed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:LoseGhostStalker
+"Ghost Stalker has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:LoseArchon
+"Archon has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M3:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Recall_Timer
+"Divine recalled to Kane's Tower in:"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro2
+"ST Commander: I still can't believe you're alive, Archon. \nWe've been searching for you for years."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro3
+"ST Commander: And who is this...Ghost Stalker? I thought ZOCOM killed him years ago?"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro4
+"Archon:..."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro5
+"ST Commander: Sorry, I meant no disrespect to your clan. We're almost home now."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro6
+"Ghost Stalker: Attack! Now, Archon!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro7
+"Archon: No! The Steel Talons have done nothing wrong!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro8
+"Death Dealer: You predictable fool, Archon. \nIt's better he die here than betray us at the tower."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_1
+"Destroy the Mammoth Mark IV Walker"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_1_Detail
+"The Steel Talons have upgraded the last Mammoth Walker with powerful Ion Cannons. You do not have time to waste, as GDI will begin the seige of Kane's Tower at any moment."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_2
+"Kill Archon"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_2_Detail
+"Death Dealer was right about Archon. It's better he dies here than betray us at Kane's Tower."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ReturnToTheTowerWarning
+"Death Dealer: GDI are starting to attack Kane's Tower! You only have 20 minutes to destroy the Mammoth!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ArchonsRebellion
+"Death Dealer: More traitors. Let them die with the Steel Talons."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ArchonsDeathSquad
+"Death Dealer: The main force is going back to the tower. \nHunt the true prey, Commander. Bury the traitor."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Win
+"Death Dealer: Your memory will reflect your life, Archon... forgotten."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:LoseTimeUp
+"Death Dealer: Time is up. You have failed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:LoseEndGame
+"Mission failed"
+END
+

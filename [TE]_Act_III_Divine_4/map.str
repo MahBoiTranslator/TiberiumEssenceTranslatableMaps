@@ -1,0 +1,83 @@
+MSNSTR:RDS:ACT_III_DIV:M4:Recall_Timer
+	"Divine recalled to Kane's Tower in:"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro2
+	"ST Commander: I still can't believe you're alive, Archon.\nWe've been searching for you for years."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro3
+	"ST Commander: And who is this...Ghost Stalker? I thought ZOCOM killed him years ago?"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro4
+	"Archon:..."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro5
+	"ST Commander: Sorry, I meant no disrespect to your clan. We're almost home now."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro6
+	"Ghost Stalker: Attack! Now, Archon!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro7
+	"Archon: No! The Steel Talons have done nothing wrong!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Intro8
+	"Death Dealer: You predictable fool, Archon.\nIt's better he die here than betray us at the tower."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_1
+	"Destroy the Mammoth Mark IV Walker"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_1_Detail
+	"The Steel Talons have upgraded the last Mammoth Walker with powerful Ion Cannons. You do not have time to waste, as GDI will begin the seige of Kane's Tower at any moment."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_2
+	"Kill Archon"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Objective_2_Detail
+	"Death Dealer was right about Archon. It's better he dies here than betray us at Kane's Tower."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ReturnToTheTowerWarning
+	"Death Dealer: GDI are starting to attack Kane's Tower! You only have 20 minutes to destroy the Mammoth!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ArchonsRebellion
+	"Death Dealer: More traitors. Let them die with the Steel Talons."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:ArchonsDeathSquad
+	"Death Dealer: The main force is going back to the tower.\nHunt the true prey, Commander. Bury the traitor."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:Win
+	"Death Dealer: Your memory will reflect your life, Archon... forgotten."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:WinEndGame
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:LoseTimeUp
+	"Death Dealer: Time is up. You have failed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M4:LoseEndGame
+	"Mission failed"
+END

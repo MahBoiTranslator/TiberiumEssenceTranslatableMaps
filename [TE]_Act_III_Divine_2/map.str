@@ -1,0 +1,127 @@
+MSNSTR:RDS:ACT_III_DIV:M2:Invasion_Timer
+	"Tacitus' signal changes in:"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro2
+	"Death Dealer: LEGION has completed his transfer.\nWe need to leave with the Tacitus before GDI arrives!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro3
+	"Death Dealer: They're tracking us! Archon, Ghost, deal with ZOCOM."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Intro4
+	"Archon: ZOCOM...They must all die."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_1
+	"Ghost Stalker and Archon must survive"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_1_Detail
+	"Kane needs Ghost Stalker and Archon alive. Do not fail him."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_2
+	"Ensure the Montauk reaches the Nod outpost"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_2_Detail
+	"ZOCOM is able to track the Tacitus, even within the Montauk. Use Ghost and Archon to make sure the Montauk reaches the Nod outpost while Death Dealer works on a plan to stop ZOCOM's attack."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_3
+	"Defend the Montauk until the Tacitus' signal has changed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_3_Detail
+	"Death Dealer will use Tratos' teaching to change the Tacitus' signal. Once she has completed her task, GDI will no longer be able to track the device. She will need all of the Montauk's power to do this so it will be vulnerable. Protect the Montauk with your life."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_4
+	"Defeat ZOCOM"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Objective_4_Detail
+	"Taking the fight to ZOCOM will make Death Dealer's task easier. But beware, ZOCOM are heavily entrenched within the city. Keep this in mind so you don't overstretch your forces."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:ZOCOMOutpostWarning
+	"Death Dealer: A pitiful blockade. That Sonic Emitter is no match for you, Archon."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:ZOCOMOutpostDestroyed
+	"Death Dealer: Good work. Let's move before GDI surrounds us."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:NodOutpostAttacked
+	"Black Hand Trooper: Get the Montauk to safety! We will hold the unbelievers off!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:MissileHitsCore
+	"Death Dealer: Ah, they springed the trap. GDI are paying well for what they did to me."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:GhostAndArchonCanRecover
+	"EVA: If Ghost Stalker or Archon fall in battle, they can recover at a Secret Shrine."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakArrives
+	"Archon: The Kodiak? It can't be! I saw it burn when the aliens invaded!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakArrives2
+	"Death Dealer: ZOCOM must be mass-producing it. This one will burn too."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakSurvivesTheStorm
+	"Death Dealer: So, GDI aircraft can now withstand Ion Storms.\nRegardless, they will all fall from the sky."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakAmbushesMontauk
+	"WARNING: The Kodiak is attacking the Montauk!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:KodiakRetreats
+	"Archon: Cowards! Vengence will be ours!"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:WeatherControllerCharging
+	"Ghost Stalker: It will take time to charge the Weather Controller. Hold the line."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:WeatherControllerCharged
+	"Ghost Stalker: Weather Controller charged. Fire when ready, Commander"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:Win
+	"Death Dealer: It is done. GDI can no longer track the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:WinEndGame
+	"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseMontauk
+	"The Montauk is lost along with Death Dealer and the Tacitus. Your life is forfeit."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseGhostStalker
+	"Ghost Stalker has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseArchon
+	"Archon has been killed."
+END
+
+MSNSTR:RDS:ACT_III_DIV:M2:LoseEndGame
+	"Mission failed"
+END

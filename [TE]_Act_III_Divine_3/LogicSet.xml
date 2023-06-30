@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<Includes>
+	</Includes> 
+<LogicCommandSet
+		id="GDIDropShipBayCommandSet">	
+		<Cmd>Command_ConstructSummonerPredatorTeam</Cmd>
+		<Cmd>Command_ConstructGDIFalcon</Cmd>
+		<Cmd>Command_ConstructGDIHoverMLRS</Cmd>
+		<Cmd>Command_ConstructGDIHarvester</Cmd>		
+		<Cmd>Command_ConstructGDIDisruptor</Cmd>
+		<Cmd>Command_ConstructZoneDefenderTeam</Cmd>
+        <Cmd>Command_ConstructGDIMammoth</Cmd>		
+		<Cmd>Command_SpaceCommandGDIShockwave</Cmd>
+		<Cmd>Command_TogglePower</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>	
+</AssetDeclaration>
