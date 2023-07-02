@@ -1,0 +1,79 @@
+MSNSTR:RDS:ACT_III_GDI:M1:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Intro2
+	"EVA: Nod has launched a surprise attack on the Tacitus Tracking Station."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_1
+	"Protect the Tacitus Tracking Station"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_1_Detail
+	"Nod is attempted to destroy ZOCOM's Tacitus Tracking Station. If it falls, we will lose the Tacitus forever, and our chance to reclaim the Earth."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_2
+	"Hold off the Nod assault"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_2_Detail
+	"Nod are attacking by covert means. Keep your eyes open and don't leave the Tacitus Tracking Station undefended."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_3
+	"Destroy the Nod base"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_3_Detail
+	"Nod have halted their attack and are attempting to regroup. Build a base on the east side of the river and crush Nod."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_4
+	"Destroy the unknown outpost"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_4_Detail
+	"An unknown force resembling mutants has flanked our forces. There seem to be aligned to Nod. Destroy their outpost to stop their attack."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Reinforcements
+	"EVA: Reinforcements have arrived at the drop zones."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:SneakyMCVDeployed
+	"WARNING: A Nod MCV has deployed close to the Tracking Station!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective2Complete
+	"ZOCOM Commander: Sir, we need your troops to help defend the city.\nWe will provide you an MCV to take the fight to Nod."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Divine
+	"WARNING: Unknown forces have entered the city!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Lose
+	"Tracking Station has been destroyed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:LoseTrackingStation
+	"Tracking Station Destroyed. We have lost the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Win
+	"EVA: Tacitus signal recieved. Location: CABAL's abandoned core."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:WinEndGame
+	"Mission accomplished"
+END

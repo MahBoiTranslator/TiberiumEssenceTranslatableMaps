@@ -1,0 +1,191 @@
+MSNSTR:RDS:ACT_III_GDI:M3:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Intro2
+	"EVA: GDI forces suffered heavy losses at CABAL's core.\nMore effort must be made to save lives."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Intro3
+	"EVA: A Sniper Team was scouting this region for Nod activity.\nOnce you find them, they and the Ion Commando must survive the mission."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:A3:M3:1
+	"Find and make contact with the Sniper Team"
+END
+
+MSNSTR:RDS:A3:M3:1_Detail
+	"We sent a Sniper Team to scout out this region a few hours ago. Communication was cut when the Ion Storm manifested. Find them, the should be able to assist you."
+END
+
+MSNSTR:RDS:A3:M3:2
+	"Find a way around the Nod outpost"
+END
+
+MSNSTR:RDS:A3:M3:2_Detail
+	"The Sniper Team reports that a Nod outpost south of the dam has strong anti-infantry capabilites. We cannot risk the lives of the Commando or the Sniper Team by attacking it. Find a way around."
+END
+
+MSNSTR:RDS:A3:M3:3
+	"Get the Ion Commando to the Nod Intelligence Centre"
+END
+
+MSNSTR:RDS:A3:M3:3_Detail
+	"The Intelligence Centre is within reach. If luck is on our side, we will be able to find out what Nod are planning to do with Threshold 19."
+END
+
+MSNSTR:RDS:A3:M3:4
+	"Locate the Dam's tunnel Network and destroy the Powerplant"
+END
+
+MSNSTR:RDS:A3:M3:4_Detail
+	"An Obelisk of Light blocks our access to the over side of the dam. The only way to safely nullify it is by taking out it's power source. Locate and enter the dam's tunnel system to access and destroy the Obelisk's Powerplant."
+END
+
+MSNSTR:RDS:A3:M3:5
+	"Get the Commando and Sniper Team to the bridge"
+END
+
+MSNSTR:RDS:A3:M3:5_Detail
+	"We have what we need. Evac will pick up your team once they all reach the bridge."
+END
+
+MSNSTR:RDS:A3:M3:6
+	"Get everyone back to the city bridge! Now!"
+END
+
+MSNSTR:RDS:A3:M3:6_Detail
+	"Elite Nod forces have entered the area! The only chance to escape now is to get everyone back to the bridge in the town! Hurry Commander! There's no time to waste!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SniperTeamSpotted
+	"Commando: The Sniper Team must be held up in there. Looks like they need a hand."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:NodCityReinforcements
+	"Spotter: Look out! More Nod vehicles are arriving!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Objective_1_Complete
+	"Sniper: Thanks for the help. There's a heavy Nod presence here, so listen up."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SniperAdivce1
+	"Spotter: The road leading to the dam is guarded by several anti-infantry defences and units.\n We should find a way around it."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SniperAdivce2
+	"Spotter: Nod has a Harpy Nest that maintains aircraft regularly. Take it out, and the Harpies will be forced to leave."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Outpost1Warning
+	"Commando: There's an Obelisk in that outpost. Better avoid it."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Outpost2Warning
+	"Commando: Too many defences. It's not worth the risk."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer
+	"Overly Happy Fiend Trainer: Aha! You finally fell into my trap GDI scum!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer2
+	"Overly Confident Fiend Trainer: Attack my pretties!!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer3
+	"Suddenly Dead Fiend Trainer: Ugh!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer4
+	"Commando: Disgusting. I hope they don't remaster that in 15 years."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:IntelligenceCentre1
+	"Spotter: There's the target. Looks like another Obelisk blocks the path."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:IntelligenceCentre2
+	"Spotter: Taking out that Powerplant should solve the problem."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:HarpyNestDestroyed
+	"Commando: That takes care of the Harpies."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SurpriseMotherTrucker
+	"EVA: Subterranean units detected."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:DamObeliskWarning
+	"Commando: That Obelisk is still online. We can't go across."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:YouShouldNotBeHere
+	"???: You really should not be here."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TunnelSecure
+	"EVA: Nod Tunnel Secure."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Objective_4_Complete
+	"EVA: Nod Powerplant destroyed. Obelisk offline."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Objective_3_Complete
+	"Commando: I'm inside. Let's see what Nod have been up to."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed
+	"Commando: Holy S***! Nod are planning to activate Threshold 19!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed2
+	"Commando: They are going to use the Tactius and someone called 'Death Dealer' to achieve this."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed3
+	"Commando: I'm downloading Nod's research on Threshold 19. We need to know what we are up against."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed4
+	"Commando: I have the data. Let's get the hell outta here."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:HardObjective61
+	"Commando: We've reached the bridge. Awaiting..."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:HardObjective62
+	"Commando: F***! We can't go this way!\nQuick, we need to get to the other bridge!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseCommando
+	"EVA: Commando killed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseSniperTeam
+	"EVA: Sniper killed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseChurch
+	"EVA: Church destroyed. Snipers killed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Win
+	"Let's leave before Nod finds out what we've done."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:WinEndGame
+	"Mission accomplished"
+END

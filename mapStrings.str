@@ -6762,3 +6762,439 @@ MSNSTR:RDS:ACT_III_DIV:M4:LoseEndGame
 "Mission failed"
 END
 
+MSNSTR:RDS:ACT_III_GDI:M1:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Intro2
+"EVA: Nod has launched a surprise attack on the Tacitus Tracking Station."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_1
+"Protect the Tacitus Tracking Station"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_1_Detail
+"Nod is attempted to destroy ZOCOM's Tacitus Tracking Station. If it falls, we will lose the Tacitus forever, and our chance to reclaim the Earth."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_2
+"Hold off the Nod assault"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_2_Detail
+"Nod are attacking by covert means. Keep your eyes open and don't leave the Tacitus Tracking Station undefended."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_3
+"Destroy the Nod base"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_3_Detail
+"Nod have halted their attack and are attempting to regroup. Build a base on the east side of the river and crush Nod."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_4
+"Destroy the unknown outpost"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective_4_Detail
+"An unknown force resembling mutants has flanked our forces. There seem to be aligned to Nod. Destroy their outpost to stop their attack."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Reinforcements
+"EVA: Reinforcements have arrived at the drop zones."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:SneakyMCVDeployed
+"WARNING: A Nod MCV has deployed close to the Tracking Station!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Objective2Complete
+"ZOCOM Commander: Sir, we need your troops to help defend the city. \nWe will provide you an MCV to take the fight to Nod."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Divine
+"WARNING: Unknown forces have entered the city!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Lose
+"Tracking Station has been destroyed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:LoseTrackingStation
+"Tracking Station Destroyed. We have lost the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:Win
+"EVA: Tacitus signal recieved. Location: CABAL's abandoned core."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M1:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Intro2
+"Predator Driver: This place...the land of ghosts and machines."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Intro3
+"Predator Driver: Why would Nod rebuild that which tried to destroy it?"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_1
+"Reach CABAL's Core"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_1_Detail
+"Our spy confirmed the worst: Nod has rebuilt CABAL's core and is holding the Tacitus there. Fight your way towards the core so we can better assess how to retake the device."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_2
+"Destroy the reactors powering the Core's defences"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_2_Detail
+"ZOCOM will persue the Divine. Focus on capturing the Core, we need to know what Nod has managed to translate from the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective1Complete
+"EVA: Nod is moving the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_3
+"Control the area around the river Obelisk"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_3_Detail
+"Nod are attempting to repair a damaged Obelisk of Light. If you can remove Nod from the nearby area, we will be able to use the Obelisk against the Core Power Plants."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:ObjectiveChange
+"EVA: The Tacitus has been evactuated. ZOCOM will continue to track it. \nYour orders have changed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:DivineIdentifed
+"EVA: Commander, ZOCOM have identifed those beings as 'The Divine'. \nThey were the ones responsible for the attack on the ZOCOM prison and tracking station."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:CaptureNodVehicles
+"Alert: This terrain in unsuitable for heavy vehicles. \nYou may be able to use Nod's unmanned vehicles against them... kill their guards."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:WalkingOnTib
+"GDI Soldier: My God, the ground here is pure Tiberium! We have to get the Tacitus back before we lose everything!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Veinholes
+"GDI Soldier: Veinholes? Now that we don't have the Tacitus, the world is being overrun again."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Lose
+"We have been defeated"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective2Complete
+"EVA: Core defences offline."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Win
+"The Tacitus is lost, for now. At least we have a chance to see what Nod have been up..."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Intro2
+"EVA: GDI forces suffered heavy losses at CABAL's core. \nMore effort must be made to save lives."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Intro3
+"EVA: A Sniper Team was scouting this region for Nod activity. \nOnce you find them, they and the Ion Commando must survive the mission."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:A3:M3:1
+"Find and make contact with the Sniper Team"
+END
+
+MSNSTR:RDS:A3:M3:1_Detail
+"We sent a Sniper Team to scout out this region a few hours ago. Communication was cut when the Ion Storm manifested. Find them, the should be able to assist you."
+END
+
+MSNSTR:RDS:A3:M3:2
+"Find a way around the Nod outpost"
+END
+
+MSNSTR:RDS:A3:M3:2_Detail
+"The Sniper Team reports that a Nod outpost south of the dam has strong anti-infantry capabilites. We cannot risk the lives of the Commando or the Sniper Team by attacking it. Find a way around."
+END
+
+MSNSTR:RDS:A3:M3:3
+"Get the Ion Commando to the Nod Intelligence Centre"
+END
+
+MSNSTR:RDS:A3:M3:3_Detail
+"The Intelligence Centre is within reach. If luck is on our side, we will be able to find out what Nod are planning to do with Threshold 19."
+END
+
+MSNSTR:RDS:A3:M3:4
+"Locate the Dam's tunnel Network and destroy the Powerplant"
+END
+
+MSNSTR:RDS:A3:M3:4_Detail
+"An Obelisk of Light blocks our access to the over side of the dam. The only way to safely nullify it is by taking out it's power source. Locate and enter the dam's tunnel system to access and destroy the Obelisk's Powerplant."
+END
+
+MSNSTR:RDS:A3:M3:5
+"Get the Commando and Sniper Team to the bridge"
+END
+
+MSNSTR:RDS:A3:M3:5_Detail
+"We have what we need. Evac will pick up your team once they all reach the bridge."
+END
+
+MSNSTR:RDS:A3:M3:6
+"Get everyone back to the city bridge! Now!"
+END
+
+MSNSTR:RDS:A3:M3:6_Detail
+"Elite Nod forces have entered the area! The only chance to escape now is to get everyone back to the bridge in the town! Hurry Commander! There's no time to waste!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SniperTeamSpotted
+"Commando: The Sniper Team must be held up in there. Looks like they need a hand."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:NodCityReinforcements
+"Spotter: Look out! More Nod vehicles are arriving!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Objective_1_Complete
+"Sniper: Thanks for the help. There's a heavy Nod presence here, so listen up."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SniperAdivce1
+"Spotter: The road leading to the dam is guarded by several anti-infantry defences and units. \n We should find a way around it."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SniperAdivce2
+"Spotter: Nod has a Harpy Nest that maintains aircraft regularly. Take it out, and the Harpies will be forced to leave."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Outpost1Warning
+"Commando: There's an Obelisk in that outpost. Better avoid it."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Outpost2Warning
+"Commando: Too many defences. It's not worth the risk."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer
+"Overly Happy Fiend Trainer: Aha! You finally fell into my trap GDI scum!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer2
+"Overly Confident Fiend Trainer: Attack my pretties!!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer3
+"Suddenly Dead Fiend Trainer: Ugh!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:FiendTrainer4
+"Commando: Disgusting. I hope they don't remaster that in 15 years."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:IntelligenceCentre1
+"Spotter: There's the target. Looks like another Obelisk blocks the path."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:IntelligenceCentre2
+"Spotter: Taking out that Powerplant should solve the problem."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:HarpyNestDestroyed
+"Commando: That takes care of the Harpies."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:SurpriseMotherTrucker
+"EVA: Subterranean units detected."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:DamObeliskWarning
+"Commando: That Obelisk is still online. We can't go across."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:YouShouldNotBeHere
+"???: You really should not be here."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TunnelSecure
+"EVA: Nod Tunnel Secure."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Objective_4_Complete
+"EVA: Nod Powerplant destroyed. Obelisk offline."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Objective_3_Complete
+"Commando: I'm inside. Let's see what Nod have been up to."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed
+"Commando: Holy S***! Nod are planning to activate Threshold 19!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed2
+"Commando: They are going to use the Tactius and someone called 'Death Dealer' to achieve this."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed3
+"Commando: I'm downloading Nod's research on Threshold 19. We need to know what we are up against."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:TheTowerExposed4
+"Commando: I have the data. Let's get the hell outta here."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:HardObjective61
+"Commando: We've reached the bridge. Awaiting..."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:HardObjective62
+"Commando: F***! We can't go this way! \nQuick, we need to get to the other bridge!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseCommando
+"EVA: Commando killed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseSniperTeam
+"EVA: Sniper killed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseChurch
+"EVA: Church destroyed. Snipers killed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:Win
+"Let's leave before Nod finds out what we've done."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M3:WinEndGame
+"Mission accomplished"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro1
+"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro2
+"EVA: Nod and the Divine have launched a surprise attack our Chilean Space Port."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro3
+"EVA: GDI forces guarding the space port are at risk of being overrun."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro4
+"EVA: You are to use what limited forces GDI can spare to capture a Nod base and turn it against Kane."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:ControlOnline
+"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:A3:M4:1
+"Capture the Nod Construction Yard and Operations Centre"
+END
+
+MSNSTR:RDS:A3:M4:1_Detail
+"The space port is at risk of being overrun. Capturing the nearest Nod base will not only relieve pressure on the port, it will also open a new front."
+END
+
+MSNSTR:RDS:A3:M4:2
+"The space port's base must survive"
+END
+
+MSNSTR:RDS:A3:M4:2_Detail
+"The space port's crew is preparing materials for the new Starbreaker Ion Cannon. If all the spaceport's production structures are destroyed, the port will be lost."
+END
+
+MSNSTR:RDS:A3:M4:3
+"Eliminate the Temples of Nod before the nuclear missiles launch"
+END
+
+MSNSTR:RDS:A3:M4:3_Detail
+"Kane is preparing to launch nuclear missiles at the dropships. The Temples of Nod must be eliminated in order for the dropships to reach space safely."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:AIChangeTargets
+"Nod are changing their tactics due to our interference. Be careful, commander."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:ToNArmour
+"EVA: The Temples of Nod have been fitted with improved armour. \n You will need a lot of firepower to destroy them."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:GDI_Objective_2_Complete
+"EVA: There is no time to lose, Commander. Kane is preparing to open Threshold 19."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:GDI_Objective_3_Complete
+"EVA: The Temples of Nod have been destroyed. Nuclear threat neutralised."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:LoseNod3CritStruture
+"EVA: Critical Structure Lost."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:LoseGDIAlly
+"EVA: The Space Port has been overrun by Nod and Divine forces."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:LoseEndGame
+"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Win
+"EVA: The dropships' crews will prepare the Starbreaker Ion Cannon as you make your way to the Tower."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:WinEndGame
+"Mission accomplished"
+END
+

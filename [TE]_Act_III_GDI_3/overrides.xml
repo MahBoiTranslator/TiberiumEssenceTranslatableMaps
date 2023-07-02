@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+      <Include source="IonCommando.xml" type="all"/>
+	  <Include source="LogicSet.xml" type="all"/>
+   </Includes>
+   
+   	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_III_GDI:M3:Objective_1"
+			Description="MSNSTR:RDS:ACT_III_GDI:M3:Objective_1_Detail">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_III_GDI:M3:Objective_2"
+			Description="MSNSTR:RDS:ACT_III_GDI:M3:Objective_2_Detail">
+			<PresentationSettings
+				ID="SCRIPT:Objective_2"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_III_GDI:M3:Objective_3"
+			Description="MSNSTR:RDS:ACT_III_GDI:M3:Objective_3_Detail">
+			<PresentationSettings
+				ID="SCRIPT:Objective_3"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>			
+		</MissionObjectiveTag>
+		<MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_III_GDI:M3:Objective_4"
+			Description="MSNSTR:RDS:ACT_III_GDI:M3:Objective_4_Detail">
+			<PresentationSettings
+				ID="Objective_4"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_III_GDI:M3:Objective_5"
+			Description="MSNSTR:RDS:ACT_III_GDI:M3:Objective_5_Detail">
+			<PresentationSettings
+				ID="SCRIPT:Objective_5"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="MSNSTR:RDS:ACT_III_GDI:M3:Objective_6"
+			Description="MSNSTR:RDS:ACT_III_GDI:M3:Objective_6_Detail">
+			<PresentationSettings
+				ID="SCRIPT:Objective_6"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>			
+		</MissionObjectiveTag>		
+	</MissionObjectiveList>
+</AssetDeclaration>

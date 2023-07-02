@@ -1,0 +1,83 @@
+MSNSTR:RDS:ACT_III_GDI:M2:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Intro2
+	"Predator Driver: This place...the land of ghosts and machines."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Intro3
+	"Predator Driver: Why would Nod rebuild that which tried to destroy it?"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_1
+	"Reach CABAL's Core"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_1_Detail
+	"Our spy confirmed the worst: Nod has rebuilt CABAL's core and is holding the Tacitus there. Fight your way towards the core so we can better assess how to retake the device."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_2
+	"Destroy the reactors powering the Core's defences"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_2_Detail
+	"ZOCOM will persue the Divine. Focus on capturing the Core, we need to know what Nod has managed to translate from the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective1Complete
+	"EVA: Nod is moving the Tacitus."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_3
+	"Control the area around the river Obelisk"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective_3_Detail
+	"Nod are attempting to repair a damaged Obelisk of Light. If you can remove Nod from the nearby area, we will be able to use the Obelisk against the Core Power Plants."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:ObjectiveChange
+	"EVA: The Tacitus has been evactuated. ZOCOM will continue to track it.\nYour orders have changed."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:DivineIdentifed
+	"EVA: Commander, ZOCOM have identifed those beings as 'The Divine'.\nThey were the ones responsible for the attack on the ZOCOM prison and tracking station."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:CaptureNodVehicles
+	"Alert: This terrain in unsuitable for heavy vehicles.\nYou may be able to use Nod's unmanned vehicles against them... kill their guards."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:WalkingOnTib
+	"GDI Soldier: My God, the ground here is pure Tiberium! We have to get the Tacitus back before we lose everything!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Veinholes
+	"GDI Soldier: Veinholes? Now that we don't have the Tacitus, the world is being overrun again."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Lose
+	"We have been defeated"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Objective2Complete
+	"EVA: Core defences offline."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:Win
+	"The Tacitus is lost, for now. At least we have a chance to see what Nod have been up..."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M2:WinEndGame
+	"Mission accomplished"
+END

@@ -1,0 +1,79 @@
+MSNSTR:RDS:ACT_III_GDI:M4:Intro1
+	"****ESTABLISHING BATTLEFIELD CONTROL**** Standby!"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro2
+	"EVA: Nod and the Divine have launched a surprise attack our Chilean Space Port."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro3
+	"EVA: GDI forces guarding the space port are at risk of being overrun."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Intro4
+	"EVA: You are to use what limited forces GDI can spare to capture a Nod base and turn it against Kane."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:A3:M4:1
+	"Capture the Nod Construction Yard and Operations Centre"
+END
+
+MSNSTR:RDS:A3:M4:1_Detail
+	"The space port is at risk of being overrun. Capturing the nearest Nod base will not only relieve pressure on the port, it will also open a new front."
+END
+
+MSNSTR:RDS:A3:M4:2
+	"The space port's base must survive"
+END
+
+MSNSTR:RDS:A3:M4:2_Detail
+	"The space port's crew is preparing materials for the new Starbreaker Ion Cannon. If all the spaceport's production structures are destroyed, the port will be lost."
+END
+
+MSNSTR:RDS:A3:M4:3
+	"Eliminate the Temples of Nod before the nuclear missiles launch"
+END
+
+MSNSTR:RDS:A3:M4:3_Detail
+	"Kane is preparing to launch nuclear missiles at the dropships. The Temples of Nod must be eliminated in order for the dropships to reach space safely."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:AIChangeTargets
+	"Nod are changing their tactics due to our interference. Be careful, commander."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:ToNArmour
+	"EVA: The Temples of Nod have been fitted with improved armour.\n You will need a lot of firepower to destroy them."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:GDI_Objective_2_Complete
+	"EVA: There is no time to lose, Commander. Kane is preparing to open Threshold 19."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:GDI_Objective_3_Complete
+	"EVA: The Temples of Nod have been destroyed. Nuclear threat neutralised."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:LoseNod3CritStruture
+	"EVA: Critical Structure Lost."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:LoseGDIAlly
+	"EVA: The Space Port has been overrun by Nod and Divine forces."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:LoseEndGame
+	"Mission failed"
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:Win
+	"EVA: The dropships' crews will prepare the Starbreaker Ion Cannon as you make your way to the Tower."
+END
+
+MSNSTR:RDS:ACT_III_GDI:M4:WinEndGame
+	"Mission accomplished"
+END
