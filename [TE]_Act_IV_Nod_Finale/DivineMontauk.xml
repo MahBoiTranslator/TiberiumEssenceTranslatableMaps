@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<Includes>
+		<Include
+			type="all"
+			source="ART:FXLightningMJ01.w3x" />
+				<Include
+			type="all"
+			source="ART:FXLightningMJ02.w3x" />
+		</Includes>
+	<FXList
+		id="FX_TeslaCoilFire">
+		<NuggetList>
+			<ParticleSystem
+				Particle="TeslaCoilFireLightning01"
+				OrientToObject="True"
+				Ricochet="True"
+				UseTarget="True">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TeslaCoilFireBlueLightning02"
+				OrientToObject="True"
+				Ricochet="True"
+				UseTarget="True">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TeslaCoilFireLightningSm01"
+				OrientToObject="True"
+				Ricochet="True"
+				UseTarget="True">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+		</NuggetList>
+	</FXList>
+		
+		
+
+		
+			<AttributeModifier
+		id="SST_Aura_AttributeModifier"
+		Category="SPELL"
+		Duration="6s">
+		<Modifier
+			Type="RATE_OF_FIRE"
+			Value="150%" />
+		<Modifier
+			Type="DAMAGE_MULT"
+			Value="110%" />
+		<Modifier
+			Type="SUPPRESSABILITY"
+			Value="300%" />
+				<Modifier
+			Type="RANGE"
+			Value="120%" />
+	</AttributeModifier>
+	
+		
+		
+		
+		
+		
+			<ObjectCreationList
+		id="OCL_NodSummonInfantryTeam">
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="10" />
+			<CreateObject>NODCyborgSquad</CreateObject>
+		</CreateObject>
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			TempModelConditionTime="1.5s">
+			<Offset
+				x="10"
+				y="-10" />
+			<CreateObject>NODCyborgSquad</CreateObject>
+		</CreateObject>
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="-10"
+				y="-10" />
+			<CreateObject>MutantFiend_MP</CreateObject>
+		</CreateObject>
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="-10"
+				y="10" />
+			<CreateObject>MutantFiend_MP</CreateObject>
+		</CreateObject>
+	</ObjectCreationList>
+		
+		
+		<ObjectCreationList
+		id="OCL_NodSummonHeavyTeam">
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="10" />
+			<CreateObject>AlienDevourerTank</CreateObject>
+		</CreateObject>
+				<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="10" />
+			<CreateObject>AlienDevourerTank</CreateObject>
+		</CreateObject>
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			TempModelConditionTime="1.5s">
+			<Offset
+				x="10"
+				y="-10" />
+			<CreateObject>AlienDevourerTank</CreateObject>
+		</CreateObject>
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="-10"
+				y="-10" />
+			<CreateObject>AlienDevourerTank</CreateObject>
+		</CreateObject>
+				<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="-10"
+				y="-10" />
+			<CreateObject>AlienDevourerTank</CreateObject>
+		</CreateObject>
+				<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="0s">
+			<Offset
+				x="0"
+				y="0" />
+			<CreateObject>NodSubwayNode</CreateObject>
+		</CreateObject>
+	</ObjectCreationList>
+		
+		
+	<ObjectCreationList
+		id="OCL_NodSummonLightTeam">
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			StartingBusyTime="1.5s">
+			<Offset
+				x="10" />
+			<CreateObject>ForgottenComanche</CreateObject>
+		</CreateObject>
+		<CreateObject
+			Options="ISSUE_MOVE_AFTER_CREATION IGNORE_ALL_OBJECTS"
+			Disposition="ON_GROUND_ALIGNED SPAWN_AROUND"
+			StartingModelConditions=""
+			TempModelConditionTime="1.5s">
+			<Offset
+				x="10"
+				y="-10" />
+			<CreateObject>ForgottenComanche</CreateObject>
+		</CreateObject>
+	</ObjectCreationList>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<LogicCommandSet
+		id="NodMontaukCommandSet">
+		<Cmd>Command_StanceDrillDown</Cmd>
+		<Cmd>Command_NOD_APCDigInAbility</Cmd>
+		<Cmd>Command_MontaukSummonInfantry</Cmd>
+		<Cmd>Command_MontaukSummonLightTeam</Cmd>
+		<Cmd>Command_MontaukSummonTanks</Cmd>
+		<Cmd>Command_AttackMove</Cmd>
+		<Cmd>Command_NOD_BuildPowerPlant</Cmd>
+		<Cmd>Command_NOD_BuildRefinery</Cmd>
+		<Cmd>Command_NOD_BuildBarracks</Cmd>
+		<Cmd>Command_NOD_BuildDropZone</Cmd>
+		<Cmd>Command_NOD_BuildOperationsCenter</Cmd>
+		<Cmd>Command_NOD_BuildHangar</Cmd>
+		<Cmd>Command_NOD_BuildSecretShrine</Cmd>
+		<Cmd>Command_NOD_BuildTechAssemblyPlant</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumLiquidationFacility</Cmd>
+		<Cmd>Command_NOD_BuildShredderTurretHub</Cmd>
+		<Cmd>Command_NOD_BuildLaserCannon</Cmd>
+		<Cmd>Command_NOD_BuildRocketBunker</Cmd>
+		<Cmd>Command_NOD_BuildTiberiumSilo</Cmd>
+		<Cmd>Command_NOD_BuildObeliskOfLight</Cmd>
+		<Cmd>Command_NOD_BuildTempleOfNOD</Cmd>		
+		<Cmd>Command_NOD_BuildCrane</Cmd>
+		<Cmd>Command_ConstructNODEmissary</Cmd>
+				 <Cmd>Command_ConstructNODAttackBike</Cmd>
+		 <Cmd>Command_ConstructNODScorpionBuggy</Cmd>
+		 <Cmd>Command_ConstructAlienDevourerTank</Cmd>
+		 <Cmd>Command_ConstructNODHarvester</Cmd>
+		 <Cmd>Command_ConstructNODApc</Cmd>
+		 <Cmd>Command_ConstructNODMCV</Cmd>
+		 <Cmd>Command_ConstructNODFlameTank_EA</Cmd>		 
+		 <Cmd>Command_ConstructNODBeamCannon</Cmd>		 
+		 <Cmd>Command_ConstructNodPhantom</Cmd>
+		 <Cmd>Command_ConstructNODStealthTank</Cmd>
+		 <Cmd>Command_ConstructNODAdvancedArtillery</Cmd>		 
+		 <Cmd>Command_ConstructNODAvatar</Cmd>		 
+	</LogicCommandSet>		
+		
+<WeaponTemplate 
+		id="AlienLightningSpikeWeapon2"
+		Name="AlienLightningSpikeWeapon2" 
+		AttackRange="400.0" 
+		WeaponSpeed="999999.0" 
+		RadiusDamageAffects="ALLIES ENEMIES NEUTRALS"
+		ClipSize="1"
+		FireSound="ALI_LightningSpike_Select"
+		FireFX="FX_TeslaCoilFire">
+		<FiringDuration
+			MinSeconds=".1s"
+			MaxSeconds=".1s" />
+		<ClipReloadTime
+			MinSeconds="0s"
+			MaxSeconds="0s" />
+		<Nuggets>
+			<DamageNugget 
+				Damage="50.0" 
+				Radius="0.0" 
+				DelayTimeSeconds="0s"
+				DamageType="CANNON" 
+				DeathType="POISONED_BETA"
+				DamageFXType="GDI_FLAMETHROWER"
+				
+			 />
+			 			<DamageNugget 
+				Damage="25.0" 
+				Radius="0.0" 
+				DelayTimeSeconds="0s"
+				DamageType="GRENADE" 
+				DeathType="POISONED_BETA"
+				DamageFXType="GDI_FLAMETHROWER"
+				
+			 />
+		</Nuggets>
+	</WeaponTemplate>
+	
+	
+		<WeaponTemplate
+		id="NODMontaukLaser_AA"
+		Name="NODMontaukLaser_AA"
+		AttackRange="325"
+		FireSound="AudioEvent:NOD_AvatarWarMech_WeaponFireLaser2"
+		FireFX="FX_NODSpitfireFire"
+		FireVeteranFX="FX_NODSpitfireFireHeroic"
+		ClipSize="1"
+		AntiMask="ANTI_AIRBORNE_VEHICLE ANTI_AIRBORNE_INFANTRY"
+		CanFireWhileMoving="True">
+		<FiringDuration
+			MinSeconds="1s"
+			MaxSeconds="1s" />
+		<ClipReloadTime
+			MinSeconds=".6s"
+			MaxSeconds=".6s" />
+		<Nuggets>
+			<ActivateLaserNugget
+				Lifetime="0.95s"
+				LaserId="7"
+				HitGroundFX="FX_NODSpitfireHit" />
+			<DamageNugget
+				Damage="3000"
+				DelayTimeSeconds="0.4s"
+				DamageType="CANNON"
+				DeathType="LASERED"
+				DamageFXType="NOD_LASER" />
+			<SuppressionNugget
+				Radius="10"
+				Suppression="50"
+				DurationSeconds="5s" />
+		</Nuggets>
+	</WeaponTemplate>
+		
+	<GameObject
+		id="NODMontauk"
+		KindOf="SELECTABLE FS_WAR_FACTORY CAN_ATTACK CAN_CAST_REFLECTIONS PRELOAD SCORE CAN_REVERSE_MOVE VEHICLE UNIQUE_UNIT CAN_BE_FAVORITE_UNIT CONSTRUCTION_YARD COVER PROJECT_BUILDABILITY_FOR_ALLIES SIEGE_WEAPON"
+		Description="Desc:NODMontauk"
+		TypeDescription="Type:NODMontauk"
+		RadarPriority="UNIT"
+		Side="NOD"
+		EditorName="NODMontauk"
+		EditorSorting="UNIT"
+		BuildTime="75"
+		CommandSet="NodMontaukCommandSet"
+		SelectPortrait="Portrait_NodMontauk"
+		ButtonImage="Portrait_NodMontauk"
+		VoicePriority="196"
+		ShockwaveResistance="100"
+		CommandPoints="100"
+		ProductionQueueType="MAIN_STRUCTURE"
+		UnitCategory="VEHICLE"
+		WeaponCategory="CANNON"
+		ReinvisibilityDelay="7s"
+		BuildCost="15000"
+		TransportSlotCount="1">
+		<DisplayName>Name:NODMontauk</DisplayName>
+		<GameDependency>
+			<RequiredObject>NODTiberiumLiquidationFacility</RequiredObject>
+		</GameDependency>
+		<ArmorSet
+			Armor="NodMontaukArmor"
+			DamageFX="VehicleDamageFX" />
+		<LocomotorSet
+			Speed="40"
+			Locomotor="NodMontaukLocomotor" />
+		<Draws>
+			<TankDraw
+				id="0x50DF2C46"
+				InitialRecoilSpeed="6"
+				MaxRecoilDistance="5"
+				RecoilDamping="2"
+				RecoilSettleSpeed="2"
+				TrackMarks="EXTnkTrack"
+				ExtraPublicBone="FXTracksL FXTracksR Bone_RearTreads Bone_FrontTreads FIGHTER_01 FIGHTER_02 FIGHTER_03 FIGHTER_04 FIGHTER_05 FIGHTER_06 FIGHTER_07 FIGHTER_08"
+				TrackMarksLeftBone="FXTracksL"
+				TrackMarksRightBone="FXTracksR"
+				OkToChangeModelColor="True"
+				TreadAnimationRate="0.15"
+				TreadPivotSpeedFraction="0.9"
+				TreadDriveSpeedFraction="0.25">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT"
+					RetainSubObjects="True">
+					<Model
+						Name="W3DContainer:NUMONTAUK_SKN" />
+					<WeaponFireFXBone
+						BoneName="FXWeapon_LF" />
+					<WeaponFireFXBone
+						WeaponSlotID="2"
+						BoneName="FXWeapon_LM" />
+					<WeaponFireFXBone
+						WeaponSlotID="3"
+						BoneName="FXWeapon_LR" />
+					<WeaponFireFXBone
+						WeaponSlotID="4"
+						BoneName="FXWeapon_RF" />
+					<WeaponFireFXBone
+						WeaponSlotID="5"
+						BoneName="FXWeapon_RM" />
+					<WeaponFireFXBone
+						WeaponSlotID="6"
+						BoneName="FXWeapon_RR" />
+					<WeaponFireFXBone
+						WeaponSlotID="7"
+						BoneName="FXWeapon_M" />
+					<WeaponLaunchBone
+						BoneName="FXWeapon_LF" />
+					<WeaponLaunchBone
+						WeaponSlotID="2"
+						BoneName="FXWeapon_LM" />
+					<WeaponLaunchBone
+						WeaponSlotID="3"
+						BoneName="FXWeapon_LR" />
+					<WeaponLaunchBone
+						WeaponSlotID="4"
+						BoneName="FXWeapon_RF" />
+					<WeaponLaunchBone
+						WeaponSlotID="5"
+						BoneName="FXWeapon_RM" />
+					<WeaponLaunchBone
+						WeaponSlotID="6"
+						BoneName="FXWeapon_RR" />
+					<WeaponLaunchBone
+						WeaponSlotID="7"
+						BoneName="FXWeapon_M" />
+					<Turret
+						TurretNameKey="Turret_LF"
+						TurretPitch="Pitch_LF"
+						TurretID="1" />
+					<Turret
+						TurretNameKey="Turret_LM"
+						TurretPitch="Pitch_LM"
+						TurretID="2" />
+					<Turret
+						TurretNameKey="Turret_LR"
+						TurretPitch="Pitch_LR"
+						TurretID="3" />
+					<Turret
+						TurretNameKey="Turret_RF"
+						TurretPitch="Pitch_RF"
+						TurretID="4" />
+					<Turret
+						TurretNameKey="Turret_RM"
+						TurretPitch="Pitch_RM"
+						TurretID="5" />
+					<Turret
+						TurretNameKey="Turret_RR"
+						TurretPitch="Pitch_RR"
+						TurretID="6" />
+					<Turret
+						TurretNameKey="Turret_M"
+						TurretPitch="Pitch_M"
+						TurretID="7" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="FORMATION_PREVIEW">
+					<Model
+						Name="GUMamm_FP" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DAMAGED"
+					RetainSubObjects="True">
+					<Model
+						Name="W3DContainer:NUMONTAUK_SKN" />
+					<ParticleSysBone
+						BoneName="FX_Fire"
+						FXParticleSystemTemplate="NODDamagedSmoke"
+						FollowBone="True" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="REALLYDAMAGED"
+					RetainSubObjects="True">
+					<Model
+						Name="W3DContainer:NUMONTAUK_SKN" />
+					<Texture
+						Original="NUMontauk1"
+						New="NUMontauk1_D" />
+					<ParticleSysBone
+						BoneName="FX_Fire"
+						FXParticleSystemTemplate="NODDamagedFire"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FX_Fire"
+						FXParticleSystemTemplate="NODDamagedFireDistortion"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FX_Fire"
+						FXParticleSystemTemplate="NODDamagedSmoke"
+						FollowBone="True" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<Model
+						Name="W3DContainer:NUMONTAUK_R" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Animation
+						AnimationName="NUMONTAUK_IDLA"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+					<Script> CurDrawableShowSubObject("TreadsStop")
+          CurDrawableHideSubObject("TreadsMove")
+          CurDrawableHideSubObject("TreadsTurnLeft")
+          CurDrawableHideSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield")</Script>
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING TURN_LEFT_HIGH_SPEED">
+					<Animation
+						AnimationName="NUMONTAUK_HTRL"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+					<Script> CurDrawableHideSubObject("TreadsStop")
+          CurDrawableHideSubObject("TreadsMove")
+          CurDrawableShowSubObject("TreadsTurnLeft")
+          CurDrawableHideSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield") </Script>
+					<ParticleSysBone
+						BoneName="FXTracksL"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksR"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING TURN_RIGHT_HIGH_SPEED">
+					<Animation
+						AnimationName="NUMONTAUK_HTRR"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+					<Script> CurDrawableHideSubObject("TreadsStop")
+          CurDrawableHideSubObject("TreadsMove")
+          CurDrawableHideSubObject("TreadsTurnLeft")
+          CurDrawableShowSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield")</Script>
+					<ParticleSysBone
+						BoneName="FXTracksL"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksR"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING TURN_LEFT">
+					<Animation
+						AnimationName="NUMONTAUK_TRNL"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+					<Script> CurDrawableHideSubObject("TreadsStop")
+          CurDrawableHideSubObject("TreadsMove")
+          CurDrawableShowSubObject("TreadsTurnLeft")
+          CurDrawableHideSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield")</Script>
+					<ParticleSysBone
+						BoneName="FXTracksL"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksR"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING TURN_RIGHT">
+					<Animation
+						AnimationName="NUMONTAUK_TRNR"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+					<Script> CurDrawableHideSubObject("TreadsStop")
+          CurDrawableHideSubObject("TreadsMove")
+          CurDrawableHideSubObject("TreadsTurnLeft")
+          CurDrawableShowSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield")</Script>
+					<ParticleSysBone
+						BoneName="FXTracksL"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksR"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING">
+					<Animation
+						AnimationName="NUMONTAUK_IDLA"
+						AnimationMode="LOOP"
+						AnimationBlendTime="15" />
+					<Script> CurDrawableHideSubObject("TreadsStop")
+          CurDrawableShowSubObject("TreadsMove")
+          CurDrawableHideSubObject("TreadsTurnLeft")
+          CurDrawableHideSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield")</Script>
+					<ParticleSysBone
+						BoneName="FXTracksL"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksR"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="COMING_OUT_OF_FACTORY"
+					StateName="STATE_built">
+					<Animation
+						AnimationName="NUMONTAUK_BLDA"
+						AnimationMode="ONCE"
+						AnimationBlendTime="0" />
+					<Script> CurDrawableHideSubObject("TreadsStop")
+          CurDrawableShowSubObject("TreadsMove")
+          CurDrawableHideSubObject("TreadsTurnLeft")
+          CurDrawableHideSubObject("TreadsTurnRight")
+          CurDrawableHideSubObject("Shield")</Script>
+					<ParticleSysBone
+						BoneName="FXTracksL"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksR"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="PACKING_TYPE_2 PACKING">
+					<Animation
+						AnimationName="NUMONTAUK_DIGB"
+						AnimationMode="ONCE" />
+					<Script>CurDrawableShowSubObject("Shield")</Script>
+					<FXEvent
+						Frame="5"
+						Effect="FX_DigIn_Big"
+						Bone="Bone_FrontHull"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_DigIn_Big"
+						Bone="BONE_REARHULL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="PACKING_TYPE_2 UNPACKING">
+					<Animation
+						AnimationName="NUMONTAUK_DIGA"
+						AnimationMode="ONCE" />
+					<Script>CurDrawableShowSubObject("Shield")</Script>
+					<FXEvent
+						Frame="5"
+						Effect="FX_DigIn_Big"
+						Bone="Bone_FrontHull"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="20"
+						Effect="FX_DigIn_NodApc"
+						Bone="BONE_REARHULL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="UNPACKING">
+					<Animation
+						AnimationName="NUMONTAUK_IDLA"
+						AnimationMode="ONCE" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="PACKING">
+					<Animation
+						AnimationName="NUMONTAUK_IDLA"
+						AnimationMode="ONCE" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<Animation
+						AnimationName="NUMONTAUK_DIEA"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15" />
+					<FXEvent
+						Frame="1"
+						Effect="FX_GDIVehicleExplodeNoScorch"
+						Bone="FXFIRE01"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="1"
+						Effect="FX_GDIVehicleExplodeNoScorch"
+						Bone="FXFIRE03"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<LeftTread>"TreadsL1"</LeftTread>
+				<LeftTread>"TreadsL2"</LeftTread>
+				<RightTread>"TreadsR1"</RightTread>
+				<RightTread>"TreadsR2"</RightTread>
+				<ArticulationBone
+					ArticulationBoneName="Bone_FrontHull"
+					ArticulationHelperBoneName="Bone_FrontTreads" />
+				<ArticulationBone
+					ArticulationBoneName="Bone_RearHull"
+					ArticulationHelperBoneName="Bone_RearTreads" />
+			</TankDraw>
+			<ScriptedModelDraw
+				id="ModuleTag_FX"
+				ExtraPublicBone="FXTracksLR FXTracksRR FXTracksLF FXTracksRF MUZZLEFX01 MUZZLEFX02">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="GUMamm_FX" />
+						<ParticleSysBone
+							BoneName="NONE"
+							FXParticleSystemTemplate="NODTibInfusion"
+							FollowBone="True" />
+													<ParticleSysBone
+							BoneName="NONE"
+							FXParticleSystemTemplate="NODTibInfusion"
+							FollowBone="True" />
+													<ParticleSysBone
+							BoneName="NONE"
+							FXParticleSystemTemplate="NODTibInfusion"
+							FollowBone="True" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING">
+					<ParticleSysBone
+						BoneName="FXTracksLF"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksRF"
+						FXParticleSystemTemplate="TreadDust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksRF"
+						FXParticleSystemTemplate="TreadDirt"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXTracksLF"
+						FXParticleSystemTemplate="TreadDirt"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="PACKING_TYPE_2 PACKING">
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="GDIMammothHulkSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="XPMediumXP_Dirts"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="XPMediumXP_Dirts02"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="OrcaStrike_Rocks"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="OrcaStrike_Dirt"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="OrcaStrike_Dust"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="NodApcDigInDust"
+						FollowBone="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="GDIMammothHulkFire"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="TankExplo_AfterFlames"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="GDIMammothHulkFireGlow"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="GDIMammothHulkFireDistortion"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="FXHULKFIRE"
+						FXParticleSystemTemplate="GDIMammothHulkSmoke"
+						FollowBone="True" />
+				</AnimationState>
+			</ScriptedModelDraw>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				OkToChangeModelColor="True"
+				StaticModelLODMode="True"
+				UseStandardModelNames="True">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="SELECTED">
+					<Model
+						Name="FXInvisBone" />
+					<ShadowInfo
+						Type="ADDITIVE_DECAL"
+						Texture="Decal_LeadershipBuff"
+						SizeX="500"
+						SizeY="500"
+						MaxHeight="200"
+						OverrideLODVisibility="True"
+						UseHouseColor="True"
+						LocalPlayerOnly="True" />
+				</ModelConditionState>
+			</ScriptedModelDraw>
+			<LaserDraw
+				id="0x70418993"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="1"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x1FD2121C"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="1"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0x3CF2C691"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="1"
+				LaserStateID="1">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x6ACF3B13"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="2"
+				LaserStateID="2">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0xD161EE17"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="2"
+				LaserStateID="2"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0xF82C74EA"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="2"
+				LaserStateID="2">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0xAC986E98"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="3"
+				LaserStateID="3">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x19EF9526"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="3"
+				LaserStateID="3"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0xD89D8EA3"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="3"
+				LaserStateID="3">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x5DAE32C7"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="4"
+				LaserStateID="4">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x27C4FC76"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="4"
+				LaserStateID="4"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0x09E82A9A"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="4"
+				LaserStateID="4">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x09CF911C"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="5"
+				LaserStateID="5">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x2B8D2AA7"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="5"
+				LaserStateID="5"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0x34BF10ED"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="5"
+				LaserStateID="5">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x0165AAE8"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="6"
+				LaserStateID="6">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x35266D94"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				WeaponSlotID="6"
+				LaserStateID="6"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0xFB6DBCF0"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="20"
+				WeaponSlotID="6"
+				LaserStateID="6">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x7956E6AD"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="25"
+				WeaponSlotID="7"
+				LaserStateID="7">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXObeliskLaser</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLaserOverlay</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+			<LaserDraw
+				id="0x29D5FD23"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="40"
+				WeaponSlotID="7"
+				LaserStateID="7"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXLightningMJ01</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0x8C5A6A4B"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.03"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				LaserWidth="30"
+				WeaponSlotID="7"
+				LaserStateID="7">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>fxobelisklaserheroic2</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>fxobelisklaser3</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_02" />
+			</LaserDraw>
+						<LaserDraw
+				id="ModuleTag_LaserDraw01Veterancy"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".3"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate=".7"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="30"
+				LaserWidth="50"
+				WeaponSlotID="7"
+				LaserStateID="7">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXAlienLaserHeroic</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXAlienLaserHeroic</Value>
+						</Texture>
+					</Constants>
+				</FXShader>				
+			</LaserDraw>	
+			
+			
+			<LaserDraw
+				id="ModuleTag_LaserDistort"
+				UseDistortionShader="true"
+				Texture1_UTile="1"
+				Texture1_VTile=".5"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate=".2"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_UTile="1"
+				Texture2_VTile=".01"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="1"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50">
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXRailGunCoreDistortion</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXRailGunCoreMask</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+		</Draws>
+		<Behaviors>
+		<StancesBehavior id="ModuleTag_Stance" StanceTemplate="Generic"/>
+			<!--		<SupplyCenterDockUpdate
+				id="SupplyCenter"
+				NumberApproachPositions="-1"
+				AllowsPassthrough="true"
+				GoToRallyPointAfterDock="true"
+				ShouldDockInReverse="false"
+				MinDockTime="1s"
+				ObjectsInLineWeight="1s"
+				DistributedDeposit="true">
+				<ForVoiceRetreatThisIsASafeHarborToObjectFilter
+					Include="HARVESTER" />
+			</SupplyCenterDockUpdate>-->
+					<ProductionUpdate
+				id="ModuleTag_ProductionUpdate2"
+				GiveNoXP="true"
+				Type="VEHICLE" />
+			<QueueProductionExitUpdate
+				id="ModuleTag_07"
+				ExitDelay="1">
+				<UnitCreatePoint
+					x="23.0"
+					y="0.0" />
+				<NaturalRallyPoint
+					x="132.0"
+					y="0.0" />
+			</QueueProductionExitUpdate>
+							<SpawnBehavior
+				id="ModuleTag_SpawnRepairDrones"
+				SpawnNumberData="3"
+				InitialBurst="3"
+				SpawnReplaceDelayData="10s"
+				SpawnedRequireSpawner="true"
+				KillSpawnsOnCaptured="true"
+				SpawnInsideBuilding="true"
+				KillSpawnsOnDisabled="true">
+				<Die
+					DeathTypes="ALL" />
+				<SpawnTemplate>NodRepairDrone</SpawnTemplate>
+				</SpawnBehavior>
+					<ProductionUpdate
+				id="ModuleTag_ProductionUpdate"
+				Type="MAIN_STRUCTURE"
+				MaxQueueEntries="1" />
+			<ProductionUpdate
+				id="ModuleTag_OtherProductionUpdate"
+				Type="OTHER_STRUCTURE"
+				MaxQueueEntries="1" />
+			<ProductionUpdateInfo
+				id="ModuleTag_ProductionUpdateInfo"/>
+		
+			<AutoHealBehavior
+				id="0xC07BF5C0"
+				HealingAmount="100"
+				HealingDelay="0.5s"
+				StartHealingDelay="1s">
+				<TriggeredBy>Upgrade_Veterancy_HEROIC</TriggeredBy>
+			</AutoHealBehavior>
+			<AttributeModifierUpgrade
+				id="0xAA36A1AA"
+				AttributeModifier="Modifier_MultifunctionUpgradeCenterSpeed">
+				<TriggeredBy>Upgrade_MultifunctionUpgradeCenterSpeed</TriggeredBy>
+			</AttributeModifierUpgrade>
+			<AttributeModifierUpgrade
+				id="0x81C6F752"
+				AttributeModifier="Modifier_MultifunctionUpgradeCenterDamage">
+				<TriggeredBy>Upgrade_MultifunctionUpgradeCenterDamage</TriggeredBy>
+			</AttributeModifierUpgrade>
+			<AttributeModifierUpgrade
+				id="0xE35F7EC4"
+				AttributeModifier="Modifier_MultifunctionUpgradeCenterArmor">
+				<TriggeredBy>Upgrade_MultifunctionUpgradeCenterArmor</TriggeredBy>
+			</AttributeModifierUpgrade>
+			<LevelUpUpgrade
+				id="0xA92BDFEA"
+				LevelsToGain="1"
+				LevelCap="4">
+				<TriggeredBy>Upgrade_ProductionVeterancy_VETERAN</TriggeredBy>
+			</LevelUpUpgrade>
+			<LevelUpUpgrade
+				id="0x5C3F216A"
+				LevelsToGain="2"
+				LevelCap="4">
+				<TriggeredBy>Upgrade_ProductionVeterancy_ELITE</TriggeredBy>
+			</LevelUpUpgrade>
+			<LevelUpUpgrade
+				id="0x379F3CE2"
+				LevelsToGain="3"
+				LevelCap="4">
+				<TriggeredBy>Upgrade_ProductionVeterancy_HEROIC</TriggeredBy>
+			</LevelUpUpgrade>
+			<InvisibilityUpdate
+				id="ModuleTag_Invisibility2"
+				Options="BROADCAST STARTS_ACTIVE"
+				BroadcastRange="450"
+				UpdatePeriod="1.0s">
+				<InvisibilityNugget />
+				<BroadcastObjectFilter
+					Rule="ANY"
+					Relationship="ALLIES"
+					Include="STRUCTURE INFANTRY VEHICLE AIRCRAFT">
+					<ExcludeThing>NODDisruptionTower</ExcludeThing>
+					<ExcludeThing>Viceroid</ExcludeThing>
+					<ExcludeThing>AlienCrystalShield</ExcludeThing>
+				</BroadcastObjectFilter>
+			</InvisibilityUpdate>
+			<!-- Nod Cloaking Field -->
+			<InvisibilityUpdate
+				id="ModuleTag_Invisibility"
+				UpdatePeriod="0.5s">
+				<InvisibilityNugget />
+				<RequiresUpgrade>Upgrade_CloakingFieldInvisibility</RequiresUpgrade>
+			</InvisibilityUpdate>
+			<StealthUpgrade
+				id="ModuleTag_InvisibilityTrigger">
+				<TriggeredBy>Upgrade_CloakingFieldInvisibility</TriggeredBy>
+			</StealthUpgrade>
+			<Physics
+				id="0xE128C6A2" />
+			<ProductionUpdate
+				id="0x433F72FC"
+				MaxQueueEntries="1" />
+			<WeaponSetUpdate
+				id="ModuleTag_WeaponSetUpdate">
+				<WeaponSlotHardpoint
+					ID="8"
+					AllowInterleavedFiring="True">
+					<Weapon
+						Template="NodMontaukRangefinder" />
+				</WeaponSlotHardpoint>
+				<WeaponSlotTurret
+					ID="1">
+					<Weapon
+						Template="AlienLightningSpikeWeapon2" />
+						
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="15d"
+						MaxDeflectionAntiClockwise="120d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="2">
+					<Weapon
+						Template="AlienLightningSpikeWeapon2" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="15d"
+						MaxDeflectionAntiClockwise="120d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="3">
+					<Weapon
+						Template="AlienLightningSpikeWeapon2" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="15d"
+						MaxDeflectionAntiClockwise="120d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="4">
+					<Weapon
+						Template="AlienLightningSpikeWeapon2" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="120d"
+						MaxDeflectionAntiClockwise="15d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="5">
+					<Weapon
+						Template="AlienLightningSpikeWeapon2" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="120d"
+						MaxDeflectionAntiClockwise="15d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="6">
+					<Weapon
+						Template="AlienLightningSpikeWeapon2" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="120d"
+						MaxDeflectionAntiClockwise="15d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="7"
+					AllowInterleavedFiring="True">
+					<Weapon
+						Template="NODMontaukLaser_AA" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+			</WeaponSetUpdate>
+		<LaserState
+				id="0xF274A6D1"
+				LaserId="1" />
+			<LaserState
+				id="0x23A80CF1"
+				LaserId="2" />
+			<LaserState
+				id="0xF9F4C65D"
+				LaserId="3" />
+			<LaserState
+				id="0xD97C8655"
+				LaserId="4" />
+			<LaserState
+				id="0x43D9F3A0"
+				LaserId="5" />
+			<LaserState
+				id="0x8704B086"
+				LaserId="6" />
+			<LaserState
+				id="0x839FB64E"
+				LaserId="7" />
+			<SlowDeath
+				id="0x73542D4A"
+				SinkRate="1"
+				SinkDelay="15s"
+				DestructionDelay="7s">
+				<OCL>
+					<OCL>OCL_NodMontaukDebris</OCL>
+				</OCL>
+				<Sound
+					List="NOD_Generic_VoiceDieMS" />
+				<DieMuxData
+					DeathTypes="ALL"
+					DeathTypesForbidden="TOPPLED" />
+			</SlowDeath>
+			<SpecialPower
+				id="0x03429543"
+				SpecialPowerTemplate="SpecialAbilityNodApcDigIn"
+				UpdateModuleStartsAttack="True">
+				<AttributeModifierAffects
+					Rule="UNPARSED" />
+				<RequirementsFilterMP
+					Rule="UNPARSED" />
+				<RequirementsFilterStrategic
+					Rule="UNPARSED" />
+			</SpecialPower>
+			<AISpecialPowerUpdate
+				id="0xC82EE15B"
+				CommandButtonName="Command_NOD_APCDigInAbility"
+				SpecialPowerAIType="SPECIAL_POWER_MOVEMENT"
+				MinimumCutoff="900" />
+			<TeleportSpecialAbilityUpdate
+				id="0x6E468FA8"
+				SpecialPowerTemplate="SpecialAbilityNodApcDigIn"
+				PackTime="3s"
+				UnpackTime="3s"
+				Options="IGNORE_FACING_CHECK"
+				UnpackSound="AudioEvent:NodApcDrill"
+				UnpackingVariation="2"
+				BusyDuration="1s"
+				MaxDistance="2500" />
+			<SpecialPower
+				id="0xDC38A57E"
+				SpecialPowerTemplate="SpecialPowerMontaukSummonTanks"
+				UpdateModuleStartsAttack="True">
+				<AttributeModifierAffects
+					Rule="UNPARSED" />
+				<RequirementsFilterMP
+					Rule="UNPARSED" />
+				<RequirementsFilterStrategic
+					Rule="UNPARSED" />
+			</SpecialPower>
+			<WeaponFireSpecialAbilityUpdate
+				id="0x3C308FAB"
+				SpecialPowerTemplate="SpecialPowerMontaukSummonTanks"
+				StartAbilityRange="300"
+				PackTime="0.1s"
+				UnpackTime="0.1s"
+				Options="IGNORE_FACING_CHECK"
+				SpecialWeapon="MontaukSumontankPodWeapon"
+				WeaponSlotID="8" />
+			<SpecialPower
+				id="0xE7418804"
+				SpecialPowerTemplate="SpecialPowerMontaukSummonBikes"
+				UpdateModuleStartsAttack="True">
+				<AttributeModifierAffects
+					Rule="UNPARSED" />
+				<RequirementsFilterMP
+					Rule="UNPARSED" />
+				<RequirementsFilterStrategic
+					Rule="UNPARSED" />
+			</SpecialPower>
+			<WeaponFireSpecialAbilityUpdate
+				id="0xF6C1F957"
+				SpecialPowerTemplate="SpecialPowerMontaukSummonBikes"
+				StartAbilityRange="300"
+				PackTime="0.1s"
+				UnpackTime="0.1s"
+				Options="IGNORE_FACING_CHECK"
+				SpecialWeapon="MontaukSumonBikesPodWeapon"
+				WeaponSlotID="8" />
+			<SpecialPower
+				id="0xAB69B676"
+				SpecialPowerTemplate="SpecialPowerMontaukSummonInfantry"
+				UpdateModuleStartsAttack="True">
+				<AttributeModifierAffects
+					Rule="UNPARSED" />
+				<RequirementsFilterMP
+					Rule="UNPARSED" />
+				<RequirementsFilterStrategic
+					Rule="UNPARSED" />
+			</SpecialPower>
+			<WeaponFireSpecialAbilityUpdate
+				id="0x1AA838B0"
+				SpecialPowerTemplate="SpecialPowerMontaukSummonInfantry"
+				StartAbilityRange="300"
+				PackTime="0.1s"
+				UnpackTime="0.1s"
+				Options="IGNORE_FACING_CHECK"
+				SpecialWeapon="MontaukSumonInfantryPodWeapon"
+				WeaponSlotID="8" />
+			<PassiveAreaEffectBehavior id="ModuleTag_PassiveEffect" EffectRadius="250" NonStackable="true">
+				<Modifier>SST_Aura_AttributeModifier</Modifier>
+				<AllowFilter Rule="ALL" Relationship="ALLIES SAME_PLAYER"/>
+			</PassiveAreaEffectBehavior>
+			<FXListBehavior
+				id="0xC74C39D8">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_GDIMammothExplode" />
+			</FXListBehavior>
+
+			<StatusBitsUpgrade
+				id="0xD305500E"
+				StatusToSet="WEAPON_UPGRADED_01">
+				<TriggeredBy>Upgrade_Veterancy_HEROIC</TriggeredBy>
+			</StatusBitsUpgrade>
+		</Behaviors>
+		<AI>
+			<AIUpdate
+				id="ModuleTag_AI"
+				AutoAcquireEnemiesWhenIdle="YES"
+				AILuaEventsList="NodMontaukFunctions">
+				<UnitAITargetChooserData
+					SympathyRange="100.0"
+RotateToTargetWhenAiming="true"	/>
+			</AIUpdate>
+					</AI>
+
+
+		<Body>
+			<ActiveBody
+				id="0xA5C3EB8A"
+				MaxHealth="130000" />
+		</Body>
+		<ClientUpdates>
+			<EvaAnnounceClientCreate
+				id="0x31F2CFA9"
+				AnnouncementEventEnemy="WarningMothershipDeployed"
+				UseObjectsPosition="True" />
+		</ClientUpdates>
+		<Geometry>
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="VEHICLE"
+				MajorRadius="60"
+				MinorRadius="25"
+				Height="25">
+				<Offset
+					x="-3" />
+			</Shape>
+		</Geometry>
+		<AudioArrayVoice>
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceAttack"
+				AudioType="voiceAttack" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceAttack"
+				AudioType="voiceAttackAfterMoving" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceCreate"
+				AudioType="voiceCreated" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceMove"
+				AudioType="voiceGuard" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceMove"
+				AudioType="voiceMove" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceRetreat"
+				AudioType="voiceRetreatToCastle" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceSelect"
+				AudioType="voiceSelect" />
+			<AudioEntry
+				Sound="AudioEvent:Nod_Epic_VoiceSelect"
+				AudioType="voiceSelectBattle" />
+		</AudioArrayVoice>
+		<AudioArraySound>
+			<AudioEntry
+				Sound="AudioEvent:NOD_Devil_MoveStart"
+				AudioType="soundMoveStart" />
+			<AudioEntry
+				Sound="AudioEvent:MammothIdleLoop"
+				AudioType="soundAmbient" />
+			<AudioEntry
+				Sound="AudioEvent:NOD_Devil_MoveLoop"
+				AudioType="soundMoveLoop" />
+		</AudioArraySound>
+		<EvaEvents
+			EvaEventDieOwner="UnitLost"
+			EvaEventDamagedOwner="UnitUnderAttack"
+			EvaEventDamagedFromShroudedSourceOwner="UnitUnderAttackFromShroudedUnit"
+			EvaEventDamagedByFireOwner="GenericUnitBeingBurned"
+			EvaEventSecondDamageFarFromFirstScanRange="600"
+			EvaEventSecondDamageFarFromFirstTimeoutMS="155"
+			EvaEventAmbushed="UnitAmbushed"
+			EvaEnemyObjectSightedEvent="GenericEnemyUnitSighted"
+			EvaEventDetectedEnemy="EnemyStealthUnitDiscovered"
+			EvaEventAvailableForProduction="NewConstructionOptions"
+			EvaEventProductionStarted="UnitConstructionStarted"
+			EvaEventBuildOnHold="BuildOnHold"
+			EvaEventBuildCancelled="BuildCancelled"
+			EvaEventPromotedOwner="UnitPromoted" />
+		<ShadowInfo
+			Type="VOLUME" />
+		<VisionInfo
+			VisionRange="400"
+			ShroudClearingRange="500" />
+	
+		<CrusherInfo
+			CrusherLevel="3"
+			CrushableLevel="3" />
+				<ProjectedBuildabilityInfo
+			Radius="360"
+			BuildPlacementTypes="MAIN_STRUCTURE OTHER_STRUCTURE" />
+	</GameObject>
+</AssetDeclaration>

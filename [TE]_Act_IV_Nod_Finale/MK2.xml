@@ -1,0 +1,1548 @@
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<Tags/>
+<Includes>
+<!--  Base Object  -->
+<Include type="instance" source="DATA:BaseObjects/BaseVehicle.xml"/>
+</Includes>
+	<FXList
+		id="FX_KodiakIonCannonHit">
+		<NuggetList>
+			<ParticleSystem
+				Particle="FXIonArtyExplosionFlash">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="FXIonArtyFlames">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="FXIonTorpedoFlames">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="FXIonArtyAfterFire">
+				<Radius
+					Type="CONSTANT" />
+				<Height
+					Type="CONSTANT" />
+				<InitialDelay
+					Type="CONSTANT"
+					Low="-1"
+					High="-1" />
+			</ParticleSystem>
+		</NuggetList>
+	</FXList>
+<!--
+	<WeaponTemplate
+		id="GDICommandoRailCarbine2"
+		Name="GDICommandoRailCarbine2" 
+		AttackRange="400.0" 
+		WeaponSpeed="999999.0" 
+		FireSound="GDI_Commando_Weapon1FireMS"
+		FireSoundPerClip="GDI_Commando_Weapon1Fire"
+		FireFX="FX_GDICommandoFire"
+		FireVeteranFX="FX_GDICommandoFireHeroic"
+		RadiusDamageAffects="ALLIES ENEMIES NEUTRALS"
+		CanFireWhileMoving="true"
+		ForbiddenFiringObjectStatus="">
+		<FiringDuration
+			MinSeconds="0.2s"
+			MaxSeconds="0.3s" />
+		<Nuggets>
+			<DamageNugget 
+				Damage="500.0" 
+				Radius="0.0" 
+				DamageType="GUN" 
+				DamageFXType="GDI_MACHINEGUN"		
+				DeathType="NORMAL" >
+			</DamageNugget>
+			<SuppressionNugget
+				Radius="10.0"
+				Suppression="25"
+				DurationSeconds="5s">
+			</SuppressionNugget>
+		</Nuggets>
+	</WeaponTemplate>
+-->
+		<WeaponTemplate
+		id="GDIKodiakIonCannonSweepWeapon2"
+		Name="GDIKodiakIonCannonSweepWeapon2"
+		ClipSize="1">
+		<Nuggets>
+			<DamageNugget
+				Damage="250"
+				Radius="25"
+				DelayTimeSeconds="0.2s"
+				DamageType="GRENADE"
+				DeathType="POISONED_BETA"
+				DamageFXType="GDI_FLAMETHROWER">
+				<DamageScalarDetails
+					Scalar="500%">
+					<Filter
+						Include="TIBERIUM" />
+				</DamageScalarDetails>
+				<DamageScalarDetails
+					Scalar="200%">
+					<Filter
+						Include="TIBERIUM_BASED"
+						Exclude="TIBERIUM">
+						<IncludeThing>GDITiberiumSilo</IncludeThing>
+						<IncludeThing>GDIHarvester</IncludeThing>
+						<IncludeThing>GDIRefinery</IncludeThing>
+						<IncludeThing>NODTiberiumSilo</IncludeThing>
+						<IncludeThing>NODHarvester</IncludeThing>
+						<IncludeThing>NODRefinery</IncludeThing>
+						<IncludeThing>NODTiberiumLiquidationFacility</IncludeThing>
+						<IncludeThing>NODCyborg</IncludeThing>
+						<IncludeThing>NODReaper</IncludeThing>
+						<IncludeThing>NODCyborgCommando</IncludeThing>
+						<IncludeThing>AlienPowerProjector</IncludeThing>
+						<IncludeThing>AlienSporePod</IncludeThing>
+						<IncludeThing>AlienCorrupter</IncludeThing>
+						<IncludeThing>TiberiumSilo</IncludeThing>
+						<IncludeThing>TiberiumSpike</IncludeThing>
+						<IncludeThing>WeinholeMonster_SmallField</IncludeThing>
+						<IncludeThing>WeinholeMonster_LargeField</IncludeThing>
+						<IncludeThing>WeinsCluster</IncludeThing>
+					</Filter>
+				</DamageScalarDetails>
+			</DamageNugget>
+			<SuppressionNugget
+				Radius="50"
+				Suppression="100"
+				DurationSeconds="5s" />
+			<DamageNugget
+				Damage="50"
+				Radius="50"
+				DelayTimeSeconds="0.2s"
+		 		DamageType="CANNON"
+				DeathType="POISONED_BETA"
+				DamageFXType="GDI_FLAMETHROWER">
+			</DamageNugget>
+		</Nuggets>
+	</WeaponTemplate>
+	
+	
+	
+	<WeaponTemplate
+		id="GDIKodiakIonCannon2"
+		Name="GDIKodiakIonCannon2"
+		AttackRange="600"
+		WeaponSpeed="1500"
+		FireSound="AudioEvent:GDI_IonCannon_Laser3"
+		FireFX="GDI_IonCannon_Laser1"
+		ClipSize="2"
+		ShotsPerBarrel="1"
+		AntiMask="ANTI_AIRBORNE_VEHICLE ANTI_GROUND ANTI_AIRBORNE_INFANTRY"
+		RotatingTurret="True"
+		CanFireWhileMoving="True">
+		<PreAttackDelay
+			MinSeconds="0s"
+			MaxSeconds="0s" />
+		<FiringDuration
+			MinSeconds="1s"
+			MaxSeconds="1s" />
+		<ClipReloadTime
+			MinSeconds="6s"
+			MaxSeconds="6s" />
+		<Nuggets>
+			<ActivateLaserNugget
+				Lifetime="2s"
+				HitGroundFX="FX_KodiakIonCannonHit" />
+			<DamageNugget
+				Damage="3000"
+				Radius="25"
+				DelayTimeSeconds="0.5s"
+		 		DamageType="CANNON"
+				DeathType="POISONED_BETA"
+				DamageFXType="GDI_FLAMETHROWER">
+			</DamageNugget>
+		</Nuggets>
+		
+	</WeaponTemplate>
+
+	<WeaponTemplate
+		id="GDIZonedefenderWeapon2"
+		Name="GDIZonedefenderWeapon2"
+		AttackRange="300"
+		MinimumAttackRange="0"
+		RangeBonusMinHeight="0"
+		RangeBonus="0"
+		RangeBonusPerFoot="0"
+		RequestAssistRange="0"
+		AcceptableAimDelta="0d"
+		AimDirection="0d"
+		ScatterRadius="0"
+		ScatterLength="0"
+		ScatterTargetScalar="0"
+		WeaponSpeed="1000"
+		MinWeaponSpeed="99999"
+		MaxWeaponSpeed="99999"
+		IdleAfterFiringDelaySeconds="-1s"
+		HoldAfterFiringDelaySeconds="0s"
+		WeaponRecoil="0d"
+		MinTargetPitch="-180d"
+		MaxTargetPitch="180d"
+		FireSound="GDI_IonCannon_Laser1"
+		FireFX="FX_DisruptorFire"
+		FireVeteranFX=""
+		FireFlankFX=""
+		PreAttackFX=""
+		ClipSize="1"
+		ContinuousFireOne="99999"
+		ContinuousFireTwo="99999"
+		ContinuousFireCoastSeconds="0s"
+		AutoReloadWhenIdleSeconds="0s"
+		ShotsPerBarrel="1"
+		RequiredFiringObjectStatus=""
+		ForbiddenFiringObjectStatus=""
+		ContinueAttackRange="0"
+		SuspendFXDelaySeconds="0s"
+		HitPercentage="100%"
+		HitPassengerPercentage="100%"
+		HealthProportionalResolution="0"
+		MaxAttackPassengers="0"
+		RestrictedHeightRange="0"
+		Flags="NONE"
+		PreAttackType="PER_SHOT"
+		ReAcquireDetailType="PER_SHOT"
+		AutoReloadsClip="AUTO"
+		SingleAmmoReloadedNotFullSound=""
+		ClipReloadedSound="GDI_Orca_AmmoReloaded"
+		RadiusDamageAffects="ALLIES ENEMIES NEUTRALS"
+		ProjectileCollidesWith="STRUCTURES"
+		AntiMask="ANTI_GROUND"
+		ProjectileStreamName=""
+		ScatterIndependently="False"
+		DisableScatterForTargetsOnWall="False"
+		ScaleWeaponSpeed="False"
+		CanBeDodged="False"
+		HoldDuringReload="False"
+		CanFireWhileMoving="True"
+		CanFireWhileCharging="False"
+		FiringLoopSoundContinuesDuringReload="True"
+		DamageDealtAtSelfPosition="False"
+		CheckStatusFlagsInRangeChecks="True"
+		ProjectileSelf="False"
+		MeleeWeapon="False"
+		ChaseWeapon="False"
+		LeechRangeWeapon="False"
+		HitStoredTarget="False"
+		CapableOfFollowingWaypoints="False"
+		ShowsAmmoPips="False"
+		AllowAttackGarrisonedBldgs="False"
+		PlayFXWhenStealthed="False"
+		IgnoreLinearFirstTarget="False"
+		ForceDisplayPercentReady="False"
+		IsAimingWeapon="False"
+		NoVictimNeeded="False"
+		RotatingTurret="False"
+		PassengerProportionalAttack="False"
+		FinishAttackOnceStarted="True"
+		CannotTargetCastleVictims="False"
+		RequireFollowThru="False"
+		ShareTimers="False"
+		ShouldPlayUnderAttackEvaEvent="True"
+		InstantLoadClipOnActivate="False"
+		LockWhenUsing="False"
+		BombardType="False"
+		UseInnateAttributes="False"
+		StopFiringOnCanBeInvisible="False"
+		ContactWeapon="False">
+		<PreAttackDelay
+			MinSeconds="0.2s"
+			MaxSeconds="0.2s" />
+		<FiringDuration
+			MinSeconds=".4s"
+			MaxSeconds=".4s" />
+		<ClipReloadTime
+			MinSeconds="1.5s"
+			MaxSeconds="1.5s" />
+		<Nuggets>
+			<DamageNugget
+
+				PartitionFilterTestType="EXTENTS_3D"
+				ForbiddenTargetObjectStatus=""
+				ForbiddenTargetModelCondition=""
+				Damage="2100"
+				DamageTaperOff="-1"
+				Radius="0"
+				MinRadius="0"
+				DamageArc="360d"
+				DamageMaxHeight="-1"
+				DamageMaxHeightAboveTerrain="-1"
+				FlankingBonus="0"
+				FlankedScalar="1"
+				DelayTimeSeconds=".1s"
+				DamageType="CANNON"
+				DeathType="POISONED_BETA"
+				DamageFXType="GDI_FLAMETHROWER"
+				DamageSubType="NORMAL"
+				DrainLifeMultiplier="1"
+				DamageSpeed="0"
+				VictimShroudRevealer=""
+				DamageArcInverted="False"
+				AcceptDamageAdd="True"
+				OnlyKillOwnerWhenTriggered="False"
+				DrainLife="False"
+				CylinderAOE="False">
+				<DamageScalarDetails
+					Scalar="500%">
+					<Filter
+						Rule="NONE"
+						Relationship=""
+						Alignment="NONE"
+						Include="TIBERIUM"
+						Exclude="" />
+				</DamageScalarDetails>
+				<DamageScalarDetails
+					Scalar="250%">
+					<Filter
+						Rule="NONE"
+						Relationship=""
+						Alignment="NONE"
+						Include="TIBERIUM_BASED"
+						Exclude="TIBERIUM">
+						<IncludeThing>GDITiberiumSilo</IncludeThing>
+						<IncludeThing>GDIHarvester</IncludeThing>
+						<IncludeThing>GDIRefinery</IncludeThing>
+						<IncludeThing>NODTiberiumSilo</IncludeThing>
+						<IncludeThing>NODHarvester</IncludeThing>
+						<IncludeThing>NODRefinery</IncludeThing>
+						<IncludeThing>NODTiberiumLiquidationFacility</IncludeThing>
+						<IncludeThing>NODCyborg</IncludeThing>
+						<IncludeThing>NODReaper</IncludeThing>
+						<IncludeThing>AlienPowerProjector</IncludeThing>
+						<IncludeThing>AlienSporePod</IncludeThing>
+						<IncludeThing>AlienCorrupter</IncludeThing>
+						<IncludeThing>TiberiumSilo</IncludeThing>
+						<IncludeThing>TiberiumSpike</IncludeThing>
+						<IncludeThing>WeinholeMonster_SmallField</IncludeThing>
+						<IncludeThing>WeinholeMonster_LargeField</IncludeThing>
+						<IncludeThing>WeinsCluster</IncludeThing>
+					</Filter>
+				</DamageScalarDetails>
+			</DamageNugget>
+			<MetaImpactNugget
+				PartitionFilterTestType="EXTENTS_3D"
+				ForbiddenTargetObjectStatus=""
+				ForbiddenTargetModelCondition=""
+				ShockWaveAmount=".1"
+				ShockWaveRadius="350" 
+				ShockWaveArc="1d"
+				ShockWaveTaperOff="0"
+				ShockWaveSpeed="0"
+				ShockWaveZMult="0"
+				CyclonicFactor="0"
+				ShockwaveDelaySeconds="0s"
+				Suppression="0"
+				HeroResist="0"
+				ShockWaveClearWaveMult=".2"
+				ShockWaveClearFlingHeight="15"
+				ShockWaveArcInverted="False"
+				InvertShockWave="True"
+				FlipDirection="False"
+				OnlyWhenJustDied="False"
+				ShockWaveClearRadius="True">
+			</MetaImpactNugget>
+			<ActivateLaserNugget
+				PartitionFilterTestType="EXTENTS_3D"
+				ForbiddenTargetObjectStatus=""
+				ForbiddenTargetModelCondition=""
+				Lifetime="0.2s"
+				LaserId="0"
+				HitGroundFX="FX_IonArtilleryHit">
+			</ActivateLaserNugget>
+
+		</Nuggets>
+	</WeaponTemplate>
+
+
+
+
+
+
+
+	<GameObject
+		id="GDIMammothMech"
+		KindOf="SELECTABLE CAN_ATTACK CAN_CAST_REFLECTIONS PRELOAD SCORE CAN_SEE_THROUGH_STRUCTURE VEHICLE CAN_SHOOT_OVER_WALLS UNIQUE_UNIT CAN_BE_FAVORITE_UNIT SIEGE_WEAPON"
+		Description="Desc:GDIMammothMech"
+		TypeDescription="Type:GDIMammothMech"
+		RadarPriority="UNIT"
+		Side="GDI"
+		EditorName="GDIMammothMech"
+		EditorSorting="UNIT"
+		BuildTime="75"
+		CommandSet="GDIMammothMechCommandSet_ug"
+		SelectPortrait="Portrait_GDIMammothMech"
+		ButtonImage="Portrait_GDIMammothMech"
+		VoicePriority="232"
+		ShockwaveResistance="100"
+		CommandPoints="100"
+		ThreatLevel="10"
+		ProductionQueueType="VEHICLE"
+		UnitCategory="VEHICLE"
+		WeaponCategory="CANNON"
+		ReinvisibilityDelay="7s"
+		BuildCost="15000"
+		MaxSimultaneousOfType="1"
+		TransportSlotCount="1">
+		<DisplayName>Name:GDIMammothMech</DisplayName>
+		<GameDependency>
+			<RequiredObject>GDISpaceCommandUplink</RequiredObject>
+		</GameDependency>
+		<ArmorSet
+			Armor="GDIMammothMechArmor"
+			DamageFX="VehicleDamageFX" />
+		<LocomotorSet
+			Speed="30"
+			Locomotor="GDIMammothMechLocomotor" />
+		<Draws>
+		
+			<ScriptedModelDraw
+				id="0x50DF2C46"
+				OkToChangeModelColor="True">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="W3DContainer:GUMAMMOTHMK4_SKN" />
+					<WeaponFireFXBone
+						BoneName="FX_Weapon" />
+					<WeaponFireFXBone
+						WeaponSlotID="2"
+						BoneName="FXRAILGUNR" />
+					<WeaponFireFXBone
+						WeaponSlotID="3"
+						BoneName="FXRAILGUNL" />
+					<WeaponFireFXBone
+						WeaponSlotID="4"
+						BoneName="FXMissileR_" />
+					<WeaponFireFXBone
+						WeaponSlotID="5"
+						BoneName="FXMissileL_" />
+					<WeaponFireFXBone
+						WeaponSlotID="6"
+						BoneName="FXGunUG_" />
+					<WeaponMuzzleFlash
+						BoneName="FX_Weapon" />
+					<WeaponLaunchBone
+						BoneName="FX_Weapon" />
+					<WeaponLaunchBone
+						WeaponSlotID="2"
+						BoneName="FXRAILGUNR" />
+					<WeaponLaunchBone
+						WeaponSlotID="3"
+						BoneName="FXRAILGUNL" />
+					<WeaponLaunchBone
+						WeaponSlotID="4"
+						BoneName="FXMissileR_" />
+					<WeaponLaunchBone
+						WeaponSlotID="5"
+						BoneName="FXMissileL_" />
+					<WeaponLaunchBone
+						WeaponSlotID="6"
+						BoneName="FXGunUG_" />
+					<Turret
+						TurretNameKey="Turret"
+						TurretPitch="Turret_Pitch"
+						TurretID="1" />
+					<Turret
+						TurretNameKey="turretrailgun_R"
+						TurretPitch="B_Railgun_R"
+						TurretID="2" />
+					<Turret
+						TurretNameKey="turretrailgun_L"
+						TurretPitch="B_Railgun_L"
+						TurretID="3" />
+					<Turret
+						TurretNameKey="B_MPodTurretR"
+						TurretPitch="B_MPod_R"
+						TurretID="4" />
+					<Turret
+						TurretNameKey="B_MPodTurretL"
+						TurretPitch="B_MPod_L"
+						TurretID="5" />
+					<Turret
+						TurretNameKey="Turret_UG"
+						TurretPitch="TurretPitch_UG"
+						TurretID="6" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DAMAGED">
+					<Model
+						Name="W3DContainer:GUMAMMOTHMK4_SKN" />
+					<ParticleSysBone
+						BoneName="turretrailgun_L"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="mainbone"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="leg_rr"
+						FXParticleSystemTemplate="AvatarDamagedSparks"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="leg_FL"
+						FXParticleSystemTemplate="AvatarDamagedSparks"
+						FollowBone="True" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="REALLYDAMAGED">
+					<Model
+						Name="W3DContainer:GUMAMMOTHMK4_SKN" />
+					<Texture
+						Original="GUMammMK4"
+						New="GUMammMK4_D" />
+					<Texture
+						Original="GUMammMK4W"
+						New="GUMammMK4W_D" />
+					<ParticleSysBone
+						BoneName="turretrailgun_L"
+						FXParticleSystemTemplate="GDIMammothDamagedFire"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="turretrailgun_L"
+						FXParticleSystemTemplate="GDIDebrisSmallFireDistortion"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="turretrailgun_L"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="leg_rr"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="leg_rr"
+						FXParticleSystemTemplate="GDIMammothDamagedFire"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="leg_rr"
+						FXParticleSystemTemplate="AvatarDamagedSparks"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="mainbone"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="Calf_FL"
+						FXParticleSystemTemplate="AvatarDamagedSparks"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="B_MPod_L"
+						FXParticleSystemTemplate="AvatarDamagedSparks"
+						FollowBone="True" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<Model
+						Name="W3DContainer:GUMAMMOTHMK4_SKN" />
+					<Texture
+						Original="GUMammMK4"
+						New="GUMammMK4_D" />
+					<Texture
+						Original="GUMammMK4W"
+						New="GUMammMK4W_D" />
+					<ParticleSysBone
+						BoneName="turretrailgun_L"
+						FXParticleSystemTemplate="GDIMammothDamagedFire"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="turretrailgun_L"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="mainbone"
+						FXParticleSystemTemplate="GDIMammothDamagedSmoke"
+						FollowBone="True" />
+					<ParticleSysBone
+						BoneName="mainbone"
+						FXParticleSystemTemplate="GDIMammothDamagedFire"
+						FollowBone="True" />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="FORMATION_PREVIEW">
+					<Model
+						Name="W3DMesh:GUMAMMOTHMK2_FP" />
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DYING">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_DIEA"
+						AnimationMode="ONCE" />
+					<FXEvent
+						Frame="60"
+						Effect="FX_DigIn_NodApc"
+						Bone="Railgun_L"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="COMING_OUT_OF_FACTORY"
+					StateName="STATE_built">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BLDA"
+						AnimationMode="ONCE"
+						AnimationBlendTime="0" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="AFFECTED_BY_EMP">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIDA"
+						AnimationMode="MANUAL"
+						AnimationBlendTime="15" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TURN_RIGHT">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_HTRR"
+						AnimationMode="LOOP"
+						Distance="45"
+						AnimationBlendTime="15" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FL"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TURN_LEFT">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_HTRL"
+						AnimationMode="LOOP"
+						Distance="45"
+						AnimationBlendTime="15" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FL"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TURN_LEFT_HIGH_SPEED">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_HTRL"
+						AnimationMode="LOOP"
+						Distance="45" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FL"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="TURN_RIGHT_HIGH_SPEED">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_HTRR"
+						AnimationMode="LOOP"
+						Distance="45" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FL"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DECELERATE ATTACKING"
+					Flags="RANDOMSTART">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_DECL"
+						AnimationMode="ONCE" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="DECELERATE"
+					Flags="RANDOMSTART">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_DECL"
+						AnimationMode="ONCE" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="ACCELERATE"
+					Flags="RANDOMSTART">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_ACCL"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="ACCELERATE ATTACKING"
+					Flags="RANDOMSTART">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_ACCL"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING"
+					Flags="MAINTAIN_FRAME_ACROSS_STATES">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_WLKA"
+						AnimationMode="LOOP"
+						Distance="45" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FL"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RL"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="MOVING ATTACKING"
+					Flags="MAINTAIN_FRAME_ACROSS_STATES">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_WLKA"
+						AnimationMode="LOOP"
+						Distance="45" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_RR"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="25"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_FL"
+						FireWhenSkipped="True" />
+					<FXEvent
+						Frame="50"
+						Effect="FX_GDIMammothMechFootprint"
+						Bone="B_FOOT_LR"
+						FireWhenSkipped="True" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="ATTACKING">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIDA"
+						AnimationMode="LOOP" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="USING_WEAPON_A">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIDA"
+						AnimationMode="LOOP" />
+				</AnimationState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT"
+					StateName="STATE_bored"
+					Flags="RESTART_ANIM_WHEN_COMPLETE"
+					AllowRepeatInRandomPick="True">
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIDA"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.5"
+						AnimationSpeedFactorMax="0.5"
+						AnimationPriority="90" />
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIDB"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.5"
+						AnimationSpeedFactorMax="0.5"
+						AnimationPriority="90" />
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIFA"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.5"
+						AnimationSpeedFactorMax="0.7"
+						AnimationPriority="50" />
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIFB"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.5"
+						AnimationSpeedFactorMax="0.7"
+						AnimationPriority="45" />
+					<Animation
+						AnimationName="GUMAMMOTHMK4_BIFC"
+						AnimationMode="ONCE"
+						AnimationBlendTime="15"
+						AnimationSpeedFactorMin="0.5"
+						AnimationSpeedFactorMax="0.7"
+						AnimationPriority="5" />
+				</AnimationState>
+			</ScriptedModelDraw>
+			<TracerModelDraw
+				id="0x54201A36"
+				MinLength="50"
+				MaxLength="50"
+				Width="4"
+				MinSpeed="30"
+				MaxSpeed="30"
+				SpreadAngle="2"
+				MinTracersPerFrame="0.2"
+				MaxTracersPerFrame="0.3"
+				FrameLifeTime="35"
+				Texture="FXTracerGDISniper"
+				TracerHitFx="FX_BulletHitGDI"
+				UseAdditiveBlending="True">
+				<HeadColor
+					r="1"
+					g="1"
+					b="1"
+					a="1" />
+				<TailColor
+					r="1.0"
+					g="1.0"
+					b="1.0"
+					a="1.0" />
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_01" />
+			</TracerModelDraw>
+			<TracerModelDraw
+				id="0x40E1A406"
+				MinLength="50"
+				MaxLength="50"
+				Width="4"
+				MinSpeed="30"
+				MaxSpeed="30"
+				SpreadAngle="2"
+				MinTracersPerFrame="0.5"
+				MaxTracersPerFrame="0.5"
+				FrameLifeTime="35"
+				Texture="FXTracerGDISniper"
+				TracerHitFx="FX_BulletHitGDIHeroic"
+				UseAdditiveBlending="True">
+				<HeadColor
+					r="1"
+					a="1" />
+				<TailColor
+					r="1.0"
+					g="1.0"
+					b="1.0"
+					a="1.0" />
+				<ObjectStatusValidation
+					RequiredStatus="WEAPON_UPGRADED_01" />
+			</TracerModelDraw>
+<!--			<LaserDraw
+				id="0x9FE06199"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.3"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="0.7"
+				LaserWidth="50"
+				WeaponSlotID="1">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXTerraformingBeam</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXTerraformingBeam</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+				<ObjectStatusValidation
+					ForbiddenStatus="WEAPON_UPGRADED_03" />
+			</LaserDraw>-->
+								<LaserDraw
+				id="Laserdraw2"
+				Texture1_UTile="1"
+				Texture1_VTile="0.5"
+				Texture2_UTile="1"
+				Texture2_VTile="0.3"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate="0.2"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="0.7"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="30"
+				LaserWidth="60"
+				WeaponSlotID="2"
+				LaserStateID="0"
+				UseDistortionShader="False"
+				>
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueName=""
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXTerraformingBeam</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXTerraformingBeam</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+											<LaserDraw
+				id="9FE06199"
+				Texture1_UTile="1"
+				Texture1_VTile="0.5"
+				Texture2_UTile="1"
+				Texture2_VTile="0.3"
+				Texture1_UScrollRate="0"
+				Texture1_VScrollRate="0.2"
+				Texture2_UScrollRate="0"
+				Texture2_VScrollRate="0.7"
+				Texture1_NumFrames="1"
+				Texture1_FrameRate="30"
+				Texture2_NumFrames="1"
+				Texture2_FrameRate="30"
+				LaserWidth="60"
+				WeaponSlotID="3"
+				LaserStateID="0"
+				UseDistortionShader="False"
+				>
+				<FXShader
+					ShaderName="Laser.fx"
+					TechniqueName=""
+					TechniqueIndex="0">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXTerraformingBeam</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXTerraformingBeam</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+			<LaserDraw
+				id="0x5FC0AD86"
+				Texture1_VTile="0.5"
+				Texture2_VTile="0.01"
+				Texture1_VScrollRate="0.2"
+				Texture2_VScrollRate="1"
+				Texture2_FrameRate="1"
+				LaserWidth="50"
+				UseDistortionShader="True">
+				<FXShader
+					ShaderName="Laser.fx">
+					<Constants>
+						<Texture
+							Name="Texture1">
+							<Value>FXRailGunCoreDistortion</Value>
+						</Texture>
+						<Texture
+							Name="Texture2">
+							<Value>FXRailGunCoreMask</Value>
+						</Texture>
+					</Constants>
+				</FXShader>
+			</LaserDraw>
+
+<!--			<ScriptedModelDraw
+				id="0xD3C356D5"
+				OkToChangeModelColor="True"
+				StaticModelLODMode="True"
+				UseStandardModelNames="True">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model />
+				</ModelConditionState>
+				<ModelConditionState
+					ParseCondStateType="PARSE_NORMAL"
+					ConditionsYes="USER_7">
+					<Model
+						Name="0xF0F08712:0x81DE97BB" />
+					<ParticleSysBone
+						BoneName="none"
+						FXParticleSystemTemplate="GDIFireStormTargetFX"
+						FollowBone="True" />
+				</ModelConditionState>
+			</ScriptedModelDraw>-->
+	<!--		<ScriptedModelDraw
+				id="ModuleTag_DrawForcefield"
+				OkToChangeModelColor="true">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="GUFIRESTORM" />
+					<ShadowInfo
+						Type="ADDITIVE_DECAL"
+						SizeX="100"
+						SizeY="60"
+						OverrideLODVisibility="true"
+						MaxHeight="300"
+						UseHouseColor="true"
+						Texture="AUDronShipDecalIdle" />
+				</ModelConditionState>
+			</ScriptedModelDraw>-->
+						<ScriptedModelDraw
+				id="ModuleTag_DrawForcefield"
+				OkToChangeModelColor="true">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="W3DContainer:GUFIRESTORM" />
+					<ShadowInfo
+						Type="ADDITIVE_DECAL"
+						SizeX="100"
+						SizeY="60"
+						OverrideLODVisibility="true"
+						MaxHeight="300"
+						UseHouseColor="true"
+						Texture="AUDronShipDecalIdle" />
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+					<SpawnBehavior
+				id="ModuleTag_SpawnRepairDrones"
+				SpawnNumberData="3"
+				InitialBurst="3"
+				SpawnReplaceDelayData="10s"
+				SpawnedRequireSpawner="true"
+				KillSpawnsOnCaptured="true"
+				SpawnInsideBuilding="true"
+				KillSpawnsOnDisabled="true">
+				<Die
+					DeathTypes="ALL" />
+				<SpawnTemplate>GDIRepairDrone</SpawnTemplate>
+			</SpawnBehavior>
+					<PowerUpdate
+				Type="BACKUP_GENERATOR"
+				Duration="10s"
+				ReloadTime="30s" />
+<!--			<AttributeModifierPoolUpdate
+				id="0x513BC476" />
+			<SquishCollide
+				id="0x8CCB269A" />
+			<FireWeaponWhenDead
+				id="0xDDED328F"
+				DeathWeapon="0x94D4D96E:0x87536CE9"
+				InitiallyActive="True">
+				<DieMuxData
+					DeathTypes="CATALYST" />
+			</FireWeaponWhenDead>
+			<AutoHealBehavior
+				id="0xC07BF5C0"
+				HealingAmount="100"
+				HealingDelay="0.5s"
+				StartHealingDelay="1s">
+				<TriggeredBy>Upgrade_Veterancy_HEROIC</TriggeredBy>
+			</AutoHealBehavior>
+			<AttributeModifierUpgrade
+				id="0xAA36A1AA"
+				AttributeModifier="Modifier_MultifunctionUpgradeCenterSpeed">
+				<TriggeredBy>Upgrade_MultifunctionUpgradeCenterSpeed</TriggeredBy>
+			</AttributeModifierUpgrade>
+			<AttributeModifierUpgrade
+				id="0x81C6F752"
+				AttributeModifier="Modifier_MultifunctionUpgradeCenterDamage">
+				<TriggeredBy>Upgrade_MultifunctionUpgradeCenterDamage</TriggeredBy>
+			</AttributeModifierUpgrade>
+			<AttributeModifierUpgrade
+				id="0xE35F7EC4"
+				AttributeModifier="Modifier_MultifunctionUpgradeCenterArmor">
+				<TriggeredBy>Upgrade_MultifunctionUpgradeCenterArmor</TriggeredBy>
+			</AttributeModifierUpgrade>
+			<StancesBehavior
+				id="0x54CA416E"
+				StanceTemplate="0x9684C743:0x9AC23278" />
+			<LevelUpUpgrade
+				id="0xA92BDFEA"
+				LevelsToGain="1"
+				LevelCap="4">
+				<TriggeredBy>Upgrade_ProductionVeterancy_VETERAN</TriggeredBy>
+			</LevelUpUpgrade>
+			<LevelUpUpgrade
+				id="0x5C3F216A"
+				LevelsToGain="2"
+				LevelCap="4">
+				<TriggeredBy>Upgrade_ProductionVeterancy_ELITE</TriggeredBy>
+			</LevelUpUpgrade>
+			<LevelUpUpgrade
+				id="0x379F3CE2"
+				LevelsToGain="3"
+				LevelCap="4">
+				<TriggeredBy>Upgrade_ProductionVeterancy_HEROIC</TriggeredBy>
+			</LevelUpUpgrade>
+			<InvisibilityUpdate
+				id="0x3BD7F2F5"
+				UpdatePeriod="0.5s">
+				<InvisibilityNugget
+					ForbiddenConditions="PREATTACK_A FIRING_A FIRING_OR_PREATTACK_A RELOADING_A PREATTACK_B FIRING_B FIRING_OR_PREATTACK_B RELOADING_B PREATTACK_C FIRING_C FIRING_OR_PREATTACK_C RELOADING_C USING_WEAPON_A USING_WEAPON_B USING_WEAPON_C"
+					ForbiddenStatus="IS_FIRING_WEAPON USING_ABILITY IS_AIMING_WEAPON SPECIAL_ABILITY_PACKING_UNPACKING_OR_USING" />
+			</InvisibilityUpdate>
+			<StealthUpgrade
+				id="0xF2B9DFBE">
+				<TriggeredBy>Upgrade_CloakingFieldInvisibility</TriggeredBy>
+			</StealthUpgrade>
+			<ProductionUpdate
+				id="0x34FE0D85"
+				GiveNoXP="True" />-->
+			<WeaponSetUpdate
+				id="0x720F4A50">
+				<WeaponSlotHardpoint
+					ID="7"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE">
+					<Weapon
+						Template="MammothMechRangefinder" />
+				</WeaponSlotHardpoint>
+				<WeaponSlotTurret
+					ID="1"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					AllowInterleavedFiring="True">
+					<Weapon
+						Template="GDICommandoRailCarbine2" />
+					<TurretSettings
+						TurretTurnRate="180"
+						TurretPitchRate="90"
+						MinimumPitch="-80d"
+						PitchHeight="90%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						MaxDeflectionClockwise="120d"
+						MaxDeflectionAntiClockwise="120d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							
+							CanAcquireDynamicIfAssignedOutOfRange="True" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="6"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					AllowInterleavedFiring="True">
+					<Weapon
+						Template="GDIMammothAARailgun"
+						ObjectStatus="WEAPON_UPGRADED_02" />
+					<Weapon
+						Template="GDIMammothMechDiscThrower"
+						ObjectStatus="WEAPON_UPGRADED_03" />
+					<TurretSettings
+						TurretTurnRate="200"
+						TurretPitchRate="100"
+						MinimumPitch="5d"
+						PitchHeight="75%"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="90"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+						
+							CanAcquireDynamicIfAssignedOutOfRange="True" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotHierarchicalTurret
+					ID="2"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					AllowInterleavedFiring="True">
+					<Weapon
+						Template="GDIKodiakIonCannon2" />
+					<TurretSettings
+						TurretTurnRate="25"
+						TurretPitchRate="40"
+						MinimumPitch="-45d"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="10"
+						MaxDeflectionClockwise="25d"
+						MaxDeflectionAntiClockwise="15d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							
+							CanAcquireDynamicIfAssignedOutOfRange="True" />
+					</TurretSettings>
+				</WeaponSlotHierarchicalTurret>
+				<WeaponSlotHierarchicalTurret
+					ID="3"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					AllowInterleavedFiring="True">
+					<Weapon
+						Template="GDIKodiakIonCannon2" />
+					<TurretSettings
+						TurretTurnRate="25"
+						TurretPitchRate="40"
+						MinimumPitch="-45d"
+						MinIdleScanTime="1s"
+						MaxIdleScanTime="5s"
+						MaxIdleScanAngle="10"
+						MaxDeflectionClockwise="15d"
+						MaxDeflectionAntiClockwise="25d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+							
+							CanAcquireDynamicIfAssignedOutOfRange="True" />
+					</TurretSettings>
+				</WeaponSlotHierarchicalTurret>
+				<WeaponSlotHierarchicalTurret
+					ID="4"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					AllowInterleavedFiring="True"
+					ParentID="2">
+					<Weapon
+						Template="GDIMammothMechRocketPods" />
+					<TurretSettings
+						TurretTurnRate="120"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MaxDeflectionAntiClockwise="50d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+						
+							CanAcquireDynamicIfAssignedOutOfRange="True" />
+					</TurretSettings>
+				</WeaponSlotHierarchicalTurret>
+				<WeaponSlotHierarchicalTurret
+					ID="5"
+					InterleavedStyle="INTERLEAVE_FIRST_AVAILABLE"
+					AllowInterleavedFiring="True"
+					ParentID="3">
+					<Weapon
+						Template="GDIMammothMechRocketPods" />
+					<TurretSettings
+						TurretTurnRate="120"
+						TurretPitchRate="60"
+						MinimumPitch="-15d"
+						PitchHeight="90%"
+						MaxDeflectionClockwise="50d"
+						AllowsPitch="True">
+						<TurretAITargetChooserData
+					
+							CanAcquireDynamicIfAssignedOutOfRange="True" />
+					</TurretSettings>
+				</WeaponSlotHierarchicalTurret>
+			</WeaponSetUpdate>
+						<SweepingLaserState
+				id="0x107F44E6"
+				Radius="20"
+				SweepFXList="FX_KodiakIonCannonHit"
+				VeteranSweepFXList="FX_KodiakIonCannonHit"
+				SweepFXTimeout="2s"
+				SweepWeapon="GDIKodiakIonCannonSweepWeapon2" />
+			<LaserState
+				id="0x14BDCE42" />
+			<Physics
+				id="0x6D41764B" />
+			<CreateObjectDie
+				id="0x36031C5A"
+				CreationList="GDIMammothMechDieOCL">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</CreateObjectDie>
+			<DestroyDie
+				id="0xA78F6D28">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+			<FXListBehavior
+				id="0xC74C39D8">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					FX="FX_GDIMammothExplode" />
+			</FXListBehavior>
+			<AutoHealBehavior
+				id="0x2ED8DC0B"
+				HealingAmount="100"
+				HealingDelay="1s"
+				StartHealingDelay="3s"
+				InitiallyActive="True" />
+			<SubObjectsUpgrade
+				id="0xD9C5EE69"
+				ShowSubObjects="DummyTurret_UG Railgun_UG Dummy_UG">
+				<TriggeredBy>Upgrade_MammothMechAARailGun</TriggeredBy>
+			</SubObjectsUpgrade>
+			<SubObjectsUpgrade
+				id="0x282E77B7"
+				ShowSubObjects="DummyTurret_UG Disc_UG Dummy_UG">
+				<TriggeredBy>Upgrade_MammothMechDisc</TriggeredBy>
+			</SubObjectsUpgrade>
+			<StatusBitsUpgrade
+				id="0x909D643D"
+				StatusToSet="WEAPON_UPGRADED_02">
+				<TriggeredBy>Upgrade_MammothMechAARailGun</TriggeredBy>
+			</StatusBitsUpgrade>
+			<StatusBitsUpgrade
+				id="0xCFEB6810"
+				StatusToSet="WEAPON_UPGRADED_03">
+				<TriggeredBy>Upgrade_MammothMechDisc</TriggeredBy>
+			</StatusBitsUpgrade>
+			<StatusBitsUpgrade
+				id="0xD305500E"
+				StatusToSet="WEAPON_UPGRADED_01">
+				<TriggeredBy>Upgrade_Veterancy_HEROIC</TriggeredBy>
+			</StatusBitsUpgrade>
+		</Behaviors>
+		<AI>
+			<AIUpdate
+				id="0x12FA48BA"
+				AutoAcquireEnemiesWhenIdle="YES">
+				<UnitAITargetChooserData
+					SympathyRange="100"
+					CanPickDynamicTargets="False"
+					 />
+			</AIUpdate>
+		</AI>
+		<Body>
+			<ActiveBody
+				id="0xB313F576"
+				MaxHealth="132500" />
+		</Body>
+		<ClientBehaviors>
+			<AnimationSoundClientBehavior
+				id="0x7A2074AA">
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_WLKA"
+					Frame="0 25" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_HTRR"
+					Frame="0 30" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_HTRL"
+					Frame="0 30" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_DECL"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_ACCL"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_ABTA"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_BATA"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_DIEA"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_BLDA"
+					Frame="50" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_BIFA"
+					Frame="0 75" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_BIFB"
+					Frame="0" />
+				<Sound
+					Sound="AudioEvent:MammothMechMove"
+					Animation="GUMAMMOTHMK4_BIFC"
+					Frame="0" />
+			</AnimationSoundClientBehavior>
+		</ClientBehaviors>
+		<Geometry>
+			<Shape
+				Type="BOX"
+				ContactPointGeneration="VEHICLE"
+				MajorRadius="55"
+				MinorRadius="42"
+				Height="80" />
+		</Geometry>
+		<AudioArrayVoice>
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceAttack"
+				AudioType="voiceAttack" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceCreate"
+				AudioType="voiceCreated" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceCreate"
+				AudioType="voiceFullyCreated" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceSelect"
+				AudioType="voiceSelect" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceMove"
+				AudioType="voiceMove" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceAttack"
+				AudioType="voiceAttackAfterMoving" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceMove"
+				AudioType="voiceGuard" />
+			<AudioEntry
+				Sound="AudioEvent:GDI_MammothMech_VoiceRetreat"
+				AudioType="voiceRetreatToCastle" />
+		</AudioArrayVoice>
+	<!--	<AudioArraySound>
+			<AudioEntry
+				Sound="0xA3A7AF37:0xABEA8DFE"
+				AudioType="soundMoveStart" />
+			<AudioEntry
+				Sound="0x844D7B9F:0xFEE3E6D3"
+				AudioType="soundAmbient" />
+		</AudioArraySound>-->
+		<EvaEvents
+			EvaEventDieOwner="UnitLost"
+			EvaEventDamagedOwner="UnitUnderAttack"
+			EvaEventDamagedFromShroudedSourceOwner="UnitUnderAttackFromShroudedUnit"
+			EvaEventDamagedByFireOwner="GenericUnitBeingBurned"
+			EvaEventSecondDamageFarFromFirstScanRange="600"
+			EvaEventSecondDamageFarFromFirstTimeoutMS="155"
+			EvaEventAmbushed="UnitAmbushed"
+			EvaEnemyObjectSightedEvent="GenericEnemyUnitSighted"
+			EvaEventDetectedEnemy="EnemyStealthUnitDiscovered"
+			EvaEventAvailableForProduction="NewConstructionOptions"
+			EvaEventProductionStarted="UnitConstructionStarted"
+			EvaEventBuildOnHold="BuildOnHold"
+			EvaEventBuildCancelled="BuildCancelled"
+			EvaEventPromotedOwner="UnitPromoted" />
+		<ShadowInfo
+			Type="VOLUME" />
+		<VisionInfo
+			VisionRange="750"
+			ShroudClearingRange="1000" />
+		<CrusherInfo
+			CrusherLevel="3"
+			CrushableLevel="3" />
+	</GameObject>
+</AssetDeclaration>

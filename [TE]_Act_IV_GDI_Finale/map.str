@@ -1,0 +1,139 @@
+MSNSTR:RDS:ACT_IV_GDI:SteelTalonsTimer
+	"Steel Talons arrive in:"
+END
+
+MSNSTR:RDS:ACT_IV_GDI:StarbreakerTimer
+	"Starbreaker calculations complete in:"
+END
+
+MSNSTR:RDS:ACT_IV_GDI:ThresholdAwakeningTimer
+	"Threshold 19 awakens in:"
+END
+
+MSNSTR:RDS:ACT_IV_GDI:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:A4:GF:1
+	"Clear the dock for MCV reinforcements"
+END
+
+MSNSTR:RDS:A4:GF:1_Detail
+	"The battleship has heavily damaged the Nod base at the dock. Finish the job so that the MCV can safely deploy."
+END
+
+MSNSTR:RDS:A4:GF:2
+	"Construct and maintain Ion Cannon Control Centres to support the Starbreaker"
+END
+
+MSNSTR:RDS:A4:GF:2_Detail
+	"The Starbreaker is calculating the necessary firepower to shatter Threshold 19, and all tiberium connected to it, without ripping Earth apart. Construct Ion Cannon Control Centres to hasten the process. Losing a Control Centre will increase the timer by 5 seconds."
+END
+
+MSNSTR:RDS:A4:GF:3
+	"Survive until the Steel Talons arrive"
+END
+
+MSNSTR:RDS:A4:GF:3_Detail
+	"We have word that the Steel Talons will be arriving soon. They have been weakened by the so-called Divine's intervention, but we cannot take the fight to Nod without them."
+END
+
+MSNSTR:RDS:A4:GF:4
+	"Destroy Threshold 19's Command Centre"
+END
+
+MSNSTR:RDS:A4:GF:4_Detail
+	"Archon told the Steel Talons that Death Dealer is using Threshold 19's Command Centre to accelerate the tower's awakening. Even if the Tacitus is inside...we cannot let Nod undo all that we have worked for. Destroy the Command Centre as quickly as possible."
+END
+
+MSNSTR:RDS:A4:GF:5
+	"Destroy the Divine Montauk"
+END
+
+MSNSTR:RDS:A4:GF:5_Detail
+	"Archon's sacrifice bought time for the Steel Talons to make emergency repairs to the Mammoth MKIV. Repair it further and use it to destroy the so-called Divine's monstrosity."
+END
+
+MSNSTR:RDS:A4:GF:6
+	"Select The Tower to fire the Starbreaker!"
+END
+
+MSNSTR:RDS:A4:GF:6_Detail
+	"It's now or never! Fire the Starbreaker before "
+END
+
+MSNSTR:RDS:ACT_IV_GDI:WestCoastDestroyed
+	"EVA: West coast turrets destroyed."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:EastCoastDestroyed
+	"EVA: East coast turrets destroyed."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:NodPowerDrain
+	"EVA: Power drain detected at the Nod base."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:NodPowerDrainExplain
+	"EVA: Death Dealer is regularly draining power from the Nod base to help awaken the Tower.\nNod's base will be defenceless during this time, should they lose enough power."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:BuiltIonCannon
+	"EVA: One Ion Cannon Control Centre is not enough. Build an addition 2 Control Centres to reach calculation efficency."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:DivineArrives
+	"WARNING: Divine forces have reached Threshold 19."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:STDelayed
+	"EVA: The damage dealt to the Steel Talons is worse than previously thought.\nIt will take them longer to reach you, Commander."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:STArrives
+	"EVA: The Steel Talons have arrived in the south-west."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:MammothArrives
+	"ST Commando: Archon died so that we have a chance to stop Kane.\nRemember his sacrifice."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:STUnderGDIControl
+	"EVA: The Steel Talons are at your command."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:Nope
+	"EVA: Attacks on Threshold 19 will not damage it."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:ThresholdCommandCentreDestroyed
+	"EVA: The Tower's Command Centre has been destroyed. It will take longer for Death Dealer to awaken Threshold 19."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:ThresholdAwakening
+	"EVA: Large energy spike detected from Threshold 19. Tiberium fields across the world are receeding."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:TowerOnlineNoStarbreaker
+	"EVA: Threshold 19 is online and vulnerable! You must fire the Starbreaker, Commander!"
+END
+
+MSNSTR:RDS:ACT_IV_GDI:UnableToBuildIonCannons
+	"EVA: You are unable to construct more Ion Cannons. The Starbreaker will not be able to destroy Threshold in time.\nWe have lost."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:LoseSecretEnding
+	"Starbreaker calculations incomplete. Earth is being torn apart.\nGoodbye, Commander."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:WinGDI
+	"EVA: ZOCOM reports that all remaining Tiberium fields on Earth have been shattered with minimal damage to the planet.\nStarbreaker was a complete success."
+END
+
+MSNSTR:RDS:ACT_IV_GDI:WinGDI2
+	"EVA: The Brotherhood has been broken by the loss of Kane.\nThe Tiberium Age is over.\nGood work, Commander!"
+END
+
+NAME:Threshold_19_Command_Centre
+	"Threshold 19 Command Centre"
+END

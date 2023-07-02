@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags></Tags>
+	<Includes>
+		<Include type="all" source="ART:FXLightningMJ01.xml" />
+		<Include type="all" source="ART:FXLightningMJ02.xml" />
+	</Includes>
+	
+		<FXParticleSystemTemplate PerParticleAttachedSystem="" Priority="VERY_LOW_OR_ABOVE" SortLevel="2" SystemLifetime="1" Type="STREAK" ParticleTexture="FXLightningMJ02"  id="TeslaCoilFireBlueLightning02">
+		<Lifetime
+			Low="20"
+			High="20" />
+		<Size
+			Low="7"
+			High="15" />
+		<StartSizeRate
+			Type="CONSTANT" />
+		<BurstDelay
+			Low="25"
+			High="25" />
+		<BurstCount
+			Low="15"
+			High="50" />
+		<InitialDelay
+			Type="CONSTANT" />
+		<Colors
+		HouseColorSaturation="1"
+		UseHouseColor="False">
+			<Color
+				Frame="1">
+				<Color
+					r="0.1"
+					g="0.1"
+					b="0.9" />
+			</Color>
+			<Color Frame="2" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale
+				Type="CONSTANT" />
+		</Colors>
+		<Physics/>
+		<Draw>
+			<Lightning>
+				<StartPoint
+					x="100"
+					y="100" />
+				<EndPoint
+					x="110"
+					y="110"
+					z="200" />
+				<RandomSet>
+					<StartAmplitude
+						Low="20"
+						High="35" />
+					<EndAmplitude
+						Low="20"
+						High="35" />
+					<StartFrequency
+						Low="2"
+						High="4" />
+					<EndFrequency
+						Low="2"
+						High="4" />
+					<StartPhase
+						Type="CONSTANT" />
+					<EndPhase
+						Low="1"
+						High="1" />
+				</RandomSet>
+				<RandomSet>
+					<StartAmplitude
+						Low="20"
+						High="25" />
+					<EndAmplitude
+						Low="20"
+						High="25" />
+					<StartFrequency
+						Low="3"
+						High="5" />
+					<EndFrequency
+						Low="3"
+						High="5" />
+					<StartPhase
+						Type="CONSTANT" />
+					<EndPhase
+						Low="1"
+						High="1" />
+				</RandomSet>
+			</Lightning>
+		</Draw>
+		<Volume></Volume>
+		<Velocity/>
+		<Update>
+			<Default>
+				<SizeRate
+					Low="0.1"
+					High="0.3" />
+				<SizeRateDamping
+					Low="1"
+					High="1" />
+				<AngleZ
+					Type="CONSTANT" />
+				<AngularRateZ
+					Type="CONSTANT" />
+				<AngularDamping
+					Type="CONSTANT" />
+				<AngleXY
+					Type="CONSTANT" />
+				<AngularRateXY
+					Type="CONSTANT" />
+				<AngularDampingXY
+					Low="1"
+					High="1" />
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>	
+	<FXParticleSystemTemplate
+		id="TeslaCoilFireLightning01"
+		Priority="VERY_LOW_OR_ABOVE"
+		Type="STREAK"
+		ParticleTexture="FXLightningMJ01"
+		SystemLifetime="1"
+		SortLevel="2">
+		<Lifetime
+			Low="20"
+			High="20" />
+		<Size
+			Low="20"
+			High="25" />
+		<StartSizeRate
+			Type="CONSTANT" />
+		<BurstDelay
+			Low="25"
+			High="25" />
+		<BurstCount
+			Low="15"
+			High="50" />
+		<InitialDelay
+			Type="CONSTANT" />
+		<Colors>
+			<Color
+				Frame="1">
+				<Color
+					r="1"
+					g="1"
+					b="1" />
+			</Color>
+			<Color Frame="2" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale
+				Type="CONSTANT" />
+		</Colors>
+		<Physics/>
+		<Draw>
+			<Lightning>
+				<StartPoint
+					x="100"
+					y="100" />
+				<EndPoint
+					x="110"
+					y="110"
+					z="200" />
+				<RandomSet>
+					<StartAmplitude
+						Low="20"
+						High="35" />
+					<EndAmplitude
+						Low="20"
+						High="35" />
+					<StartFrequency
+						Low="2"
+						High="4" />
+					<EndFrequency
+						Low="2"
+						High="4" />
+					<StartPhase
+						Type="CONSTANT" />
+					<EndPhase
+						Low="1"
+						High="1" />
+				</RandomSet>
+				<RandomSet>
+					<StartAmplitude
+						Low="20"
+						High="25" />
+					<EndAmplitude
+						Low="20"
+						High="25" />
+					<StartFrequency
+						Low="3"
+						High="5" />
+					<EndFrequency
+						Low="3"
+						High="5" />
+					<StartPhase
+						Type="CONSTANT" />
+					<EndPhase
+						Low="1"
+						High="1" />
+				</RandomSet>
+			</Lightning>
+		</Draw>
+		<Volume></Volume>
+		<Velocity/>
+		<Update>
+			<Default>
+				<SizeRate
+					Low="0.1"
+					High="0.3" />
+				<SizeRateDamping
+					Low="1"
+					High="1" />
+				<AngleZ
+					Type="CONSTANT" />
+				<AngularRateZ
+					Type="CONSTANT" />
+				<AngularDamping
+					Type="CONSTANT" />
+				<AngleXY
+					Type="CONSTANT" />
+				<AngularRateXY
+					Type="CONSTANT" />
+				<AngularDampingXY
+					Low="1"
+					High="1" />
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+		<FXParticleSystemTemplate
+		id="TeslaCoilFireLightningSm01"
+		Priority="VERY_LOW_OR_ABOVE"
+		Type="STREAK"
+		ParticleTexture="FXLightningMJ01"
+		SystemLifetime="1"
+		SortLevel="2">
+		<Lifetime
+			Low="20"
+			High="20" />
+		<Size
+			Low="2"
+			High="4" />
+		<StartSizeRate
+			Type="CONSTANT" />
+		<BurstDelay
+			Low="25"
+			High="25" />
+		<BurstCount
+			Low="15"
+			High="50" />
+		<InitialDelay
+			Type="CONSTANT" />
+		<Colors>
+			<Color
+				Frame="1">
+				<Color
+					r="1"
+					g="1"
+					b="1" />
+			</Color>
+			<Color Frame="2" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale
+				Type="CONSTANT" />
+		</Colors>
+		<Physics/>
+		<Draw>
+			<Lightning>
+				<StartPoint
+					x="100"
+					y="100" />
+				<EndPoint
+					x="110"
+					y="110"
+					z="200" />
+				<RandomSet>
+					<StartAmplitude
+						Low="20"
+						High="35" />
+					<EndAmplitude
+						Low="20"
+						High="35" />
+					<StartFrequency
+						Low="1"
+						High="3" />
+					<EndFrequency
+						Low="1"
+						High="3" />
+					<StartPhase
+						Type="CONSTANT" />
+					<EndPhase
+						Low="1"
+						High="1" />
+				</RandomSet>
+				<RandomSet>
+					<StartAmplitude
+						Low="20"
+						High="25" />
+					<EndAmplitude
+						Low="20"
+						High="25" />
+					<StartFrequency
+						Low="2"
+						High="4" />
+					<EndFrequency
+						Low="2"
+						High="4" />
+					<StartPhase
+						Type="CONSTANT" />
+					<EndPhase
+						Low="1"
+						High="1" />
+				</RandomSet>
+			</Lightning>
+		</Draw>
+		<Volume></Volume>
+		<Velocity/>
+		<Update>
+			<Default>
+				<SizeRate
+					Low="0.1"
+					High="0.3" />
+				<SizeRateDamping
+					Low="1"
+					High="1" />
+				<AngleZ
+					Type="CONSTANT" />
+				<AngularRateZ
+					Type="CONSTANT" />
+				<AngularDamping
+					Type="CONSTANT" />
+				<AngleXY
+					Type="CONSTANT" />
+				<AngularRateXY
+					Type="CONSTANT" />
+				<AngularDampingXY
+					Low="1"
+					High="1" />
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>	
+</AssetDeclaration>

@@ -1,0 +1,87 @@
+MSNSTR:RDS:ACT_IV_NOD:DivineTimer
+	"Divine arrive in:"
+END
+
+MSNSTR:RDS:ACT_IV_NOD:StarbreakerTimer
+	"Starbreaker calculations complete in:"
+END
+
+MSNSTR:RDS:ACT_IV_NOD:ThresholdAwakeningTimer
+	"Kane's Tower awakens in:"
+END
+
+MSNSTR:RDS:ACT_IV_NOD:ControlOnline
+	"****BATTLE CONTROL EXPANDED****"
+END
+
+MSNSTR:RDS:A4:NF:1
+	"Protect the Command Centre"
+END
+
+MSNSTR:RDS:A4:NF:1_Detail
+	"Death Dealer is using the Tacitus to open Kane's Tower. The Tacitus is housed inside the Command Centre. It must not be destoryed"
+END
+
+MSNSTR:RDS:A4:NF:2
+	"Hold the line until the Divine arrive"
+END
+
+MSNSTR:RDS:A4:NF:2_Detail
+	"LEGION, GDI has large force threatening our base and Kane's Tower. Eliminate it at once."
+END
+
+MSNSTR:RDS:A4:NF:3
+	"Destroy GDI's Ion Cannon Control Centres"
+END
+
+MSNSTR:RDS:A4:NF:3_Detail
+	"Intel suggests that GDI's Ion Cannon Control Centres are hastening the Starbreaker's calculations. We cannot allow the Starbreaker to fire before Kane's Tower opens. Destroying each Ion Cannon Control Centre will delay the Starbreaker by 5 seconds."
+END
+
+MSNSTR:RDS:A4:NF:5
+	"Destroy the Mammoth MKIV"
+END
+
+MSNSTR:RDS:A4:NF:5_Detail
+	"The Divine's focus on Archon allowed the Steel Talons to partially repair the Mammoth Walker. Bury the beast for the last time...and make sure it doesn't come back."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:NodPowerDrain
+	"Death Dealer: Power drain in progress. 1 minute until reset."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:NodPowerDrainExplain
+	"Death Dealer: LEGION, I require additional power to control the Tacitus. I will be draining it from your base in 5 minute bursts. Stand by."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:SteelTalonBombers
+	"ALERT: Steel Talons Orca Bombers are approaching Kane's Tower."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:DivineArrives
+	"Ghost Stalker: We have returned. Archon is dead."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:DivineUnderNodControl
+	"EVA: LEGION, The Divine Commander is entering Kane's Tower. Kane has given you command of Divine forces."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:Nope
+	"EVA: Attacks on Threshold 19 will not damage it."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:ThresholdCommandCentreDestroyed
+	"EVA: The Command Centre has been destroyed. Kane and Death Dealer have been lost. You have failed."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:ThresholdAwakening
+	"EVA: Large energy spike coming from Kane's Tower. Tiberium fields across the world are receeding."
+END
+
+MSNSTR:RDS:ACT_IV_NOD:Marcion416
+	"Marcion: Kane led the Brotherhood out of the land of Nod, to dwell in a new Eden..."
+END
+
+NAME:Threshold_19_Command_Centre
+	"Threshold 19 Command Centre"
+END

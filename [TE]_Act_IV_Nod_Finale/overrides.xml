@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+   <Includes>
+	<Include source="AlienRiftGenerator.xml" type="all"/>
+	<Include source="StarbreakerFXlist.xml" type="all"/>
+	<Include source="StarbreakerBeam.xml" type="all"/>
+	<Include source="SatelliteLaunchFacility.xml" type="all"/>
+      <Include source="Weather.xml" type="all"/>
+     <Include source="MK2.xml" type="all"/>
+      <Include source="GDIIonCannonControl.xml" type="all"/>	  
+	  <Include source="NSAirfieldControlTower.xml" type="all"/>
+	  <Include source="NSBattleship.xml" type="all"/>
+	  <Include source="NSCommandCenter.xml" type="all"/>
+	  <Include source="NSIonDisruptionFieldGenerator.xml" type="all"/>
+	  <Include source="NSLabRadarBuilding.xml" type="all"/>	  
+	  <Include source="NSManufacturingFacility1.xml" type="all"/>
+	  <Include source="NSPortAuthority.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding1.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding2.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding3.xml" type="all"/> 
+	  <Include source="NSStrongholdBuilding4.xml" type="all"/>
+	  <Include source="NSStrongholdBuilding5.xml" type="all"/>	  
+	  <Include source="NSStrongholdBuilding6.xml" type="all"/>
+	  <Include source="NSWeaponsLabFacility.xml" type="all"/>
+<Include source="DivineMontauk.xml" type="all"/>
+      <Include source="AlienDronePlatform.xml" type="all"/>
+      <Include source="AlienMCV.xml" type="all"/>	  
+      <Include source="AlienFoundry.xml" type="all"/>	  
+      <Include source="AlienPortal.xml" type="all"/>
+	  <Include source="AlienStatisChamber.xml" type="all"/>
+      <Include source="AlienGateway.xml" type="all"/>
+      <Include source="AlienControlCenter.xml" type="all"/>
+      <Include source="AlienWarpBeacon.xml" type="all"/>	
+	  <Include source="AlienDevourerTank.xml" type="all"/>	
+      <Include source="NODPowerPlant.xml" type="all"/>	  
+      <Include source="AlienReactor.xml" type="all"/>  
+      <Include source="LogicSet.xml" type="all"/>	
+ 	  <Include source="IonCommando.xml" type="all"/>
+	  <Include source="ForgottenConstructionYard.xml" type="all"/>
+	  <Include source="ForgottenCrane.xml" type="all"/>	  
+	  <Include source="ForgottenHelipad.xml" type="all"/>	  
+	  <Include source="GDISpaceCommandUplink.xml" type="all"/>
+	  <Include source="GDIArtilleryEmplacements.xml" type="all"/>	  
+	  <Include source="PitbullEAFixed.xml" type="all"/>	
+	  <Include source="GDIBattleship.xml" type="all"/>	
+	  <Include source="GDIHovercraft.xml" type="all"/>	
+	  <Include source="IonCannonEffect.xml" type="all"/>
+      <Include source="FXListLightning.xml" type="all"/>
+   </Includes>
+	<SpecialPowerTemplate
+		id="SpecialPowerIonCannonControlIonCannon"
+		DisplayName="NAME:SuperweaponTimerIonCannon"
+		Description="DESC:SuperweaponTimerIonCannon"
+		Flags="HAS_PUBLIC_TIMER IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="420s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300"
+		RestrictionType="1" 
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnIonCannonActivated"
+		EvaEventToPlayOnInitiateAlly="AlliedIonCannonActivated"
+		EvaEventToPlayOnInitiateEnemy="EnemyIonCannonActivated"
+		TimerImage="Button_PlayerPowerIonCannon"/> 
+   	<SpecialPowerTemplate
+		id="SpecialPowerNuclearMissile"
+		DisplayName="NAME:SuperweaponTimerNuclearMissile"
+		Description="DESC:SuperweaponTimerNuclearMissile"
+		Flags="HAS_PUBLIC_TIMER IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="420s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300" 
+		RestrictionType="1"
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateAlly="AlliedNuclearMissileLaunched"
+		EvaEventToPlayOnInitiateEnemy="EnemyNuclearMissileLaunched"
+		TimerImage="Button_PlayerPowerNuclearMissile"/>		
+	<SpecialPowerTemplate
+		id="SpecialPowerMutantClusterMissile"
+		Description="DESC:SuperweaponTimerIonCannon"
+		Flags="HAS_PUBLIC_TIMER IS_PLAYER_POWER FOGGED_SHROUDED_CELLS_OK WATER_OK IGNORE_MAP_EXTENTS SHARED_SYNC"
+		ReloadTime="600s"
+		TargetType="LOCATION"
+		RadiusCursorRadius="300"
+		RestrictionType="1" 
+		EvaEventToPlayWhenSelectingTarget="SelectSpecialPowerTarget"
+		EvaEventToPlayOnInitiateOwner="OwnSuperWeaponActivated"
+		EvaEventToPlayOnInitiateAlly="AlliedSuperWeaponActivated"
+		EvaEventToPlayOnInitiateEnemy="EnemySuperWeaponActivated"
+		TimerImage="button_playerpowercatalystmissile"/> 		
+ 	<MissionObjectiveList id="MissionObjectives">
+		<MissionObjectiveTag
+			Script="SCRIPT:Objective_1"
+			Description="SCRIPT:Objective_1_Detail">
+			<PresentationSettings
+				ID="Objective_1"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="SCRIPT:Objective_2"
+			Description="SCRIPT:Objective_2_Detail">
+			<PresentationSettings
+				ID="Objective_2"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="SCRIPT:Objective_3"
+			Description="SCRIPT:Objective_3_Detail">
+			<PresentationSettings
+				ID="Objective_3"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>	
+	        <MissionObjectiveTag
+			Script="SCRIPT:Objective_4"
+			Description="SCRIPT:Objective_4_Detail">
+			<PresentationSettings
+				ID="Objective_4"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+		        <MissionObjectiveTag
+			Script="SCRIPT:Objective_5"
+			Description="SCRIPT:Objective_5_Detail"
+			IsBonusObjective="true">
+			<PresentationSettings
+				ID="Objective_5"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>
+	        <MissionObjectiveTag
+			Script="SCRIPT:Objective_6"
+			Description="SCRIPT:Objective_6_Detail">
+			<PresentationSettings
+				ID="Objective_6"
+				CameraFieldOfViewVariance="0">
+				<Duration>6.0s</Duration>
+				<CameraStartAngle>25d</CameraStartAngle>
+				<CameraEndAngle>-25d</CameraEndAngle>
+				<CameraFieldOfView>35d</CameraFieldOfView>
+			</PresentationSettings>
+		</MissionObjectiveTag>		
+	</MissionObjectiveList>  
+</AssetDeclaration>

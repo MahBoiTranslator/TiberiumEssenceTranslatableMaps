@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags></Tags>
+	<Includes>
+		<Include type="all" source="ART:FXIonCannon.w3x" />
+		<Include type="all" source="ART:FXSphereDistort.w3x" />
+	</Includes>
+	<ObjectCreationList
+		id="OCLIonCannon2">
+		<CreateObject
+			Disposition="ON_GROUND_ALIGNED CLAMP_TO_GROUND RELATIVE_ANGLE USE_WATER_SURFACE"
+			Options="IGNORE_ALL_OBJECTS">
+			<CreateObject>IonCannonEffect2</CreateObject>
+		</CreateObject>
+	</ObjectCreationList>
+
+
+
+	<WeaponTemplate
+		id="RiftGeneratorWeaponTrigger"
+		Name="RiftGeneratorWeaponTrigger"
+		AttackRange="50000.0"
+		>
+		<Nuggets>
+			<WeaponOCLNugget WeaponOCL="OCLIonCannon2"/>	
+			<ReportWeaponFiredStatNugget/>
+		</Nuggets>
+	</WeaponTemplate>
+
+	<FXList id="FX_GDI_IonCannon_Shockwave2" 
+				 PlayEvenIfShrouded="true"> <!-- Why play if shrouded? Because the ion cannon's fire may reveal the shroud, but that update hasn't happened yet.
+				                                 The sound has its own mechanisms of not being audible if the area is still shrouded in a frame or two (e.g. 
+																				 enemy is firing into shrouded location)  -->
+		<NuggetList>
+		
+			<ParticleSystem
+				Particle="FXIonCannonAfterFire2"/>
+			<ParticleSystem
+				Particle="FXIonCannonAfterFireGlow2"/>
+			<ParticleSystem
+				Particle="FXIonCannonAfterFireDistortion2"/>								
+			<DynamicDecal
+				Decal				= "FXLenzFlare01"
+				Shader				= "ADDITIVE"
+				Size				= "500"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "1s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "5s"
+				OpacityFadeTimeTwo	= "30s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "6s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "45s">
+				<Color R="255" G="183" B="90" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+						<DynamicDecal
+				Decal				= "FXLenzFlare01"
+				Shader				= "ADDITIVE"
+				Size				= "1000"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "1s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "10s"
+				OpacityFadeTimeTwo	= "15s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "6s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "45s">
+				<Color R="51" G="255" B="51" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+						<DynamicDecal
+				Decal				= "FXLenzFlare01"
+				Shader				= "ADDITIVE"
+				Size				= "400"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "1s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "15s"
+				OpacityFadeTimeTwo	= "20s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "6s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "45s">
+				<Color R="34" G="86" B="255" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+
+	<!--		<DynamicDecal
+				Decal				= "EXNukeDecal"
+				Size				= "500"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "5s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "4s"
+				OpacityFadeTimeTwo	= "2s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "0s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="0" G="255" B="0" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>-->
+			
+						<DynamicDecal
+				Decal				= "EXNukeDecal"
+				Size				= "1100"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "1s"
+				OpacityPeak			= ".2"
+				OpacityPeakTime		= "1s"
+				OpacityFadeTimeTwo	= "1s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "0s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="0" G="255" B="0" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+			
+			<DynamicDecal
+				Decal				= "FXNukeMarkA"
+				Size				= "500"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "1s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "3s"
+				OpacityFadeTimeTwo	= "2s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "8s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="30" G="255" B="30" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+			<DynamicDecal
+				Decal				= "EXNukeDecal"
+				Size				= "1100"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "5s"
+				OpacityPeak			= ".5"
+				OpacityPeakTime		= "2s"
+				OpacityFadeTimeTwo	= "2s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "8s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="30" G="255" B="30" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+			<DynamicDecal
+				Decal				= "FXNukeMarkA"
+				Size				= "500"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "1s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "10s"
+				OpacityFadeTimeTwo	= "30s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "10s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="0" G="0" B="0" />
+				<Offset x="0" y="0" />
+			</DynamicDecal>
+			<DynamicDecal
+				Decal				= "EXNukeDecal"
+				Size				= "1100"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "3s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "1s"
+				OpacityFadeTimeTwo	= "10s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "15s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="150" G="150" B="255" />
+				<Offset x="0" y="0" />
+							</DynamicDecal>
+				
+						<DynamicDecal
+				Decal				= "EXNukeDecal"
+				Size				= "1100"
+				OpacityStart		= "0"
+				OpacityFadeTimeOne	= "10s"
+				OpacityPeak			= "1"
+				OpacityPeakTime		= "10s"
+				OpacityFadeTimeTwo	= "30s"
+				OpacityEnd			= "0"	
+				StartingDelay		= "17s"
+				OnlyIfOnLand		="true"
+				Lifetime			= "55s">
+				<Color R="0" G="0" B="0" />
+				<Offset x="0" y="0" />
+			
+
+			</DynamicDecal>
+			<Sound Value="GDI_IonCannon_WeaponFireMS" />
+			
+			<ParticleSystem
+				Particle="TibClusterDust2"
+				OrientToObject = "true">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibClusterEX2"
+				OrientToObject = "true">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibClusterGuck2"
+				OrientToObject = "true">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibClusterLightning2"
+				OrientToObject = "true">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>		
+
+			<ViewShake 
+				Type = "NORMAL" />
+			<Sound Value="NOD_CatalystMissile_TiberiumExplosion" />
+		</NuggetList>
+	</FXList>
+	
+
+
+	<GameObject
+		id="IonCannonEffect2"
+		Side="GDI"
+		EditorSorting="UNIT"
+		TransportSlotCount="0"
+		IsTrainable="false"
+		KindOf="UNATTACKABLE NOT_AUTOACQUIRABLE INERT_SHROUD_REVEALER"
+		EditorName="IonCannonEffect">
+		<DisplayName>IonCannonEffect</DisplayName>
+		<ArmorSet
+			Armor="NoArmor" />
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model Name="FXIonCannon" />
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonPreExplosionDebrisA2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonPreExplosionDistortion2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonPreExplosionDustA"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonFire2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonFireGlow2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionFlash2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionFlashStarbreaker"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionDistort2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionSphere2"/>
+
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionDebris2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionShockwave2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="FXIonCannonExplosionShockwaveStarbreaker"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="AirBomb_Shockwave2"/>
+					<ParticleSysBone BoneName="NONE" FXParticleSystemTemplate="IonStormCarrierClouds2"/>
+					
+					
+					<ParticleSysBone BoneName="BeamAuxillery01" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery02" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery03" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery04" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery05" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery06" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery07" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery08" FXParticleSystemTemplate="FXIonCannonAuxBeamFire2" FollowBone="true"/>
+					
+					<ParticleSysBone BoneName="BeamAuxillery01" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery02" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery03" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery04" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery05" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery06" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery07" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery08" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>	
+					<ParticleSysBone BoneName="BeamAuxillery08" FXParticleSystemTemplate="FXIonCannonAuxBeamGlow2" FollowBone="true"/>	
+					
+					<ParticleSysBone BoneName="BeamAuxillery01" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery02" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery03" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery04" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery05" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery06" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery07" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery08" FXParticleSystemTemplate="AlienCatalystBuildingExplosionRays2" FollowBone="true"/>
+					
+					
+					<ParticleSysBone BoneName="BeamAuxillery01" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery02" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery03" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery04" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery05" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery06" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery07" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>
+					<ParticleSysBone BoneName="BeamAuxillery08" FXParticleSystemTemplate="FXIonCannonAuxBeamDistortion2" FollowBone="true"/>									
+				</ModelConditionState>
+				<AnimationState
+					ParseCondStateType="PARSE_DEFAULT"
+					ConditionsYes="IDLE">
+					<Animation
+						AnimNickName="IDL"
+						AnimationName="FXIonCannon"
+						AnimationMode="ONCE" />
+				</AnimationState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<LifetimeUpdate
+				id="ModuleTag_LifetimeUpdate"
+				MinLifetime="7.7s"
+				MaxLifetime="7.7s" />
+			<FXListBehavior
+				id="ModuleTag_FXList">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					Index="onCreate"
+					FX="FX_GDI_IonCannon_Shockwave2" />
+			</FXListBehavior>
+			<FireWeaponWhenDead
+				id="ModuleTag_FinalWeapon"
+				InitiallyActive="true"
+				DeathWeapon="IonCannonFinalWeapon">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</FireWeaponWhenDead>
+			<DestroyObjectsUpdate
+				id="ModuleTag_DestroyObjectsUpdate"
+				Radius="500">
+				<ObjectFilter Rule="NONE" Include="CIVILIAN_UNIT"/>
+			</DestroyObjectsUpdate>
+			<DestroyDie
+				id="ModuleTag_Die">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+
+			<FireWeaponUpdate
+				id="ModuleTag_IonCannonAuxiliaryEffects">
+				<FireWeaponNugget
+					WeaponName="IonCannonWeapon_Stage1"
+					FireDelay="2.5s"
+					OneShot="true" />
+				<FireWeaponNugget
+					WeaponName="IonCannonWeapon_Stage2"
+					FireDelay="3.1s"
+					OneShot="true" />
+				<FireWeaponNugget
+					WeaponName="IonCannonWeapon_Stage3"
+					FireDelay="3.7s"
+					OneShot="true" />
+				<FireWeaponNugget
+					WeaponName="IonCannonWeapon_Stage4"
+					FireDelay="4.3s"
+					OneShot="true" />
+				<FireWeaponNugget
+					WeaponName="IonCannonWeapon_Stage5"
+					FireDelay="4.9s"
+					OneShot="true" />
+				<FireWeaponNugget
+					WeaponName="IonCannonWeapon_Stage6"
+					FireDelay="5.5s"
+					OneShot="true" />
+			</FireWeaponUpdate>
+		
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="ModuleTag_Body"
+				MaxHealth="9999999.0" />
+		</Body>
+		<Geometry
+			IsSmall="true">
+			<Shape
+				Type="CYLINDER"
+				MajorRadius="50.0"
+				Height="300.0"></Shape>
+		</Geometry>
+<!--
+		<AudioArraySound>
+			<AudioEntry Sound="GDI_IonCannon_WeaponFireMS" AudioType="soundAmbient" />
+		</AudioArraySound>
+-->
+		<ShadowInfo
+			Type="NONE" />
+		<CrusherInfo
+			CrushableLevel="0" />
+	</GameObject>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</AssetDeclaration>
