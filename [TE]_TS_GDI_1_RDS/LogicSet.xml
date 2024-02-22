@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<Includes>
+	</Includes>
+<LogicCommandSet
+		id="GDIConstructionYardCommandSet">
+		<Cmd>Command_ConstructGDIPowerPlant</Cmd>
+		<Cmd>Command_ConstructGDIRefinery</Cmd>
+		<Cmd>Command_ConstructGDIBarracks</Cmd>
+		<Cmd>Command_ConstructGDITiberiumSilo</Cmd>
+		<Cmd>Command_SelfRepair</Cmd>
+		<Cmd>Command_Sell</Cmd>
+	</LogicCommandSet>
+<LogicCommandSet
+		 id="GDIBarracksCommandSet">
+		 <Cmd>Command_ConstructGDIRifleSoldierSquad</Cmd>		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+		 <Cmd>Command_SetDefaultBuilding</Cmd>
+		 <Cmd>Command_SetRallyPoint_Infantry</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+		 id="GDICommandPostCommandSet">		 		 
+		 <Cmd>Command_TogglePower</Cmd>
+		 <Cmd>Command_SelfRepair</Cmd>
+		 <Cmd>Command_Sell</Cmd>
+      </LogicCommandSet>
+<LogicCommandSet
+         id="NODHandOfNODCommandSet">
+		 <Cmd>Command_ConstructNODMilitantSquad</Cmd>
+      </LogicCommandSet>		 
+</AssetDeclaration>

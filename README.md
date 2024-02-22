@@ -31,6 +31,7 @@ List of patched maps and campaigns:
 * [Montauk Assembly Defense](https://www.moddb.com/mods/tiberium-essence/addons/montauk-assembly-defense)
 * [GDI Ayers Rock](https://www.moddb.com/mods/tiberium-essence/addons/gdi-ayers-rock)
 * [Oprah Rich](https://www.moddb.com/mods/tiberium-essence/addons/te-oprah-rich)
+* [TS GDI Mission 1: Reinforece Phoenix Base](https://cdn.discordapp.com/attachments/539769358654898190/1208850293245222912/TE_TS_GDI_1_RDS.zip)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Campaign name>:<Map name>:<String name>`

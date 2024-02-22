@@ -1,0 +1,31 @@
+MSNSTR:RDS:TSGDI01:Briefing
+	"Reinforce Phoenix Base"
+END
+
+MSNSTR:RDS:TSGDI01:Briefing_Detail
+	"Emergency transmissions from GDI forces in this region indicate that Phoenix Base is under attack from Nod troops. It is imperative that the base be restored by building a Tiberium Refinery and a Barracks. Once the base is functional, all Nod forces in the area must be destroyed.\nObjective One: Build a Tiberium Refinery.\nObjective Two: Build a Barracks.\nObjective Three: Destroy all Nod forces."
+END
+
+MSNSTR:RDS:TSGDI01:BattleControlEstablished
+	"****BATTLEFIELD CONTROL ESTABLISHED****"
+END
+
+MSNSTR:RDS:TSGDI01:Objective1
+	"Objective One: Build a Tiberium Refinery and being harvesting the Tiberium to the southeast."
+END
+
+MSNSTR:RDS:TSGDI01:Objective2
+	"Objective Two: Build a Barracks to create more infantry."
+END
+
+MSNSTR:RDS:TSGDI01:Objective3
+	"Objective Three: Destroy all Nod forces in the area."
+END
+
+MSNSTR:RDS:TSGDI01:Win
+	"MISSION ACCOMPLISHED"
+END
+
+MSNSTR:RDS:TSGDI01:Lose
+	"MISSION FAILED"
+END
